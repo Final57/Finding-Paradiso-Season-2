@@ -38,19 +38,28 @@ ID          Name                            URL
 3032417765  MultiplayerPredictionSwitcher (Interpolated serverside grid control)    https://steamcommunity.com/workshop/filedetails/?id=3032417765
 ```
 ## World Requirements
+### Planets
+```
+ID          Name                            URL
+3232085677  Real Gas Giants                 https://steamcommunity.com/sharedfiles/filedetails/?id=3232085677
+3576683005  Cauldron System                 https://steamcommunity.com/sharedfiles/filedetails/?id=3576683005
+```
+### Mechanics
 ```
 ID          Name                            URL
 2344068716  Industrial Overhaul - v1.7.4    https://steamcommunity.com/workshop/filedetails/?id=2344068716
 406244471   Better Stone v7.1.0             https://steamcommunity.com/workshop/filedetails/?id=406244471
-2596208372  AiEnabled v1.9                  https://steamcommunity.com/workshop/filedetails/?id=2596208372
 1542310718  AwwScrap                        https://steamcommunity.com/workshop/filedetails/?id=1542310718
 2590528047  AwwScrap: I Found Your Crap!    https://steamcommunity.com/workshop/filedetails/?id=2590528047
-709975763   Moisture Vaporator              https://steamcommunity.com/workshop/filedetails/?id=709975763
 3046477519  FunLightning                    https://steamcommunity.com/workshop/filedetails/?id=3046477519
-3105413080  SandWorm                        https://steamcommunity.com/workshop/filedetails/?id=3105413080
 1359618037  Relative Top Speed              https://steamcommunity.com/workshop/filedetails/?id=1359618037
-3242721372  MESSpawnerUI                    https://steamcommunity.com/workshop/filedetails/?id=3242721372
 3552595651  Ship Core Framework (3.0.6)     https://steamcommunity.com/sharedfiles/filedetails/?id=3552595651
+```
+### NPCs & Creatures
+```
+ID          Name                            URL
+2596208372  AiEnabled v1.9                  https://steamcommunity.com/workshop/filedetails/?id=2596208372
+3105413080  SandWorm                        https://steamcommunity.com/workshop/filedetails/?id=3105413080
 ```
 ## Industrial Overhaul Compatibility
 ```
@@ -70,6 +79,10 @@ ID          Name                            URL
 1204806594  High-power Spotlight            https://steamcommunity.com/workshop/filedetails/?id=1204806594
 2394430829  Aryx-Lynxon Drive Systems       https://steamcommunity.com/workshop/filedetails/?id=2394430829
 2971414972  Heavy XL Blocks                 https://steamcommunity.com/workshop/filedetails/?id=2971414972
+709975763   Moisture Vaporator              https://steamcommunity.com/workshop/filedetails/?id=709975763
+3208995513  Tank Tracks Framework & API     https://steamcommunity.com/workshop/filedetails/?id=3208995513
+3225398014  Tank Track Pack: Morue          https://steamcommunity.com/sharedfiles/filedetails/?id=3225398014
+
 ```
 ## Mothership Dependencies
 ```
@@ -117,6 +130,7 @@ ID          Name                            URL
 ID          Name                            URL
 888457124   Suppress Vanilla Cargo Ships    https://steamcommunity.com/workshop/filedetails/?id=888457124
 3169738640  Stick the Landing               https://steamcommunity.com/workshop/filedetails/?id=3169738640
+3242721372  MESSpawnerUI                    https://steamcommunity.com/workshop/filedetails/?id=3242721372
 ```
 ## Cosmetic
 ```
