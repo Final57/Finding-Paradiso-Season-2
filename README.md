@@ -3,6 +3,50 @@ A Space Engineers Mod and ModAdjusted Files
 
 # Actual Notes
 
+## World Notes
+- Setting up the world; https://steamcommunity.com/sharedfiles/filedetails/?id=3576413253
+    - Call world spawn for Cauldron
+        - /CSP.Cauldron.900000.0.0.0
+        - Use Following PlanetInfo in GasGiants config.xml
+        ```
+            <PlanetInfo PlanetName="Cauldron-1263899073d900000">
+                <PlanetCustomName>Cauldron-1263899073d900000</PlanetCustomName>
+                <AirDensity>3</AirDensity>
+                <OxygenDensity>0</OxygenDensity>
+                <WindSpeed>200</WindSpeed>
+                <Radius>900</Radius>
+                <PlanetSkin>Cauldron</PlanetSkin>
+                <RingSkin>Default2</RingSkin>
+                <RingNormal>0, 10, 1</RingNormal>
+                <RingLightMult>1.5</RingLightMult>
+                <RingShadowMult>1.5</RingShadowMult>
+                <RingInnerScale>1</RingInnerScale>
+                <RingOuterScale>3</RingOuterScale>
+                <RingLayerSpacing>1.5</RingLayerSpacing>
+                <RingRotationPeriod>7200</RingRotationPeriod>
+                <ConstrainNearbyAstroidsToRing>true</ConstrainNearbyAstroidsToRing>
+                <ShadownOnRingEnabled>true</ShadownOnRingEnabled>
+                <HasRing>true</HasRing>
+                <AsteroidRemoval>true</AsteroidRemoval>
+                <PressureDamagePlayers>true</PressureDamagePlayers>
+                <PressureDamageGrids>true</PressureDamageGrids>
+                <CollectPlanetResources>true</CollectPlanetResources>
+                <CollectResourceUpperSubTypeID>"Ice"</CollectResourceUpperSubTypeID>
+                <CollectResourceUpperAmount>500</CollectResourceUpperAmount>
+                <CollectResourceLowerSubTypeID>"Ice"</CollectResourceLowerSubTypeID>
+                <CollectResourceLowerAmount>1000</CollectResourceLowerAmount>
+                <CollectRingResources>true</CollectRingResources>
+                <CollectRingResourceSubTypeID>"Ice"</CollectRingResourceSubTypeID>
+                <CollectRingResourceAmount>50</CollectRingResourceAmount>
+                <GravityStrength>10</GravityStrength>
+                <GravityFalloff>7</GravityFalloff>
+                <DayLength>7200</DayLength>
+                <SpinCounterClockwise>true</SpinCounterClockwise>
+                <GasGiantBlocksSun>true</GasGiantBlocksSun>
+            </PlanetInfo>
+        ```
+    
+
 ### TODO:
 - [ ] Write Modadjuster compat for Moisture Vaporator
 - [ ] Write Modadjuster compat for Ship Core Framework
@@ -36,12 +80,14 @@ ID          Name                            URL
 3017795356  ModAdjustver v2                 https://steamcommunity.com/workshop/filedetails/?id=3017795356
 2596667376  Physics Shape Saver             https://steamcommunity.com/workshop/filedetails/?id=2596667376  
 3032417765  MultiplayerPredictionSwitcher (Interpolated serverside grid control)    https://steamcommunity.com/workshop/filedetails/?id=3032417765
+3237179787  Console Spawn Planets           https://steamcommunity.com/sharedfiles/filedetails/?id=3237179787
 ```
 ## World Requirements
 ### Planets
 ```
 ID          Name                            URL
 3232085677  Real Gas Giants                 https://steamcommunity.com/sharedfiles/filedetails/?id=3232085677
+3152436752  Real Stars                      https://steamcommunity.com/workshop/filedetails/?id=3152436752
 3576683005  Cauldron System                 https://steamcommunity.com/sharedfiles/filedetails/?id=3576683005
 ```
 ### Mechanics
@@ -82,6 +128,7 @@ ID          Name                            URL
 709975763   Moisture Vaporator              https://steamcommunity.com/workshop/filedetails/?id=709975763
 3208995513  Tank Tracks Framework & API     https://steamcommunity.com/workshop/filedetails/?id=3208995513
 3225398014  Tank Track Pack: Morue          https://steamcommunity.com/sharedfiles/filedetails/?id=3225398014
+2298956701  AQD - Concrete                  https://steamcommunity.com/sharedfiles/filedetails/?id=2298956701
 
 ```
 ## Mothership Dependencies
