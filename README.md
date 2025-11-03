@@ -3,6 +3,33 @@ A Space Engineers Mod and ModAdjusted Files
 
 # Actual Notes
 
+
+
+## TODO:
+- [ ] Write Modadjuster compat for Moisture Vaporator
+- [ ] Write Modadjuster compat for Ship Core Framework
+- [ ] Write Shipcore config based on "arcane cores" https://steamcommunity.com/sharedfiles/filedetails/?id=3552605473 - NOTE: Bug Alien for ship/base/rover classes
+- [ ] Write Modadjuster compat for Planets and real gas giants
+- [ ] Write Modadjuster compat to replace industrial overhaul compat mods? Ask BD for advice
+- [ ] Create mod dependencies for NPC mods - Harass Alien and Lucian for ships
+- [ ] Write modadjuster compat for highpower offset spotlight
+- [ ] Write Modadjuster compat for highpower spotlight
+- [ ] Write modadjuster compat for Aryx drive systems
+- [ ] Write Modadjuster compat for heavy XL blocks
+- [ ] Write Modadjuster compat for Mothership blocks
+- [ ] Write modadjuster compat for AWE
+- [ ] Replace Prospector 2 with Prospector 3 (if and when available)
+- [ ] Replace AWE with AWE 3 (if and when available)
+- [ ] Write Server Side Config for WeaponCore
+- [ ] Write Server Side Config for RelativeTopSpeed
+- [ ] Write Server Side Config for DynamicArmor
+- [ ] Write Server Side Config for MoistureVaporator
+- [ ] Write Server Side Config for HeavierArmor
+- [ ] Write Server Side Config for Beacon Signals
+- [ ] Write Server Side Config for WCRadar
+- [ ] Write Server Side Config for AwwScrap (and AwwScrapIFoundYourCrap)
+- [ ] Write Server Side Config for FunLightning
+
 ## World Notes
 - Setting up the world; https://steamcommunity.com/sharedfiles/filedetails/?id=3576413253
     - Call world spawn for Cauldron
@@ -46,31 +73,6 @@ A Space Engineers Mod and ModAdjusted Files
             </PlanetInfo>
         ```
     
-
-### TODO:
-- [ ] Write Modadjuster compat for Moisture Vaporator
-- [ ] Write Modadjuster compat for Ship Core Framework
-- [ ] Write Shipcore config based on "arcane cores" https://steamcommunity.com/sharedfiles/filedetails/?id=3552605473 - NOTE: Bug Alien for ship/base/rover classes
-- [ ] Write Modadjuster compat for Planets and real gas giants
-- [ ] Write Modadjuster compat to replace industrial overhaul compat mods? Ask BD for advice
-- [ ] Create mod dependencies for NPC mods - Harass Alien and Lucian for ships
-- [ ] Write modadjuster compat for highpower offset spotlight
-- [ ] Write Modadjuster compat for highpower spotlight
-- [ ] Write modadjuster compat for Aryx drive systems
-- [ ] Write Modadjuster compat for heavy XL blocks
-- [ ] Write Modadjuster compat for Mothership blocks
-- [ ] Write modadjuster compat for AWE
-- [ ] Replace Prospector 2 with Prospector 3 (if and when available)
-- [ ] Replace AWE with AWE 3 (if and when available)
-- [ ] Write Server Side Config for WeaponCore
-- [ ] Write Server Side Config for RelativeTopSpeed
-- [ ] Write Server Side Config for DynamicArmor
-- [ ] Write Server Side Config for MoistureVaporator
-- [ ] Write Server Side Config for HeavierArmor
-- [ ] Write Server Side Config for Beacon Signals
-- [ ] Write Server Side Config for WCRadar
-- [ ] Write Server Side Config for AwwScrap (and AwwScrapIFoundYourCrap)
-- [ ] Write Server Side Config for FunLightning
 
 # Mod Dependencies
 
