@@ -1,25 +1,51 @@
 # Finding-Paradiso-Season-2
+
 A Space Engineers Mod and ModAdjusted Files
 
-# Actual Notes
+## TODO
 
+### Modadjuster Compatibility
 
-
-## TODO:
-- [ ] Write Modadjuster compat for Moisture Vaporator
 - [ ] Write Modadjuster compat for Ship Core Framework
-- [ ] Write Shipcore config based on "arcane cores" https://steamcommunity.com/sharedfiles/filedetails/?id=3552605473 - NOTE: Bug Alien for ship/base/rover classes
 - [ ] Write Modadjuster compat for Planets and real gas giants
-- [ ] Write Modadjuster compat to replace industrial overhaul compat mods? Ask BD for advice
-- [ ] Create mod dependencies for NPC mods - Harass Alien and Lucian for ships
+- - [x] Write Modadjuster compat for Satreus
+- - [ ] Write Modadjuster compat for Komorebi
+- - [ ] Write Modadjuster compat for ?
+- - [ ] Write Modadjuster compat for ?
+- [ ] Write Modadjuster compat to replace industrial overhaul compat mods
+- - [x] Write Modadjuster compat for Better Stone & Industrial Overhaul
+- - [ ] Write Modadjuster compat for Paint Mod (Replaces <https://steamcommunity.com/workshop/filedetails/?id=2614870437>)
+- - [ ] Write Modadjuster compat for Rotary Airlock (Replaces <https://steamcommunity.com/workshop/filedetails/?id=2937319543>)
+- - [ ] Write Modadjuster compat for Rebel Lights (Replaces <https://steamcommunity.com/workshop/filedetails/?id=2787966098>)
+- - [ ] Write Modadjuster compat for Moisture Vaporator (Replaces <https://steamcommunity.com/workshop/filedetails/?id=2923491399>)
+- - [ ] Write Modadjuster compat for Binoculars (Replaces <https://steamcommunity.com/workshop/filedetails/?id=2960215269>)
+- - [ ] Write Modadjuster compat for Federal Logistics (Replaces <https://steamcommunity.com/workshop/filedetails/?id=2923120747>)
+- - [ ] Write Modadjuster compat for ?
+- - [ ] Write Modadjuster compat for ?
+- - [ ] Write Modadjuster compat for ?
+- - [ ] Write Modadjuster compat for ?
 - [ ] Write modadjuster compat for highpower offset spotlight
 - [ ] Write Modadjuster compat for highpower spotlight
 - [ ] Write modadjuster compat for Aryx drive systems
 - [ ] Write Modadjuster compat for heavy XL blocks
 - [ ] Write Modadjuster compat for Mothership blocks
 - [ ] Write modadjuster compat for AWE
+
+### Shipcore Configuration
+
+- [ ] Write Shipcore config based on "arcane cores" <https://steamcommunity.com/sharedfiles/filedetails/?id=3552605473> - NOTE: Bug Alien for ship/base/rover classes
+
+### Mod Dependencies
+
+- [ ] Create mod dependencies for NPC mods - Harass Alien, Scarlet, and Lucian for ships
+
+### Upgrades & Replacements
+
 - [ ] Replace Prospector 2 with Prospector 3 (if and when available)
 - [ ] Replace AWE with AWE 3 (if and when available)
+
+### Server Side Configurations
+
 - [ ] Write Server Side Config for WeaponCore
 - [ ] Write Server Side Config for RelativeTopSpeed
 - [ ] Write Server Side Config for DynamicArmor
@@ -29,71 +55,110 @@ A Space Engineers Mod and ModAdjusted Files
 - [ ] Write Server Side Config for WCRadar
 - [ ] Write Server Side Config for AwwScrap (and AwwScrapIFoundYourCrap)
 - [ ] Write Server Side Config for FunLightning
+- [x] Write Server Side Config for RealGasGiants
+- [x] Write Server Side Config for RealStars
 
 ## World Notes
-- Setting up the world; https://steamcommunity.com/sharedfiles/filedetails/?id=3576413253
-    - Call world spawn for Cauldron
-        - /CSP.Cauldron.900000.0.0.0
+
+- Setting up the world; <https://steamcommunity.com/sharedfiles/filedetails/?id=3576413253>
+  - Call world spawn for Cauldron
+        - /CSP.RealGasGiant.900000.0.0.0
         - Use Following PlanetInfo in GasGiants config.xml
+        ```xml
+  <OverrideFromConfig>true</OverrideFromConfig>
+  <GasGiantBlocksSun>true</GasGiantBlocksSun>
+  <GasGiantsHaveAtmoGlobal>true</GasGiantsHaveAtmoGlobal>
+  <SetGlobalNoAsteroids>true</SetGlobalNoAsteroids>
+  <CanSpawnOnGasGiants>false</CanSpawnOnGasGiants>
+  <EnableGasGiantWindTurbines>false</EnableGasGiantWindTurbines>
+  <UseLensFlareOccluder>true</UseLensFlareOccluder>
+  <RingParticleLevel>2</RingParticleLevel>
+  <GasGiantInfoList>
+    <GasGiantConfigInfo PlanetName="RealGasGiant-480942381d19000">
+      <PlanetCustomName>Cauldron</PlanetCustomName>
+      <Radius>900</Radius>
+      <PlanetColor X="255" Y="210" Z="190" />
+      <PlanetSkin>Cauldron</PlanetSkin>
+      <AtmoInfo>
+        <AirDensity>3</AirDensity>
+        <OxygenDensity>0</OxygenDensity>
+        <WindSpeed>200</WindSpeed>
+      </AtmoInfo>
+      <RingsInfo>
+        <RingConfigInfo>
+          <HasRing>true</HasRing>
+          <RingSkin>Default2</RingSkin>
+          <RingNormal X="0" Y="10" Z="1" />
+          <RingColor X="255" Y="210" Z="190" />
+          <RingLightMult>1</RingLightMult>
+          <RingShadowMult>1</RingShadowMult>
+          <RingInnerScale>1</RingInnerScale>
+          <RingOuterScale>2.5</RingOuterScale>
+          <RingLayerSpacingScale>1</RingLayerSpacingScale>
+          <RingRotationPeriodSeconds>7200</RingRotationPeriodSeconds>
+          <ConstrainNearbyAsteroidsToRing>true</ConstrainNearbyAsteroidsToRing>
+          <ShadowOnRingEnabled>true</ShadowOnRingEnabled>
+          <CollectRingResources>true</CollectRingResources>
+          <CollectResourceRingSubtypeId>Ice</CollectResourceRingSubtypeId>
+          <CollectResourceRingAmount>1</CollectResourceRingAmount>
+          <EnabledDraw>true</EnabledDraw>
+          <EnabledParticle>true</EnabledParticle>
+        </RingConfigInfo>
+      </RingsInfo>
+      <InteriorInfo>
+        <AsteroidRemoval>true</AsteroidRemoval>
+        <PressureDamagePlayers>true</PressureDamagePlayers>
+        <PressureDamageGrids>true</PressureDamageGrids>
+      </InteriorInfo>
+      <ResourceInfo>
+        <CollectPlanetResources>true</CollectPlanetResources>
+        <CollectResourceUpperSubtypeId>Ice</CollectResourceUpperSubtypeId>
+        <CollectResourceUpperAmount>10</CollectResourceUpperAmount>
+        <CollectResourceLowerSubtypeId>Ice</CollectResourceLowerSubtypeId>
+        <CollectResourceLowerAmount>50</CollectResourceLowerAmount>
+      </ResourceInfo>
+      <GravityStrength>2</GravityStrength>
+      <GravityFalloff>7</GravityFalloff>
+      <DayLengthSeconds>7200</DayLengthSeconds>
+      <SpinCounterClockwise>true</SpinCounterClockwise>
+    </GasGiantConfigInfo>
+  </GasGiantInfoList>
+  <PlanetRingInfoList />
+</RealGasGiantsSettingsConfig>
         ```
-            <PlanetInfo PlanetName="Cauldron-1263899073d900000">
-                <PlanetCustomName>Cauldron-1263899073d900000</PlanetCustomName>
-                <AirDensity>3</AirDensity>
-                <OxygenDensity>0</OxygenDensity>
-                <WindSpeed>200</WindSpeed>
-                <Radius>900</Radius>
-                <PlanetSkin>Cauldron</PlanetSkin>
-                <RingSkin>Default2</RingSkin>
-                <RingNormal>0, 10, 1</RingNormal>
-                <RingLightMult>1.5</RingLightMult>
-                <RingShadowMult>1.5</RingShadowMult>
-                <RingInnerScale>1</RingInnerScale>
-                <RingOuterScale>3</RingOuterScale>
-                <RingLayerSpacing>1.5</RingLayerSpacing>
-                <RingRotationPeriod>7200</RingRotationPeriod>
-                <ConstrainNearbyAstroidsToRing>true</ConstrainNearbyAstroidsToRing>
-                <ShadownOnRingEnabled>true</ShadownOnRingEnabled>
-                <HasRing>true</HasRing>
-                <AsteroidRemoval>true</AsteroidRemoval>
-                <PressureDamagePlayers>true</PressureDamagePlayers>
-                <PressureDamageGrids>true</PressureDamageGrids>
-                <CollectPlanetResources>true</CollectPlanetResources>
-                <CollectResourceUpperSubTypeID>"Ice"</CollectResourceUpperSubTypeID>
-                <CollectResourceUpperAmount>500</CollectResourceUpperAmount>
-                <CollectResourceLowerSubTypeID>"Ice"</CollectResourceLowerSubTypeID>
-                <CollectResourceLowerAmount>1000</CollectResourceLowerAmount>
-                <CollectRingResources>true</CollectRingResources>
-                <CollectRingResourceSubTypeID>"Ice"</CollectRingResourceSubTypeID>
-                <CollectRingResourceAmount>50</CollectRingResourceAmount>
-                <GravityStrength>10</GravityStrength>
-                <GravityFalloff>7</GravityFalloff>
-                <DayLength>7200</DayLength>
-                <SpinCounterClockwise>true</SpinCounterClockwise>
-                <GasGiantBlocksSun>true</GasGiantBlocksSun>
-            </PlanetInfo>
-        ```
-    
+  - Call world spawn for Satreus
+    - /CSP.Satreus.60000.1783652.800728.-268909
+  - Call world spawn for Komorebi
+    - /CSP.Komorebi.45000.-191052.-983046.2606687
 
 # Mod Dependencies
 
 ## Server Utitilies and Performance
-```
+
+```text
 ID          Name                            URL
 3017795356  ModAdjustver v2                 https://steamcommunity.com/workshop/filedetails/?id=3017795356
 2596667376  Physics Shape Saver             https://steamcommunity.com/workshop/filedetails/?id=2596667376  
 3032417765  MultiplayerPredictionSwitcher (Interpolated serverside grid control)    https://steamcommunity.com/workshop/filedetails/?id=3032417765
 3237179787  Console Spawn Planets           https://steamcommunity.com/sharedfiles/filedetails/?id=3237179787
 ```
+
 ## World Requirements
+
 ### Planets
-```
+
+```text
 ID          Name                            URL
 3232085677  Real Gas Giants                 https://steamcommunity.com/sharedfiles/filedetails/?id=3232085677
 3152436752  Real Stars                      https://steamcommunity.com/workshop/filedetails/?id=3152436752
 3576683005  Cauldron System                 https://steamcommunity.com/sharedfiles/filedetails/?id=3576683005
+3309805284  Komorebi                        https://steamcommunity.com/sharedfiles/filedetails/?id=3309805284
+2266665708  Satreus                         https://steamcommunity.com/sharedfiles/filedetails/?id=2266665708
 ```
+
 ### Mechanics
-```
+
+```text
 ID          Name                            URL
 2344068716  Industrial Overhaul - v1.7.4    https://steamcommunity.com/workshop/filedetails/?id=2344068716
 406244471   Better Stone v7.1.0             https://steamcommunity.com/workshop/filedetails/?id=406244471
@@ -103,25 +168,18 @@ ID          Name                            URL
 1359618037  Relative Top Speed              https://steamcommunity.com/workshop/filedetails/?id=1359618037
 3552595651  Ship Core Framework (3.0.6)     https://steamcommunity.com/sharedfiles/filedetails/?id=3552595651
 ```
+
 ### NPCs & Creatures
-```
+
+```text
 ID          Name                            URL
 2596208372  AiEnabled v1.9                  https://steamcommunity.com/workshop/filedetails/?id=2596208372
 3105413080  SandWorm                        https://steamcommunity.com/workshop/filedetails/?id=3105413080
 ```
-## Industrial Overhaul Compatibility
-```
-ID          Name                            URL
-2923120747  Federal Industrial Logistics - Industrial Overhaul Compatibility     https://steamcommunity.com/workshop/filedetails/?id=2923120747   
-2960215269  Binoculars - Industrial Overhaul Compatibility - PEP CO https://steamcommunity.com/workshop/filedetails/?id=2960215269
-2923491399  Moisture Vaporator - Industrial Overhaul Compatibility  https://steamcommunity.com/workshop/filedetails/?id=2923491399
-2787966098  Rebels Lights - Industrial Overhaul     https://steamcommunity.com/workshop/filedetails/?id=2787966098
-2937319543  Rotary Airlock - Industrial Overhaul Compatibility      https://steamcommunity.com/workshop/filedetails/?id=2937319543
-2745251918  Industrial Overhaul - Better Stone Compatibility    https://steamcommunity.com/workshop/filedetails/?id=2745251918
-2614870437  Industrial Overhaul and Paint Mod       https://steamcommunity.com/workshop/filedetails/?id=2614870437
-```
+
 ## Block Mods
-```
+
+```text
 ID          Name                            URL
 2303516760  High-power Offset Spotlight     https://steamcommunity.com/workshop/filedetails/?id=2303516760
 1204806594  High-power Spotlight            https://steamcommunity.com/workshop/filedetails/?id=1204806594
@@ -133,8 +191,10 @@ ID          Name                            URL
 2298956701  AQD - Concrete                  https://steamcommunity.com/sharedfiles/filedetails/?id=2298956701
 
 ```
+
 ## Mothership Dependencies
-```
+
+```text
 ID          Name                            URL
 3275951529  BucketBrigade                   https://steamcommunity.com/workshop/filedetails/?id=3275951529
 2535079290  (AR) Windows Wall               https://steamcommunity.com/workshop/filedetails/?id=2535079290
@@ -144,13 +204,17 @@ ID          Name                            URL
 2227123639  Middle Gate                     https://steamcommunity.com/workshop/filedetails/?id=2227123639
 3030078884  XL Bridge Windows               https://steamcommunity.com/workshop/filedetails/?id=3030078884
 ```
-## 
-```
+
+##
+
+```text
 ID          Name                            URL
 3046287818  Beaconless Thrust/Power Signals - now with Beacons  https://steamcommunity.com/workshop/filedetails/?id=3046287818
 ```
+
 ## QOL Mods
-```
+
+```text
 ID          Name                            URL
 514062285   Build Info                      https://steamcommunity.com/workshop/filedetails/?id=514062285
 1697184408  Build Vision 3.0                https://steamcommunity.com/workshop/filedetails/?id=1697184408
@@ -164,9 +228,12 @@ ID          Name                            URL
 2947081810  Projector Highlighter           https://steamcommunity.com/workshop/filedetails/?id=2947081810
 3289462382  Prospector 2                    https://steamcommunity.com/sharedfiles/filedetails/?id=3289462382
 3594842497  High Pressure Bottles (Small in your inventory) https://steamcommunity.com/workshop/filedetails/?id=3594842497
+3293251056  A Sight to Behold               https://steamcommunity.com/sharedfiles/filedetails/?id=3293251056
 ```
+
 ## Weapon & Armour Mods
-```
+
+```text
 ID          Name                            URL
 2957590632  WC Radar                        https://steamcommunity.com/workshop/filedetails/?id=2957590632
 2530716039  Aryx Weapon Enterprises Vol. 1 [WeaponCore] https://steamcommunity.com/workshop/filedetails/?id=2530716039
@@ -174,21 +241,27 @@ ID          Name                            URL
 3107050431  DynamicArmor                    https://steamcommunity.com/workshop/filedetails/?id=3107050431
 3016620818  Heavier Armor for WeaponCore    https://steamcommunity.com/workshop/filedetails/?id=3016620818
 ```
+
 ## NPC Mods
-```
+
+```text
 ID          Name                            URL
 888457124   Suppress Vanilla Cargo Ships    https://steamcommunity.com/workshop/filedetails/?id=888457124
 3169738640  Stick the Landing               https://steamcommunity.com/workshop/filedetails/?id=3169738640
 3242721372  MESSpawnerUI                    https://steamcommunity.com/workshop/filedetails/?id=3242721372
 ```
+
 ## Cosmetic
-```
+
+```text
 ID          Name                            URL
 2277303535  L.U.C.1.A.N. Suit A.I. - Ghost Industries Ltd.  https://steamcommunity.com/workshop/filedetails/?id=2277303535
 2752881305  Elite Dangerous Style Jump Effect   https://steamcommunity.com/workshop/filedetails/?id=2752881305
 ```
+
 ## Remove
-```
+
+```text
 ID          Name                            URL
 1555044803  NPC Weapon Upgrades             https://steamcommunity.com/workshop/filedetails/?id=1555044803
 3102127379  Planetary Asteroid Rings    https://steamcommunity.com/workshop/filedetails/?id=3102127379
