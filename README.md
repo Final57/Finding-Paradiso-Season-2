@@ -64,7 +64,7 @@ A Space Engineers Mod and ModAdjusted Files
   - Call world spawn for Cauldron
         - /CSP.RealGasGiant.900000.0.0.0
         - Use Following PlanetInfo in GasGiants config.xml
-        ```xml
+        ```html
   <OverrideFromConfig>true</OverrideFromConfig>
   <GasGiantBlocksSun>true</GasGiantBlocksSun>
   <GasGiantsHaveAtmoGlobal>true</GasGiantsHaveAtmoGlobal>
@@ -126,6 +126,7 @@ A Space Engineers Mod and ModAdjusted Files
   <PlanetRingInfoList />
 </RealGasGiantsSettingsConfig>
         ```
+
   - Call world spawn for Satreus
     - /CSP.Satreus.60000.1783652.800728.-268909
   - Call world spawn for Komorebi
