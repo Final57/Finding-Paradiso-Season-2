@@ -64,7 +64,7 @@ A Space Engineers Mod and ModAdjusted Files
   - Call world spawn for Cauldron
         - /CSP.RealGasGiant.900000.0.0.0
         - Use Following PlanetInfo in GasGiants config.xml
-        ```html
+        ```
   <OverrideFromConfig>true</OverrideFromConfig>
   <GasGiantBlocksSun>true</GasGiantBlocksSun>
   <GasGiantsHaveAtmoGlobal>true</GasGiantsHaveAtmoGlobal>
