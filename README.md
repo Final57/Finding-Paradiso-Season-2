@@ -62,8 +62,8 @@ A Space Engineers Mod and ModAdjusted Files
 
 - Setting up the world; <https://steamcommunity.com/sharedfiles/filedetails/?id=3576413253>
   - Call world spawn for Cauldron
-        - /CSP.RealGasGiant.900000.0.0.0
-        - Use Following PlanetInfo in GasGiants config.xml
+    - /CSP.RealGasGiant.900000.0.0.0
+    - Use Following PlanetInfo in GasGiants config.xml
   - Call world spawn for Satreus
     - /CSP.Satreus.60000.1783652.800728.-268909
   - Call world spawn for Komorebi
