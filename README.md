@@ -8,10 +8,10 @@ A Space Engineers Mod and ModAdjusted Files
 
 - [ ] Write Modadjuster compat for Ship Core Framework
 - [ ] Write Modadjuster compat for Planets and real gas giants
-- - [x] Write Modadjuster compat for Satreus
-- - [ ] Write Modadjuster compat for Komorebi
-- - [ ] Write Modadjuster compat for ?
-- - [ ] Write Modadjuster compat for ?
+- - [x] Write -Modadjuster- OreReamapping for Satreus
+- - [ ] Write OreReamapping for Komorebi
+- - [ ] Write OreReamapping for ?
+- - [ ] Write OreReamapping for ?
 - [ ] Write Modadjuster compat to replace industrial overhaul compat mods
 - - [x] Write Modadjuster compat for Better Stone & Industrial Overhaul
 - - [ ] Write Modadjuster compat for Paint Mod (Replaces <https://steamcommunity.com/workshop/filedetails/?id=2614870437>)
