@@ -8,26 +8,27 @@ A Space Engineers Mod and ModAdjusted Files
 
 - [ ] Write Modadjuster compat for Ship Core Framework
 - [ ] Write Modadjuster compat for Planets and real gas giants
-- - [x] Write -Modadjuster- OreReamapping for Satreus
+- - [x] Write OreReamapping for Satreus
 - - [ ] Write OreReamapping for Komorebi
 - - [ ] Write OreReamapping for ?
 - - [ ] Write OreReamapping for ?
 - [ ] Write Modadjuster compat to replace industrial overhaul compat mods
 - - [x] Write Modadjuster compat for Better Stone & Industrial Overhaul
-- - [ ] Write Modadjuster compat for Paint Mod (Replaces <https://steamcommunity.com/workshop/filedetails/?id=2614870437>)
-- - [ ] Write Modadjuster compat for Rotary Airlock (Replaces <https://steamcommunity.com/workshop/filedetails/?id=2937319543>)
-- - [ ] Write Modadjuster compat for Rebel Lights (Replaces <https://steamcommunity.com/workshop/filedetails/?id=2787966098>)
-- - [ ] Write Modadjuster compat for Moisture Vaporator (Replaces <https://steamcommunity.com/workshop/filedetails/?id=2923491399>)
-- - [ ] Write Modadjuster compat for Binoculars (Replaces <https://steamcommunity.com/workshop/filedetails/?id=2960215269>)
-- - [ ] Write Modadjuster compat for Federal Logistics (Replaces <https://steamcommunity.com/workshop/filedetails/?id=2923120747>)
+- - [x] Write Modadjuster compat for Paint Mod (Replaces <https://steamcommunity.com/workshop/filedetails/?id=2614870437>)
+- - [x] Write Modadjuster compat for Rotary Airlock (Replaces <https://steamcommunity.com/workshop/filedetails/?id=2937319543>)
+- - [x] Write Modadjuster compat for Rebel Lights (Replaces <https://steamcommunity.com/workshop/filedetails/?id=2787966098>)
+- - [x] Write Modadjuster compat for Moisture Vaporator (Replaces <https://steamcommunity.com/workshop/filedetails/?id=2923491399>)
+- - [x] Write Modadjuster compat for Binoculars (Replaces <https://steamcommunity.com/workshop/filedetails/?id=2960215269>)
+- - [x] Write Modadjuster compat for Federal Logistics (Replaces <https://steamcommunity.com/workshop/filedetails/?id=2923120747>)
+- - [x] Write Modadjuster compat for ResourceNodes (Replaces <https://steamcommunity.com/sharedfiles/filedetails/?id=2923551981>)
+- - [x] Write modadjuster compat for Aryx drive systems (Replaces <https://steamcommunity.com/sharedfiles/filedetails/?id=3003196825>)
 - - [ ] Write Modadjuster compat for ?
 - - [ ] Write Modadjuster compat for ?
 - - [ ] Write Modadjuster compat for ?
-- - [ ] Write Modadjuster compat for ?
-- [ ] Write modadjuster compat for highpower offset spotlight
-- [ ] Write Modadjuster compat for highpower spotlight
-- [ ] Write modadjuster compat for Aryx drive systems
-- [ ] Write Modadjuster compat for heavy XL blocks
+- [x] Write modadjuster compat for highpower offset spotlight
+- [x] Write Modadjuster compat for highpower spotlight
+- [x] Write Modadjuster compat for AQD Concrete
+- [x] Write Modadjuster compat for heavy XL blocks
 - [ ] Write Modadjuster compat for Mothership blocks
 - [ ] Write modadjuster compat for AWE
 
@@ -131,8 +132,6 @@ A Space Engineers Mod and ModAdjusted Files
   <PlanetRingInfoList />
 </RealGasGiantsSettingsConfig>
 ```
-
-
 
 # Mod Dependencies
 

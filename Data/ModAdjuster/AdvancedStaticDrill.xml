@@ -1,0 +1,22 @@
+<?xml version="1.0" ?>
+<Definitions xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<CubeBlocks>
+		<Definition xsi:type="MyObjectBuilder_ShipDrillDefinition">
+      <Components>
+        <Component Subtype="InteriorPlate" Count="1000" />
+        <Component Subtype="Construction" Count="500" />
+        <Component Subtype="GoldWire" Count="50" />
+        <Component Subtype="LargeTube" Count="50" />
+        <Component Subtype="Motor" Count="50" />
+        <Component Subtype="AdvancedComputer" Count="100" />
+        <Component Subtype="Ceramic" Count="20" />
+	    	<Component Subtype="Detector" Count="100" />
+        <Component Subtype="Superconductor" Count="40" />
+        <Component Subtype="GravityGenerator" Count="20" />
+    		<Component Subtype="QuantumComputer" Count="20" />
+        <Component Subtype="TitaniumPlate" Count="1000" />
+      </Components>
+      <CriticalComponent Subtype="QuantumComputer" Index="0" />
+		</Definition>
+	</CubeBlocks>
+</Definitions>

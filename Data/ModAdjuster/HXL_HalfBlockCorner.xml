@@ -1,0 +1,17 @@
+<?xml version="1.0" ?>
+<Definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+	<CubeBlocks>
+		<Definition>
+			<Id>
+				<TypeId>CubeBlock</TypeId>
+				<SubtypeId>HXL_HalfBlockCorner</SubtypeId>
+			</Id>
+			<Components>
+				<Component Subtype="ArmoredPlate" Count="5570"/>
+				<Component Subtype="ArmoredPlate" Count="1875"/>
+				<Component Subtype="ArmoredPlate" Count="620"/>
+			</Components>
+			<CriticalComponent Subtype="ArmoredPlate" Index="0"/>
+		</Definition>
+	</CubeBlocks>
+</Definitions>

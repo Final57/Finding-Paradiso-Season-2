@@ -1,0 +1,52 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+    <CubeBlocks>
+    <Definition xsi:type="MyObjectBuilder_OxygenGeneratorDefinition">
+      <Id>
+        <TypeId>OxygenGenerator</TypeId>
+        <SubtypeId>NuclearReactor</SubtypeId>
+      </Id>
+      <Components>
+                <Component Subtype="SteelPlate" Count="150" />
+                <Component Subtype="Construction" Count="80" />
+                <Component Subtype="CopperWire" Count="60" />
+                <Component Subtype="MetalGrid" Count="75" />
+                <Component Subtype="LargeTube" Count="50" />
+                <Component Subtype="Ceramic" Count="100" />
+                <Component Subtype="Reactor" Count="1500" />
+                <Component Subtype="Motor" Count="60" />
+                <Component Subtype="ArmorGlass" Count="40" />
+                <Component Subtype="Superconductor" Count="30" />
+                <Component Subtype="AQD_Comp_Concrete" Count="150" />
+				        <Component Subtype="Computer" Count="10" />
+                <Component Subtype="AdvancedComputer" Count="50" />
+                <Component Subtype="SteelPlate" Count="50" />
+      </Components>
+      <CriticalComponent Subtype="AdvancedComputer" Index="0" />
+    </Definition>
+		
+    <Definition xsi:type="MyObjectBuilder_OxygenGeneratorDefinition">
+      <Id>
+        <TypeId>OxygenGenerator</TypeId>
+        <SubtypeId>FastNeutronReactor</SubtypeId>
+      </Id>
+      <Components>
+                <Component Subtype="SteelPlate" Count="150" />
+                <Component Subtype="Construction" Count="80" />
+                <Component Subtype="CopperWire" Count="60" />
+                <Component Subtype="MetalGrid" Count="75" />
+                <Component Subtype="LargeTube" Count="50" />
+                <Component Subtype="Ceramic" Count="150" />
+                <Component Subtype="Reactor" Count="1750" />
+                <Component Subtype="Motor" Count="80" />
+                <Component Subtype="ArmorGlass" Count="50" />
+                <Component Subtype="Superconductor" Count="125" />
+                <Component Subtype="AQD_Comp_Concrete" Count="200" />
+				        <Component Subtype="Computer" Count="10" />
+                <Component Subtype="AdvancedComputer" Count="75" />
+                <Component Subtype="SteelPlate" Count="50" />
+      </Components>
+      <CriticalComponent Subtype="AdvancedComputer" Index="0" />
+    </Definition>
+    </CubeBlocks>
+</Definitions>

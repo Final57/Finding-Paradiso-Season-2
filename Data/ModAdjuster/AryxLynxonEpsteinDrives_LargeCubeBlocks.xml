@@ -1,0 +1,293 @@
+<?xml version="1.0" ?>
+<Definitions xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<CubeBlocks>
+
+		<Definition xsi:type="MyObjectBuilder_ThrustDefinition">
+		  <Id>
+			<TypeId>Thrust</TypeId>
+			<SubtypeId>ARYLNX_Epstein_Drive</SubtypeId>
+		  </Id>
+		  <Components>
+			<Component Subtype="SteelPlate" Count="600" />
+			<Component Subtype="Construction" Count="250" />
+			<Component Subtype="MetalGrid" Count="300" />
+			<Component Subtype="LargeTube" Count="120" />	
+			<Component Subtype="Superconductor" Count="125" />	
+			<Component Subtype="Cryocooler" Count="20" />	
+			<Component Subtype="AryxLynxon_FusionComponent" Count="64" />		
+			<Component Subtype="TitaniumPlate" Count="20" />
+			<Component Subtype="Thrust" Count="250" />		
+			<Component Subtype="Construction" Count="50" />
+			<Component Subtype="SteelPlate" Count="300" />
+		  </Components>
+		  <CriticalComponent Subtype="Thrust" Index="0" />
+		</Definition>
+
+		<Definition xsi:type="MyObjectBuilder_ThrustDefinition">
+		  <Id>
+			<TypeId>Thrust</TypeId>
+			<SubtypeId>ARYLNX_MUNR_Epstein_Drive</SubtypeId>
+		  </Id>
+		  <Components>
+			<Component Subtype="SteelPlate" Count="300" />
+			<Component Subtype="Construction" Count="175" />
+			<Component Subtype="MetalGrid" Count="100" />
+			<Component Subtype="LargeTube" Count="180" />
+			<Component Subtype="Cryocooler" Count="20" />	
+			<Component Subtype="AryxLynxon_FusionComponent" Count="64" />		
+			<Component Subtype="TitaniumPlate" Count="20" />		
+			<Component Subtype="Thrust" Count="250" />
+			<Component Subtype="PowerCell" Count="60" />		
+			<Component Subtype="Construction" Count="25" />
+			<Component Subtype="SteelPlate" Count="100" />
+		  </Components>
+		  <CriticalComponent Subtype="PowerCell" Index="0" />
+		</Definition>
+
+		<Definition xsi:type="MyObjectBuilder_ThrustDefinition">
+		  <Id>
+			<TypeId>Thrust</TypeId>
+			<SubtypeId>ARYLNX_PNDR_Epstein_Drive</SubtypeId>
+		  </Id>
+		  <Components>
+			<Component Subtype="SteelPlate" Count="280" />
+			<Component Subtype="Construction" Count="200" />
+			<Component Subtype="MetalGrid" Count="80" />
+			<Component Subtype="LargeTube" Count="60" />
+			<Component Subtype="SmallTube" Count="120" />		
+			<Component Subtype="Cryocooler" Count="20" />	
+			<Component Subtype="AryxLynxon_FusionComponent" Count="64" />		
+			<Component Subtype="TitaniumPlate" Count="20" />	
+			<Component Subtype="Thrust" Count="200" />
+			<Component Subtype="PowerCell" Count="60" />		
+			<Component Subtype="Construction" Count="20" />
+			<Component Subtype="SteelPlate" Count="80" />
+		  </Components>
+		  <CriticalComponent Subtype="PowerCell" Index="0" />
+		</Definition>
+
+		<Definition xsi:type="MyObjectBuilder_ThrustDefinition">
+		  <Id>
+			<TypeId>Thrust</TypeId>
+			<SubtypeId>ARYLNX_QUADRA_Epstein_Drive</SubtypeId>
+		  </Id>
+		  <Components>
+			<Component Subtype="SteelPlate" Count="210" />
+			<Component Subtype="Construction" Count="100" />
+			<Component Subtype="LargeTube" Count="60" />
+			<Component Subtype="Cryocooler" Count="5" />	
+			<Component Subtype="AryxLynxon_FusionComponent" Count="24" />		
+			<Component Subtype="TitaniumPlate" Count="5" />		
+			<Component Subtype="Construction" Count="25" />
+			<Component Subtype="SteelPlate" Count="70" />
+		  </Components>
+		  <CriticalComponent Subtype="AryxLynxon_FusionComponent" Index="0" />
+		</Definition>
+
+		<Definition xsi:type="MyObjectBuilder_ThrustDefinition">
+		  <Id>
+			<TypeId>Thrust</TypeId>
+			<SubtypeId>ARYLNX_RAIDER_Epstein_Drive</SubtypeId>
+		  </Id>
+		  <Components>
+			<Component Subtype="SteelPlate" Count="300" />
+			<Component Subtype="Construction" Count="150" />
+			<Component Subtype="LargeTube" Count="180" />
+			<Component Subtype="Cryocooler" Count="10" />	
+			<Component Subtype="AryxLynxon_FusionComponent" Count="32" />		
+			<Component Subtype="TitaniumPlate" Count="10" />		
+			<Component Subtype="Girder" Count="120" />		
+			<Component Subtype="Construction" Count="25" />
+			<Component Subtype="SteelPlate" Count="100" />
+		  </Components>
+		  <CriticalComponent Subtype="AryxLynxon_FusionComponent" Index="0" />
+		</Definition>
+
+		<Definition xsi:type="MyObjectBuilder_ThrustDefinition">
+		  <Id>
+			<TypeId>Thrust</TypeId>
+			<SubtypeId>ARYLNX_ROCI_Epstein_Drive</SubtypeId>
+		  </Id>
+		  <Components>
+			<Component Subtype="SteelPlate" Count="1000" />
+			<Component Subtype="Construction" Count="360" />
+			<Component Subtype="MetalGrid" Count="420" />
+			<Component Subtype="LargeTube" Count="180" />		
+			<Component Subtype="Superconductor" Count="200" />
+			<Component Subtype="Cryocooler" Count="24" />	
+			<Component Subtype="AryxLynxon_FusionComponent" Count="72" />		
+			<Component Subtype="TitaniumPlate" Count="24" />				
+			<Component Subtype="Thrust" Count="400" />	
+			<Component Subtype="Construction" Count="80" />
+			<Component Subtype="SteelPlate" Count="600" />
+		  </Components>
+		  <CriticalComponent Subtype="Thrust" Index="0" />
+		</Definition>
+
+		<Definition xsi:type="MyObjectBuilder_ThrustDefinition">
+		  <Id>
+			<TypeId>Thrust</TypeId>
+			<SubtypeId>ARYLYNX_SILVERSMITH_DRIVE</SubtypeId>
+		  </Id>
+		  <Components>
+			<Component Subtype="SteelPlate" Count="800" />
+			<Component Subtype="Construction" Count="360" />
+			<Component Subtype="MetalGrid" Count="500" />
+			<Component Subtype="LargeTube" Count="200" />			
+			<Component Subtype="Superconductor" Count="350" />
+			<Component Subtype="Cryocooler" Count="50" />	
+			<Component Subtype="AryxLynxon_FusionComponent" Count="72" />		
+			<Component Subtype="TitaniumPlate" Count="40" />		
+			<Component Subtype="PowerCell" Count="180" />			
+			<Component Subtype="Thrust" Count="450" />		
+			<Component Subtype="Construction" Count="80" />
+			<Component Subtype="SteelPlate" Count="600" />
+		  </Components>
+		  <CriticalComponent Subtype="Thrust" Index="0" />
+		</Definition>
+
+		<Definition xsi:type="MyObjectBuilder_ThrustDefinition">
+		  <Id>
+			<TypeId>Thrust</TypeId>
+			<SubtypeId>ARYLNX_DRUMMER_Epstein_Drive</SubtypeId>
+		  </Id>
+		  <Components>
+			<Component Subtype="SteelPlate" Count="800" />
+			<Component Subtype="Construction" Count="330" />
+			<Component Subtype="MetalGrid" Count="400" />
+			<Component Subtype="LargeTube" Count="150" />		
+			<Component Subtype="Cryocooler" Count="40" />	
+			<Component Subtype="AryxLynxon_FusionComponent" Count="64" />		
+			<Component Subtype="TitaniumPlate" Count="40" />				
+			<Component Subtype="Thrust" Count="350" />	
+			<Component Subtype="Construction" Count="120" />
+			<Component Subtype="SteelPlate" Count="400" />
+		  </Components>
+		  <CriticalComponent Subtype="Thrust" Index="0" />
+		</Definition>
+
+		<Definition xsi:type="MyObjectBuilder_ThrustDefinition">
+		  <Id>
+			<TypeId>Thrust</TypeId>
+			<SubtypeId>ARYLNX_SCIRCOCCO_Epstein_Drive</SubtypeId>
+		  </Id>
+		  <Components>
+			<Component Subtype="SteelPlate" Count="1700" />
+			<Component Subtype="Construction" Count="360" />
+			<Component Subtype="MetalGrid" Count="550" />
+			<Component Subtype="LargeTube" Count="250" />		
+			<Component Subtype="Superconductor" Count="250" />
+			<Component Subtype="Cryocooler" Count="100" />	
+			<Component Subtype="AryxLynxon_FusionComponent" Count="100" />		
+			<Component Subtype="TitaniumPlate" Count="100" />				
+			<Component Subtype="Thrust" Count="520" />	
+			<Component Subtype="Construction" Count="110" />
+			<Component Subtype="SteelPlate" Count="650" />
+		  </Components>
+		  <CriticalComponent Subtype="Thrust" Index="0" />
+		</Definition>
+
+		<Definition xsi:type="MyObjectBuilder_ThrustDefinition">
+		  <Id>
+			<TypeId>Thrust</TypeId>
+			<SubtypeId>ARYLNX_Mega_Epstein_Drive</SubtypeId>
+		  </Id>
+		  <Components>
+			<Component Subtype="SteelPlate" Count="3500" />
+			<Component Subtype="Construction" Count="1000" />
+			<Component Subtype="MetalGrid" Count="900" />
+			<Component Subtype="LargeTube" Count="700" />		
+			<Component Subtype="Superconductor" Count="1750" />	
+			<Component Subtype="Cryocooler" Count="200" />
+			<Component Subtype="AdvancedComputer" Count="200" />	
+			<Component Subtype="AryxLynxon_FusionComponent" Count="150" />		
+			<Component Subtype="TitaniumPlate" Count="200" />			
+			<Component Subtype="Thrust" Count="1250" />		
+			<Component Subtype="Construction" Count="500" />
+			<Component Subtype="SteelPlate" Count="1500" />
+		  </Components>
+		  <CriticalComponent Subtype="Thrust" Index="0" />
+		</Definition>
+
+		<Definition xsi:type="MyObjectBuilder_ThrustDefinition">
+		  <Id>
+			<TypeId>Thrust</TypeId>
+			<SubtypeId>LynxRcsThruster1</SubtypeId>
+		  </Id>
+		  <Components>
+			<Component Subtype="SteelPlate" Count="25" />
+			<Component Subtype="Construction" Count="25" />
+			<Component Subtype="MetalGrid" Count="5" />
+			<Component Subtype="LargeTube" Count="8" />
+			<Component Subtype="Construction" Count="20" />
+			<Component Subtype="SteelPlate" Count="10" />
+		  </Components>
+		  <CriticalComponent Subtype="LargeTube" Index="0" />
+		</Definition>
+
+		<Definition xsi:type="MyObjectBuilder_ThrustDefinition">
+		  <Id>
+			<TypeId>Thrust</TypeId>
+			<SubtypeId>AryxRCSRamp</SubtypeId>
+		  </Id>
+		  <Components>
+			<Component Subtype="SteelPlate" Count="25" />
+			<Component Subtype="Construction" Count="25" />
+			<Component Subtype="MetalGrid" Count="5" />
+			<Component Subtype="LargeTube" Count="8" />
+			<Component Subtype="Construction" Count="20" />
+			<Component Subtype="SteelPlate" Count="10" />
+		  </Components>
+		  <CriticalComponent Subtype="LargeTube" Index="0" />
+		</Definition>
+
+		<Definition xsi:type="MyObjectBuilder_ThrustDefinition">
+		  <Id>
+			<TypeId>Thrust</TypeId>
+			<SubtypeId>AryxRCSHalfRamp</SubtypeId>
+		  </Id>
+		  <Components>
+			<Component Subtype="SteelPlate" Count="25" />
+			<Component Subtype="Construction" Count="25" />
+			<Component Subtype="MetalGrid" Count="5" />
+			<Component Subtype="LargeTube" Count="8" />
+			<Component Subtype="Construction" Count="20" />
+			<Component Subtype="SteelPlate" Count="10" />
+		  </Components>
+		  <CriticalComponent Subtype="LargeTube" Index="0" />
+		</Definition>
+
+		<Definition xsi:type="MyObjectBuilder_ThrustDefinition">
+		  <Id>
+			<TypeId>Thrust</TypeId>
+			<SubtypeId>AryxRCSSlant</SubtypeId>
+		  </Id>
+		  <Components>
+			<Component Subtype="SteelPlate" Count="25" />
+			<Component Subtype="Construction" Count="25" />
+			<Component Subtype="MetalGrid" Count="5" />
+			<Component Subtype="LargeTube" Count="8" />
+			<Component Subtype="Construction" Count="20" />
+			<Component Subtype="SteelPlate" Count="10" />
+		  </Components>
+		  <CriticalComponent Subtype="LargeTube" Index="0" />
+		</Definition>
+
+		<Definition xsi:type="MyObjectBuilder_ThrustDefinition">
+		  <Id>
+			<TypeId>Thrust</TypeId>
+			<SubtypeId>AryxRCS</SubtypeId>
+		  </Id>
+		  <Components>
+			<Component Subtype="SteelPlate" Count="25" />
+			<Component Subtype="Construction" Count="25" />
+			<Component Subtype="MetalGrid" Count="5" />
+			<Component Subtype="LargeTube" Count="8" />
+			<Component Subtype="Construction" Count="20" />
+			<Component Subtype="SteelPlate" Count="10" />
+		  </Components>
+		  <CriticalComponent Subtype="LargeTube" Index="0" />
+		</Definition>
+
+	</CubeBlocks>
+</Definitions>

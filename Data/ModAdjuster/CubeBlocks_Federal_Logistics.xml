@@ -1,0 +1,107 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <CubeBlocks>
+    <Definition xsi:type="MyObjectBuilder_CargoContainerDefinition">
+      <Id>
+		<TypeId>CargoContainer</TypeId>
+		<SubtypeId>Industrial Storage</SubtypeId>
+	  </Id>
+		<Components>
+			<Component Subtype="InteriorPlate" Count="360" />
+			<Component Subtype="Construction" Count="120" />
+			<Component Subtype="MetalGrid" Count="144" />
+			<Component Subtype="CopperWire" Count="120" />
+			<Component Subtype="Motor" Count="120" />
+			<Component Subtype="Display" Count="8" />
+			<Component Subtype="Computer" Count="48" />
+			<Component Subtype="Construction" Count="360" />
+			<Component Subtype="InteriorPlate" Count="1400" />
+      </Components>
+      <CriticalComponent Subtype="Computer" Index="0" />
+    </Definition>
+	
+	<Definition xsi:type="MyObjectBuilder_CargoContainerDefinition">
+      <Id>
+		<TypeId>CargoContainer</TypeId>
+		<SubtypeId>Stone Storage</SubtypeId>
+	  </Id>
+		<Components>
+			<Component Subtype="SteelPlate" Count="1000" />
+			<Component Subtype="Construction" Count="120" />
+			<Component Subtype="Motor" Count="120" />
+			<Component Subtype="CopperWire" Count="120" />			
+			<Component Subtype="Computer" Count="48" />
+			<Component Subtype="Construction" Count="50" />
+			<Component Subtype="SteelPlate" Count="2360" />
+      </Components>
+      <CriticalComponent Subtype="Computer" Index="0" />
+    </Definition>
+	
+	<Definition xsi:type="MyObjectBuilder_CargoContainerDefinition">
+			<Id>
+				<TypeId>CargoContainer</TypeId>
+				<SubtypeId>Stone Storage SG</SubtypeId>
+			</Id>
+			<Components>
+				<Component Subtype="SteelPlate" Count="150" />
+				<Component Subtype="Display" Count="1" />
+				<Component Subtype="CopperWire" Count="120" />								
+				<Component Subtype="Construction" Count="150" />
+				<Component Subtype="Motor" Count="48" />
+				<Component Subtype="Computer" Count="40" />
+				<Component Subtype="Construction" Count="150" />
+				<Component Subtype="SteelPlate" Count="150" />
+			</Components>
+			<CriticalComponent Subtype="Computer" Index="0" />
+		</Definition>
+		
+		<Definition xsi:type="MyObjectBuilder_CargoContainerDefinition">
+			<Id>
+				<TypeId>CargoContainer</TypeId>
+				<SubtypeId>Industrial Storage SG</SubtypeId>
+			</Id>
+			<Components>
+				<Component Subtype="InteriorPlate" Count="264" />
+				<Component Subtype="Construction" Count="120" />
+				<Component Subtype="MetalGrid" Count="60" />
+				<Component Subtype="CopperWire" Count="100" />
+				<Component Subtype="Motor" Count="48" />
+				<Component Subtype="Display" Count="6" />				
+				<Component Subtype="Computer" Count="40" />
+				<Component Subtype="Construction" Count="30" />
+				<Component Subtype="InteriorPlate" Count="132" />
+			</Components>
+			<CriticalComponent Subtype="Computer" Index="0" />
+		</Definition>
+    <!-- End Region Cargo Container-->
+    
+    <!-- Region Conveyor system -->
+    <Definition>
+      <Id>
+        <TypeId>Conveyor</TypeId>
+        <SubtypeId>Small Ship Conveyor 1-5</SubtypeId>
+      </Id>
+      <Components>
+        <Component Subtype="SteelPlate" Count="10" />
+        <Component Subtype="Construction" Count="14" />
+        <Component Subtype="Motor" Count="6" />
+        <Component Subtype="SteelPlate" Count="20" />
+      </Components>
+      <CriticalComponent Subtype="Motor" Index="0" />
+    </Definition>
+	
+	<Definition>
+      <Id>
+        <TypeId>Conveyor</TypeId>
+        <SubtypeId>Small Ship Conveyor 2-4</SubtypeId>
+	  </Id>
+      <Components>
+        <Component Subtype="SteelPlate" Count="10" />
+        <Component Subtype="Construction" Count="14" />
+        <Component Subtype="Motor" Count="6" />
+        <Component Subtype="SteelPlate" Count="20" />
+      </Components>
+      <CriticalComponent Subtype="Motor" Index="0" />
+    </Definition>
+  </CubeBlocks>
+</Definitions>

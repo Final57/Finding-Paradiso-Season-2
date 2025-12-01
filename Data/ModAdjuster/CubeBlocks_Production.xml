@@ -1,0 +1,25 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <CubeBlocks>
+  
+    <Definition xsi:type="MyObjectBuilder_AssemblerDefinition">
+      <Id>
+        <TypeId>Assembler</TypeId>
+        <SubtypeId>PolymerFactory</SubtypeId>
+      </Id>
+      <Components>
+        <Component Subtype="SteelPlate" Count="100" />
+        <Component Subtype="Construction" Count="50" />
+        <Component Subtype="LargeTube" Count="30" />
+        <Component Subtype="SmallTube" Count="50" />
+        <Component Subtype="Motor" Count="20" />
+        <Component Subtype="CopperWire" Count="30" />
+        <Component Subtype="HeatingElement" Count="40" />
+        <Component Subtype="AQD_Comp_Concrete" Count="25" />
+        <Component Subtype="Computer" Count="20" />
+        <Component Subtype="SteelPlate" Count="30" />
+      </Components>
+      <CriticalComponent Subtype="Computer" Index="0" />
+    </Definition>
+  </CubeBlocks>
+</Definitions>
