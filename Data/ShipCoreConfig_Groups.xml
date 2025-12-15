@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ArrayOfBlockGroup xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <BlockGroup>
+    <Name>?</Name>
+    <BlockTypes>
+      <TypeId>SmallGatlingGun</TypeId>
+      <SubtypeId />
+      <CountWeight>1</CountWeight>
+    </BlockTypes>
+  </BlockGroup>
+</ArrayOfBlockGroup>

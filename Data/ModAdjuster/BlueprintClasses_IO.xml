@@ -55,7 +55,7 @@
     <Entry Class="SiliconFuserComponents" BlueprintSubtypeId="Ceramic" />
     <Entry Class="SiliconFuserComponents" BlueprintSubtypeId="ArmorGlass" />
 
-    <Entry Class="CementKilnComponents" BlueprintSubtypeId="AQD_Comp_Concrete" />
+    <Entry Class="CementKilnComponents" BlueprintSubtypeId="AQD_BP_StoneIngot_To_Concrete" />
 
     <Entry Class="AssemblerComponents" BlueprintSubtypeId="PORadioCommunicationComponent" />
     <Entry Class="AssemblerComponents" BlueprintSubtypeId="AcidPowerCell" />
@@ -82,6 +82,9 @@
     <Entry Class="NanoAssemblerComponents" BlueprintSubtypeId="FSSolarCell" />
     <Entry Class="NanoAssemblerComponents" BlueprintSubtypeId="ShieldComponentBP" />
     <Entry Class="NanoAssemblerComponents" BlueprintSubtypeId="AryxLynxon_FusionComponentBP" />
+    <Entry Class="NanoAssemblerComponents" BlueprintSubtypeId="AWESidekickDroneBP" />
+    <Entry Class="NanoAssemblerComponents" BlueprintSubtypeId="AWEFalconDroneBP" />
+    <Entry Class="NanoAssemblerComponents" BlueprintSubtypeId="AWEStormriderDroneBP" />
 
     <Entry Class="MunitionsFactory" BlueprintSubtypeId="POExplosivesComponent" />
     <Entry Class="MunitionsFactory" BlueprintSubtypeId="POInteriorTurret_Mag_50rd" />
@@ -107,6 +110,38 @@
     <Entry Class="MunitionsFactory" BlueprintSubtypeId="LargeRailgunAmmoDUAP" />
     <Entry Class="MunitionsFactory" BlueprintSubtypeId="SmallRailgunAmmo" />
     <Entry Class="MunitionsFactory" BlueprintSubtypeId="SmallRailgunAmmoDUAP" />
+    <Entry Class="MunitionsFactory" BlueprintSubtypeId="54mmAutocannonBP" />
+    <Entry Class="MunitionsFactory" BlueprintSubtypeId="AWE85mmAmmoBP" />
+    <Entry Class="MunitionsFactory" BlueprintSubtypeId="60mmFlakBP" />
+    <Entry Class="MunitionsFactory" BlueprintSubtypeId="AWE135mmFlakBP" />
+    <Entry Class="MunitionsFactory" BlueprintSubtypeId="aryx150mmBuckshotBP" />
+    <Entry Class="MunitionsFactory" BlueprintSubtypeId="GaussAmmoBP" />
+    <Entry Class="MunitionsFactory" BlueprintSubtypeId="AWEKingSwordAmmoBP" />
+    <Entry Class="MunitionsFactory" BlueprintSubtypeId="AryxRailgunAmmoBP" />
+    <Entry Class="MunitionsFactory" BlueprintSubtypeId="AryxCoilgunAmmoBP" />
+    <Entry Class="MunitionsFactory" BlueprintSubtypeId="AryxHeavyCoilgunAmmoBP" />
+    <Entry Class="MunitionsFactory" BlueprintSubtypeId="AryxSmallRailgunAmmoBP" />
+    <Entry Class="MunitionsFactory" BlueprintSubtypeId="70mmBurstBP" />
+    <Entry Class="MunitionsFactory" BlueprintSubtypeId="AWE100mmWarrorBP" />
+    <Entry Class="MunitionsFactory" BlueprintSubtypeId="AWEWhirlwind120AmmoBP" />
+    <Entry Class="MunitionsFactory" BlueprintSubtypeId="AWECyclone240AmmoBP" />
+    <Entry Class="MunitionsFactory" BlueprintSubtypeId="AWECyclone480AmmoBP" />
+    <Entry Class="MunitionsFactory" BlueprintSubtypeId="AWECyclone600AmmoBP" />
+    <Entry Class="MunitionsFactory" BlueprintSubtypeId="AWEAvalanche1000AmmoBP" />
+    <Entry Class="MunitionsFactory" BlueprintSubtypeId="AWEStarfallMissileAmmooBP" />
+    <Entry Class="MunitionsFactory" BlueprintSubtypeId="50mmSmartBP" />
+    <Entry Class="MunitionsFactory" BlueprintSubtypeId="50mmSmartEnergyBP" />
+    <Entry Class="MunitionsFactory" BlueprintSubtypeId="AryxEnergyPulseCell" />
+    <Entry Class="MunitionsFactory" BlueprintSubtypeId="84FlechetteMissileBP" />
+    <Entry Class="MunitionsFactory" BlueprintSubtypeId="84DisruptorMissileBP" />
+    <Entry Class="MunitionsFactory" BlueprintSubtypeId="AWEStrikerMissileBP" />
+    <Entry Class="MunitionsFactory" BlueprintSubtypeId="AWESabreMissileBP" />
+    <Entry Class="MunitionsFactory" BlueprintSubtypeId="AWEShrikeBombBP" />
+    <Entry Class="MunitionsFactory" BlueprintSubtypeId="900mmTorpedoBP" />
+    <Entry Class="MunitionsFactory" BlueprintSubtypeId="AWEGladiusMissileAmmoBP" />
+    <Entry Class="MunitionsFactory" BlueprintSubtypeId="AWEHyperionTorpedoBP" />
+    <Entry Class="MunitionsFactory" BlueprintSubtypeId="40mmATLASBP" />
+    <Entry Class="MunitionsFactory" BlueprintSubtypeId="25mmCODEXBP" />
 	
 	<!-- Disposal -->
 

@@ -31,6 +31,10 @@ A Space Engineers Mod and ModAdjusted Files
 - [x] Write Modadjuster compat for heavy XL blocks
 - [ ] Write Modadjuster compat for Mothership blocks
 - [ ] Write modadjuster compat for AWE
+- - [x] Write Modadjust compat for AWE Components
+- - [ ] Write Modadjust compat for AWE Ammunition
+- - [X] Write Modadjust compat for AWE CubeBlocks
+- - [ ] Tune CubeBlocks for progression
 
 ### Shipcore Configuration
 
@@ -133,9 +137,9 @@ A Space Engineers Mod and ModAdjusted Files
 </RealGasGiantsSettingsConfig>
 ```
 
-# Mod Dependencies
+## Workshop Mod List
 
-## Server Utitilies and Performance
+### Server Utitilies and Performance
 
 ```text
 ID          Name                            URL
@@ -145,9 +149,9 @@ ID          Name                            URL
 3237179787  Console Spawn Planets           https://steamcommunity.com/sharedfiles/filedetails/?id=3237179787
 ```
 
-## World Requirements
+### World Requirements
 
-### Planets
+#### Planets
 
 ```text
 ID          Name                            URL
@@ -158,7 +162,7 @@ ID          Name                            URL
 2266665708  Satreus                         https://steamcommunity.com/sharedfiles/filedetails/?id=2266665708
 ```
 
-### Mechanics
+#### Mechanics
 
 ```text
 ID          Name                            URL
@@ -171,7 +175,7 @@ ID          Name                            URL
 3552595651  Ship Core Framework (3.0.6)     https://steamcommunity.com/sharedfiles/filedetails/?id=3552595651
 ```
 
-### NPCs & Creatures
+#### NPCs & Creatures
 
 ```text
 ID          Name                            URL
@@ -179,7 +183,7 @@ ID          Name                            URL
 3105413080  SandWorm                        https://steamcommunity.com/workshop/filedetails/?id=3105413080
 ```
 
-## Block Mods
+### Block Mods
 
 ```text
 ID          Name                            URL
@@ -194,7 +198,7 @@ ID          Name                            URL
 
 ```
 
-## Mothership Dependencies
+### Mothership Dependencies
 
 ```text
 ID          Name                            URL
@@ -207,14 +211,14 @@ ID          Name                            URL
 3030078884  XL Bridge Windows               https://steamcommunity.com/workshop/filedetails/?id=3030078884
 ```
 
-##
+###
 
 ```text
 ID          Name                            URL
 3046287818  Beaconless Thrust/Power Signals - now with Beacons  https://steamcommunity.com/workshop/filedetails/?id=3046287818
 ```
 
-## QOL Mods
+### QOL Mods
 
 ```text
 ID          Name                            URL
@@ -231,9 +235,10 @@ ID          Name                            URL
 3289462382  Prospector 2                    https://steamcommunity.com/sharedfiles/filedetails/?id=3289462382
 3594842497  High Pressure Bottles (Small in your inventory) https://steamcommunity.com/workshop/filedetails/?id=3594842497
 3293251056  A Sight to Behold               https://steamcommunity.com/sharedfiles/filedetails/?id=3293251056
+3598194640  Safe Speed                      https://steamcommunity.com/sharedfiles/filedetails/?id=3598194640
 ```
 
-## Weapon & Armour Mods
+### Weapon & Armour Mods
 
 ```text
 ID          Name                            URL
@@ -244,7 +249,7 @@ ID          Name                            URL
 3016620818  Heavier Armor for WeaponCore    https://steamcommunity.com/workshop/filedetails/?id=3016620818
 ```
 
-## NPC Mods
+### NPC Mods
 
 ```text
 ID          Name                            URL
@@ -253,7 +258,7 @@ ID          Name                            URL
 3242721372  MESSpawnerUI                    https://steamcommunity.com/workshop/filedetails/?id=3242721372
 ```
 
-## Cosmetic
+### Cosmetic
 
 ```text
 ID          Name                            URL
@@ -261,7 +266,7 @@ ID          Name                            URL
 2752881305  Elite Dangerous Style Jump Effect   https://steamcommunity.com/workshop/filedetails/?id=2752881305
 ```
 
-## Remove
+### Remove
 
 ```text
 ID          Name                            URL

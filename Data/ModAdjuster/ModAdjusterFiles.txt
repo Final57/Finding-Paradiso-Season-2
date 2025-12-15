@@ -3,6 +3,8 @@ VoxelMaterials_Satreus.xml
 StaticDrill.xml
 BasicStaticDrill.xml
 AdvancedStaticDrill.xml
+Aryx_AWE_Blueprints.xml
+Aryx_AWE_CubeBlocks.xml
 AryxLynxonEpsteinDrives_LargeCubeBlocks.xml
 AryxLynxonEpsteinDrives_SmallCubeBlocks.xml
 AryxLynxonEpsteinDrives_Blueprints.xml
