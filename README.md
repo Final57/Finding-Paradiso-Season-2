@@ -29,6 +29,9 @@ A Space Engineers Mod and ModAdjusted Files
 - [x] Write Modadjuster compat for highpower spotlight
 - [x] Write Modadjuster compat for AQD Concrete
 - [x] Write Modadjuster compat for heavy XL blocks
+- [ ] Write Modadjuster compat for OmniArc Tools
+- [ ] Write Modadjuster compat for Consolidation Propulsion
+- [ ] Write Modasjuster compat for Railway Builder
 - [ ] Write Modadjuster compat for Mothership blocks
 - [ ] Write modadjuster compat for AWE
 - - [x] Write Modadjust compat for AWE Components
@@ -39,6 +42,11 @@ A Space Engineers Mod and ModAdjusted Files
 ### Shipcore Configuration
 
 - [ ] Write Shipcore config based on "arcane cores" <https://steamcommunity.com/sharedfiles/filedetails/?id=3552605473> - NOTE: Bug Alien for ship/base/rover classes
+- - [ ] Write Block Groups
+- - [ ] Use Models from Arcane Cores and create Blocks
+- - [ ] Create Upgrade Modules
+- - [ ] Create Ship Cores
+- - [ ] Use Alien's Spreadsheet to create ship classes
 
 ### Mod Dependencies
 
@@ -195,7 +203,9 @@ ID          Name                            URL
 3208995513  Tank Tracks Framework & API     https://steamcommunity.com/workshop/filedetails/?id=3208995513
 3225398014  Tank Track Pack: Morue          https://steamcommunity.com/sharedfiles/filedetails/?id=3225398014
 2298956701  AQD - Concrete                  https://steamcommunity.com/sharedfiles/filedetails/?id=2298956701
-
+3412657089  OmniCorp The OmniArc Project: Adv Tools https://steamcommunity.com/sharedfiles/filedetails/?id=3412657089 
+3571696367  Railway Builder [v1.1]          https://steamcommunity.com/sharedfiles/filedetails/?id=3571696367
+3078500424  Consolidation Propulsions       https://steamcommunity.com/sharedfiles/filedetails/?id=3078500424
 ```
 
 ### Mothership Dependencies
