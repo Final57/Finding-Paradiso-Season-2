@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+    <BlockVariantGroups>
+        <BlockVariantGroup>
+            <Id Type="MyObjectBuilder_BlockVariantGroup" Subtype="Station Cores" />
+            <Icon>Textures\LargeGridCore.png</Icon>
+            <DisplayName>General Cores</DisplayName>
+            <Description>Basic Starting cores for ships and bases.</Description>
+            <Blocks>
+                <Block Type="MyObjectBuilder_Beacon" Subtype="LG_General_Core" />
+                <Block Type="MyObjectBuilder_Beacon" Subtype="SG_General_Core" />
+                <Block Type="MyObjectBuilder_Beacon" Subtype="LG_Scrap_Core" />
+                <Block Type="MyObjectBuilder_Beacon" Subtype="SG_Scrap_Core" />
+            </Blocks>
+        </BlockVariantGroup>
+        <BlockVariantGroup>
+            <Id Type="MyObjectBuilder_BlockVariantGroup" Subtype="Heavy Cores" />
+            <Icon>Textures\LargeGridCore.png</Icon>
+            <DisplayName>Heavy Cores</DisplayName>
+            <Description>Heavy Cores, large grids with specific combat functions.</Description>
+            <Blocks>
+                      
+            </Blocks>
+        </BlockVariantGroup>
+        </BlockVariantGroup>
+        <BlockVariantGroup>
+            <Id Type="MyObjectBuilder_BlockVariantGroup" Subtype="Light Cores" />
+            <Icon>Textures\LargeGridCore.png</Icon>
+            <DisplayName>Light Cores</DisplayName>
+            <Description>Heavy Cores, small grids with specific combat functions.</Description>
+            <Blocks>
+                <Block Type="MyObjectBuilder_Beacon" Subtype="Light_Bomber_Ship_Core" />
+                <Block Type="MyobjectBuilder_Beacon" Subtype="Light_Fighter_Ship_Core" />
+            </Blocks>
+        </BlockVariantGroup>
+        <BlockVariantGroup>
+            <Id Type="MyObjectBuilder_BlockVariantGroup" Subtype="Utility Cores" />
+            <Icon>Textures\LargeGridCore.png</Icon>
+            <DisplayName>Utility Cores</DisplayName>
+            <Description>Cores for Specific utilities.</Description>
+            <Blocks>
+              
+            </Blocks>
+        </BlockVariantGroup>
+        
+        <BlockVariantGroup>
+            <Id Type="MyObjectBuilder_BlockVariantGroup" Subtype="Core Modules" />
+            <Icon>Textures\LargeGridCore.png</Icon>
+            <DisplayName>Core Upgrade Modules</DisplayName>
+            <Description>Support Modules to increase specific aspects of a Core's particular boosts.</Description>
+            <Blocks>
+                <Block Type="MyObjectBuilder_Beacon" Subtype="LG_Ship_Core_Module_Bastion" />
+                <Block Type="MyObjectBuilder_Beacon" Subtype="SG_Ship_Core_Module_Bastion" />
+                <Block Type="MyObjectBuilder_Beacon" Subtype="LG_Ship_Core_Module_Mobility" />
+                <Block Type="MyObjectBuilder_Beacon" Subtype="SG_Ship_Core_Module_Mobility" />               
+            </Blocks>
+        </BlockVariantGroup>
+    </BlockVariantGroups>
+</Definitions>

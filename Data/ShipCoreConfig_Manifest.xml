@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-16"?>
 <CoreManifest>
   <ShipCoreFilenames>Data\Cores\Light\Light_Fighter_Ship_Core.xml</ShipCoreFilenames>
-
+  <ShipCoreFilenames>Data\Cores\Light\Light_Bomber_Ship_Core.xml</ShipCoreFilenames>
 </CoreManifest>

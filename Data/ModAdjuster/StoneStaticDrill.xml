@@ -1,0 +1,19 @@
+<?xml version="1.0" ?>
+<Definitions xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<CubeBlocks>
+		<Definition xsi:type="MyObjectBuilder_ShipDrillDefinition">
+			<Id>
+				<TypeId>Drill</TypeId>
+				<SubtypeId>StoneStaticDrill</SubtypeId>
+			</Id>
+			<Components>
+				<Component Subtype="InteriorPlate" Count="50" />
+				<Component Subtype="Construction" Count="15" />
+				<Component Subtype="Computer" Count="1" />
+				<Component Subtype="Motor" Count="25" />
+				<Component Subtype="InteriorPlate" Count="5" />
+			</Components>
+			<CriticalComponent Subtype="Motor" Index="0" />
+		</Definition>
+	</CubeBlocks>
+</Definitions>

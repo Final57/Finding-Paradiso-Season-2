@@ -1,0 +1,40 @@
+<?xml version="1.0" ?>
+<Definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+	<CubeBlocks>
+		<!--Moryana-300-->
+		<Definition xsi:type="MyObjectBuilder_ThrustDefinition">
+            <Id>
+                <TypeId>Thrust</TypeId>
+                <SubtypeId>MRY300</SubtypeId>
+            </Id>
+            <Components>
+                <Component Subtype="SteelPlate" Count="20" />
+                <Component Subtype="Construction" Count="50" />
+                <Component Subtype="MetalGrid" Count="15" />
+				<Component Subtype="Motor" Count="150" />
+				<Component Subtype="LargeTube" Count="10" />
+				<Component Subtype="Construction" Count="20" />
+                <Component Subtype="SteelPlate" Count="50" />
+            </Components>
+            <CriticalComponent Subtype="LargeTube" Index="0" />
+        </Definition>
+		
+		<!--Moryana-500-->
+		<Definition xsi:type="MyObjectBuilder_ThrustDefinition">
+            <Id>
+                <TypeId>Thrust</TypeId>
+                <SubtypeId>MRY500</SubtypeId>
+            </Id>
+            <Components>
+                <Component Subtype="SteelPlate" Count="25" />
+                <Component Subtype="Construction" Count="50" />
+                <Component Subtype="MetalGrid" Count="15" />
+				<Component Subtype="Motor" Count="300" />
+				<Component Subtype="LargeTube" Count="15" />
+				<Component Subtype="Construction" Count="50" />
+                <Component Subtype="SteelPlate" Count="250" />
+            </Components>
+            <CriticalComponent Subtype="LargeTube" Index="0" />
+        </Definition>		
+	</CubeBlocks>
+</Definitions>

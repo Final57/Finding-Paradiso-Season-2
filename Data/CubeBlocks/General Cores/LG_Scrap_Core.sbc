@@ -1,0 +1,57 @@
+<?xml version="1.0" ?>
+<Definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+	<CubeBlocks>
+        <Definition xsi:type="MyObjectBuilder_BeaconDefinition">
+            <Id>
+                <TypeId>Beacon</TypeId>
+                <SubtypeId>LG_Scrap_Core</SubtypeId>
+            </Id>
+            <DisplayName>Scrap Core</DisplayName>
+            <Icon>Textures\LargeGridCore.dds</Icon>
+            <Description>A core used to tag scrap wrecks for your faction, it will disable all production and power output on the grid.</Description>
+            <CubeSize>Large</CubeSize>
+            <GuiVisible>false</GuiVisible>
+            <BlockTopology>TriangleMesh</BlockTopology>
+			<Size x="1" y="1" z="1"/>
+			<ModelOffset x="0" y="0" z="0"/>
+			<Model>Models\GridCore_Center.mwm</Model>
+            <Components>
+                <Component Subtype="InteriorPlate" Count="1" />
+            </Components>
+			<MountPoints>
+				<MountPoint Side="Front" StartX="0.91" StartY="0.00" EndX="1.00" EndY="1.00"/>
+				<MountPoint Side="Front" StartX="0.00" StartY="0.00" EndX="0.09" EndY="1.00"/>
+				<MountPoint Side="Front" StartX="0.00" StartY="0.00" EndX="1.00" EndY="0.10"/>
+				<MountPoint Side="Front" StartX="0.00" StartY="0.91" EndX="1.00" EndY="1.00"/>
+				<MountPoint Side="Back" StartX="0.00" StartY="0.00" EndX="1.00" EndY="1.00"/>
+				<MountPoint Side="Left" StartX="0.00" StartY="0.00" EndX="1.00" EndY="1.00"/>
+				<MountPoint Side="Right" StartX="0.00" StartY="0.00" EndX="1.00" EndY="1.00"/>
+				<MountPoint Side="Top" StartX="0.00" StartY="0.00" EndX="1.00" EndY="1.00"/>
+				<MountPoint Side="Bottom" StartX="0.00" StartY="0.00" EndX="1.00" EndY="1.00"/>
+			</MountPoints>
+			<BuildProgressModels>
+				<Model BuildPercentUpperBound="1.00" File="Models\GridCore_SG_BS1.mwm"/>
+			</BuildProgressModels>
+			<MirroringY>Z</MirroringY>
+			<MirroringZ>Y</MirroringZ>
+            <BlockPairName>Scrap_Core</BlockPairName>
+            <EdgeType>Light</EdgeType>
+            <BuildTimeSeconds>15</BuildTimeSeconds>
+            <DamageEffectName>Damage_Electrical_Damaged</DamageEffectName>
+            <DamagedSound>ParticleElectrical</DamagedSound>
+
+            <!-- Beacon properties -->
+            <ResourceSinkGroup>Utility</ResourceSinkGroup>
+            <MaxBroadcastRadius>200000</MaxBroadcastRadius>
+            <Flare>BeaconSmall</Flare>
+            <MaxBroadcastPowerDrainkW>20</MaxBroadcastPowerDrainkW>
+            <!-- End Beacon Props-->
+
+            <EmissiveColorPreset>Beacon</EmissiveColorPreset>
+            <DestroyEffect>BlockDestroyedExplosion_Small</DestroyEffect>
+            <DestroySound>WepSmallWarheadExpl</DestroySound>
+            <PCU>50</PCU>
+            <IsAirTight>false</IsAirTight>
+        </Definition>
+	</CubeBlocks>
+</Definitions>

@@ -1,0 +1,95 @@
+<?xml version="1.0" ?>
+<Definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+	<CubeBlocks>	
+		<!--Orion-M-->
+		<Definition xsi:type="MyObjectBuilder_MotorSuspensionDefinition">
+			<Id>
+                <TypeId>MotorSuspension</TypeId>
+                <SubtypeId>SmallORNXShortSuspension2x2</SubtypeId>
+			</Id>
+            <Components>
+                <Component Subtype="SteelPlate" Count="3" />
+                <Component Subtype="Construction" Count="5" />
+                <Component Subtype="SmallTube" Count="2" />
+                <Component Subtype="Motor" Count="1" />
+                <Component Subtype="SteelPlate" Count="2" />
+			</Components>
+            <CriticalComponent Subtype="Motor" Index="0" />
+		</Definition>
+		
+		<Definition>
+			<Id>
+				<TypeId>Wheel</TypeId>
+				<SubtypeId>SmallBlockORNXSuspensionWheel</SubtypeId>
+			</Id>
+			<Components>
+				<Component Subtype="SteelPlate" Count="3" />
+				<Component Subtype="Construction" Count="15" />
+				<Component Subtype="LargeTube" Count="3" />
+				<Component Subtype="SteelPlate" Count="5" />
+			</Components>
+			<CriticalComponent Subtype="LargeTube" Index="0" />
+		</Definition>
+		
+		
+		<!--Orion-XS-->
+		<Definition xsi:type="MyObjectBuilder_MotorSuspensionDefinition">
+			<Id>
+                <TypeId>MotorSuspension</TypeId>
+                <SubtypeId>SmallORNXSShortSuspension2x2</SubtypeId>
+			</Id>
+            <Components>
+                <Component Subtype="SteelPlate" Count="3" />
+                <Component Subtype="Construction" Count="5" />
+                <Component Subtype="SmallTube" Count="2" />
+                <Component Subtype="Motor" Count="1" />
+                <Component Subtype="SteelPlate" Count="2" />
+			</Components>
+            <CriticalComponent Subtype="Motor" Index="0" />
+		</Definition>
+		
+		<Definition>
+			<Id>
+				<TypeId>Wheel</TypeId>
+				<SubtypeId>SmallBlockORNXSSuspensionWheel</SubtypeId>
+			</Id>
+			<Components>
+				<Component Subtype="SteelPlate" Count="3" />
+				<Component Subtype="Construction" Count="15" />
+				<Component Subtype="LargeTube" Count="3" />
+				<Component Subtype="SteelPlate" Count="5" />
+			</Components>
+			<CriticalComponent Subtype="LargeTube" Index="0" />
+		</Definition>
+		
+		<!--Rarog-S-->
+		<Definition xsi:type="MyObjectBuilder_MotorSuspensionDefinition">
+			<Id>
+                <TypeId>MotorSuspension</TypeId>
+                <SubtypeId>SmallRRGShortSuspension2x2</SubtypeId>
+			</Id>
+            <Components>
+                <Component Subtype="SteelPlate" Count="3" />
+                <Component Subtype="Construction" Count="5" />
+                <Component Subtype="SmallTube" Count="2" />
+                <Component Subtype="Motor" Count="1" />
+                <Component Subtype="SteelPlate" Count="2" />
+			</Components>
+            <CriticalComponent Subtype="Motor" Index="0" />
+		</Definition>
+		
+		<Definition>
+			<Id>
+				<TypeId>Wheel</TypeId>
+				<SubtypeId>SmallBlockRRGSuspensionWheel</SubtypeId>
+			</Id>
+			<Components>
+				<Component Subtype="SteelPlate" Count="3" />
+				<Component Subtype="Construction" Count="15" />
+				<Component Subtype="LargeTube" Count="3" />
+				<Component Subtype="SteelPlate" Count="5" />
+			</Components>
+			<CriticalComponent Subtype="LargeTube" Index="0" />
+		</Definition>
+	</CubeBlocks>
+</Definitions>

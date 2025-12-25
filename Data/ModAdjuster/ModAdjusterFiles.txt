@@ -1,5 +1,6 @@
 VoxelMaterials_planetary.xml
 VoxelMaterials_Satreus.xml
+StoneStaticDrill.xml
 StaticDrill.xml
 BasicStaticDrill.xml
 AdvancedStaticDrill.xml
@@ -8,6 +9,12 @@ Aryx_AWE_CubeBlocks.xml
 AryxLynxonEpsteinDrives_LargeCubeBlocks.xml
 AryxLynxonEpsteinDrives_SmallCubeBlocks.xml
 AryxLynxonEpsteinDrives_Blueprints.xml
+OPC_CP_Cubeblocks_Aeolus.xml
+OPC_CP_Cubeblocks_Moryana.xml
+OPC_CP_Cubeblocks_Sidhe.xml
+OPC_CP_Cubeblocks_Stribog.xml
+OPC_CP_Cubeblocks.xml
+OPC_CP_Orion.xml
 CubeBlocks_RotaryDoor_IO_Compatibility.xml
 CubeBlocks_Lights.xml
 CubeBlocks.xml

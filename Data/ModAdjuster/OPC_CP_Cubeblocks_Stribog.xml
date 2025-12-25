@@ -1,0 +1,537 @@
+﻿<?xml version="1.0" ?>
+<Definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+	<CubeBlocks>
+		<!--Thrusters-->
+		<!--Stribog-50-->
+		<Definition xsi:type="MyObjectBuilder_ThrustDefinition">
+			<Id>
+				<TypeId>Thrust</TypeId>
+				<SubtypeId>STR50_Clean</SubtypeId>
+			</Id>
+			<Components>
+				<Component Subtype="SteelPlate" Count="3" />
+				<Component Subtype="Construction" Count="13" />
+				<Component Subtype="MetalGrid" Count="5" />
+				<Component Subtype="LargeTube" Count="3" />
+				<Component Subtype="Construction" Count="7" />
+				<Component Subtype="SteelPlate" Count="7" />
+			</Components>
+			<CriticalComponent Subtype="LargeTube" Index="0" />
+		</Definition>
+		
+		<Definition xsi:type="MyObjectBuilder_ThrustDefinition">
+			<Id>
+				<TypeId>Thrust</TypeId>
+				<SubtypeId>STR50_Flat</SubtypeId>
+			</Id>
+			<Components>
+				<Component Subtype="SteelPlate" Count="3" />
+				<Component Subtype="Construction" Count="13" />
+				<Component Subtype="MetalGrid" Count="5" />
+				<Component Subtype="LargeTube" Count="3" />
+				<Component Subtype="Construction" Count="7" />
+				<Component Subtype="SteelPlate" Count="7" />
+			</Components>
+			<CriticalComponent Subtype="LargeTube" Index="0" />
+		</Definition>
+		
+		<Definition xsi:type="MyObjectBuilder_ThrustDefinition">
+			<Id>
+				<TypeId>Thrust</TypeId>
+				<SubtypeId>STR50_Slope30_1</SubtypeId>
+			</Id>
+			<Components>
+				<Component Subtype="SteelPlate" Count="3" />
+				<Component Subtype="Construction" Count="13" />
+				<Component Subtype="MetalGrid" Count="5" />
+				<Component Subtype="LargeTube" Count="3" />
+				<Component Subtype="Construction" Count="7" />
+				<Component Subtype="SteelPlate" Count="7" />
+			</Components>
+			<CriticalComponent Subtype="LargeTube" Index="0" />
+		</Definition>
+		
+		<Definition xsi:type="MyObjectBuilder_ThrustDefinition">
+			<Id>
+				<TypeId>Thrust</TypeId>
+				<SubtypeId>STR50_Slope30_2</SubtypeId>
+			</Id>
+			<Components>
+				<Component Subtype="SteelPlate" Count="3" />
+				<Component Subtype="Construction" Count="13" />
+				<Component Subtype="MetalGrid" Count="5" />
+				<Component Subtype="LargeTube" Count="3" />
+				<Component Subtype="Construction" Count="7" />
+				<Component Subtype="SteelPlate" Count="7" />
+			</Components>
+			<CriticalComponent Subtype="LargeTube" Index="0" />
+		</Definition>
+		
+		<Definition xsi:type="MyObjectBuilder_ThrustDefinition">
+			<Id>
+				<TypeId>Thrust</TypeId>
+				<SubtypeId>STR50_Slope30_3</SubtypeId>
+			</Id>
+			<Components>
+				<Component Subtype="SteelPlate" Count="3" />
+				<Component Subtype="Construction" Count="13" />
+				<Component Subtype="MetalGrid" Count="5" />
+				<Component Subtype="LargeTube" Count="3" />
+				<Component Subtype="Construction" Count="7" />
+				<Component Subtype="SteelPlate" Count="7" />
+			</Components>
+			<CriticalComponent Subtype="LargeTube" Index="0" />
+		</Definition>
+		
+		
+		<!--Stribog-100-->
+		<Definition xsi:type="MyObjectBuilder_ThrustDefinition">
+			<Id>
+				<TypeId>Thrust</TypeId>
+				<SubtypeId>STR100_Clean</SubtypeId>
+			</Id>
+			<Components>
+				<Component Subtype="SteelPlate" Count="5" />
+				<Component Subtype="Construction" Count="25" />
+				<Component Subtype="MetalGrid" Count="10" />
+				<Component Subtype="LargeTube" Count="5" />
+				<Component Subtype="Construction" Count="13" />
+				<Component Subtype="SteelPlate" Count="13" />
+			</Components>
+			<CriticalComponent Subtype="LargeTube" Index="0" />
+		</Definition>
+		
+		<Definition xsi:type="MyObjectBuilder_ThrustDefinition">
+            <Id>
+                <TypeId>Thrust</TypeId>
+                <SubtypeId>STR100_Flat</SubtypeId>
+			</Id>
+			<Components>
+				<Component Subtype="SteelPlate" Count="5" />
+				<Component Subtype="Construction" Count="25" />
+				<Component Subtype="MetalGrid" Count="10" />
+				<Component Subtype="LargeTube" Count="5" />
+				<Component Subtype="Construction" Count="13" />
+				<Component Subtype="SteelPlate" Count="13" />
+			</Components>
+			<CriticalComponent Subtype="LargeTube" Index="0" />
+		</Definition>
+		
+		<Definition xsi:type="MyObjectBuilder_ThrustDefinition">
+            <Id>
+                <TypeId>Thrust</TypeId>
+                <SubtypeId>STR100_Slope30_1</SubtypeId>
+			</Id>
+			<Components>
+				<Component Subtype="SteelPlate" Count="5" />
+				<Component Subtype="Construction" Count="25" />
+				<Component Subtype="MetalGrid" Count="10" />
+				<Component Subtype="LargeTube" Count="5" />
+				<Component Subtype="Construction" Count="13" />
+				<Component Subtype="SteelPlate" Count="13" />
+			</Components>
+			<CriticalComponent Subtype="LargeTube" Index="0" />
+		</Definition>
+		
+		<Definition xsi:type="MyObjectBuilder_ThrustDefinition">
+            <Id>
+                <TypeId>Thrust</TypeId>
+                <SubtypeId>STR100_Slope30_2</SubtypeId>
+			</Id>
+			<Components>
+				<Component Subtype="SteelPlate" Count="5" />
+				<Component Subtype="Construction" Count="25" />
+				<Component Subtype="MetalGrid" Count="10" />
+				<Component Subtype="LargeTube" Count="5" />
+				<Component Subtype="Construction" Count="13" />
+				<Component Subtype="SteelPlate" Count="13" />
+			</Components>
+			<CriticalComponent Subtype="LargeTube" Index="0" />
+		</Definition>
+		
+		<Definition xsi:type="MyObjectBuilder_ThrustDefinition">
+            <Id>
+                <TypeId>Thrust</TypeId>
+                <SubtypeId>STR100_Slope30_3</SubtypeId>
+			</Id>
+			<Components>
+				<Component Subtype="SteelPlate" Count="5" />
+				<Component Subtype="Construction" Count="25" />
+				<Component Subtype="MetalGrid" Count="10" />
+				<Component Subtype="LargeTube" Count="5" />
+				<Component Subtype="Construction" Count="13" />
+				<Component Subtype="SteelPlate" Count="13" />
+			</Components>
+			<CriticalComponent Subtype="LargeTube" Index="0" />
+		</Definition>
+		
+		<Definition xsi:type="MyObjectBuilder_ThrustDefinition">
+            <Id>
+                <TypeId>Thrust</TypeId>
+                <SubtypeId>STR100_Slope45_1</SubtypeId>
+			</Id>
+			<Components>
+				<Component Subtype="SteelPlate" Count="5" />
+				<Component Subtype="Construction" Count="25" />
+				<Component Subtype="MetalGrid" Count="10" />
+				<Component Subtype="LargeTube" Count="5" />
+				<Component Subtype="Construction" Count="13" />
+				<Component Subtype="SteelPlate" Count="13" />
+			</Components>
+			<CriticalComponent Subtype="LargeTube" Index="0" />
+		</Definition>
+		
+		<Definition xsi:type="MyObjectBuilder_ThrustDefinition">
+            <Id>
+                <TypeId>Thrust</TypeId>
+                <SubtypeId>STR100_Slope45_2</SubtypeId>
+			</Id>
+			<Components>
+				<Component Subtype="SteelPlate" Count="5" />
+				<Component Subtype="Construction" Count="25" />
+				<Component Subtype="MetalGrid" Count="10" />
+				<Component Subtype="LargeTube" Count="5" />
+				<Component Subtype="Construction" Count="13" />
+				<Component Subtype="SteelPlate" Count="13" />
+			</Components>
+			<CriticalComponent Subtype="LargeTube" Index="0" />
+		</Definition>
+		
+		
+		<!--Stribog-200-->
+		<Definition xsi:type="MyObjectBuilder_ThrustDefinition">
+			<Id>
+				<TypeId>Thrust</TypeId>
+				<SubtypeId>STR200_Clean</SubtypeId>
+			</Id>
+			<Components>
+				<Component Subtype="SteelPlate" Count="10" />
+				<Component Subtype="Construction" Count="50" />
+				<Component Subtype="MetalGrid" Count="20" />
+				<Component Subtype="LargeTube" Count="10" />
+				<Component Subtype="Construction" Count="25" />
+				<Component Subtype="SteelPlate" Count="25" />
+			</Components>
+			<CriticalComponent Subtype="LargeTube" Index="0" />
+		</Definition>
+		
+		
+		<!--Stribog-300-->
+		<Definition xsi:type="MyObjectBuilder_ThrustDefinition">
+			<Id>
+				<TypeId>Thrust</TypeId>
+				<SubtypeId>STR300_Clean</SubtypeId>
+			</Id>
+			<Components>
+				<Component Subtype="SteelPlate" Count="50" />
+				<Component Subtype="Construction" Count="50" />
+				<Component Subtype="MetalGrid" Count="55" />
+				<Component Subtype="LargeTube" Count="25" />
+				<Component Subtype="Construction" Count="25" />
+				<Component Subtype="SteelPlate" Count="25" />
+			</Components>
+			<CriticalComponent Subtype="LargeTube" Index="0" />
+		</Definition>
+		
+		
+		<!--Stribog-350-->
+		<Definition xsi:type="MyObjectBuilder_ThrustDefinition">
+			<Id>
+				<TypeId>Thrust</TypeId>
+				<SubtypeId>STR350_Clean</SubtypeId>
+			</Id>
+			<Components>
+				<Component Subtype="SteelPlate" Count="19" />
+				<Component Subtype="Construction" Count="50" />
+				<Component Subtype="MetalGrid" Count="50" />
+				<Component Subtype="LargeTube" Count="10" />
+				<Component Subtype="Construction" Count="25" />
+				<Component Subtype="SteelPlate" Count="13" />
+			</Components>
+			<CriticalComponent Subtype="LargeTube" Index="0" />
+		</Definition>
+		
+		<Definition xsi:type="MyObjectBuilder_ThrustDefinition">
+			<Id>
+				<TypeId>Thrust</TypeId>
+				<SubtypeId>STR350_Flat</SubtypeId>
+			</Id>
+			<Components>
+				<Component Subtype="SteelPlate" Count="19" />
+				<Component Subtype="Construction" Count="50" />
+				<Component Subtype="MetalGrid" Count="50" />
+				<Component Subtype="LargeTube" Count="10" />
+				<Component Subtype="Construction" Count="25" />
+				<Component Subtype="SteelPlate" Count="13" />
+			</Components>
+			<CriticalComponent Subtype="LargeTube" Index="0" />
+		</Definition>
+		
+		<Definition xsi:type="MyObjectBuilder_ThrustDefinition">
+			<Id>
+				<TypeId>Thrust</TypeId>
+				<SubtypeId>STR350_Slope30_1</SubtypeId>
+			</Id>
+			<Components>
+				<Component Subtype="SteelPlate" Count="19" />
+				<Component Subtype="Construction" Count="50" />
+				<Component Subtype="MetalGrid" Count="50" />
+				<Component Subtype="LargeTube" Count="10" />
+				<Component Subtype="Construction" Count="25" />
+				<Component Subtype="SteelPlate" Count="13" />
+			</Components>
+			<CriticalComponent Subtype="LargeTube" Index="0" />
+		</Definition>
+		
+		<Definition xsi:type="MyObjectBuilder_ThrustDefinition">
+			<Id>
+				<TypeId>Thrust</TypeId>
+				<SubtypeId>STR350_Slope30_2</SubtypeId>
+			</Id>
+			<Components>
+				<Component Subtype="SteelPlate" Count="19" />
+				<Component Subtype="Construction" Count="50" />
+				<Component Subtype="MetalGrid" Count="50" />
+				<Component Subtype="LargeTube" Count="10" />
+				<Component Subtype="Construction" Count="25" />
+				<Component Subtype="SteelPlate" Count="13" />
+			</Components>
+			<CriticalComponent Subtype="LargeTube" Index="0" />
+		</Definition>
+		
+		<Definition xsi:type="MyObjectBuilder_ThrustDefinition">
+			<Id>
+				<TypeId>Thrust</TypeId>
+				<SubtypeId>STR350_Slope30_3</SubtypeId>
+			</Id>
+			<Components>
+				<Component Subtype="SteelPlate" Count="19" />
+				<Component Subtype="Construction" Count="50" />
+				<Component Subtype="MetalGrid" Count="50" />
+				<Component Subtype="LargeTube" Count="10" />
+				<Component Subtype="Construction" Count="25" />
+				<Component Subtype="SteelPlate" Count="13" />
+			</Components>
+			<CriticalComponent Subtype="LargeTube" Index="0" />
+		</Definition>
+		
+		
+		<!--Stribog-400-->
+		<Definition xsi:type="MyObjectBuilder_ThrustDefinition">
+			<Id>
+				<TypeId>Thrust</TypeId>
+				<SubtypeId>STR400_Clean</SubtypeId>
+			</Id>
+			<Components>
+				<Component Subtype="SteelPlate" Count="38" />
+				<Component Subtype="Construction" Count="100" />
+				<Component Subtype="MetalGrid" Count="100" />
+				<Component Subtype="LargeTube" Count="20" />
+				<Component Subtype="Construction" Count="50" />
+				<Component Subtype="SteelPlate" Count="25" />
+			</Components>
+			<CriticalComponent Subtype="LargeTube" Index="0" />
+		</Definition>
+		
+		<Definition xsi:type="MyObjectBuilder_ThrustDefinition">
+			<Id>
+				<TypeId>Thrust</TypeId>
+				<SubtypeId>STR400_Flat</SubtypeId>
+			</Id>
+			<Components>
+				<Component Subtype="SteelPlate" Count="38" />
+				<Component Subtype="Construction" Count="100" />
+				<Component Subtype="MetalGrid" Count="100" />
+				<Component Subtype="LargeTube" Count="20" />
+				<Component Subtype="Construction" Count="50" />
+				<Component Subtype="SteelPlate" Count="25" />
+			</Components>
+			<CriticalComponent Subtype="LargeTube" Index="0" />
+		</Definition>
+		
+		<Definition xsi:type="MyObjectBuilder_ThrustDefinition">
+			<Id>
+				<TypeId>Thrust</TypeId>
+				<SubtypeId>STR400_Slope30_1</SubtypeId>
+			</Id>
+			<Components>
+				<Component Subtype="SteelPlate" Count="38" />
+				<Component Subtype="Construction" Count="100" />
+				<Component Subtype="MetalGrid" Count="100" />
+				<Component Subtype="LargeTube" Count="20" />
+				<Component Subtype="Construction" Count="50" />
+				<Component Subtype="SteelPlate" Count="25" />
+			</Components>
+			<CriticalComponent Subtype="LargeTube" Index="0" />
+		</Definition>
+		
+		<Definition xsi:type="MyObjectBuilder_ThrustDefinition">
+			<Id>
+				<TypeId>Thrust</TypeId>
+				<SubtypeId>STR400_Slope30_2</SubtypeId>
+			</Id>
+			<Components>
+				<Component Subtype="SteelPlate" Count="38" />
+				<Component Subtype="Construction" Count="100" />
+				<Component Subtype="MetalGrid" Count="100" />
+				<Component Subtype="LargeTube" Count="20" />
+				<Component Subtype="Construction" Count="50" />
+				<Component Subtype="SteelPlate" Count="25" />
+			</Components>
+			<CriticalComponent Subtype="LargeTube" Index="0" />
+		</Definition>
+		
+		<Definition xsi:type="MyObjectBuilder_ThrustDefinition">
+			<Id>
+				<TypeId>Thrust</TypeId>
+				<SubtypeId>STR400_Slope30_3</SubtypeId>
+			</Id>
+			<Components>
+				<Component Subtype="SteelPlate" Count="38" />
+				<Component Subtype="Construction" Count="100" />
+				<Component Subtype="MetalGrid" Count="100" />
+				<Component Subtype="LargeTube" Count="20" />
+				<Component Subtype="Construction" Count="50" />
+				<Component Subtype="SteelPlate" Count="25" />
+			</Components>
+			<CriticalComponent Subtype="LargeTube" Index="0" />
+		</Definition>
+		
+		<Definition xsi:type="MyObjectBuilder_ThrustDefinition">
+			<Id>
+				<TypeId>Thrust</TypeId>
+				<SubtypeId>STR400_Slope45_1</SubtypeId>
+			</Id>
+			<Components>
+				<Component Subtype="SteelPlate" Count="38" />
+				<Component Subtype="Construction" Count="100" />
+				<Component Subtype="MetalGrid" Count="100" />
+				<Component Subtype="LargeTube" Count="20" />
+				<Component Subtype="Construction" Count="50" />
+				<Component Subtype="SteelPlate" Count="25" />
+			</Components>
+			<CriticalComponent Subtype="LargeTube" Index="0" />
+		</Definition>
+		
+		<Definition xsi:type="MyObjectBuilder_ThrustDefinition">
+			<Id>
+				<TypeId>Thrust</TypeId>
+				<SubtypeId>STR400_Slope45_2</SubtypeId>
+			</Id>
+			<Components>
+				<Component Subtype="SteelPlate" Count="38" />
+				<Component Subtype="Construction" Count="100" />
+				<Component Subtype="MetalGrid" Count="100" />
+				<Component Subtype="LargeTube" Count="20" />
+				<Component Subtype="Construction" Count="50" />
+				<Component Subtype="SteelPlate" Count="25" />
+			</Components>
+			<CriticalComponent Subtype="LargeTube" Index="0" />
+		</Definition>
+		
+		
+		<!--Stribog-500-->
+		<Definition xsi:type="MyObjectBuilder_ThrustDefinition">
+			<Id>
+				<TypeId>Thrust</TypeId>
+				<SubtypeId>STR500_Clean</SubtypeId>
+			</Id>
+			<Components>
+				<Component Subtype="SteelPlate" Count="75" />
+				<Component Subtype="Construction" Count="200" />
+				<Component Subtype="MetalGrid" Count="200" />
+				<Component Subtype="LargeTube" Count="40" />
+				<Component Subtype="Construction" Count="100" />
+				<Component Subtype="SteelPlate" Count="50" />
+			</Components>
+			<CriticalComponent Subtype="LargeTube" Index="0" />
+		</Definition>
+		
+		
+		<!--Stribog-550-->	
+		<Definition xsi:type="MyObjectBuilder_ThrustDefinition">
+			<Id>
+				<TypeId>Thrust</TypeId>
+				<SubtypeId>STR550_Clean</SubtypeId>
+			</Id>
+			<Components>
+				<Component Subtype="SteelPlate" Count="125" />
+				<Component Subtype="Construction" Count="188" />
+				<Component Subtype="MetalGrid" Count="313" />
+				<Component Subtype="LargeTube" Count="50" />
+				<Component Subtype="Construction" Count="38" />
+				<Component Subtype="SteelPlate" Count="63" />
+			</Components>
+			<CriticalComponent Subtype="LargeTube" Index="0" />
+		</Definition>		
+		
+		<Definition xsi:type="MyObjectBuilder_ThrustDefinition">
+			<Id>
+				<TypeId>Thrust</TypeId>
+				<SubtypeId>STR550_Flat</SubtypeId>
+			</Id>
+			<Components>
+				<Component Subtype="SteelPlate" Count="125" />
+				<Component Subtype="Construction" Count="188" />
+				<Component Subtype="MetalGrid" Count="313" />
+				<Component Subtype="LargeTube" Count="50" />
+				<Component Subtype="Construction" Count="38" />
+				<Component Subtype="SteelPlate" Count="63" />
+			</Components>
+			<CriticalComponent Subtype="LargeTube" Index="0" />
+		</Definition>		
+		
+		
+		<!--Stribog-600-->
+		<Definition xsi:type="MyObjectBuilder_ThrustDefinition">
+			<Id>
+				<TypeId>Thrust</TypeId>
+				<SubtypeId>STR600_Clean</SubtypeId>
+			</Id>
+			<Components>
+				<Component Subtype="SteelPlate" Count="250" />
+				<Component Subtype="Construction" Count="375" />
+				<Component Subtype="MetalGrid" Count="625" />
+				<Component Subtype="LargeTube" Count="100" />
+				<Component Subtype="Construction" Count="75" />
+				<Component Subtype="SteelPlate" Count="125" />
+			</Components>
+			<CriticalComponent Subtype="LargeTube" Index="0" />
+		</Definition>
+		
+		<!--Stribog-700-->
+		<Definition xsi:type="MyObjectBuilder_ThrustDefinition">
+			<Id>
+				<TypeId>Thrust</TypeId>
+				<SubtypeId>STR700_Clean</SubtypeId>
+			</Id>
+			<Components>
+				<Component Subtype="SteelPlate" Count="500" />
+				<Component Subtype="Construction" Count="740" />
+				<Component Subtype="MetalGrid" Count="1250" />
+				<Component Subtype="LargeTube" Count="200" />
+				<Component Subtype="Construction" Count="150" />
+				<Component Subtype="SteelPlate" Count="250" />
+			</Components>
+			<CriticalComponent Subtype="LargeTube" Index="0" />
+		</Definition>
+		
+		<!--Stribog-800-->
+		<Definition xsi:type="MyObjectBuilder_ThrustDefinition">
+			<Id>
+				<TypeId>Thrust</TypeId>
+				<SubtypeId>STR800_Clean</SubtypeId>
+			</Id>
+			<Components>
+				<Component Subtype="SteelPlate" Count="2500" />
+				<Component Subtype="Construction" Count="1500" />
+				<Component Subtype="MetalGrid" Count="2500" />
+				<Component Subtype="LargeTube" Count="350" />
+				<Component Subtype="Construction" Count="200" />
+				<Component Subtype="SteelPlate" Count="300" />
+			</Components>
+			<CriticalComponent Subtype="LargeTube" Index="0" />
+		</Definition>
+		
+	</CubeBlocks>
+</Definitions>	

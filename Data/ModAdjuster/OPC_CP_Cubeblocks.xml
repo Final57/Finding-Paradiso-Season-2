@@ -1,0 +1,341 @@
+<?xml version="1.0" ?>
+<Definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+	<CubeBlocks>		
+		<!--Wheels-->
+		<!--Taurus-XS-->
+        <Definition xsi:type="MyObjectBuilder_MotorSuspensionDefinition">
+            <Id>
+                <TypeId>MotorSuspension</TypeId>
+                <SubtypeId>SmallTRSXShortSuspension2x2</SubtypeId>
+			</Id>
+            <Components>
+                <Component Subtype="SteelPlate" Count="3" />
+                <Component Subtype="Construction" Count="5" />
+                <Component Subtype="SmallTube" Count="2" />
+                <Component Subtype="Motor" Count="1" />
+                <Component Subtype="SteelPlate" Count="2" />
+			</Components>
+            <CriticalComponent Subtype="SmallTube" Index="0" />
+		</Definition>
+		
+		<Definition>
+			<Id>
+				<TypeId>Wheel</TypeId>
+				<SubtypeId>SmallBlockTRSXSuspensionWheel</SubtypeId>
+			</Id>
+			<Components>
+				<Component Subtype="SteelPlate" Count="3" />
+				<Component Subtype="Construction" Count="15" />
+				<Component Subtype="LargeTube" Count="3" />
+				<Component Subtype="SteelPlate" Count="5" />
+			</Components>
+			<CriticalComponent Subtype="LargeTube" Index="0" />
+		</Definition>			
+		
+		<!--Taurus-S-->
+        <Definition xsi:type="MyObjectBuilder_MotorSuspensionDefinition">
+            <Id>
+                <TypeId>MotorSuspension</TypeId>
+                <SubtypeId>SmallTRSSShortSuspension2x2</SubtypeId>
+			</Id>
+            <Components>
+                <Component Subtype="SteelPlate" Count="3" />
+                <Component Subtype="Construction" Count="5" />
+                <Component Subtype="SmallTube" Count="2" />
+                <Component Subtype="Motor" Count="1" />
+                <Component Subtype="SteelPlate" Count="2" />
+			</Components>
+            <CriticalComponent Subtype="SmallTube" Index="0" />
+		</Definition>
+		
+		<Definition>
+			<Id>
+				<TypeId>Wheel</TypeId>
+				<SubtypeId>SmallBlockTRSSSuspensionWheel</SubtypeId>
+			</Id>
+			<Components>
+				<Component Subtype="SteelPlate" Count="4" />
+				<Component Subtype="Construction" Count="20" />
+				<Component Subtype="LargeTube" Count="4" />
+				<Component Subtype="SteelPlate" Count="4" />
+			</Components>
+			<CriticalComponent Subtype="LargeTube" Index="0" />
+		</Definition>			
+		
+		<!--Taurus-M-->
+        <Definition xsi:type="MyObjectBuilder_MotorSuspensionDefinition">
+            <Id>
+                <TypeId>MotorSuspension</TypeId>
+                <SubtypeId>SmallTRSMShortSuspension2x2</SubtypeId>
+			</Id>
+            <Components>
+                <Component Subtype="SteelPlate" Count="3" />
+                <Component Subtype="Construction" Count="5" />
+                <Component Subtype="SmallTube" Count="2" />
+                <Component Subtype="Motor" Count="1" />
+                <Component Subtype="SteelPlate" Count="2" />
+			</Components>
+            <CriticalComponent Subtype="SmallTube" Index="0" />
+		</Definition>
+		
+		<Definition>
+			<Id>
+				<TypeId>Wheel</TypeId>
+				<SubtypeId>SmallBlockTRSMSuspensionWheel</SubtypeId>
+			</Id>
+			<Components>
+				<Component Subtype="SteelPlate" Count="10" />
+				<Component Subtype="Construction" Count="20" />
+				<Component Subtype="LargeTube" Count="10" />
+				<Component Subtype="SteelPlate" Count="4" />
+			</Components>
+			<CriticalComponent Subtype="LargeTube" Index="0" />
+		</Definition>
+		
+		
+		<!--Quasar-XS-->
+		<Definition xsi:type="MyObjectBuilder_MotorSuspensionDefinition">
+			<Id>
+                <TypeId>MotorSuspension</TypeId>
+                <SubtypeId>SmallQSRXShortSuspension2x2</SubtypeId>
+			</Id>
+            <Components>
+                <Component Subtype="SteelPlate" Count="3" />
+                <Component Subtype="Construction" Count="5" />
+                <Component Subtype="SmallTube" Count="2" />
+                <Component Subtype="Motor" Count="1" />
+                <Component Subtype="SteelPlate" Count="2" />
+			</Components>
+            <CriticalComponent Subtype="SmallTube" Index="0" />
+		</Definition>
+		
+		<Definition>
+			<Id>
+				<TypeId>Wheel</TypeId>
+				<SubtypeId>SmallBlockQSRXSuspensionWheel</SubtypeId>
+			</Id>
+			<Components>
+				<Component Subtype="SteelPlate" Count="3" />
+				<Component Subtype="Construction" Count="15" />
+				<Component Subtype="LargeTube" Count="3" />
+				<Component Subtype="SteelPlate" Count="5" />
+			</Components>
+			<CriticalComponent Subtype="LargeTube" Index="0" />
+		</Definition>
+		
+		<!--Quasar-S-->
+		<Definition xsi:type="MyObjectBuilder_MotorSuspensionDefinition">
+			<Id>
+                <TypeId>MotorSuspension</TypeId>
+                <SubtypeId>SmallQSRSShortSuspension2x2</SubtypeId>
+			</Id>
+            <Components>
+                <Component Subtype="SteelPlate" Count="3" />
+                <Component Subtype="Construction" Count="5" />
+                <Component Subtype="SmallTube" Count="2" />
+                <Component Subtype="Motor" Count="1" />
+                <Component Subtype="SteelPlate" Count="2" />
+			</Components>
+            <CriticalComponent Subtype="SmallTube" Index="0" />
+		</Definition>
+		
+		<Definition>
+			<Id>
+				<TypeId>Wheel</TypeId>
+				<SubtypeId>SmallBlockQSRSSuspensionWheel</SubtypeId>
+			</Id>
+			<Components>
+				<Component Subtype="SteelPlate" Count="4" />
+				<Component Subtype="Construction" Count="20" />
+				<Component Subtype="LargeTube" Count="4" />
+				<Component Subtype="SteelPlate" Count="4" />
+			</Components>
+			<CriticalComponent Subtype="LargeTube" Index="0" />
+		</Definition>
+		
+		<!--Quasar-M-->
+        <Definition xsi:type="MyObjectBuilder_MotorSuspensionDefinition">
+            <Id>
+                <TypeId>MotorSuspension</TypeId>
+                <SubtypeId>SmallQSRMShortSuspension2x2</SubtypeId>
+			</Id>
+            <Components>
+                <Component Subtype="SteelPlate" Count="3" />
+                <Component Subtype="Construction" Count="5" />
+                <Component Subtype="SmallTube" Count="2" />
+                <Component Subtype="Motor" Count="1" />
+                <Component Subtype="SteelPlate" Count="2" />
+			</Components>
+            <CriticalComponent Subtype="SmallTube" Index="0" />
+		</Definition>
+		
+		<Definition>
+			<Id>
+				<TypeId>Wheel</TypeId>
+				<SubtypeId>SmallBlockQSRMSuspensionWheel</SubtypeId>
+			</Id>
+			<Components>
+				<Component Subtype="SteelPlate" Count="10" />
+				<Component Subtype="Construction" Count="20" />
+				<Component Subtype="LargeTube" Count="10" />
+				<Component Subtype="SteelPlate" Count="4" />
+			</Components>
+			<CriticalComponent Subtype="LargeTube" Index="0" />
+		</Definition>		
+		
+		
+		<!--Ursa-XS-->
+		<Definition xsi:type="MyObjectBuilder_MotorSuspensionDefinition">
+            <Id>
+                <TypeId>MotorSuspension</TypeId>
+                <SubtypeId>SmallURSXShortSuspension2x2</SubtypeId>
+			</Id>
+            <Components>
+                <Component Subtype="SteelPlate" Count="3" />
+                <Component Subtype="Construction" Count="5" />
+                <Component Subtype="SmallTube" Count="2" />
+                <Component Subtype="Motor" Count="1" />
+                <Component Subtype="SteelPlate" Count="2" />
+			</Components>
+            <CriticalComponent Subtype="SmallTube" Index="0" />
+		</Definition>
+		
+		<Definition>
+			<Id>
+				<TypeId>Wheel</TypeId>
+				<SubtypeId>SmallBlockURSXSuspensionWheel</SubtypeId>
+			</Id>
+			<Components>
+				<Component Subtype="SteelPlate" Count="3" />
+				<Component Subtype="MetalGrid" Count="8" />
+				<Component Subtype="Construction" Count="15" />
+				<Component Subtype="LargeTube" Count="3" />
+				<Component Subtype="SteelPlate" Count="5" />
+			</Components>
+			<CriticalComponent Subtype="LargeTube" Index="0" />
+		</Definition>
+		
+		<!--Ursa-S-->
+		<Definition xsi:type="MyObjectBuilder_MotorSuspensionDefinition">
+            <Id>
+                <TypeId>MotorSuspension</TypeId>
+                <SubtypeId>SmallURSSShortSuspension2x2</SubtypeId>
+			</Id>
+            <Components>
+                <Component Subtype="SteelPlate" Count="3" />
+                <Component Subtype="Construction" Count="5" />
+                <Component Subtype="SmallTube" Count="2" />
+                <Component Subtype="Motor" Count="1" />
+                <Component Subtype="SteelPlate" Count="2" />
+			</Components>
+            <CriticalComponent Subtype="SmallTube" Index="0" />
+		</Definition>
+		
+		<Definition>
+			<Id>
+				<TypeId>Wheel</TypeId>
+				<SubtypeId>SmallBlockURSSSuspensionWheel</SubtypeId>
+			</Id>
+			<Components>
+				<Component Subtype="SteelPlate" Count="4" />
+				<Component Subtype="MetalGrid" Count="12" />
+				<Component Subtype="Construction" Count="20" />
+				<Component Subtype="LargeTube" Count="4" />
+				<Component Subtype="SteelPlate" Count="4" />
+			</Components>
+			<CriticalComponent Subtype="LargeTube" Index="0" />
+		</Definition>
+		
+		<!--Ursa-M-->
+		<Definition xsi:type="MyObjectBuilder_MotorSuspensionDefinition">
+            <Id>
+                <TypeId>MotorSuspension</TypeId>
+                <SubtypeId>SmallURSMShortSuspension2x2</SubtypeId>
+			</Id>
+            <Components>
+                <Component Subtype="SteelPlate" Count="3" />
+                <Component Subtype="Construction" Count="5" />
+                <Component Subtype="SmallTube" Count="2" />
+                <Component Subtype="Motor" Count="1" />
+                <Component Subtype="SteelPlate" Count="2" />
+			</Components>
+            <CriticalComponent Subtype="SmallTube" Index="0" />
+		</Definition>
+		
+		<Definition>
+			<Id>
+				<TypeId>Wheel</TypeId>
+				<SubtypeId>SmallBlockURSMSuspensionWheel</SubtypeId>
+			</Id>
+			<Components>
+				<Component Subtype="SteelPlate" Count="4" />
+				<Component Subtype="MetalGrid" Count="20" />
+				<Component Subtype="Construction" Count="20" />
+				<Component Subtype="LargeTube" Count="4" />
+				<Component Subtype="SteelPlate" Count="4" />
+			</Components>
+			<CriticalComponent Subtype="LargeTube" Index="0" />
+		</Definition>
+		
+		
+		<!--Phoenix-XS-->
+		<Definition xsi:type="MyObjectBuilder_MotorSuspensionDefinition">
+            <Id>
+                <TypeId>MotorSuspension</TypeId>
+                <SubtypeId>SmallPNXXShortSuspension2x2</SubtypeId>
+			</Id>
+            <Components>
+                <Component Subtype="SteelPlate" Count="3" />
+                <Component Subtype="Construction" Count="5" />
+                <Component Subtype="SmallTube" Count="2" />
+                <Component Subtype="Motor" Count="1" />
+                <Component Subtype="SteelPlate" Count="2" />
+			</Components>
+            <CriticalComponent Subtype="SmallTube" Index="0" />
+		</Definition>
+		
+		<Definition>
+			<Id>
+				<TypeId>Wheel</TypeId>
+				<SubtypeId>SmallBlockPNXXSuspensionWheel</SubtypeId>
+			</Id>
+			<Components>
+				<Component Subtype="SteelPlate" Count="4" />
+				<Component Subtype="Construction" Count="20" />
+				<Component Subtype="LargeTube" Count="4" />
+				<Component Subtype="SteelPlate" Count="4" />
+			</Components>
+			<CriticalComponent Subtype="LargeTube" Index="0" />
+		</Definition>	
+		
+		<!--Phoenix-S-->
+		<Definition xsi:type="MyObjectBuilder_MotorSuspensionDefinition">
+            <Id>
+                <TypeId>MotorSuspension</TypeId>
+                <SubtypeId>SmallPNXSShortSuspension2x2</SubtypeId>
+			</Id>
+            <Components>
+                <Component Subtype="SteelPlate" Count="3" />
+                <Component Subtype="Construction" Count="5" />
+                <Component Subtype="SmallTube" Count="2" />
+                <Component Subtype="Motor" Count="1" />
+                <Component Subtype="SteelPlate" Count="2" />
+			</Components>
+            <CriticalComponent Subtype="SmallTube" Index="0" />
+		</Definition>
+		
+		<Definition>
+			<Id>
+				<TypeId>Wheel</TypeId>
+				<SubtypeId>SmallBlockPNXSSuspensionWheel</SubtypeId>
+			</Id>
+			<Components>
+				<Component Subtype="SteelPlate" Count="3" />
+				<Component Subtype="Construction" Count="15" />
+				<Component Subtype="LargeTube" Count="3" />
+				<Component Subtype="SteelPlate" Count="5" />
+			</Components>
+			<CriticalComponent Subtype="LargeTube" Index="0" />
+		</Definition>
+	</CubeBlocks>
+</Definitions>
