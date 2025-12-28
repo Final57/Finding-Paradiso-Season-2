@@ -50,7 +50,7 @@
   <EnableReloadModifier>false</EnableReloadModifier>
   <ReloadModifier>1</ReloadModifier>
   <BlockLimits>
-    <Name>Weapons</Name>
+    <Name>Weaponry</Name>
     <BlockGroups>Weaponry</BlockGroups>
     <MaxCount>8</MaxCount>
     <TurnedOffByNoFlyZone>true</TurnedOffByNoFlyZone>

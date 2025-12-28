@@ -2,7 +2,7 @@
 <Definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
     <BlockVariantGroups>
         <BlockVariantGroup>
-            <Id Type="MyObjectBuilder_BlockVariantGroup" Subtype="Station Cores" />
+            <Id Type="MyObjectBuilder_BlockVariantGroup" Subtype="General_Cores" />
             <Icon>Textures\LargeGridCore.png</Icon>
             <DisplayName>General Cores</DisplayName>
             <Description>Basic Starting cores for ships and bases.</Description>
@@ -11,20 +11,11 @@
                 <Block Type="MyObjectBuilder_Beacon" Subtype="SG_General_Core" />
                 <Block Type="MyObjectBuilder_Beacon" Subtype="LG_Scrap_Core" />
                 <Block Type="MyObjectBuilder_Beacon" Subtype="SG_Scrap_Core" />
+                <Block Type="MyObjectBuilder_Beacon" Subtype="Drill_Static_Core" />
             </Blocks>
         </BlockVariantGroup>
         <BlockVariantGroup>
-            <Id Type="MyObjectBuilder_BlockVariantGroup" Subtype="Heavy Cores" />
-            <Icon>Textures\LargeGridCore.png</Icon>
-            <DisplayName>Heavy Cores</DisplayName>
-            <Description>Heavy Cores, large grids with specific combat functions.</Description>
-            <Blocks>
-                      
-            </Blocks>
-        </BlockVariantGroup>
-        </BlockVariantGroup>
-        <BlockVariantGroup>
-            <Id Type="MyObjectBuilder_BlockVariantGroup" Subtype="Light Cores" />
+            <Id Type="MyObjectBuilder_BlockVariantGroup" Subtype="Light_Cores" />
             <Icon>Textures\LargeGridCore.png</Icon>
             <DisplayName>Light Cores</DisplayName>
             <Description>Heavy Cores, small grids with specific combat functions.</Description>
@@ -34,17 +25,7 @@
             </Blocks>
         </BlockVariantGroup>
         <BlockVariantGroup>
-            <Id Type="MyObjectBuilder_BlockVariantGroup" Subtype="Utility Cores" />
-            <Icon>Textures\LargeGridCore.png</Icon>
-            <DisplayName>Utility Cores</DisplayName>
-            <Description>Cores for Specific utilities.</Description>
-            <Blocks>
-              
-            </Blocks>
-        </BlockVariantGroup>
-        
-        <BlockVariantGroup>
-            <Id Type="MyObjectBuilder_BlockVariantGroup" Subtype="Core Modules" />
+            <Id Type="MyObjectBuilder_BlockVariantGroup" Subtype="Core_Modules" />
             <Icon>Textures\LargeGridCore.png</Icon>
             <DisplayName>Core Upgrade Modules</DisplayName>
             <Description>Support Modules to increase specific aspects of a Core's particular boosts.</Description>
@@ -55,5 +36,23 @@
                 <Block Type="MyObjectBuilder_Beacon" Subtype="SG_Ship_Core_Module_Mobility" />               
             </Blocks>
         </BlockVariantGroup>
+        <!--BlockVariantGroup>
+            <Id Type="MyObjectBuilder_BlockVariantGroup" Subtype="Heavy Cores" />
+            <Icon>Textures\LargeGridCore.png</Icon>
+            <DisplayName>Heavy Cores</DisplayName>
+            <Description>Heavy Cores, large grids with specific combat functions.</Description>
+            <Blocks>
+                      
+            </Blocks>
+        </BlockVariantGroup>
+        <BlockVariantGroup>
+            <Id Type="MyObjectBuilder_BlockVariantGroup" Subtype="Utility Cores" />
+            <Icon>Textures\LargeGridCore.png</Icon>
+            <DisplayName>Utility Cores</DisplayName>
+            <Description>Cores for Specific utilities.</Description>
+            <Blocks>
+            
+            </Blocks>
+        </BlockVariantGroup-->
     </BlockVariantGroups>
 </Definitions>

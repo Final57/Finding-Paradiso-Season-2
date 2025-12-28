@@ -30,7 +30,7 @@ A Space Engineers Mod and ModAdjusted Files
 - [x] Write Modadjuster compat for AQD Concrete
 - [x] Write Modadjuster compat for heavy XL blocks
 - [ ] Write Modadjuster compat for OmniArc Tools
-- [ ] Write Modadjuster compat for Consolidation Propulsion
+- [x] Write Modadjuster compat for Consolidation Propulsion
 - [ ] Write Modasjuster compat for Railway Builder
 - [ ] Write Modadjuster compat for Mothership blocks
 - [ ] Write modadjuster compat for AWE

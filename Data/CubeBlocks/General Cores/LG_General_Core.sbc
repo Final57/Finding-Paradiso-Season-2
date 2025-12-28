@@ -6,7 +6,7 @@
                 <TypeId>Beacon</TypeId>
                 <SubtypeId>LG_General_Core</SubtypeId>
             </Id>
-            <DisplayName>General Core</DisplayName>
+            <DisplayName>Large General Core</DisplayName>
             <Icon>Textures\LargeGridCore.dds</Icon>
             <Description>A Generic Vehicle or Static Base Core - Significant reduction in capabilities for low cost.</Description>
             <CubeSize>Large</CubeSize>

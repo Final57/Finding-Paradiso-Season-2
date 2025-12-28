@@ -6,7 +6,7 @@
                 <TypeId>Beacon</TypeId>
                 <SubtypeId>SG_General_Core</SubtypeId>
             </Id>
-            <DisplayName>General Core</DisplayName>
+            <DisplayName>Small General Core</DisplayName>
             <Icon>Textures\SmallGridCore.dds</Icon>
             <Description>A Generic Vehicle or Static Base Core - Significant reduction in capabilities for low cost.</Description>
             <CubeSize>Small</CubeSize>

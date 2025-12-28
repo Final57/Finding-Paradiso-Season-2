@@ -60,6 +60,7 @@
             <Components>
                 <Component Subtype="SteelPlate" Count="15" />
                 <Component Subtype="Construction" Count="40" />
+                <Component Subtype="MetalGrid" Count="8" />
                 <Component Subtype="LargeTube" Count="8" />
                 <Component Subtype="Thrust" Count="80" />
                 <Component Subtype="Construction" Count="20" />
@@ -76,6 +77,7 @@
             <Components>
                 <Component Subtype="SteelPlate" Count="15" />
                 <Component Subtype="Construction" Count="40" />
+                <Component Subtype="MetalGrid" Count="8" />
                 <Component Subtype="LargeTube" Count="8" />
                 <Component Subtype="Thrust" Count="80" />
                 <Component Subtype="Construction" Count="20" />
@@ -93,6 +95,7 @@
             <Components>
                 <Component Subtype="SteelPlate" Count="100" />
                 <Component Subtype="Construction" Count="70" />
+                <Component Subtype="MetalGrid" Count="20" />
                 <Component Subtype="LargeTube" Count="40" />
                 <Component Subtype="Thrust" Count="960" />
                 <Component Subtype="Construction" Count="30" />
@@ -110,6 +113,7 @@
             <Components>
                 <Component Subtype="SteelPlate" Count="300" />
                 <Component Subtype="Construction" Count="210" />
+                <Component Subtype="MetalGrid" Count="50" />
                 <Component Subtype="LargeTube" Count="120" />
                 <Component Subtype="Thrust" Count="3000" />
                 <Component Subtype="Construction" Count="90" />

@@ -13,10 +13,11 @@
 				<Component Subtype="Construction" Count="13" />
 				<Component Subtype="MetalGrid" Count="5" />
 				<Component Subtype="LargeTube" Count="3" />
+				<Component Subtype="Cryocooler" Count="1" />
 				<Component Subtype="Construction" Count="7" />
 				<Component Subtype="SteelPlate" Count="7" />
 			</Components>
-			<CriticalComponent Subtype="LargeTube" Index="0" />
+			<CriticalComponent Subtype="Cryocooler" Index="0" />
 		</Definition>
 		
 		<Definition xsi:type="MyObjectBuilder_ThrustDefinition">
@@ -29,10 +30,11 @@
 				<Component Subtype="Construction" Count="13" />
 				<Component Subtype="MetalGrid" Count="5" />
 				<Component Subtype="LargeTube" Count="3" />
+				<Component Subtype="Cryocooler" Count="1" />
 				<Component Subtype="Construction" Count="7" />
 				<Component Subtype="SteelPlate" Count="7" />
 			</Components>
-			<CriticalComponent Subtype="LargeTube" Index="0" />
+			<CriticalComponent Subtype="Cryocooler" Index="0" />
 		</Definition>
 		
 		<Definition xsi:type="MyObjectBuilder_ThrustDefinition">
@@ -45,10 +47,11 @@
 				<Component Subtype="Construction" Count="13" />
 				<Component Subtype="MetalGrid" Count="5" />
 				<Component Subtype="LargeTube" Count="3" />
+				<Component Subtype="Cryocooler" Count="1" />
 				<Component Subtype="Construction" Count="7" />
 				<Component Subtype="SteelPlate" Count="7" />
 			</Components>
-			<CriticalComponent Subtype="LargeTube" Index="0" />
+			<CriticalComponent Subtype="Cryocooler" Index="0" />
 		</Definition>
 		
 		<Definition xsi:type="MyObjectBuilder_ThrustDefinition">
@@ -61,10 +64,11 @@
 				<Component Subtype="Construction" Count="13" />
 				<Component Subtype="MetalGrid" Count="5" />
 				<Component Subtype="LargeTube" Count="3" />
+				<Component Subtype="Cryocooler" Count="1" />
 				<Component Subtype="Construction" Count="7" />
 				<Component Subtype="SteelPlate" Count="7" />
 			</Components>
-			<CriticalComponent Subtype="LargeTube" Index="0" />
+			<CriticalComponent Subtype="Cryocooler" Index="0" />
 		</Definition>
 		
 		<Definition xsi:type="MyObjectBuilder_ThrustDefinition">
@@ -77,10 +81,11 @@
 				<Component Subtype="Construction" Count="13" />
 				<Component Subtype="MetalGrid" Count="5" />
 				<Component Subtype="LargeTube" Count="3" />
+				<Component Subtype="Cryocooler" Count="1" />
 				<Component Subtype="Construction" Count="7" />
 				<Component Subtype="SteelPlate" Count="7" />
 			</Components>
-			<CriticalComponent Subtype="LargeTube" Index="0" />
+			<CriticalComponent Subtype="Cryocooler" Index="0" />
 		</Definition>
 		
 		
@@ -95,10 +100,11 @@
 				<Component Subtype="Construction" Count="25" />
 				<Component Subtype="MetalGrid" Count="10" />
 				<Component Subtype="LargeTube" Count="5" />
+				<Component Subtype="Cryocooler" Count="2" />
 				<Component Subtype="Construction" Count="13" />
 				<Component Subtype="SteelPlate" Count="13" />
 			</Components>
-			<CriticalComponent Subtype="LargeTube" Index="0" />
+			<CriticalComponent Subtype="Cryocooler" Index="0" />
 		</Definition>
 		
 		<Definition xsi:type="MyObjectBuilder_ThrustDefinition">
@@ -111,10 +117,11 @@
 				<Component Subtype="Construction" Count="25" />
 				<Component Subtype="MetalGrid" Count="10" />
 				<Component Subtype="LargeTube" Count="5" />
+				<Component Subtype="Cryocooler" Count="2" />
 				<Component Subtype="Construction" Count="13" />
 				<Component Subtype="SteelPlate" Count="13" />
 			</Components>
-			<CriticalComponent Subtype="LargeTube" Index="0" />
+			<CriticalComponent Subtype="Cryocooler" Index="0" />
 		</Definition>
 		
 		<Definition xsi:type="MyObjectBuilder_ThrustDefinition">
@@ -127,10 +134,11 @@
 				<Component Subtype="Construction" Count="25" />
 				<Component Subtype="MetalGrid" Count="10" />
 				<Component Subtype="LargeTube" Count="5" />
+				<Component Subtype="Cryocooler" Count="2" />
 				<Component Subtype="Construction" Count="13" />
 				<Component Subtype="SteelPlate" Count="13" />
 			</Components>
-			<CriticalComponent Subtype="LargeTube" Index="0" />
+			<CriticalComponent Subtype="Cryocooler" Index="0" />
 		</Definition>
 		
 		<Definition xsi:type="MyObjectBuilder_ThrustDefinition">
@@ -143,10 +151,11 @@
 				<Component Subtype="Construction" Count="25" />
 				<Component Subtype="MetalGrid" Count="10" />
 				<Component Subtype="LargeTube" Count="5" />
+				<Component Subtype="Cryocooler" Count="2" />
 				<Component Subtype="Construction" Count="13" />
 				<Component Subtype="SteelPlate" Count="13" />
 			</Components>
-			<CriticalComponent Subtype="LargeTube" Index="0" />
+			<CriticalComponent Subtype="Cryocooler" Index="0" />
 		</Definition>
 		
 		<Definition xsi:type="MyObjectBuilder_ThrustDefinition">
@@ -159,10 +168,11 @@
 				<Component Subtype="Construction" Count="25" />
 				<Component Subtype="MetalGrid" Count="10" />
 				<Component Subtype="LargeTube" Count="5" />
+				<Component Subtype="Cryocooler" Count="2" />
 				<Component Subtype="Construction" Count="13" />
 				<Component Subtype="SteelPlate" Count="13" />
 			</Components>
-			<CriticalComponent Subtype="LargeTube" Index="0" />
+			<CriticalComponent Subtype="Cryocooler" Index="0" />
 		</Definition>
 		
 		<Definition xsi:type="MyObjectBuilder_ThrustDefinition">
@@ -175,10 +185,11 @@
 				<Component Subtype="Construction" Count="25" />
 				<Component Subtype="MetalGrid" Count="10" />
 				<Component Subtype="LargeTube" Count="5" />
+				<Component Subtype="Cryocooler" Count="2" />
 				<Component Subtype="Construction" Count="13" />
 				<Component Subtype="SteelPlate" Count="13" />
 			</Components>
-			<CriticalComponent Subtype="LargeTube" Index="0" />
+			<CriticalComponent Subtype="Cryocooler" Index="0" />
 		</Definition>
 		
 		<Definition xsi:type="MyObjectBuilder_ThrustDefinition">
@@ -191,10 +202,11 @@
 				<Component Subtype="Construction" Count="25" />
 				<Component Subtype="MetalGrid" Count="10" />
 				<Component Subtype="LargeTube" Count="5" />
+				<Component Subtype="Cryocooler" Count="2" />
 				<Component Subtype="Construction" Count="13" />
 				<Component Subtype="SteelPlate" Count="13" />
 			</Components>
-			<CriticalComponent Subtype="LargeTube" Index="0" />
+			<CriticalComponent Subtype="Cryocooler" Index="0" />
 		</Definition>
 		
 		
@@ -209,10 +221,11 @@
 				<Component Subtype="Construction" Count="50" />
 				<Component Subtype="MetalGrid" Count="20" />
 				<Component Subtype="LargeTube" Count="10" />
+				<Component Subtype="Cryocooler" Count="4" />				
 				<Component Subtype="Construction" Count="25" />
 				<Component Subtype="SteelPlate" Count="25" />
 			</Components>
-			<CriticalComponent Subtype="LargeTube" Index="0" />
+			<CriticalComponent Subtype="Cryocooler" Index="0" />
 		</Definition>
 		
 		
@@ -227,10 +240,11 @@
 				<Component Subtype="Construction" Count="50" />
 				<Component Subtype="MetalGrid" Count="55" />
 				<Component Subtype="LargeTube" Count="25" />
+				<Component Subtype="Cryocooler" Count="4" />								
 				<Component Subtype="Construction" Count="25" />
 				<Component Subtype="SteelPlate" Count="25" />
 			</Components>
-			<CriticalComponent Subtype="LargeTube" Index="0" />
+			<CriticalComponent Subtype="Cryocooler" Index="0" />
 		</Definition>
 		
 		
@@ -245,10 +259,11 @@
 				<Component Subtype="Construction" Count="50" />
 				<Component Subtype="MetalGrid" Count="50" />
 				<Component Subtype="LargeTube" Count="10" />
+				<Component Subtype="Cryocooler" Count="4" />								
 				<Component Subtype="Construction" Count="25" />
 				<Component Subtype="SteelPlate" Count="13" />
 			</Components>
-			<CriticalComponent Subtype="LargeTube" Index="0" />
+			<CriticalComponent Subtype="Cryocooler" Index="0" />
 		</Definition>
 		
 		<Definition xsi:type="MyObjectBuilder_ThrustDefinition">
@@ -261,10 +276,11 @@
 				<Component Subtype="Construction" Count="50" />
 				<Component Subtype="MetalGrid" Count="50" />
 				<Component Subtype="LargeTube" Count="10" />
+				<Component Subtype="Cryocooler" Count="4" />								
 				<Component Subtype="Construction" Count="25" />
 				<Component Subtype="SteelPlate" Count="13" />
 			</Components>
-			<CriticalComponent Subtype="LargeTube" Index="0" />
+			<CriticalComponent Subtype="Cryocooler" Index="0" />
 		</Definition>
 		
 		<Definition xsi:type="MyObjectBuilder_ThrustDefinition">
@@ -277,10 +293,11 @@
 				<Component Subtype="Construction" Count="50" />
 				<Component Subtype="MetalGrid" Count="50" />
 				<Component Subtype="LargeTube" Count="10" />
+				<Component Subtype="Cryocooler" Count="4" />								
 				<Component Subtype="Construction" Count="25" />
 				<Component Subtype="SteelPlate" Count="13" />
 			</Components>
-			<CriticalComponent Subtype="LargeTube" Index="0" />
+			<CriticalComponent Subtype="Cryocooler" Index="0" />
 		</Definition>
 		
 		<Definition xsi:type="MyObjectBuilder_ThrustDefinition">
@@ -293,10 +310,11 @@
 				<Component Subtype="Construction" Count="50" />
 				<Component Subtype="MetalGrid" Count="50" />
 				<Component Subtype="LargeTube" Count="10" />
+				<Component Subtype="Cryocooler" Count="4" />								
 				<Component Subtype="Construction" Count="25" />
 				<Component Subtype="SteelPlate" Count="13" />
 			</Components>
-			<CriticalComponent Subtype="LargeTube" Index="0" />
+			<CriticalComponent Subtype="Cryocooler" Index="0" />
 		</Definition>
 		
 		<Definition xsi:type="MyObjectBuilder_ThrustDefinition">
@@ -309,10 +327,11 @@
 				<Component Subtype="Construction" Count="50" />
 				<Component Subtype="MetalGrid" Count="50" />
 				<Component Subtype="LargeTube" Count="10" />
+				<Component Subtype="Cryocooler" Count="4" />								
 				<Component Subtype="Construction" Count="25" />
 				<Component Subtype="SteelPlate" Count="13" />
 			</Components>
-			<CriticalComponent Subtype="LargeTube" Index="0" />
+			<CriticalComponent Subtype="Cryocooler" Index="0" />
 		</Definition>
 		
 		
@@ -327,10 +346,11 @@
 				<Component Subtype="Construction" Count="100" />
 				<Component Subtype="MetalGrid" Count="100" />
 				<Component Subtype="LargeTube" Count="20" />
+				<Component Subtype="Cryocooler" Count="8" />								
 				<Component Subtype="Construction" Count="50" />
 				<Component Subtype="SteelPlate" Count="25" />
 			</Components>
-			<CriticalComponent Subtype="LargeTube" Index="0" />
+			<CriticalComponent Subtype="Cryocooler" Index="0" />
 		</Definition>
 		
 		<Definition xsi:type="MyObjectBuilder_ThrustDefinition">
@@ -343,10 +363,11 @@
 				<Component Subtype="Construction" Count="100" />
 				<Component Subtype="MetalGrid" Count="100" />
 				<Component Subtype="LargeTube" Count="20" />
+				<Component Subtype="Cryocooler" Count="8" />												
 				<Component Subtype="Construction" Count="50" />
 				<Component Subtype="SteelPlate" Count="25" />
 			</Components>
-			<CriticalComponent Subtype="LargeTube" Index="0" />
+			<CriticalComponent Subtype="Cryocooler" Index="0" />
 		</Definition>
 		
 		<Definition xsi:type="MyObjectBuilder_ThrustDefinition">
@@ -359,10 +380,11 @@
 				<Component Subtype="Construction" Count="100" />
 				<Component Subtype="MetalGrid" Count="100" />
 				<Component Subtype="LargeTube" Count="20" />
+				<Component Subtype="Cryocooler" Count="8" />												
 				<Component Subtype="Construction" Count="50" />
 				<Component Subtype="SteelPlate" Count="25" />
 			</Components>
-			<CriticalComponent Subtype="LargeTube" Index="0" />
+			<CriticalComponent Subtype="Cryocooler" Index="0" />
 		</Definition>
 		
 		<Definition xsi:type="MyObjectBuilder_ThrustDefinition">
@@ -375,10 +397,11 @@
 				<Component Subtype="Construction" Count="100" />
 				<Component Subtype="MetalGrid" Count="100" />
 				<Component Subtype="LargeTube" Count="20" />
+				<Component Subtype="Cryocooler" Count="8" />												
 				<Component Subtype="Construction" Count="50" />
 				<Component Subtype="SteelPlate" Count="25" />
 			</Components>
-			<CriticalComponent Subtype="LargeTube" Index="0" />
+			<CriticalComponent Subtype="Cryocooler" Index="0" />
 		</Definition>
 		
 		<Definition xsi:type="MyObjectBuilder_ThrustDefinition">
@@ -391,10 +414,11 @@
 				<Component Subtype="Construction" Count="100" />
 				<Component Subtype="MetalGrid" Count="100" />
 				<Component Subtype="LargeTube" Count="20" />
+				<Component Subtype="Cryocooler" Count="8" />												
 				<Component Subtype="Construction" Count="50" />
 				<Component Subtype="SteelPlate" Count="25" />
 			</Components>
-			<CriticalComponent Subtype="LargeTube" Index="0" />
+			<CriticalComponent Subtype="Cryocooler" Index="0" />
 		</Definition>
 		
 		<Definition xsi:type="MyObjectBuilder_ThrustDefinition">
@@ -407,10 +431,11 @@
 				<Component Subtype="Construction" Count="100" />
 				<Component Subtype="MetalGrid" Count="100" />
 				<Component Subtype="LargeTube" Count="20" />
+				<Component Subtype="Cryocooler" Count="8" />												
 				<Component Subtype="Construction" Count="50" />
 				<Component Subtype="SteelPlate" Count="25" />
 			</Components>
-			<CriticalComponent Subtype="LargeTube" Index="0" />
+			<CriticalComponent Subtype="Cryocooler" Index="0" />
 		</Definition>
 		
 		<Definition xsi:type="MyObjectBuilder_ThrustDefinition">
@@ -423,10 +448,11 @@
 				<Component Subtype="Construction" Count="100" />
 				<Component Subtype="MetalGrid" Count="100" />
 				<Component Subtype="LargeTube" Count="20" />
+				<Component Subtype="Cryocooler" Count="8" />												
 				<Component Subtype="Construction" Count="50" />
 				<Component Subtype="SteelPlate" Count="25" />
 			</Components>
-			<CriticalComponent Subtype="LargeTube" Index="0" />
+			<CriticalComponent Subtype="Cryocooler" Index="0" />
 		</Definition>
 		
 		
@@ -441,10 +467,11 @@
 				<Component Subtype="Construction" Count="200" />
 				<Component Subtype="MetalGrid" Count="200" />
 				<Component Subtype="LargeTube" Count="40" />
+				<Component Subtype="Cryocooler" Count="20" />												
 				<Component Subtype="Construction" Count="100" />
 				<Component Subtype="SteelPlate" Count="50" />
 			</Components>
-			<CriticalComponent Subtype="LargeTube" Index="0" />
+			<CriticalComponent Subtype="Cryocooler" Index="0" />
 		</Definition>
 		
 		
@@ -459,10 +486,11 @@
 				<Component Subtype="Construction" Count="188" />
 				<Component Subtype="MetalGrid" Count="313" />
 				<Component Subtype="LargeTube" Count="50" />
+				<Component Subtype="Cryocooler" Count="20" />																
 				<Component Subtype="Construction" Count="38" />
 				<Component Subtype="SteelPlate" Count="63" />
 			</Components>
-			<CriticalComponent Subtype="LargeTube" Index="0" />
+			<CriticalComponent Subtype="Cryocooler" Index="0" />
 		</Definition>		
 		
 		<Definition xsi:type="MyObjectBuilder_ThrustDefinition">
@@ -475,10 +503,11 @@
 				<Component Subtype="Construction" Count="188" />
 				<Component Subtype="MetalGrid" Count="313" />
 				<Component Subtype="LargeTube" Count="50" />
+				<Component Subtype="Cryocooler" Count="20" />																
 				<Component Subtype="Construction" Count="38" />
 				<Component Subtype="SteelPlate" Count="63" />
 			</Components>
-			<CriticalComponent Subtype="LargeTube" Index="0" />
+			<CriticalComponent Subtype="Cryocooler" Index="0" />
 		</Definition>		
 		
 		
@@ -493,10 +522,11 @@
 				<Component Subtype="Construction" Count="375" />
 				<Component Subtype="MetalGrid" Count="625" />
 				<Component Subtype="LargeTube" Count="100" />
+				<Component Subtype="Cryocooler" Count="40" />
 				<Component Subtype="Construction" Count="75" />
 				<Component Subtype="SteelPlate" Count="125" />
 			</Components>
-			<CriticalComponent Subtype="LargeTube" Index="0" />
+			<CriticalComponent Subtype="Cryocooler" Index="0" />
 		</Definition>
 		
 		<!--Stribog-700-->
@@ -510,10 +540,11 @@
 				<Component Subtype="Construction" Count="740" />
 				<Component Subtype="MetalGrid" Count="1250" />
 				<Component Subtype="LargeTube" Count="200" />
+				<Component Subtype="Cryocooler" Count="80" />
 				<Component Subtype="Construction" Count="150" />
-				<Component Subtype="SteelPlate" Count="250" />
+				<Component Subtype="TitaniumPlate" Count="250" />
 			</Components>
-			<CriticalComponent Subtype="LargeTube" Index="0" />
+			<CriticalComponent Subtype="Cryocooler" Index="0" />
 		</Definition>
 		
 		<!--Stribog-800-->
@@ -527,10 +558,11 @@
 				<Component Subtype="Construction" Count="1500" />
 				<Component Subtype="MetalGrid" Count="2500" />
 				<Component Subtype="LargeTube" Count="350" />
+				<Component Subtype="Cryocooler" Count="150" />
 				<Component Subtype="Construction" Count="200" />
-				<Component Subtype="SteelPlate" Count="300" />
+				<Component Subtype="TitaniumPlate" Count="300" />
 			</Components>
-			<CriticalComponent Subtype="LargeTube" Index="0" />
+			<CriticalComponent Subtype="Cryocooler" Index="0" />
 		</Definition>
 		
 	</CubeBlocks>

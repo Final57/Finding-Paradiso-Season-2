@@ -49,13 +49,12 @@
   </ActiveDefenseModifiers>
   <EnableReloadModifier>false</EnableReloadModifier>
   <ReloadModifier>1</ReloadModifier>
-    <BlockLimits>
+  <BlockLimits>
     <Name>Static Drills</Name>
     <BlockGroups>Static Drills</BlockGroups>
     <MaxCount>1</MaxCount>
     <TurnedOffByNoFlyZone>true</TurnedOffByNoFlyZone>
     <PunishmentType>Delete</PunishmentType>
-    <AllowedDirections>Forward</AllowedDirections>
   </BlockLimits>
   <BlockLimits>
     <Name>Weapons</Name>
@@ -65,68 +64,53 @@
     <PunishmentType>Delete</PunishmentType>
     <AllowedDirections>Forward</AllowedDirections>
   </BlockLimits>
-    <BlockLimits>
+  <BlockLimits>
     <Name>Utility</Name>
     <BlockGroups>Utility</BlockGroups>
     <MaxCount>0</MaxCount>
     <TurnedOffByNoFlyZone>true</TurnedOffByNoFlyZone>
     <PunishmentType>Delete</PunishmentType>
-    <AllowedDirections>Forward</AllowedDirections>
   </BlockLimits>
-    <BlockLimits>
+  <BlockLimits>
     <Name>Advanced Utility</Name>
     <BlockGroups>Advanced Utility</BlockGroups>
     <MaxCount>0</MaxCount>
     <TurnedOffByNoFlyZone>true</TurnedOffByNoFlyZone>
     <PunishmentType>Delete</PunishmentType>
-    <AllowedDirections>Forward</AllowedDirections>
   </BlockLimits>
-    <BlockLimits>
+  <BlockLimits>
     <Name>Reactors</Name>
     <BlockGroups>Reactors</BlockGroups>
     <MaxCount>0</MaxCount>
     <TurnedOffByNoFlyZone>true</TurnedOffByNoFlyZone>
     <PunishmentType>Delete</PunishmentType>
-    <AllowedDirections>Forward</AllowedDirections>
   </BlockLimits>
-    <BlockLimits>
+  <BlockLimits>
     <Name>Medical</Name>
     <BlockGroups>Medical</BlockGroups>
     <MaxCount>0</MaxCount>
     <TurnedOffByNoFlyZone>true</TurnedOffByNoFlyZone>
     <PunishmentType>Delete</PunishmentType>
-    <AllowedDirections>Forward</AllowedDirections>
   </BlockLimits>
-    <BlockLimits>
+  <BlockLimits>
     <Name>Survival Kit</Name>
     <BlockGroups>Survival Kit</BlockGroups>
     <MaxCount>0</MaxCount>
     <TurnedOffByNoFlyZone>true</TurnedOffByNoFlyZone>
     <PunishmentType>Delete</PunishmentType>
-    <AllowedDirections>Forward</AllowedDirections>
   </BlockLimits>
-    <BlockLimits>
+  <BlockLimits>
     <Name>Radar</Name>
     <BlockGroups>Radar</BlockGroups>
     <MaxCount>0</MaxCount>
     <TurnedOffByNoFlyZone>true</TurnedOffByNoFlyZone>
     <PunishmentType>Delete</PunishmentType>
-    <AllowedDirections>Forward</AllowedDirections>
   </BlockLimits>
-    <BlockLimits>
+  <BlockLimits>
     <Name>Hangars</Name>
     <BlockGroups>Hangars</BlockGroups>
     <MaxCount>0</MaxCount>
     <TurnedOffByNoFlyZone>true</TurnedOffByNoFlyZone>
     <PunishmentType>Delete</PunishmentType>
-    <AllowedDirections>Forward</AllowedDirections>
-  </BlockLimits>
-    <BlockLimits>
-    <Name>Survival Kit</Name>
-    <BlockGroups>Survival Kit</BlockGroups>
-    <MaxCount>0</MaxCount>
-    <TurnedOffByNoFlyZone>true</TurnedOffByNoFlyZone>
-    <PunishmentType>Delete</PunishmentType>
-    <AllowedDirections>Forward</AllowedDirections>
   </BlockLimits>
 </ShipCore>

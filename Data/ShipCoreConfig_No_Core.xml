@@ -17,7 +17,7 @@
     <DrillHarvestMultiplier>0.001</DrillHarvestMultiplier>
     <GyroEfficiency>1</GyroEfficiency>
     <GyroForce>1</GyroForce>
-    <PowerProducersOutput>0.5</PowerProducersOutput>
+    <PowerProducersOutput>0.1</PowerProducersOutput>
     <RefineEfficiency>0.001</RefineEfficiency>
     <RefineSpeed>0.001</RefineSpeed>
     <ThrusterEfficiency>1</ThrusterEfficiency>

@@ -4,7 +4,7 @@
         <Definition xsi:type="MyObjectBuilder_UpgradeModuleDefinition">
 			<Id>
 				<TypeId>UpgradeModule</TypeId>
-				<SubtypeId>Ship_Core_Module_Bastion</SubtypeId>
+				<SubtypeId>LG_Ship_Core_Module_Bastion</SubtypeId>
 			</Id>
 			<DisplayName>Bastion Module</DisplayName>
 			<Description>Increases Damage Resistance at the cost of Top Speed, Boost, and Gyro Effectiveness.</Description>
@@ -32,7 +32,7 @@
                 <ScreenArea Name="CockpitScreen_02" DisplayName="Screen1" TextureResolution="512" ScreenWidth="5" ScreenHeight="3" />
 				<ScreenArea Name="CockpitScreen_01" DisplayName="Keyboard1" TextureResolution="512" ScreenWidth="5" ScreenHeight="3" />
             </ScreenAreas>
-			<BlockPairName>GridCore_Module_OverDrive</BlockPairName>
+			<BlockPairName>Ship_Core_Module_Bastion</BlockPairName>
 			<MirroringY>Z</MirroringY>
 			<MirroringZ>Y</MirroringZ>
             <EdgeType>Light</EdgeType>

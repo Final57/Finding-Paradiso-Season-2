@@ -4,19 +4,19 @@
   <BlockGroup>
     <Name>Refining</Name>
     <BlockTypes>
-      <TypeID>Refinery</TypeID>
+      <TypeId>Refinery</TypeId>
       <SubtypeId></SubtypeId>
-      <CountWeight></CountWeight>
+      <CountWeight>1</CountWeight>
     </BlockTypes>
   </BlockGroup>
 <!--Assembling-->
   <BlockGroup>
     <Name>Assembling</Name>
     <BlockTypes>
-      <TypeID>Assembler</TypeID>
-      <SubtypeId></SubtypeID>
-      <CountWeight></CountWeight>
-    </Blocktypes>
+      <TypeId>Assembler</TypeId>
+      <SubtypeId></SubtypeId>
+      <CountWeight>1</CountWeight>
+    </BlockTypes>
   </BlockGroup>
 <!--Drills, Welding, and Grinding-->
   <BlockGroup>
@@ -169,7 +169,7 @@
     <Name>Medical</Name>
     <BlockTypes>
       <TypeId>MedicalRoom</TypeId>
-      <SubtypeId></SubtypeId>
+      <SubtypeId>MedicalRoom</SubtypeId>
       <CountWeight>1</CountWeight>
     </BlockTypes>
   </BlockGroup>
@@ -177,7 +177,7 @@
     <Name>Survival Kit</Name>
     <BlockTypes>
       <TypeId>SurvivalKit</TypeId>
-      <SubtypeId></SubtypeId>
+      <SubtypeId>SurvivalKit</SubtypeId>
       <CountWeight>1</CountWeight>
     </BlockTypes>
   </BlockGroup>
@@ -311,12 +311,12 @@
   <BlockGroup>
     <Name>Stribog Thrusters</Name>
     <BlockTypes>
-      <TypeId>Thrust</TypeID>
+      <TypeId>Thrust</TypeId>
       <SubtypeID>STR800_Clean</SubtypeID>
       <CountWeight>6</CountWeight>
     </BlockTypes>
     <BlockTypes>
-      <TypeID>Thrust</TypeID>
+      <TypeId>Thrust</TypeId>
       <SubtypeID>STR700_Clean</SubtypeID>
       <CountWeight>1</CountWeight>
     </BlockTypes>

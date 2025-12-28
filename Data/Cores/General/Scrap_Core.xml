@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-16"?>
 <ShipCore xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
-  <SubtypeId>LG_Scrap_Core</SubtypeId>
+  <SubtypeId>Scrap_Core</SubtypeId>
   <UniqueName>Unspecified Scrap</UniqueName>
   <ForceBroadCast>true</ForceBroadCast>
   <ForceBroadCastRange>150</ForceBroadCastRange>
@@ -50,5 +50,24 @@
   <EnableReloadModifier>false</EnableReloadModifier>
   <ReloadModifier>1</ReloadModifier>
   <BlockLimits>
+    <Name>Weapons</Name>
+    <BlockGroups>Weaponry</BlockGroups>
+    <MaxCount>0</MaxCount>
+    <TurnedOffByNoFlyZone>true</TurnedOffByNoFlyZone>
+    <PunishmentType>ShutOff</PunishmentType>
+  </BlockLimits>
+  <BlockLimits>
+    <Name>Medical</Name>
+    <BlockGroups>Medical</BlockGroups>
+    <MaxCount>0</MaxCount>
+    <TurnedOffByNoFlyZone>true</TurnedOffByNoFlyZone>
+    <PunishmentType>ShutOff</PunishmentType>
+  </BlockLimits>
+   <BlockLimits>
+    <Name>Survival Kit</Name>
+    <BlockGroups>Survival Kit</BlockGroups>
+    <MaxCount>0</MaxCount>
+    <TurnedOffByNoFlyZone>true</TurnedOffByNoFlyZone>
+    <PunishmentType>ShutOff</PunishmentType>
   </BlockLimits>
 </ShipCore>
