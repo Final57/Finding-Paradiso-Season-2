@@ -40,7 +40,7 @@
 			</BuildProgressModels>
 			<MirroringY>Z</MirroringY>
 			<MirroringZ>Y</MirroringZ>
-            <BlockPairName>Light_Core</BlockPairName>
+            <BlockPairName>Light_Fighter_Core</BlockPairName>
             <EdgeType>Light</EdgeType>
             <BuildTimeSeconds>15</BuildTimeSeconds>
             <DamageEffectName>Damage_Electrical_Damaged</DamageEffectName>

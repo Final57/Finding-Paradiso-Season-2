@@ -57,17 +57,16 @@
     <PunishmentType>ShutOff</PunishmentType>
   </BlockLimits>
   <BlockLimits>
-    <Name>Medical</Name>
-    <BlockGroups>Medical</BlockGroups>
-    <MaxCount>0</MaxCount>
-    <TurnedOffByNoFlyZone>true</TurnedOffByNoFlyZone>
-    <PunishmentType>ShutOff</PunishmentType>
-  </BlockLimits>
-   <BlockLimits>
-    <Name>Survival Kit</Name>
+    <Name>No Utility</Name>
+    <BlockGroups>Warhead</BlockGroups>
     <BlockGroups>Survival Kit</BlockGroups>
+    <BlockGroups>Jump Drive</BlockGroups>
+    <BlockGroups>Utility</BlockGroups>
+    <BlockGroups>Advanced Utility</BlockGroups>
+    <BlockGroups>Radar</BlockGroups>
+    <BlockGroups>Hangars</BlockGroups>
     <MaxCount>0</MaxCount>
     <TurnedOffByNoFlyZone>true</TurnedOffByNoFlyZone>
-    <PunishmentType>ShutOff</PunishmentType>
+    <PunishmentType>Delete</PunishmentType>
   </BlockLimits>
 </ShipCore>

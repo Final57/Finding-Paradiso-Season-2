@@ -4,11 +4,11 @@
         <Definition xsi:type="MyObjectBuilder_BeaconDefinition">
             <Id>
                 <TypeId>Beacon</TypeId>
-                <SubtypeId>SG_General_Core</SubtypeId>
+                <SubtypeId>Light_Transport_Ship_Core</SubtypeId>
             </Id>
-            <DisplayName>General Core</DisplayName>
+            <DisplayName>Light Transport Ship Core</DisplayName>
             <Icon>Textures\SmallGridCore.dds</Icon>
-            <Description>A Generic Vehicle or Static Base Core - Significant reduction in capabilities for low cost.</Description>
+            <Description>Light Transport Ship Core</Description>
             <CubeSize>Small</CubeSize>
             <GuiVisible>false</GuiVisible>
             <BlockTopology>TriangleMesh</BlockTopology>
@@ -19,8 +19,11 @@
                 <Component Subtype="SteelPlate" Count="1" />
                 <Component Subtype="Construction" Count="1" />
                 <Component Subtype="SmallTube" Count="1" />
+                <Component Subtype="Computer" Count="1" />
+                <Component Subtype="RadioCommunication" Count="4" />
+                <Component Subtype="SteelPlate" Count="1" />
             </Components>
-			<CriticalComponent Subtype="Construction" Index="0" />
+			<CriticalComponent Subtype="RadioCommunication" Index="0" />
 			<MountPoints>
 				<MountPoint Side="Front" StartX="0.91" StartY="0.00" EndX="1.00" EndY="1.00"/>
 				<MountPoint Side="Front" StartX="0.00" StartY="0.00" EndX="0.09" EndY="1.00"/>
@@ -37,7 +40,7 @@
 			</BuildProgressModels>
 			<MirroringY>Z</MirroringY>
 			<MirroringZ>Y</MirroringZ>
-            <BlockPairName>General_Core</BlockPairName>
+            <BlockPairName>Light_Transport_Core</BlockPairName>
             <EdgeType>Light</EdgeType>
             <BuildTimeSeconds>15</BuildTimeSeconds>
             <DamageEffectName>Damage_Electrical_Damaged</DamageEffectName>

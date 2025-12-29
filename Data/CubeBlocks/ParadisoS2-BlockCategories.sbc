@@ -1,0 +1,149 @@
+<?xml version="1.0" ?>
+<Definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <CategoryClasses>
+    <Category xsi:type="MyObjectBuilder_GuiBlockCategoryDefinition">
+        <Id>
+            <TypeId>GuiBlockCategoryDefinition</TypeId>
+            <SubtypeId>ShipCores</SubtypeId>
+        </Id>
+        <DisplayName>Ship Cores</DisplayName>
+        <Name>Section2_Position2_ShipCores</Name>
+            <ItemIds>
+                <string>Beacon/LG_General_Core</string>
+                <string>Beacon/LG_Scrap_Core</string>
+                <string>Beacon/SG_General_Core</string>
+                <string>Beacon/SG_Scrap_Core</string>
+                <string>Beacon/Light_Fighter_Ship_Core</string>
+                <string>Beacon/Light_Bomber_Ship_Core</string>
+                <string>Beacon/Light_Transport_Ship_Core</string>
+            </ItemIds>
+    </Category>
+    <Category xsi:type="MyObjectBuilder_GuiBlockCategoryDefinition">
+        <Id>
+            <TypeId>GuiBlockCategoryDefinition</TypeId>
+            <SubtypeId>GeneralCores</SubtypeId>
+        </Id>
+        <DisplayName>   General Cores</DisplayName>
+        <Name>Section2_Position3_GeneralCores</Name>
+            <ItemIds>
+                <string>Beacon/LG_General_Core</string>
+                <string>Beacon/LG_Scrap_Core</string>
+                <string>Beacon/SG_General_Core</string>
+                <string>Beacon/SG_Scrap_Core</string>
+            </ItemIds>
+    </Category>
+    <Category xsi:type="MyObjectBuilder_GuiBlockCategoryDefinition">
+        <Id>
+            <TypeId>GuiBlockCategoryDefinition</TypeId>
+            <SubtypeId>LightCores</SubtypeId>
+        </Id>
+        <DisplayName>   Light Cores</DisplayName>
+        <Name>Section2_Position3_LightCores</Name>
+            <ItemIds>
+                <string>Beacon/Light_Fighter_Ship_Core</string>
+                <string>Beacon/Light_Bomber_Ship_Core</string>
+                <string>Beacon/Light_Transport_Ship_Core</string>
+            </ItemIds>
+    </Category>
+    <Category xsi:type="MyObjectBuilder_GuiBlockCategoryDefinition">
+        <Id>
+            <TypeId>GuiBlockCategoryDefinition</TypeId>
+            <SubtypeId>HeavyCores</SubtypeId>
+        </Id>
+        <DisplayName>   Heavy Cores</DisplayName>
+        <Name>Section2_Position3_HeavyCores</Name>
+            <ItemIds>
+                <string></string>
+            </ItemIds>
+    </Category>
+    <Category xsi:type="MyObjectBuilder_GuiBlockCategoryDefinition">
+        <Id>
+            <TypeId>GuiBlockCategoryDefinition</TypeId>
+            <SubtypeId>LightVehicleCores</SubtypeId>
+        </Id>
+        <DisplayName>   Light Vehicle Cores</DisplayName>
+        <Name>Section2_Position3_LightVehicleCores</Name>
+            <ItemIds>
+                <string></string>
+            </ItemIds>
+    </Category>
+    <Category xsi:type="MyObjectBuilder_GuiBlockCategoryDefinition">
+        <Id>
+            <TypeId>GuiBlockCategoryDefinition</TypeId>
+            <SubtypeId/>
+        </Id>
+        <DisplayName>   Heavy Vehicle Cores</DisplayName>
+        <Name>Section2_Position3_HeavyVehicleCores</Name>
+            <ItemIds>
+                <string></string>
+            </ItemIds>
+    </Category>
+    <Category xsi:type="MyObjectBuilder_GuiBlockCategoryDefinition">
+        <Id>
+            <TypeId>GuiBlockCategoryDefinition</TypeId>
+            <SubtypeId/>
+        </Id>
+        <DisplayName>   Utility Cores</DisplayName>
+        <Name>Section2_Position3_UtilityCores</Name>
+            <ItemIds>
+                <string></string>
+            </ItemIds>
+    </Category>
+    <Category xsi:type="MyObjectBuilder_GuiBlockCategoryDefinition">
+        <Id>
+            <TypeId>GuiBlockCategoryDefinition</TypeId>
+            <SubtypeId/>
+        </Id>
+        <DisplayName>   Static Cores</DisplayName>
+        <Name>Section2_Position3_StaticCores</Name>
+            <ItemIds>
+                <string>Beacon/Drill_Static_Core</string>
+            </ItemIds>
+    </Category>
+        <Category xsi:type="MyObjectBuilder_GuiBlockCategoryDefinition">
+        <Id>
+            <TypeId>GuiBlockCategoryDefinition</TypeId>
+            <SubtypeId/>
+        </Id>
+        <DisplayName>   Upgrade Modules</DisplayName>
+        <Name>Section2_Position3_UpgradeModules</Name>
+            <ItemIds>
+                <string>UpgradeModule/LG_Ship_Core_Module_Bastion</string>
+                <string>UpgradeModule/LG_Ship_Core_Module_Mobility</string>
+                <string>UpgradeModule/SG_Ship_Core_Module_Bastion</string>
+                <string>UpgradeModule/SG_Ship_Core_Module_Mobility</string>
+            </ItemIds>
+    </Category>
+    <Category xsi:type="MyObjectBuilder_GuiBlockCategoryDefinition">
+        <Id>
+            <TypeId>GuiBlockCategoryDefinition</TypeId>
+            <SubtypeId/>
+        </Id>
+        <DisplayName>DisplayName_Category_LargeBlocks</DisplayName>
+        <Name>LargeBlocks</Name>
+            <ItemIds>
+                <string>Beacon/LG_General_Core</string>
+                <string>Beacon/LG_Scrap_Core</string>
+                <string>UpgradeModule/LG_Ship_Core_Module_Bastion</string>
+                <string>UpgradeModule/LG_Ship_Core_Module_Mobility</string>
+            </ItemIds>
+    </Category>
+    <Category xsi:type="MyObjectBuilder_GuiBlockCategoryDefinition">
+        <Id>
+            <TypeId>GuiBlockCategoryDefinition</TypeId>
+            <SubtypeId/>
+        </Id>
+        <DisplayName>DisplayName_Category_SmallBlocks</DisplayName>
+        <Name>SmallBlocks</Name>
+            <ItemIds>
+                <string>Beacon/SG_General_Core</string>
+                <string>Beacon/SG_Scrap_Core</string>
+                <string>Beacon/Light_Fighter_Ship_Core</string>
+                <string>Beacon/Light_Bomber_Ship_Core</string>
+                <string>Beacon/Light_Transport_Ship_Core</string>
+                <string>UpgradeModule/SG_Ship_Core_Module_Bastion</string>
+                <string>UpgradeModule/SG_Ship_Core_Module_Mobility</string>
+            </ItemIds>
+    </Category>
+  </CategoryClasses>
+</Definitions>

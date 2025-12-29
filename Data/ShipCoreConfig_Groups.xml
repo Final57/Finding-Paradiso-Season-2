@@ -23,17 +23,122 @@
     <Name>Utility</Name>
     <BlockTypes>
       <TypeId>Drill</TypeId>
-      <SubtypeId></SubtypeId>
+      <SubtypeId>SmallBlockDrill</SubtypeId>
+      <CountWeight>1</CountWeight>
+    </BlockTypes>
+    <BlockTypes>
+      <TypeId>Drill</TypeId>
+      <SubtypeId>SmallBlockDrillReskin</SubtypeId>
+      <CountWeight>1</CountWeight>
+    </BlockTypes>
+    <BlockTypes>
+      <TypeId>Drill</TypeId>
+      <SubtypeId>SmallBlockHeavyDrill</SubtypeId>
+      <CountWeight>1</CountWeight>
+    </BlockTypes>
+    <BlockTypes>
+      <TypeId>Drill</TypeId>
+      <SubtypeId>SmallBlockGravDrill</SubtypeId>
+      <CountWeight>1</CountWeight>
+    </BlockTypes>
+    <BlockTypes>
+      <TypeId>Drill</TypeId>
+      <SubtypeId>LargeBlockDrill</SubtypeId>
+      <CountWeight>1</CountWeight>
+    </BlockTypes>
+    <BlockTypes>
+      <TypeId>Drill</TypeId>
+      <SubtypeId>LargeBlockDrillReskin</SubtypeId>
+      <CountWeight>1</CountWeight>
+    </BlockTypes>
+    <BlockTypes>
+      <TypeId>Drill</TypeId>
+      <SubtypeId>LargeBlockHeavyDrill</SubtypeId>
+      <CountWeight>1</CountWeight>
+    </BlockTypes>
+    <BlockTypes>
+      <TypeId>Drill</TypeId>
+      <SubtypeId>LargeBlockGravDrill</SubtypeId>
       <CountWeight>1</CountWeight>
     </BlockTypes>
     <BlockTypes>
       <TypeId>ShipWelder</TypeId>
-      <SubtypeId></SubtypeId>
+      <SubtypeId>SmallShipWelder</SubtypeId>
+      <CountWeight>1</CountWeight>
+    </BlockTypes>
+    <BlockTypes>
+      <TypeId>ShipWelder</TypeId>
+      <SubtypeId>SmallShipWelderReskin</SubtypeId>
+      <CountWeight>1</CountWeight>
+    </BlockTypes>
+    <BlockTypes>
+      <TypeId>ShipWelder</TypeId>
+      <SubtypeId>SmallShipHeavyWelder</SubtypeId>
+      <CountWeight>1</CountWeight>
+    </BlockTypes>
+    <BlockTypes>
+      <TypeId>ShipWelder</TypeId>
+      <SubtypeId>SmallShipLaserWelder</SubtypeId>
+      <CountWeight>1</CountWeight>
+    </BlockTypes>
+    <BlockTypes>
+      <TypeId>ShipWelder</TypeId>
+      <SubtypeId>LargeShipWelder</SubtypeId>
+      <CountWeight>1</CountWeight>
+    </BlockTypes>
+    <BlockTypes>
+      <TypeId>ShipWelder</TypeId>
+      <SubtypeId>LargeShipWelderReskin</SubtypeId>
+      <CountWeight>1</CountWeight>
+    </BlockTypes>
+    <BlockTypes>
+      <TypeId>ShipWelder</TypeId>
+      <SubtypeId>LargeShipHeavyWelder</SubtypeId>
+      <CountWeight>1</CountWeight>
+    </BlockTypes>
+    <BlockTypes>
+      <TypeId>ShipWelder</TypeId>
+      <SubtypeId>LargeShipLaserWelder</SubtypeId>
       <CountWeight>1</CountWeight>
     </BlockTypes>
     <BlockTypes>
       <TypeId>ShipGrinder</TypeId>
-      <SubtypeId></SubtypeId>
+      <SubtypeId>SmallShipGrinder</SubtypeId>
+      <CountWeight>1</CountWeight>
+    </BlockTypes>
+    <BlockTypes>
+      <TypeId>ShipGrinder</TypeId>
+      <SubtypeId>SmallShipGrinderReskin</SubtypeId>
+      <CountWeight>1</CountWeight>
+    </BlockTypes>
+    <BlockTypes>
+      <TypeId>ShipGrinder</TypeId>
+      <SubtypeId>SmallShipHeavyGrinder</SubtypeId>
+      <CountWeight>1</CountWeight>
+    </BlockTypes>
+    <BlockTypes>
+      <TypeId>ShipGrinder</TypeId>
+      <SubtypeId>SmallShipLaserGrinder</SubtypeId>
+      <CountWeight>1</CountWeight>
+    </BlockTypes>
+    <BlockTypes>
+      <TypeId>ShipGrinder</TypeId>
+      <SubtypeId>LargeShipGrinder</SubtypeId>
+      <CountWeight>1</CountWeight>
+    </BlockTypes>
+    <BlockTypes>
+      <TypeId>ShipGrinder</TypeId>
+      <SubtypeId>LargeShipGrinderReskin</SubtypeId>
+      <CountWeight>1</CountWeight>
+    </BlockTypes>
+    <BlockTypes>
+      <TypeId>ShipGrinder</TypeId>
+      <SubtypeId>LargeShipHeavyGrinder</SubtypeId>
+      <CountWeight>1</CountWeight>
+    </BlockTypes>
+    <BlockTypes>
+      <TypeId>ShipGrinder</TypeId>
+      <SubtypeId>LargeShipLaserGrinder</SubtypeId>
       <CountWeight>1</CountWeight>
     </BlockTypes>
   </BlockGroup>
@@ -47,6 +152,11 @@
     <BlockTypes>
       <TypeId>ConveyorSorter</TypeId>
       <SubtypeId>OmniArcDestro</SubtypeId>
+      <CountWeight>2</CountWeight>
+    </BlockTypes>
+    <BlockTypes>
+      <TypeId>ConveyorSorter</TypeId>
+      <SubtypeId>OmniArcDrillSG</SubtypeId>
       <CountWeight>2</CountWeight>
     </BlockTypes>
     <BlockTypes>
@@ -180,13 +290,43 @@
       <SubtypeId>SurvivalKit</SubtypeId>
       <CountWeight>1</CountWeight>
     </BlockTypes>
+    <BlockTypes>
+      <TypeId>SurvivalKit</TypeId>
+      <SubtypeId>SurvivalKitSmallReskin</SubtypeId>
+      <CountWeight>1</CountWeight>
+    </BlockTypes>
+    <BlockTypes>
+      <TypeId>SurvivalKit</TypeId>
+      <SubtypeId>SurvivalKitLarge</SubtypeId>
+      <CountWeight>1</CountWeight>
+    </BlockTypes>
+    <BlockTypes>
+      <TypeId>SurvivalKit</TypeId>
+      <SubtypeId>SurvivalKitLargeReskin</SubtypeId>
+      <CountWeight>1</CountWeight>
+    </BlockTypes>
   </BlockGroup>
 <!--Jump Drive-->
   <BlockGroup>
-    <Name>Jump Drives</Name>
+    <Name>Jump Drive</Name>
     <BlockTypes>
       <TypeId>JumpDrive</TypeId>
-      <SubtypeId></SubtypeId>
+      <SubtypeId>LargeJumpDrive</SubtypeId>
+      <CountWeight>1</CountWeight>
+    </BlockTypes>
+    <BlockTypes>
+      <TypeId>JumpDrive</TypeId>
+      <SubtypeId>SmallPrototechJumpDrive</SubtypeId>
+      <CountWeight>1</CountWeight>
+    </BlockTypes>
+    <BlockTypes>
+      <TypeId>JumpDrive</TypeId>
+      <SubtypeId>LargePrototechJumpDrive</SubtypeId>
+      <CountWeight>1</CountWeight>
+    </BlockTypes>
+    <BlockTypes>
+      <TypeId>JumpDrive</TypeId>
+      <SubtypeId>LargeJumpDriveReskin</SubtypeId>
       <CountWeight>1</CountWeight>
     </BlockTypes>
   </BlockGroup>
@@ -339,6 +479,11 @@
       <SubtypeId>ARYXCodexPDC</SubtypeId>
       <CountWeight>1</CountWeight>
     </BlockTypes>
+      <BlockTypes>
+      <TypeId>LargeGatlingTurret</TypeId>
+      <SubtypeId>ARYXCodexPDC_SG</SubtypeId>
+      <CountWeight>1</CountWeight>
+    </BlockTypes>
     <BlockTypes>
       <TypeId>ConveyorSorter</TypeId>
       <SubtypeId>ARYXSlantedCodexPDC</SubtypeId>
@@ -358,6 +503,11 @@
       <TypeId>ConveyorSorter</TypeId>
       <SubtypeId>ARYXSlantedAtlasPDC</SubtypeId>
       <CountWeight>2</CountWeight>
+    </BlockTypes>
+    <BlockTypes>
+      <TypeId>InteriorTurret</TypeId>
+      <SubtypeId>LargeInteriorTurret</SubtypeId>
+      <CountWeight>1</CountWeight>
     </BlockTypes>
   </BlockGroup>
   <BlockGroup>
@@ -383,171 +533,6 @@
   </BlockGroup>
   <BlockGroup>
     <Name>Artillery - Turret</Name>
-    <BlockTypes>
-      <TypeId>LargeMissileTurret</TypeId>
-      <SubtypeId>ARYXCycloneCannon</SubtypeId>
-      <CountWeight>1</CountWeight>
-    </BlockTypes>
-    <BlockTypes>
-      <TypeId>LargeMissileTurret</TypeId>
-      <SubtypeId>ARYXHurricaneCannon</SubtypeId>
-      <CountWeight>1</CountWeight>
-    </BlockTypes>
-    <BlockTypes>
-      <TypeId>LargeMissileTurret</TypeId>
-      <SubtypeId>ARYXTyphoonCannon</SubtypeId>
-      <CountWeight>1</CountWeight>
-    </BlockTypes>
-    <BlockTypes>
-      <TypeId>LargeMissileTurret</TypeId>
-      <SubtypeId>ARYXTsunamiCannon</SubtypeId>
-      <CountWeight>1</CountWeight>
-    </BlockTypes>
-    <BlockTypes>
-      <TypeId>LargeMissileTurret</TypeId>
-      <SubtypeId>ARYXTempestCannon</SubtypeId>
-      <CountWeight>1</CountWeight>
-    </BlockTypes>
-    <BlockTypes>
-      <TypeId>LargeMissileTurret</TypeId>
-      <SubtypeId>ARYXWindfallCannon</SubtypeId>
-      <CountWeight>1</CountWeight>
-    </BlockTypes>
-  </BlockGroup>
-  <BlockGroup>
-    <Name>Artillery - Fixed</Name>
-    <BlockTypes>
-      <TypeId>SmallMissileLauncher</TypeId>
-      <SubtypeId>LargeBlockLargeCalibreGun</SubtypeId>
-      <CountWeight>1</CountWeight>
-    </BlockTypes>
-    <BlockTypes>
-      <TypeId>SmallMissileLauncherReload</TypeId>
-      <SubtypeId>SmallBlockMediumCalibreGun</SubtypeId>
-      <CountWeight>1</CountWeight>
-    </BlockTypes>
-    <BlockTypes>
-      <TypeId>SmallMissileLauncher</TypeId>
-      <SubtypeId>ARYXTempestCannon</SubtypeId>
-      <CountWeight>1</CountWeight>
-    </BlockTypes>
-    <BlockTypes>
-      <TypeId>SmallMissileLauncher</TypeId>
-      <SubtypeId>ARYXStormCannon</SubtypeId>
-      <CountWeight>1</CountWeight>
-    </BlockTypes>
-    <BlockTypes>
-      <TypeId>SmallMissileLauncher</TypeId>
-      <SubtypeId>ARYXWindfallCannon</SubtypeId>
-      <CountWeight>1</CountWeight>
-    </BlockTypes>
-  </BlockGroup>
-  <BlockGroup>
-    <Name>Countermeasures</Name>
-    <BlockTypes>
-      <TypeId>DecoyBlock</TypeId>
-      <SubtypeId></SubtypeId>
-      <CountWeight>1</CountWeight>
-    </BlockTypes>
-    <BlockTypes>
-      <TypeId>FlareLauncher</TypeId>
-      <SubtypeId>LargeFlareLauncher</SubtypeId>
-      <CountWeight>1</CountWeight>
-    </BlockTypes>
-    <BlockTypes>
-      <TypeId>FlareLauncher</TypeId>
-      <SubtypeId>SmallFlareLauncher</SubtypeId>
-      <CountWeight>1</CountWeight>
-    </BlockTypes>
-    <BlockTypes>
-      <TypeId>ConveyorSorter</TypeId>
-      <SubtypeId>ARYX_SmallFlareLauncher</SubtypeId>
-      <CountWeight>1</CountWeight>
-    </BlockTypes>
-    <BlockTypes>
-      <TypeId>ConveyorSorter</TypeId>
-      <SubtypeId>ARYX_LargeFlareLauncher</SubtypeId>
-      <CountWeight>1</CountWeight>
-    </BlockTypes>
-  </BlockGroup>
-<!--All Weapons Below-->
-  <BlockGroup>
-    <Name>Weaponry</Name>
-    <BlockTypes>
-      <TypeId>Warhead</TypeId>
-      <SubtypeId>LargeWarhead</SubtypeId>
-      <CountWeight>1</CountWeight>
-    </BlockTypes>
-    <BlockTypes>
-      <TypeId>Warhead</TypeId>
-      <SubtypeId>SmallWarhead</SubtypeId>
-      <CountWeight>1</CountWeight>
-    </BlockTypes>
-    <BlockTypes>
-      <TypeId>LargeGatlingTurret</TypeId>
-      <SubtypeId>LargeBlockGatlingTurret</SubtypeId>
-      <CountWeight>1</CountWeight>
-    </BlockTypes>
-    <BlockTypes>
-      <TypeId>SmallGatlingTurret</TypeId>
-      <SubtypeId>SmallBlockGatlingTurret</SubtypeId>
-      <CountWeight>1</CountWeight>
-    </BlockTypes>
-    <BlockTypes>
-      <TypeId>LargeMissileTurret</TypeId>
-      <SubtypeId>LargeBlockMissileTurret</SubtypeId>
-      <CountWeight>1</CountWeight>
-    </BlockTypes>
-    <BlockTypes>
-      <TypeId>SmallMissileTurret</TypeId>
-      <SubtypeId>SmallBlockMissileTurret</SubtypeId>
-      <CountWeight>1</CountWeight>
-    </BlockTypes>
-    <BlockTypes>
-      <TypeId>LargeTurretBase</TypeId>
-      <SubtypeId>LargeInteriorTurret</SubtypeId>
-      <CountWeight>1</CountWeight>
-    </BlockTypes>
-    <BlockTypes>
-      <TypeId>SmallMissileLauncher</TypeId>
-      <SubtypeId>SmallBlockMissileLauncher</SubtypeId>
-      <CountWeight>1</CountWeight>
-    </BlockTypes>
-    <BlockTypes>
-      <TypeId>LargeMissileLauncher</TypeId>
-      <SubtypeId>LargeBlockMissileLauncher</SubtypeId>
-      <CountWeight>1</CountWeight>
-    </BlockTypes>
-    <BlockTypes>
-      <TypeId>SmallMissileLauncherReload</TypeId>
-      <SubtypeId>SmallBlockMissileLauncherReload</SubtypeId>
-      <CountWeight>1</CountWeight>
-    </BlockTypes>
-    <BlockTypes>
-      <TypeId>SmallGatlingGun</TypeId>
-      <SubtypeId>SmallBlockGatlingGun</SubtypeId>
-      <CountWeight>1</CountWeight>
-    </BlockTypes>
-    <BlockTypes>
-      <TypeId>SmallGatlingGun</TypeId>
-      <SubtypeId>SmallBlockAutocannon</SubtypeId>
-      <CountWeight>1</CountWeight>
-    </BlockTypes>
-    <BlockTypes>
-      <TypeId>LargeGatlingTurret</TypeId>
-      <SubtypeId>LargeBlockGatlingTurret</SubtypeId>
-      <CountWeight>1</CountWeight>
-    </BlockTypes>
-    <BlockTypes>      
-      <TypeId>LargeMissileTurret</TypeId>
-      <SubtypeId>SmallMediumCalibreTurret</SubtypeId>
-      <CountWeight>1</CountWeight>
-    </BlockTypes>
-    <BlockTypes>
-      <TypeId>LargeMissileTurret</TypeId>
-      <SubtypeId>AutocannonTurret</SubtypeId>
-      <CountWeight>1</CountWeight>
-    </BlockTypes>
     <BlockTypes>      
       <TypeId>LargeMissileTurret</TypeId>
       <SubtypeId>ARYXCycloneCannon</SubtypeId>
@@ -574,6 +559,14 @@
       <CountWeight>1</CountWeight>
     </BlockTypes>
     <BlockTypes>
+      <TypeId>LargeMissileTurret</TypeId>
+      <SubtypeId>LargeCalibreTurret</SubtypeId>
+      <CountWeight>1</CountWeight>
+    </BlockTypes>
+  </BlockGroup>
+  <BlockGroup>
+    <Name>Artillery - Fixed</Name>
+    <BlockTypes>
       <TypeId>SmallMissileLauncher</TypeId>
       <SubtypeId>ARYXTempestCannon</SubtypeId>
       <CountWeight>1</CountWeight>
@@ -594,6 +587,168 @@
       <CountWeight>1</CountWeight>
     </BlockTypes>
     <BlockTypes>
+      <TypeId>ConveyorSorter</TypeId>
+      <SubtypeId>ARYXSiegeMortarCannon</SubtypeId>
+      <CountWeight>1</CountWeight>
+    </BlockTypes>
+    <BlockTypes>
+      <TypeId>LargeMissileLauncherReload</TypeId>
+      <SubtypeId>SmallBlockMediumCalibreGun</SubtypeId>
+      <CountWeight>1</CountWeight>
+    </BlockTypes>
+    <BlockTypes>
+      <TypeId>SmallMissileLauncher</TypeId>
+      <SubtypeId>LargeBlockLargeCalibreGun</SubtypeId>
+      <CountWeight>1</CountWeight>
+    </BlockTypes>
+  </BlockGroup>
+  <BlockGroup>
+    <Name>Railguns - Fixed</Name>
+    <BlockTypes>
+      <TypeId>ConveyorSorter</TypeId>
+      <SubtypeId>SmallRailgun</SubtypeId>
+      <CountWeight>1</CountWeight>
+    </BlockTypes>
+    <BlockTypes>
+      <TypeId>ConveyorSorter</TypeId>
+      <SubtypeId>LargeRailgun</SubtypeId>
+      <CountWeight>1</CountWeight>
+    </BlockTypes>
+    <BlockTypes>
+      <TypeId>ConveyorSorter</TypeId>
+      <SubtypeId>ARYXGaussCannon</SubtypeId>
+      <CountWeight>1</CountWeight>
+    </BlockTypes>
+    <BlockTypes>
+      <TypeId>ConveyorSorter</TypeId>
+      <SubtypeId>ARYXRailgun</SubtypeId>
+      <CountWeight>1</CountWeight>
+    </BlockTypes>
+    <BlockTypes>
+      <TypeId>ConveyorSorter</TypeId>
+      <SubtypeId>ARYXLightCoilgun</SubtypeId>
+      <CountWeight>1</CountWeight>
+    </BlockTypes>
+    <BlockTypes>
+      <TypeId>ConveyorSorter</TypeId>
+      <SubtypeId>ARYXHeavyCoilgun</SubtypeId>
+      <CountWeight>1</CountWeight>
+    </BlockTypes>
+    <BlockTypes>
+      <TypeId>ConveyorSorter</TypeId>
+      <SubtypeId>ARYXKingswordSupercannon</SubtypeId>
+      <CountWeight>1</CountWeight>
+    </BlockTypes>
+  </BlockGroup>
+  <BlockGroup>
+    <Name>Railguns - Turret</Name>
+    <BlockTypes>
+      <TypeId>LargeMissileTurret</TypeId>
+      <SubtypeId>ARYXGaussTurret</SubtypeId>
+      <CountWeight>1</CountWeight>
+    </BlockTypes>
+    <BlockTypes>
+      <TypeId>LargeMissileTurret</TypeId>
+      <SubtypeId>ARYXRailgunTurret</SubtypeId>
+      <CountWeight>1</CountWeight>
+    </BlockTypes>
+    <BlockTypes>
+      <TypeId>LargeMissileTurret</TypeId>
+      <SubtypeId>ARYXPicketRailgun</SubtypeId>
+      <CountWeight>1</CountWeight>
+    </BlockTypes>
+    <BlockTypes>
+      <TypeId>ConveyorSorter</TypeId>
+      <SubtypeId>ARYXLightRailgun</SubtypeId>
+      <CountWeight>1</CountWeight>
+    </BlockTypes>
+  </BlockGroup>
+  <BlockGroup>
+    <Name>Guns - Fixed</Name>
+    <BlockTypes>
+      <TypeId>SmallGatlingGun</TypeId>
+      <SubtypeId>GatlingGun</SubtypeId>
+      <CountWeight>1</CountWeight>
+    </BlockTypes>
+    <BlockTypes>
+      <TypeId>SmallGatlingGun</TypeId>
+      <SubtypeId>SmallGatlingGunWarfare2</SubtypeId>
+      <CountWeight>1</CountWeight>
+    </BlockTypes>
+    <BlockTypes>
+      <TypeId>SmallGatlingGun</TypeId>
+      <SubtypeId>SmallBlockAutocannon</SubtypeId>
+      <CountWeight>1</CountWeight>
+    </BlockTypes>
+    <BlockTypes>
+      <TypeId>LargeMissileTurret</TypeId>
+      <SubtypeId>ARYXWarriorGatling</SubtypeId>
+      <CountWeight>1</CountWeight>
+    </BlockTypes>
+    <BlockTypes>
+      <TypeId>ConveyorSorter</TypeId>
+      <SubtypeId>ARYXWarriorGatlingGun</SubtypeId>
+      <CountWeight>1</CountWeight>
+    </BlockTypes>
+    <BlockTypes>
+      <TypeId>SmallGatlingGun</TypeId>
+      <SubtypeId>ARYX_FixedAtlasGatling</SubtypeId>
+      <CountWeight>1</CountWeight>
+    </BlockTypes>
+    <BlockTypes>
+      <TypeId>SmallGatlingGun</TypeId>
+      <SubtypeId>ARYX_SmallChaingun</SubtypeId>
+      <CountWeight>1</CountWeight>
+    </BlockTypes>
+    <BlockTypes>
+      <TypeId>SmallMissileLauncher</TypeId>
+      <SubtypeId>ARYX_Fixed_Chord_auto</SubtypeId>
+      <CountWeight>1</CountWeight>
+    </BlockTypes>
+    <BlockTypes>
+      <TypeId>ConveyorSorter</TypeId>
+      <SubtypeId>ARYXMace</SubtypeId>
+      <CountWeight>1</CountWeight>
+    </BlockTypes>
+  </BlockGroup>
+  <BlockGroup>
+    <Name>Guns - Turret</Name>
+    <BlockTypes>
+      <TypeId>LargeGatlingTurret</TypeId>
+      <SubtypeId>GatlingTurret</SubtypeId>
+      <CountWeight>1</CountWeight>
+    </BlockTypes>
+    <BlockTypes>
+      <TypeId>LargeGatlingTurret</TypeId>
+      <SubtypeId>LargeGatlingTurretReskin</SubtypeId>
+      <CountWeight>1</CountWeight>
+    </BlockTypes>
+    <BlockTypes>
+      <TypeId>LargeGatlingTurret</TypeId>
+      <SubtypeId>SmallGatlingTurret</SubtypeId>
+      <CountWeight>1</CountWeight>
+    </BlockTypes>
+    <BlockTypes>
+      <TypeId>LargeGatlingTurret</TypeId>
+      <SubtypeId>SmallGatlingTurretReskin</SubtypeId>
+      <CountWeight>1</CountWeight>
+    </BlockTypes>
+    <BlockTypes>
+      <TypeId>LargeMissileTurret</TypeId>
+      <SubtypeId>AutoCannonTurret</SubtypeId>
+      <CountWeight>1</CountWeight>
+    </BlockTypes>
+    <BlockTypes>      
+      <TypeId>LargeMissileTurret</TypeId>
+      <SubtypeId>SmallBlockMediumCalibreTurret</SubtypeId>
+      <CountWeight>1</CountWeight>
+    </BlockTypes>
+    <BlockTypes>      
+      <TypeId>LargeMissileTurret</TypeId>
+      <SubtypeId>LargeBlockMediumCalibreTurret</SubtypeId>
+      <CountWeight>1</CountWeight>
+    </BlockTypes>
+    <BlockTypes>
       <TypeId>LargeMissileTurret</TypeId>
       <SubtypeId>ARYXBurstTurret</SubtypeId>
       <CountWeight>1</CountWeight>
@@ -609,198 +764,13 @@
       <CountWeight>1</CountWeight>
     </BlockTypes>
     <BlockTypes>
-      <TypeId>ConveyorSorter</TypeId>
-      <SubtypeId>ARYXHydraTurret</SubtypeId>
-      <CountWeight>1</CountWeight>
-    </BlockTypes>
-    <BlockTypes>
-      <TypeId>ConveyorSorter</TypeId>
-      <SubtypeId>ARYXInterceptorPDGun</SubtypeId>
-      <CountWeight>1</CountWeight>
-    </BlockTypes>
-    <BlockTypes>
-      <TypeId>ConveyorSorter</TypeId>
-      <SubtypeId>ARYXTacticalModule</SubtypeId>
-      <CountWeight>1</CountWeight>
-    </BlockTypes>
-    <BlockTypes>
-      <TypeId>ConveyorSorter</TypeId>
-      <SubtypeId>ARYXLargeIonCannon</SubtypeId>
-      <CountWeight>1</CountWeight>
-    </BlockTypes>
-    <BlockTypes>
       <TypeId>LargeMissileTurret</TypeId>
       <SubtypeId>ARYXHeavyFlakTurret</SubtypeId>
       <CountWeight>1</CountWeight>
     </BlockTypes>
     <BlockTypes>
-      <TypeId>ConveyorSorter</TypeId>
-      <SubtypeId>ARYXMissileBattery</SubtypeId>
-      <CountWeight>1</CountWeight>
-    </BlockTypes>
-    <BlockTypes>
-      <TypeId>ConveyorSorter</TypeId>
-      <SubtypeId>ARYXRocketArtillery</SubtypeId>
-      <CountWeight>1</CountWeight>
-    </BlockTypes>
-    <BlockTypes>
-      <TypeId>LargeMissileTurret</TypeId>
-      <SubtypeId>ARYXPlasmaBeamCannon</SubtypeId>
-      <CountWeight>1</CountWeight>
-    </BlockTypes>
-    <BlockTypes>
-      <TypeId>LargeMissileTurret</TypeId>
-      <SubtypeId>ARYXPhaseRepeaterCannon</SubtypeId>
-      <CountWeight>1</CountWeight>
-    </BlockTypes>
-    <BlockTypes>
-      <TypeId>ConveyorSorter</TypeId>
-      <SubtypeId>ARYXOculusLaserBase</SubtypeId>
-      <CountWeight>1</CountWeight>
-    </BlockTypes>
-    <BlockTypes>
-      <TypeId>ConveyorSorter</TypeId>
-      <SubtypeId>ARYXArgusLaser</SubtypeId>
-      <CountWeight>1</CountWeight>
-    </BlockTypes>
-    <BlockTypes>
-      <TypeId>ConveyorSorter</TypeId>
-      <SubtypeId>ARYXSmallBombBay</SubtypeId>
-      <CountWeight>1</CountWeight>
-    </BlockTypes>
-    <BlockTypes>
       <TypeId>LargeMissileTurret</TypeId>
       <SubtypeId>ARYXJuryCannon</SubtypeId>
-      <CountWeight>1</CountWeight>
-    </BlockTypes>
-    <BlockTypes>
-      <TypeId>LargeGatlingTurret</TypeId>
-      <SubtypeId>ARYXAtlasPDC</SubtypeId>
-      <CountWeight>1</CountWeight>
-    </BlockTypes>
-    <BlockTypes>
-      <TypeId>ConveyorSorter</TypeId>
-      <SubtypeId>ARYXSlantedAtlasPDC</SubtypeId>
-      <CountWeight>1</CountWeight>
-    </BlockTypes>
-    <BlockTypes>
-      <TypeId>LargeGatlingTurret</TypeId>
-      <SubtypeId>ARYXCodexPDC</SubtypeId>
-      <CountWeight>1</CountWeight>
-    </BlockTypes>
-    <BlockTypes>
-      <TypeId>ConveyorSorter</TypeId>
-      <SubtypeId>ARYXSlantedCodexPDC</SubtypeId>
-      <CountWeight>1</CountWeight>
-    </BlockTypes>
-    <BlockTypes>
-      <TypeId>ConveyorSorter</TypeId>
-      <SubtypeId>ARYXSlantedInvCodexPDC</SubtypeId>
-      <CountWeight>1</CountWeight>
-    </BlockTypes>
-    <BlockTypes>
-      <TypeId>LargeGatlingTurret</TypeId>
-      <SubtypeId>ARYXCodexPDC_SG</SubtypeId>
-      <CountWeight>1</CountWeight>
-    </BlockTypes>
-    <BlockTypes>
-      <TypeId>LargeMissileTurret</TypeId>
-      <SubtypeId>ARYXAuroraLaser</SubtypeId>
-      <CountWeight>1</CountWeight>
-    </BlockTypes>
-    <BlockTypes>
-      <TypeId>LargeMissileTurret</TypeId>
-      <SubtypeId>ARYXWarriorGatling</SubtypeId>
-      <CountWeight>1</CountWeight>
-    </BlockTypes>
-    <BlockTypes>
-      <TypeId>ConveyorSorter</TypeId>
-      <SubtypeId>ARYXWarriorGatlingGun</SubtypeId>
-      <CountWeight>1</CountWeight>
-    </BlockTypes>
-    <BlockTypes>
-      <TypeId>LargeMissileTurret</TypeId>
-      <SubtypeId>ARYXVariableLaser</SubtypeId>
-      <CountWeight>1</CountWeight>
-    </BlockTypes>
-    <BlockTypes>
-      <TypeId>LargeMissileTurret</TypeId>
-      <SubtypeId>ARYXPulseTurret</SubtypeId>
-      <CountWeight>1</CountWeight>
-    </BlockTypes>
-    <BlockTypes>
-      <TypeId>LargeMissileTurret</TypeId>
-      <SubtypeId>ARYXCompactPulseTurret</SubtypeId>
-      <CountWeight>1</CountWeight>
-    </BlockTypes>
-    <BlockTypes>
-      <TypeId>ConveyorSorter</TypeId>
-      <SubtypeId>ARYXGravPulseLaserSG</SubtypeId>
-      <CountWeight>1</CountWeight>
-    </BlockTypes>
-    <BlockTypes>
-      <TypeId>LargeMissileTurret</TypeId>
-      <SubtypeId>ARYXNucleonShotgun</SubtypeId>
-      <CountWeight>1</CountWeight>
-    </BlockTypes>
-    <BlockTypes>
-      <TypeId>ConveyorSorter</TypeId>
-      <SubtypeId>AryxNucleonShotgun_SG</SubtypeId>
-      <CountWeight>1</CountWeight>
-    </BlockTypes>
-    <BlockTypes>
-      <TypeId>ConveyorSorter</TypeId>
-      <SubtypeId>ARYXFlechetteLauncher</SubtypeId>
-      <CountWeight>1</CountWeight>
-    </BlockTypes>
-    <BlockTypes>
-      <TypeId>ConveyorSorter</TypeId>
-      <SubtypeId>ARYXVariableLauncher</SubtypeId>
-      <CountWeight>1</CountWeight>
-    </BlockTypes>
-    <BlockTypes>
-      <TypeId>SmallGatlingGun</TypeId>
-      <SubtypeId>ARYX_FixedAtlasGatling</SubtypeId>
-      <CountWeight>1</CountWeight>
-    </BlockTypes>
-    <BlockTypes>
-      <TypeId>SmallGatlingGun</TypeId>
-      <SubtypeId>ARYX_SmallChaingun</SubtypeId>
-      <CountWeight>1</CountWeight>
-    </BlockTypes>
-    <BlockTypes>
-      <TypeId>ConveyorSorter</TypeId>
-      <SubtypeId>ARYXSmallPulseLaser_Fixed</SubtypeId>
-      <CountWeight>1</CountWeight>
-    </BlockTypes>
-    <BlockTypes>
-      <TypeId>ConveyorSorter</TypeId>
-      <SubtypeId>ARYXSmallPhysicsGun</SubtypeId>
-      <CountWeight>1</CountWeight>
-    </BlockTypes>
-    <BlockTypes>
-      <TypeId>ConveyorSorter</TypeId>
-      <SubtypeId>ARYXSiegeMortarCannon</SubtypeId>
-      <CountWeight>1</CountWeight>
-    </BlockTypes>
-    <BlockTypes>
-      <TypeId>ConveyorSorter</TypeId>
-      <SubtypeId>ARYX_SmallFlareLauncher</SubtypeId>
-      <CountWeight>1</CountWeight>
-    </BlockTypes>
-    <BlockTypes>
-      <TypeId>ConveyorSorter</TypeId>
-      <SubtypeId>ARYX_LargeFlareLauncher</SubtypeId>
-      <CountWeight>1</CountWeight>
-    </BlockTypes>
-    <BlockTypes>
-      <TypeId>SmallMissileLauncher</TypeId>
-      <SubtypeId>ARYX_Fixed_Chord_auto</SubtypeId>
-      <CountWeight>1</CountWeight>
-    </BlockTypes>
-    <BlockTypes>
-      <TypeId>ConveyorSorter</TypeId>
-      <SubtypeId>ARYXSmallFlechetteLauncher</SubtypeId>
       <CountWeight>1</CountWeight>
     </BlockTypes>
     <BlockTypes>
@@ -821,6 +791,64 @@
     <BlockTypes>
       <TypeId>LargeMissileTurret</TypeId>
       <SubtypeId>ARYX_EchoAutocannon</SubtypeId>
+      <CountWeight>1</CountWeight>
+    </BlockTypes>
+    <BlockTypes>
+      <TypeId>LargeMissileTurret</TypeId>
+      <SubtypeId>ARYXSentinel</SubtypeId>
+      <CountWeight>1</CountWeight>
+    </BlockTypes>
+    <BlockTypes>
+      <TypeId>LargeMissileTurret</TypeId>
+      <SubtypeId>ARYXVulcanTurret</SubtypeId>
+      <CountWeight>1</CountWeight>
+    </BlockTypes>
+  </BlockGroup>
+  <BlockGroup>
+    <Name>Missile Launchers - Fixed</Name>
+    <BlockTypes>
+      <TypeId>SmallMissileLauncher</TypeId>
+      <SubtypeId>RocketLauncher</SubtypeId>
+      <CountWeight>1</CountWeight>
+    </BlockTypes>
+    <BlockTypes>
+      <TypeId>SmallMissileLauncher</TypeId>
+      <SubtypeId>LargeMissileLauncher</SubtypeId>
+      <CountWeight>1</CountWeight>
+    </BlockTypes>
+    <BlockTypes>
+      <TypeId>SmallMissileLauncher</TypeId>
+      <SubtypeId>SmallMissileLauncherWarfare2</SubtypeId>
+      <CountWeight>1</CountWeight>
+    </BlockTypes>
+    <BlockTypes>
+      <TypeId>SmallMissileLauncherReload</TypeId>
+      <SubtypeId>SmallRocketLauncherReload</SubtypeId>
+      <CountWeight>1</CountWeight>
+    </BlockTypes>
+    <BlockTypes>
+      <TypeId>ConveyorSorter</TypeId>
+      <SubtypeId>ARYXTacticalModule</SubtypeId>
+      <CountWeight>1</CountWeight>
+    </BlockTypes>
+    <BlockTypes>
+      <TypeId>ConveyorSorter</TypeId>
+      <SubtypeId>ARYXSmallBombBay</SubtypeId>
+      <CountWeight>1</CountWeight>
+    </BlockTypes>
+    <BlockTypes>
+      <TypeId>ConveyorSorter</TypeId>
+      <SubtypeId>ARYXFlechetteLauncher</SubtypeId>
+      <CountWeight>1</CountWeight>
+    </BlockTypes>
+    <BlockTypes>
+      <TypeId>ConveyorSorter</TypeId>
+      <SubtypeId>ARYXSmallFlechetteLauncher</SubtypeId>
+      <CountWeight>1</CountWeight>
+    </BlockTypes>
+    <BlockTypes>
+      <TypeId>ConveyorSorter</TypeId>
+      <SubtypeId>ARYXVariableLauncher</SubtypeId>
       <CountWeight>1</CountWeight>
     </BlockTypes>
     <BlockTypes>
@@ -858,6 +886,77 @@
       <SubtypeId>ARYXHeavyMissileSalvoLauncher</SubtypeId>
       <CountWeight>1</CountWeight>
     </BlockTypes>
+  </BlockGroup>
+  <BlockGroup>
+    <Name>Missile Launchers - Turret</Name>
+    <BlockTypes>
+      <TypeId>LargeMissileTurret</TypeId>
+      <SubtypeId>MissileTurret</SubtypeId>
+      <CountWeight>1</CountWeight>
+    </BlockTypes>
+    <BlockTypes>
+      <TypeId>LargeMissileTurret</TypeId>
+      <SubtypeId>LargeMissileTurretReskin</SubtypeId>
+      <CountWeight>1</CountWeight>
+    </BlockTypes>    
+    <BlockTypes>
+      <TypeId>LargeMissileTurret</TypeId>
+      <SubtypeId>LargeBlockMissileTurret</SubtypeId>
+      <CountWeight>1</CountWeight>
+    </BlockTypes>
+    <BlockTypes>
+      <TypeId>LargeMissileTurret</TypeId>
+      <SubtypeId>SmallMissileTurret</SubtypeId>
+      <CountWeight>1</CountWeight>
+    </BlockTypes>
+    <BlockTypes>
+      <TypeId>LargeMissileTurret</TypeId>
+      <SubtypeId>SmallMissileTurretReskin</SubtypeId>
+      <CountWeight>1</CountWeight>
+    </BlockTypes>
+    <BlockTypes>
+      <TypeId>ConveyorSorter</TypeId>
+      <SubtypeId>ARYXHydraTurret</SubtypeId>
+      <CountWeight>1</CountWeight>
+    </BlockTypes>
+    <BlockTypes>
+      <TypeId>ConveyorSorter</TypeId>
+      <SubtypeId>ARYXMissileBattery</SubtypeId>
+      <CountWeight>1</CountWeight>
+    </BlockTypes>
+    <BlockTypes>
+      <TypeId>ConveyorSorter</TypeId>
+      <SubtypeId>ARYXRocketArtillery</SubtypeId>
+      <CountWeight>1</CountWeight>
+    </BlockTypes>
+  </BlockGroup>
+  <BlockGroup>
+    <Name>Energy - Fixed</Name>
+    <BlockTypes>
+      <TypeId>ConveyorSorter</TypeId>
+      <SubtypeId>ARYXLargeIonCannon</SubtypeId>
+      <CountWeight>1</CountWeight>
+    </BlockTypes>
+    <BlockTypes>
+      <TypeId>ConveyorSorter</TypeId>
+      <SubtypeId>ARYXGravPulseLaserSG</SubtypeId>
+      <CountWeight>1</CountWeight>
+    </BlockTypes>
+    <BlockTypes>
+      <TypeId>ConveyorSorter</TypeId>
+      <SubtypeId>AryxNucleonShotgun_SG</SubtypeId>
+      <CountWeight>1</CountWeight>
+    </BlockTypes>
+    <BlockTypes>
+      <TypeId>ConveyorSorter</TypeId>
+      <SubtypeId>ARYXSmallPulseLaser_Fixed</SubtypeId>
+      <CountWeight>1</CountWeight>
+    </BlockTypes>
+    <BlockTypes>
+      <TypeId>ConveyorSorter</TypeId>
+      <SubtypeId>ARYXSmallPhysicsGun</SubtypeId>
+      <CountWeight>1</CountWeight>
+    </BlockTypes>
     <BlockTypes>
       <TypeId>ConveyorSorter</TypeId>
       <SubtypeId>ARYXPlasmaPulser</SubtypeId>
@@ -869,8 +968,627 @@
       <CountWeight>1</CountWeight>
     </BlockTypes>
     <BlockTypes>
+      <TypeId>ConveyorSorter</TypeId>
+      <SubtypeId>ARYXFocusLance</SubtypeId>
+      <CountWeight>1</CountWeight>
+    </BlockTypes>
+    <BlockTypes>
+      <TypeId>ConveyorSorter</TypeId>
+      <SubtypeId>ARYXCatalystCannon</SubtypeId>
+      <CountWeight>1</CountWeight>
+    </BlockTypes>
+    <BlockTypes>
+      <TypeId>ConveyorSorter</TypeId>
+      <SubtypeId>ARYX_NovaBlaster_SG</SubtypeId>
+      <CountWeight>1</CountWeight>
+    </BlockTypes>
+    <BlockTypes>
+      <TypeId>ConveyorSorter</TypeId>
+      <SubtypeId>AWE_MarkV_SuperLaser_Large_CB</SubtypeId>
+      <CountWeight>1</CountWeight>
+    </BlockTypes>
+    <BlockTypes>
+      <TypeId>ConveyorSorter</TypeId>
+      <SubtypeId>ARYX_SpartanCannonSG</SubtypeId>
+      <CountWeight>1</CountWeight>
+    </BlockTypes>
+    <BlockTypes>
+      <TypeId>ConveyorSorter</TypeId>
+      <SubtypeId>ARYXTeslaLanceFixed</SubtypeId>
+      <CountWeight>1</CountWeight>
+    </BlockTypes>
+    <BlockTypes>
+      <TypeId>ConveyorSorter</TypeId>
+      <SubtypeId>ARYXPlasmaFlamethrower</SubtypeId>
+      <CountWeight>1</CountWeight>
+    </BlockTypes>
+  </BlockGroup>
+  <BlockGroup>
+    <Name>Energy - Turret</Name>
+    <BlockTypes>
+      <TypeId>LargeMissileTurret</TypeId>
+      <SubtypeId>ARYXPlasmaBeamCannon</SubtypeId>
+      <CountWeight>1</CountWeight>
+    </BlockTypes>
+    <BlockTypes>
+      <TypeId>LargeMissileTurret</TypeId>
+      <SubtypeId>ARYXPhaseRepeaterCannon</SubtypeId>
+      <CountWeight>1</CountWeight>
+    </BlockTypes>
+    <BlockTypes>
+      <TypeId>LargeMissileTurret</TypeId>
+      <SubtypeId>ARYXAuroraLaser</SubtypeId>
+      <CountWeight>1</CountWeight>
+    </BlockTypes>
+    <BlockTypes>
+      <TypeId>LargeMissileTurret</TypeId>
+      <SubtypeId>ARYXVariableLaser</SubtypeId>
+      <CountWeight>1</CountWeight>
+    </BlockTypes>
+    <BlockTypes>
+      <TypeId>LargeMissileTurret</TypeId>
+      <SubtypeId>ARYXPulseTurret</SubtypeId>
+      <CountWeight>1</CountWeight>
+    </BlockTypes>
+    <BlockTypes>
+      <TypeId>LargeMissileTurret</TypeId>
+      <SubtypeId>ARYXCompactPulseTurret</SubtypeId>
+      <CountWeight>1</CountWeight>
+    </BlockTypes>
+    <BlockTypes>
+      <TypeId>LargeMissileTurret</TypeId>
+      <SubtypeId>ARYXNucleonShotgun</SubtypeId>
+      <CountWeight>1</CountWeight>
+    </BlockTypes>
+    <BlockTypes>
       <TypeId>LargeMissileTurret</TypeId>
       <SubtypeId>ARYX_FocusBeam_CompactTurret</SubtypeId>
+      <CountWeight>1</CountWeight>
+    </BlockTypes>
+    <BlockTypes>
+      <TypeId>LargeMissileTurret</TypeId>
+      <SubtypeId>ARYXReaperPulseCannon</SubtypeId>
+      <CountWeight>1</CountWeight>
+    </BlockTypes>
+    <BlockTypes>
+      <TypeId>LargeMissileTurret</TypeId>
+      <SubtypeId>ARYX_FW_NovaBlaster</SubtypeId>
+      <CountWeight>1</CountWeight>
+    </BlockTypes>
+    <BlockTypes>
+      <TypeId>LargeMissileTurret</TypeId>
+      <SubtypeId>ARYXMagnetarCannon</SubtypeId>
+      <CountWeight>1</CountWeight>
+    </BlockTypes>
+    <BlockTypes>
+      <TypeId>LargeMissileTurret</TypeId>
+      <SubtypeId>ARYXQuasarCannon</SubtypeId>
+      <CountWeight>1</CountWeight>
+    </BlockTypes>
+    <BlockTypes>
+      <TypeId>LargeMissileTurret</TypeId>
+      <SubtypeId>ARYXPulsarCannon</SubtypeId>
+      <CountWeight>1</CountWeight>
+    </BlockTypes>
+  </BlockGroup>
+  <BlockGroup>
+    <Name>Countermeasures</Name>
+    <BlockTypes>
+      <TypeId>DecoyBlock</TypeId>
+      <SubtypeId></SubtypeId>
+      <CountWeight>1</CountWeight>
+    </BlockTypes>
+    <BlockTypes>
+      <TypeId>SmallMissileLauncher</TypeId>
+      <SubtypeId>LargeFlareLauncher</SubtypeId>
+      <CountWeight>1</CountWeight>
+    </BlockTypes>
+    <BlockTypes>
+      <TypeId>SmallMissileLauncher</TypeId>
+      <SubtypeId>SmallFlareLauncher</SubtypeId>
+      <CountWeight>1</CountWeight>
+    </BlockTypes>
+    <BlockTypes>
+      <TypeId>ConveyorSorter</TypeId>
+      <SubtypeId>ARYX_SmallFlareLauncher</SubtypeId>
+      <CountWeight>1</CountWeight>
+    </BlockTypes>
+    <BlockTypes>
+      <TypeId>ConveyorSorter</TypeId>
+      <SubtypeId>ARYX_LargeFlareLauncher</SubtypeId>
+      <CountWeight>1</CountWeight>
+    </BlockTypes>
+  </BlockGroup>
+  <BlockGroup>
+    <Name>Fixed Missiles</Name>
+    <BlockTypes>
+      <TypeId>ConveyorSorter</TypeId>
+      <SubtypeId>ARYX_SabreMissileHardpoint</SubtypeId>
+      <CountWeight>1</CountWeight>
+    </BlockTypes>
+    <BlockTypes>
+      <TypeId>ConveyorSorter</TypeId>
+      <SubtypeId>ARYX_NyxMissileHardpoint</SubtypeId>
+      <CountWeight>1</CountWeight>
+    </BlockTypes>
+  </BlockGroup>
+  <BlockGroup>
+    <Name>Warhead</Name>
+    <BlockTypes>
+      <TypeId>Warhead</TypeId>
+      <SubtypeId>LargeWarhead</SubtypeId>
+      <CountWeight>1</CountWeight>
+    </BlockTypes>
+    <BlockTypes>
+      <TypeId>Warhead</TypeId>
+      <SubtypeId>SmallWarhead</SubtypeId>
+      <CountWeight>1</CountWeight>
+    </BlockTypes>
+  </BlockGroup>
+<!--All Weapons Below-->
+  <!--Vanilla Warheads-->
+  <BlockGroup>
+    <Name>Weaponry</Name>
+    <BlockTypes>
+      <TypeId>Warhead</TypeId>
+      <SubtypeId>LargeWarhead</SubtypeId>
+      <CountWeight>1</CountWeight>
+    </BlockTypes>
+    <BlockTypes>
+      <TypeId>Warhead</TypeId>
+      <SubtypeId>SmallWarhead</SubtypeId>
+      <CountWeight>1</CountWeight>
+    </BlockTypes>
+  <!--Vanilla Fixed Guns-->
+    <BlockTypes>
+      <TypeId>SmallGatlingGun</TypeId>
+      <SubtypeId>GatlingGun</SubtypeId>
+      <CountWeight>1</CountWeight>
+    </BlockTypes>
+    <BlockTypes>
+      <TypeId>SmallGatlingGun</TypeId>
+      <SubtypeId>SmallGatlingGunWarfare2</SubtypeId>
+      <CountWeight>1</CountWeight>
+    </BlockTypes>
+    <BlockTypes>
+      <TypeId>SmallGatlingGun</TypeId>
+      <SubtypeId>SmallBlockAutocannon</SubtypeId>
+      <CountWeight>1</CountWeight>
+    </BlockTypes>
+  <!--Vanilla Missile Launchers-->
+    <BlockTypes>
+      <TypeId>SmallMissileLauncher</TypeId>
+      <SubtypeId>RocketLauncher</SubtypeId>
+      <CountWeight>1</CountWeight>
+    </BlockTypes>
+    <BlockTypes>
+      <TypeId>SmallMissileLauncher</TypeId>
+      <SubtypeId>LargeMissileLauncher</SubtypeId>
+      <CountWeight>1</CountWeight>
+    </BlockTypes>
+    <BlockTypes>
+      <TypeId>SmallMissileLauncher</TypeId>
+      <SubtypeId>SmallMissileLauncherWarfare2</SubtypeId>
+      <CountWeight>1</CountWeight>
+    </BlockTypes>
+    <BlockTypes>
+      <TypeId>SmallMissileLauncherReload</TypeId>
+      <SubtypeId>SmallRocketLauncherReload</SubtypeId>
+      <CountWeight>1</CountWeight>
+    </BlockTypes>
+  <!--Vanilla Fixed Artillery-->
+    <BlockTypes>
+      <TypeId>LargeMissileLauncherReload</TypeId>
+      <SubtypeId>SmallBlockMediumCalibreGun</SubtypeId>
+      <CountWeight>1</CountWeight>
+    </BlockTypes>
+    <BlockTypes>
+      <TypeId>SmallMissileLauncher</TypeId>
+      <SubtypeId>LargeBlockLargeCalibreGun</SubtypeId>
+      <CountWeight>1</CountWeight>
+    </BlockTypes>
+  <!--Vanilla Railguns-->
+    <BlockTypes>
+      <TypeId>ConveyorSorter</TypeId>
+      <SubtypeId>SmallRailgun</SubtypeId>
+      <CountWeight>1</CountWeight>
+    </BlockTypes>
+    <BlockTypes>
+      <TypeId>ConveyorSorter</TypeId>
+      <SubtypeId>LargeRailgun</SubtypeId>
+      <CountWeight>1</CountWeight>
+    </BlockTypes>
+  <!--Vanilla Gun Turrets-->
+    <BlockTypes>
+      <TypeId>LargeGatlingTurret</TypeId>
+      <SubtypeId>GatlingTurret</SubtypeId>
+      <CountWeight>1</CountWeight>
+    </BlockTypes>
+    <BlockTypes>
+      <TypeId>LargeGatlingTurret</TypeId>
+      <SubtypeId>LargeGatlingTurretReskin</SubtypeId>
+      <CountWeight>1</CountWeight>
+    </BlockTypes>
+    <BlockTypes>
+      <TypeId>LargeGatlingTurret</TypeId>
+      <SubtypeId>SmallGatlingTurret</SubtypeId>
+      <CountWeight>1</CountWeight>
+    </BlockTypes>
+    <BlockTypes>
+      <TypeId>LargeGatlingTurret</TypeId>
+      <SubtypeId>SmallGatlingTurretReskin</SubtypeId>
+      <CountWeight>1</CountWeight>
+    </BlockTypes>
+    <BlockTypes>
+      <TypeId>LargeMissileTurret</TypeId>
+      <SubtypeId>AutoCannonTurret</SubtypeId>
+      <CountWeight>1</CountWeight>
+    </BlockTypes>
+    <BlockTypes>
+      <TypeId>InteriorTurret</TypeId>
+      <SubtypeId>LargeInteriorTurret</SubtypeId>
+      <CountWeight>1</CountWeight>
+    </BlockTypes>
+  <!--Vanilla Assault Turrets-->
+    <BlockTypes>      
+      <TypeId>LargeMissileTurret</TypeId>
+      <SubtypeId>SmallBlockMediumCalibreTurret</SubtypeId>
+      <CountWeight>1</CountWeight>
+    </BlockTypes>
+    <BlockTypes>      
+      <TypeId>LargeMissileTurret</TypeId>
+      <SubtypeId>LargeBlockMediumCalibreTurret</SubtypeId>
+      <CountWeight>1</CountWeight>
+    </BlockTypes>
+  <!--Vanilla Artillery Turrets-->
+    <BlockTypes>
+      <TypeId>LargeMissileTurret</TypeId>
+      <SubtypeId>LargeCalibreTurret</SubtypeId>
+      <CountWeight>1</CountWeight>
+    </BlockTypes>
+  <!--Vanilla Missile Turrets-->
+    <BlockTypes>
+      <TypeId>LargeMissileTurret</TypeId>
+      <SubtypeId>MissileTurret</SubtypeId>
+      <CountWeight>1</CountWeight>
+    </BlockTypes>
+    <BlockTypes>
+      <TypeId>LargeMissileTurret</TypeId>
+      <SubtypeId>LargeMissileTurretReskin</SubtypeId>
+      <CountWeight>1</CountWeight>
+    </BlockTypes>    
+    <BlockTypes>
+      <TypeId>LargeMissileTurret</TypeId>
+      <SubtypeId>LargeBlockMissileTurret</SubtypeId>
+      <CountWeight>1</CountWeight>
+    </BlockTypes>
+    <BlockTypes>
+      <TypeId>LargeMissileTurret</TypeId>
+      <SubtypeId>SmallMissileTurret</SubtypeId>
+      <CountWeight>1</CountWeight>
+    </BlockTypes>
+    <BlockTypes>
+      <TypeId>LargeMissileTurret</TypeId>
+      <SubtypeId>SmallMissileTurretReskin</SubtypeId>
+      <CountWeight>1</CountWeight>
+    </BlockTypes>
+  <!--ARYX Weapons-->
+  <!--ARYX Gun - Turret-->
+    <BlockTypes>
+      <TypeId>LargeMissileTurret</TypeId>
+      <SubtypeId>ARYXBurstTurret</SubtypeId>
+      <CountWeight>1</CountWeight>
+    </BlockTypes>
+    <BlockTypes>
+      <TypeId>LargeMissileTurret</TypeId>
+      <SubtypeId>ARYXBurstTurret_SG</SubtypeId>
+      <CountWeight>1</CountWeight>
+    </BlockTypes>
+    <BlockTypes>
+      <TypeId>ConveyorSorter</TypeId>
+      <SubtypeId>ARYXBurstTurretSlanted</SubtypeId>
+      <CountWeight>1</CountWeight>
+    </BlockTypes>
+    <BlockTypes>
+      <TypeId>LargeMissileTurret</TypeId>
+      <SubtypeId>ARYXHeavyFlakTurret</SubtypeId>
+      <CountWeight>1</CountWeight>
+    </BlockTypes>
+    <BlockTypes>
+      <TypeId>LargeMissileTurret</TypeId>
+      <SubtypeId>ARYXJuryCannon</SubtypeId>
+      <CountWeight>1</CountWeight>
+    </BlockTypes>
+    <BlockTypes>
+      <TypeId>LargeMissileTurret</TypeId>
+      <SubtypeId>ARYXFlakTurret</SubtypeId>
+      <CountWeight>1</CountWeight>
+    </BlockTypes>
+    <BlockTypes>
+      <TypeId>LargeMissileTurret</TypeId>
+      <SubtypeId>ARYX_ChordAutocannon</SubtypeId>
+      <CountWeight>1</CountWeight>
+    </BlockTypes>
+    <BlockTypes>
+      <TypeId>LargeMissileTurret</TypeId>
+      <SubtypeId>ARYX_ChordAutocannon_SG</SubtypeId>
+      <CountWeight>1</CountWeight>
+    </BlockTypes>
+    <BlockTypes>
+      <TypeId>LargeMissileTurret</TypeId>
+      <SubtypeId>ARYX_EchoAutocannon</SubtypeId>
+      <CountWeight>1</CountWeight>
+    </BlockTypes>
+    <BlockTypes>
+      <TypeId>LargeMissileTurret</TypeId>
+      <SubtypeId>ARYXSentinel</SubtypeId>
+      <CountWeight>1</CountWeight>
+    </BlockTypes>
+    <BlockTypes>
+      <TypeId>LargeMissileTurret</TypeId>
+      <SubtypeId>ARYXVulcanTurret</SubtypeId>
+      <CountWeight>1</CountWeight>
+    </BlockTypes>
+  <!--ARYX Gun - Fixed-->
+    <BlockTypes>
+      <TypeId>LargeMissileTurret</TypeId>
+      <SubtypeId>ARYXWarriorGatling</SubtypeId>
+      <CountWeight>1</CountWeight>
+    </BlockTypes>
+    <BlockTypes>
+      <TypeId>ConveyorSorter</TypeId>
+      <SubtypeId>ARYXWarriorGatlingGun</SubtypeId>
+      <CountWeight>1</CountWeight>
+    </BlockTypes>
+    <BlockTypes>
+      <TypeId>SmallGatlingGun</TypeId>
+      <SubtypeId>ARYX_FixedAtlasGatling</SubtypeId>
+      <CountWeight>1</CountWeight>
+    </BlockTypes>
+    <BlockTypes>
+      <TypeId>SmallGatlingGun</TypeId>
+      <SubtypeId>ARYX_SmallChaingun</SubtypeId>
+      <CountWeight>1</CountWeight>
+    </BlockTypes>
+    <BlockTypes>
+      <TypeId>SmallMissileLauncher</TypeId>
+      <SubtypeId>ARYX_Fixed_Chord_auto</SubtypeId>
+      <CountWeight>1</CountWeight>
+    </BlockTypes>
+    <BlockTypes>
+      <TypeId>ConveyorSorter</TypeId>
+      <SubtypeId>ARYXMace</SubtypeId>
+      <CountWeight>1</CountWeight>
+    </BlockTypes>
+  <!--ARYX Artillery - Turret-->
+    <BlockTypes>      
+      <TypeId>LargeMissileTurret</TypeId>
+      <SubtypeId>ARYXCycloneCannon</SubtypeId>
+      <CountWeight>1</CountWeight>
+    </BlockTypes>
+    <BlockTypes>
+      <TypeId>LargeMissileTurret</TypeId>
+      <SubtypeId>ARYXCycloneCannon_SG</SubtypeId>
+      <CountWeight>1</CountWeight>
+    </BlockTypes>
+    <BlockTypes>
+      <TypeId>LargeMissileTurret</TypeId>
+      <SubtypeId>ARYXHurricaneCannon</SubtypeId>
+      <CountWeight>1</CountWeight>
+    </BlockTypes>
+    <BlockTypes>
+      <TypeId>LargeMissileTurret</TypeId>
+      <SubtypeId>ARYXTyphoonCannon</SubtypeId>
+      <CountWeight>1</CountWeight>
+    </BlockTypes>
+    <BlockTypes>
+      <TypeId>LargeMissileTurret</TypeId>
+      <SubtypeId>ARYXTsunamiCannon</SubtypeId>
+      <CountWeight>1</CountWeight>
+    </BlockTypes>
+  <!--ARYX Artillery - Fixed-->
+    <BlockTypes>
+      <TypeId>SmallMissileLauncher</TypeId>
+      <SubtypeId>ARYXTempestCannon</SubtypeId>
+      <CountWeight>1</CountWeight>
+    </BlockTypes>
+    <BlockTypes>
+      <TypeId>SmallMissileLauncher</TypeId>
+      <SubtypeId>ARYXTempestCannon_SG</SubtypeId>
+      <CountWeight>1</CountWeight>
+    </BlockTypes>
+    <BlockTypes>
+      <TypeId>SmallMissileLauncher</TypeId>
+      <SubtypeId>ARYXWindfallCannon</SubtypeId>
+      <CountWeight>1</CountWeight>
+    </BlockTypes>
+    <BlockTypes>
+      <TypeId>SmallMissileLauncher</TypeId>
+      <SubtypeId>ARYXStormCannon</SubtypeId>
+      <CountWeight>1</CountWeight>
+    </BlockTypes>
+    <BlockTypes>
+      <TypeId>ConveyorSorter</TypeId>
+      <SubtypeId>ARYXSiegeMortarCannon</SubtypeId>
+      <CountWeight>1</CountWeight>
+    </BlockTypes>
+  <!--ARYX Missile Launchers - Turret-->
+    <BlockTypes>
+      <TypeId>ConveyorSorter</TypeId>
+      <SubtypeId>ARYXHydraTurret</SubtypeId>
+      <CountWeight>1</CountWeight>
+    </BlockTypes>
+    <BlockTypes>
+      <TypeId>ConveyorSorter</TypeId>
+      <SubtypeId>ARYXMissileBattery</SubtypeId>
+      <CountWeight>1</CountWeight>
+    </BlockTypes>
+    <BlockTypes>
+      <TypeId>ConveyorSorter</TypeId>
+      <SubtypeId>ARYXRocketArtillery</SubtypeId>
+      <CountWeight>1</CountWeight>
+    </BlockTypes>
+  <!--ARYX Missile Launchers - Fixed-->
+    <BlockTypes>
+      <TypeId>ConveyorSorter</TypeId>
+      <SubtypeId>ARYXTacticalModule</SubtypeId>
+      <CountWeight>1</CountWeight>
+    </BlockTypes>
+    <BlockTypes>
+      <TypeId>ConveyorSorter</TypeId>
+      <SubtypeId>ARYXSmallBombBay</SubtypeId>
+      <CountWeight>1</CountWeight>
+    </BlockTypes>
+    <BlockTypes>
+      <TypeId>ConveyorSorter</TypeId>
+      <SubtypeId>ARYXFlechetteLauncher</SubtypeId>
+      <CountWeight>1</CountWeight>
+    </BlockTypes>
+    <BlockTypes>
+      <TypeId>ConveyorSorter</TypeId>
+      <SubtypeId>ARYXSmallFlechetteLauncher</SubtypeId>
+      <CountWeight>1</CountWeight>
+    </BlockTypes>
+    <BlockTypes>
+      <TypeId>ConveyorSorter</TypeId>
+      <SubtypeId>ARYXVariableLauncher</SubtypeId>
+      <CountWeight>1</CountWeight>
+    </BlockTypes>
+    <BlockTypes>
+      <TypeId>ConveyorSorter</TypeId>
+      <SubtypeId>ARYXGladiatorMissileLauncher</SubtypeId>
+      <CountWeight>1</CountWeight>
+    </BlockTypes>
+    <BlockTypes>
+      <TypeId>ConveyorSorter</TypeId>
+      <SubtypeId>ARYXTorpLauncher</SubtypeId>
+      <CountWeight>1</CountWeight>
+    </BlockTypes>
+    <BlockTypes>
+      <TypeId>ConveyorSorter</TypeId>
+      <SubtypeId>ARYXInlineTorpLauncher</SubtypeId>
+      <CountWeight>1</CountWeight>
+    </BlockTypes>
+    <BlockTypes>
+      <TypeId>ConveyorSorter</TypeId>
+      <SubtypeId>ARYXHeavyTorpedoLauncher</SubtypeId>
+      <CountWeight>1</CountWeight>
+    </BlockTypes>
+    <BlockTypes>
+      <TypeId>ConveyorSorter</TypeId>
+      <SubtypeId>ARYXLongbowLauncher</SubtypeId>
+      <CountWeight>1</CountWeight>
+    </BlockTypes>
+    <BlockTypes>
+      <TypeId>ConveyorSorter</TypeId>
+      <SubtypeId>ARYXLongbowLauncher_SG</SubtypeId>
+      <CountWeight>1</CountWeight>
+    </BlockTypes>
+    <BlockTypes>
+      <TypeId>ConveyorSorter</TypeId>
+      <SubtypeId>ARYXHeavyMissileSalvoLauncher</SubtypeId>
+      <CountWeight>1</CountWeight>
+    </BlockTypes>
+  <!--ARYX Energy - Turret-->
+    <BlockTypes>
+      <TypeId>LargeMissileTurret</TypeId>
+      <SubtypeId>ARYXPlasmaBeamCannon</SubtypeId>
+      <CountWeight>1</CountWeight>
+    </BlockTypes>
+    <BlockTypes>
+      <TypeId>LargeMissileTurret</TypeId>
+      <SubtypeId>ARYXPhaseRepeaterCannon</SubtypeId>
+      <CountWeight>1</CountWeight>
+    </BlockTypes>
+    <BlockTypes>
+      <TypeId>LargeMissileTurret</TypeId>
+      <SubtypeId>ARYXAuroraLaser</SubtypeId>
+      <CountWeight>1</CountWeight>
+    </BlockTypes>
+    <BlockTypes>
+      <TypeId>LargeMissileTurret</TypeId>
+      <SubtypeId>ARYXVariableLaser</SubtypeId>
+      <CountWeight>1</CountWeight>
+    </BlockTypes>
+    <BlockTypes>
+      <TypeId>LargeMissileTurret</TypeId>
+      <SubtypeId>ARYXPulseTurret</SubtypeId>
+      <CountWeight>1</CountWeight>
+    </BlockTypes>
+    <BlockTypes>
+      <TypeId>LargeMissileTurret</TypeId>
+      <SubtypeId>ARYXCompactPulseTurret</SubtypeId>
+      <CountWeight>1</CountWeight>
+    </BlockTypes>
+    <BlockTypes>
+      <TypeId>LargeMissileTurret</TypeId>
+      <SubtypeId>ARYXNucleonShotgun</SubtypeId>
+      <CountWeight>1</CountWeight>
+    </BlockTypes>
+    <BlockTypes>
+      <TypeId>LargeMissileTurret</TypeId>
+      <SubtypeId>ARYX_FocusBeam_CompactTurret</SubtypeId>
+      <CountWeight>1</CountWeight>
+    </BlockTypes>
+    <BlockTypes>
+      <TypeId>LargeMissileTurret</TypeId>
+      <SubtypeId>ARYXReaperPulseCannon</SubtypeId>
+      <CountWeight>1</CountWeight>
+    </BlockTypes>
+    <BlockTypes>
+      <TypeId>LargeMissileTurret</TypeId>
+      <SubtypeId>ARYX_FW_NovaBlaster</SubtypeId>
+      <CountWeight>1</CountWeight>
+    </BlockTypes>
+    <BlockTypes>
+      <TypeId>LargeMissileTurret</TypeId>
+      <SubtypeId>ARYXMagnetarCannon</SubtypeId>
+      <CountWeight>1</CountWeight>
+    </BlockTypes>
+    <BlockTypes>
+      <TypeId>LargeMissileTurret</TypeId>
+      <SubtypeId>ARYXQuasarCannon</SubtypeId>
+      <CountWeight>1</CountWeight>
+    </BlockTypes>
+    <BlockTypes>
+      <TypeId>LargeMissileTurret</TypeId>
+      <SubtypeId>ARYXPulsarCannon</SubtypeId>
+      <CountWeight>1</CountWeight>
+    </BlockTypes>
+  <!--ARYX Energy - Fixed-->
+    <BlockTypes>
+      <TypeId>ConveyorSorter</TypeId>
+      <SubtypeId>ARYXLargeIonCannon</SubtypeId>
+      <CountWeight>1</CountWeight>
+    </BlockTypes>
+    <BlockTypes>
+      <TypeId>ConveyorSorter</TypeId>
+      <SubtypeId>ARYXGravPulseLaserSG</SubtypeId>
+      <CountWeight>1</CountWeight>
+    </BlockTypes>
+    <BlockTypes>
+      <TypeId>ConveyorSorter</TypeId>
+      <SubtypeId>AryxNucleonShotgun_SG</SubtypeId>
+      <CountWeight>1</CountWeight>
+    </BlockTypes>
+    <BlockTypes>
+      <TypeId>ConveyorSorter</TypeId>
+      <SubtypeId>ARYXSmallPulseLaser_Fixed</SubtypeId>
+      <CountWeight>1</CountWeight>
+    </BlockTypes>
+    <BlockTypes>
+      <TypeId>ConveyorSorter</TypeId>
+      <SubtypeId>ARYXSmallPhysicsGun</SubtypeId>
+      <CountWeight>1</CountWeight>
+    </BlockTypes>
+    <BlockTypes>
+      <TypeId>ConveyorSorter</TypeId>
+      <SubtypeId>ARYXPlasmaPulser</SubtypeId>
+      <CountWeight>1</CountWeight>
+    </BlockTypes>
+    <BlockTypes>
+      <TypeId>ConveyorSorter</TypeId>
+      <SubtypeId>ARYX_FocusBeam_CompactSG</SubtypeId>
       <CountWeight>1</CountWeight>
     </BlockTypes>
     <BlockTypes>
@@ -880,17 +1598,38 @@
     </BlockTypes>
     <BlockTypes>
       <TypeId>ConveyorSorter</TypeId>
-      <SubtypeId>ARYXGaussCannon</SubtypeId>
-      <CountWeight>1</CountWeight>
-    </BlockTypes>
-    <BlockTypes>
-      <TypeId>LargeMissileTurret</TypeId>
-      <SubtypeId>ARYXGaussTurret</SubtypeId>
+      <SubtypeId>ARYXCatalystCannon</SubtypeId>
       <CountWeight>1</CountWeight>
     </BlockTypes>
     <BlockTypes>
       <TypeId>ConveyorSorter</TypeId>
-      <SubtypeId>ARYXCatalystCannon</SubtypeId>
+      <SubtypeId>ARYX_NovaBlaster_SG</SubtypeId>
+      <CountWeight>1</CountWeight>
+    </BlockTypes>
+    <BlockTypes>
+      <TypeId>ConveyorSorter</TypeId>
+      <SubtypeId>AWE_MarkV_SuperLaser_Large_CB</SubtypeId>
+      <CountWeight>1</CountWeight>
+    </BlockTypes>
+    <BlockTypes>
+      <TypeId>ConveyorSorter</TypeId>
+      <SubtypeId>ARYX_SpartanCannonSG</SubtypeId>
+      <CountWeight>1</CountWeight>
+    </BlockTypes>
+    <BlockTypes>
+      <TypeId>ConveyorSorter</TypeId>
+      <SubtypeId>ARYXTeslaLanceFixed</SubtypeId>
+      <CountWeight>1</CountWeight>
+    </BlockTypes>
+    <BlockTypes>
+      <TypeId>ConveyorSorter</TypeId>
+      <SubtypeId>ARYXPlasmaFlamethrower</SubtypeId>
+      <CountWeight>1</CountWeight>
+    </BlockTypes>
+  <!--ARYX Railguns-->
+    <BlockTypes>
+      <TypeId>ConveyorSorter</TypeId>
+      <SubtypeId>ARYXGaussCannon</SubtypeId>
       <CountWeight>1</CountWeight>
     </BlockTypes>
     <BlockTypes>
@@ -913,6 +1652,12 @@
       <SubtypeId>ARYXKingswordSupercannon</SubtypeId>
       <CountWeight>1</CountWeight>
     </BlockTypes>
+  <!--ARYX Railguns - Turrets-->
+    <BlockTypes>
+      <TypeId>LargeMissileTurret</TypeId>
+      <SubtypeId>ARYXGaussTurret</SubtypeId>
+      <CountWeight>1</CountWeight>
+    </BlockTypes>
     <BlockTypes>
       <TypeId>LargeMissileTurret</TypeId>
       <SubtypeId>ARYXRailgunTurret</SubtypeId>
@@ -928,36 +1673,64 @@
       <SubtypeId>ARYXLightRailgun</SubtypeId>
       <CountWeight>1</CountWeight>
     </BlockTypes>
+  <!--ARYX Point Defense-->
     <BlockTypes>
-      <TypeId>LargeMissileTurret</TypeId>
-      <SubtypeId>ARYXSentinel</SubtypeId>
-      <CountWeight>1</CountWeight>
-    </BlockTypes>
-    <BlockTypes>
-      <TypeId>LargeMissileTurret</TypeId>
-      <SubtypeId>ARYXReaperPulseCannon</SubtypeId>
+      <TypeId>ConveyorSorter</TypeId>
+      <SubtypeId>ARYXInterceptorPDGun</SubtypeId>
       <CountWeight>1</CountWeight>
     </BlockTypes>
     <BlockTypes>
       <TypeId>ConveyorSorter</TypeId>
-      <SubtypeId>ARYXMace</SubtypeId>
-      <CountWeight>1</CountWeight>
-    </BlockTypes>
-    <BlockTypes>
-      <TypeId>LargeMissileTurret</TypeId>
-      <SubtypeId>ARYX_FW_NovaBlaster</SubtypeId>
+      <SubtypeId>ARYXOculusLaserBase</SubtypeId>
       <CountWeight>1</CountWeight>
     </BlockTypes>
     <BlockTypes>
       <TypeId>ConveyorSorter</TypeId>
-      <SubtypeId>ARYX_NovaBlaster_SG</SubtypeId>
+      <SubtypeId>ARYXArgusLaser</SubtypeId>
+      <CountWeight>1</CountWeight>
+    </BlockTypes>
+    <BlockTypes>
+      <TypeId>LargeGatlingTurret</TypeId>
+      <SubtypeId>ARYXAtlasPDC</SubtypeId>
       <CountWeight>1</CountWeight>
     </BlockTypes>
     <BlockTypes>
       <TypeId>ConveyorSorter</TypeId>
-      <SubtypeId>AWE_MarkV_SuperLaser_Large_CB</SubtypeId>
+      <SubtypeId>ARYXSlantedAtlasPDC</SubtypeId>
       <CountWeight>1</CountWeight>
     </BlockTypes>
+    <BlockTypes>
+      <TypeId>LargeGatlingTurret</TypeId>
+      <SubtypeId>ARYXCodexPDC</SubtypeId>
+      <CountWeight>1</CountWeight>
+    </BlockTypes>
+    <BlockTypes>
+      <TypeId>ConveyorSorter</TypeId>
+      <SubtypeId>ARYXSlantedCodexPDC</SubtypeId>
+      <CountWeight>1</CountWeight>
+    </BlockTypes>
+    <BlockTypes>
+      <TypeId>ConveyorSorter</TypeId>
+      <SubtypeId>ARYXSlantedInvCodexPDC</SubtypeId>
+      <CountWeight>1</CountWeight>
+    </BlockTypes>
+    <BlockTypes>
+      <TypeId>LargeGatlingTurret</TypeId>
+      <SubtypeId>ARYXCodexPDC_SG</SubtypeId>
+      <CountWeight>1</CountWeight>
+    </BlockTypes>
+  <!--ARYX Countermeasures-->
+    <BlockTypes>
+      <TypeId>ConveyorSorter</TypeId>
+      <SubtypeId>ARYX_SmallFlareLauncher</SubtypeId>
+      <CountWeight>1</CountWeight>
+    </BlockTypes>
+    <BlockTypes>
+      <TypeId>ConveyorSorter</TypeId>
+      <SubtypeId>ARYX_LargeFlareLauncher</SubtypeId>
+      <CountWeight>1</CountWeight>
+    </BlockTypes>
+  <!--ARYX Radar-->
     <BlockTypes>
       <TypeId>ConveyorSorter</TypeId>
       <SubtypeId>ARYXLargeRadar</SubtypeId>
@@ -968,51 +1741,13 @@
       <SubtypeId>ARYXSmallRadar</SubtypeId>
       <CountWeight>1</CountWeight>
     </BlockTypes>
-    <BlockTypes>
-      <TypeId>LargeMissileTurret</TypeId>
-      <SubtypeId>ARYXMagnetarCannon</SubtypeId>
-      <CountWeight>1</CountWeight>
-    </BlockTypes>
-    <BlockTypes>
-      <TypeId>LargeMissileTurret</TypeId>
-      <SubtypeId>ARYXQuasarCannon</SubtypeId>
-      <CountWeight>1</CountWeight>
-    </BlockTypes>
-    <BlockTypes>
-      <TypeId>LargeMissileTurret</TypeId>
-      <SubtypeId>ARYXPulsarCannon</SubtypeId>
-      <CountWeight>1</CountWeight>
-    </BlockTypes>
+  <!--ARYX Hangars-->
     <BlockTypes>
       <TypeId>ConveyorSorter</TypeId>
       <SubtypeId>ARYX_Small_Sidekick_Hangar</SubtypeId>
       <CountWeight>1</CountWeight>
     </BlockTypes>
-    <BlockTypes>
-      <TypeId>ConveyorSorter</TypeId>
-      <SubtypeId>ARYXTeslaLanceFixed</SubtypeId>
-      <CountWeight>1</CountWeight>
-    </BlockTypes>
-    <BlockTypes>
-      <TypeId>ConveyorSorter</TypeId>
-      <SubtypeId>ARYXPlasmaFlamethrower</SubtypeId>
-      <CountWeight>1</CountWeight>
-    </BlockTypes>
-    <BlockTypes>
-      <TypeId>LargeMissileTurret</TypeId>
-      <SubtypeId>ARYXSpartanTurret</SubtypeId>
-      <CountWeight>1</CountWeight>
-    </BlockTypes>
-    <BlockTypes>
-      <TypeId>ConveyorSorter</TypeId>
-      <SubtypeId>ARYX_SpartanCannonSG</SubtypeId>
-      <CountWeight>1</CountWeight>
-    </BlockTypes>
-    <BlockTypes>
-      <TypeId>LargeMissileTurret</TypeId>
-      <SubtypeId>ARYXVulcanTurret</SubtypeId>
-      <CountWeight>1</CountWeight>
-    </BlockTypes>
+  <!--ARYX Fixed Missile Hardpoints-->
     <BlockTypes>
       <TypeId>ConveyorSorter</TypeId>
       <SubtypeId>ARYX_SabreMissileHardpoint</SubtypeId>
@@ -1021,36 +1756,6 @@
     <BlockTypes>
       <TypeId>ConveyorSorter</TypeId>
       <SubtypeId>ARYX_NyxMissileHardpoint</SubtypeId>
-      <CountWeight>1</CountWeight>
-    </BlockTypes>
-    <BlockTypes>
-      <TypeId>SmallGatlingGun</TypeId>
-      <SubtypeId>SmallBlockAutocannon</SubtypeId>
-      <CountWeight>1</CountWeight>
-    </BlockTypes>
-    <BlockTypes>
-      <TypeId>SmallMissileLauncherReload</TypeId>
-      <SubtypeId>LargeRailgun</SubtypeId>
-      <CountWeight>1</CountWeight>
-    </BlockTypes>
-    <BlockTypes>
-      <TypeId>SmallMissileLauncherReload</TypeId>
-      <SubtypeId>SmallRailgun</SubtypeId>
-      <CountWeight>1</CountWeight>
-    </BlockTypes>
-    <BlockTypes>
-      <TypeId>SmallMissileLauncherReload</TypeId>
-      <SubtypeId>SmallBlockMediumCalibreGun</SubtypeId>
-      <CountWeight>1</CountWeight>
-    </BlockTypes>
-    <BlockTypes>
-      <TypeId>SmallMissileLauncher</TypeId>
-      <SubtypeId>LargeBlockLargeCalibreGun</SubtypeId>
-      <CountWeight>1</CountWeight>
-    </BlockTypes>
-    <BlockTypes>
-      <TypeId>LargeMissileTurret</TypeId>
-      <SubtypeId>LargeCalibreTurret</SubtypeId>
       <CountWeight>1</CountWeight>
     </BlockTypes>
   </BlockGroup>

@@ -1,0 +1,25 @@
+<?xml version="1.0" ?>
+<Definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+	<CubeBlocks>
+        <Definition xsi:type="MyObjectBuilder_ConveyorSorterDefinition">
+            <Id>
+                <TypeId>ConveyorSorter</TypeId>
+				<SubtypeId>OmniArcRing</SubtypeId>
+			</Id>
+            <Components>
+                <Component Subtype="SteelPlate" Count="60"/>
+                <Component Subtype="InteriorPlate" Count="40"/>
+                <Component Subtype="Construction" Count="40"/>
+                <Component Subtype="Computer" Count="100"/>
+                <Component Subtype="Superconductor" Count="80"/>
+                <Component Subtype="PowerCell" Count="80"/>
+                <Component Subtype="Motor" Count="45"/>
+                <Component Subtype="LargeTube" Count="25" />
+                <Component Subtype="SmallTube" Count="80"/>
+                <Component Subtype="Construction" Count="150"/>
+                <Component Subtype="SteelPlate" Count="150"/>
+            </Components>
+            <CriticalComponent Subtype="Motor" Index="0" />
+		</Definition>
+	</CubeBlocks>
+</Definitions>

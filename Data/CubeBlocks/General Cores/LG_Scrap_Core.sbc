@@ -6,7 +6,7 @@
                 <TypeId>Beacon</TypeId>
                 <SubtypeId>LG_Scrap_Core</SubtypeId>
             </Id>
-            <DisplayName>Large Scrap Core</DisplayName>
+            <DisplayName>Scrap Core</DisplayName>
             <Icon>Textures\LargeGridCore.dds</Icon>
             <Description>A core used to tag scrap wrecks for your faction, it will disable all production and power output on the grid.</Description>
             <CubeSize>Large</CubeSize>

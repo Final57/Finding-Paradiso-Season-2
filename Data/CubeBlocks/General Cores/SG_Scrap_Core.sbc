@@ -6,7 +6,7 @@
                 <TypeId>Beacon</TypeId>
                 <SubtypeId>SG_Scrap_Core</SubtypeId>
             </Id>
-            <DisplayName>Small Scrap Core</DisplayName>
+            <DisplayName>Scrap Core</DisplayName>
             <Icon>Textures\SmallGridCore.dds</Icon>
             <Description>A core used to tag scrap wrecks for your faction, it will disable all production and power output on the grid.</Description>
             <CubeSize>Small</CubeSize>

@@ -52,9 +52,72 @@
   <BlockLimits>
     <Name>Weaponry</Name>
     <BlockGroups>Weaponry</BlockGroups>
-    <MaxCount>8</MaxCount>
+    <MaxCount>6</MaxCount>
     <TurnedOffByNoFlyZone>true</TurnedOffByNoFlyZone>
     <PunishmentType>Delete</PunishmentType>
     <AllowedDirections>Forward</AllowedDirections>
+  </BlockLimits>
+  <BlockLimits>
+    <Name>Countermeasures</Name>
+    <BlockGroups>Countermeasures</BlockGroups>
+    <MaxCount>2</MaxCount>
+    <TurnedOffByNoFlyZone>true</TurnedOffByNoFlyZone>
+    <PunishmentType>Delete</PunishmentType>
+    <AllowedDirections>Up</AllowedDirections>
+    <AllowedDirections>Down</AllowedDirections>
+    <AllowedDirections>Left</AllowedDirections>
+    <AllowedDirections>Right</AllowedDirections>
+  </BlockLimits>
+  <BlockLimits>
+    <Name>No Missile Weaponry</Name>
+    <BlockGroups>Fixed Missiles</BlockGroups>
+    <BlockGroups>Missile Launchers - Fixed</BlockGroups>
+    <MaxCount>0</MaxCount>
+    <TurnedOffByNoFlyZone>true</TurnedOffByNoFlyZone>
+    <PunishmentType>Delete</PunishmentType>
+    <AllowedDirections>Forward</AllowedDirections>
+  </BlockLimits>
+  <BlockLimits>
+    <Name>No Turret Weaponry</Name>
+    <BlockGroups>Point Defense</BlockGroups>
+    <BlockGroups>Artillery - Turret</BlockGroups>
+    <BlockGroups>Railguns - Turret</BlockGroups>
+    <BlockGroups>Energy - Turret</BlockGroups>
+    <BlockGroups>Missile Launchers - Turret</BlockGroups>
+    <BlockGroups>Guns - Turret</BlockGroups>
+    <MaxCount>0</MaxCount>
+    <TurnedOffByNoFlyZone>true</TurnedOffByNoFlyZone>
+    <PunishmentType>Delete</PunishmentType>
+    <AllowedDirections>Forward</AllowedDirections>
+  </BlockLimits>
+  <BlockLimits>
+    <Name>No Utility</Name>
+    <BlockGroups>Warhead</BlockGroups>
+    <BlockGroups>Survival Kit</BlockGroups>
+    <BlockGroups>Jump Drive</BlockGroups>
+    <BlockGroups>Utility</BlockGroups>
+    <BlockGroups>Advanced Utility</BlockGroups>
+    <BlockGroups>Radar</BlockGroups>
+    <BlockGroups>Hangars</BlockGroups>
+    <MaxCount>0</MaxCount>
+    <TurnedOffByNoFlyZone>true</TurnedOffByNoFlyZone>
+    <PunishmentType>Delete</PunishmentType>
+  </BlockLimits>
+  <BlockLimits>
+    <Name>Main Thrust</Name>
+    <BlockGroups>Large Epstein Drives</BlockGroups>
+    <BlockGroups>Small Epstein Drives</BlockGroups>
+    <BlockGroups>Stribog Thrusters</BlockGroups>
+    <MaxCount>1</MaxCount>
+    <TurnedOffByNoFlyZone>true</TurnedOffByNoFlyZone>
+    <PunishmentType>Delete</PunishmentType>
+    <AllowedDirections>Backward</AllowedDirections>
+  </BlockLimits>
+  <BlockLimits>
+    <Name>Reactors</Name>
+    <BlockGroups>Reactors</BlockGroups>
+    <MaxCount>1</MaxCount>
+    <TurnedOffByNoFlyZone>true</TurnedOffByNoFlyZone>
+    <PunishmentType>Delete</PunishmentType>
   </BlockLimits>
 </ShipCore>

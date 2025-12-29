@@ -25,6 +25,12 @@ CubeBlocks_ConcreteBlock.xml
 CubeBlocks_Production.xml
 CubeBlocks_Nuclear.xml
 CubeBlocks_RoadBlock.xml
+OmniArcBeamDestro.xml
+OmniArcBeamDrill.xml
+OmniArcBeamDrillSG.xml
+OmniArcBeamWelder.xml
+OmniArcRing.xml
+OmniArcRingLarge.xml
 HXL_1x.xml
 HXL_1xFrame.xml
 HXL_1xMount.xml

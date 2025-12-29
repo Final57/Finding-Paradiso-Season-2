@@ -13,11 +13,10 @@
                 <Component Subtype="MetalGrid" Count="15" />
 				<Component Subtype="Motor" Count="150" />
 				<Component Subtype="LargeTube" Count="10" />
-				<Component Subtype="Cryocooler" Count="5" />
 				<Component Subtype="Construction" Count="20" />
                 <Component Subtype="SteelPlate" Count="50" />
             </Components>
-            <CriticalComponent Subtype="Cryocooler" Index="0" />
+            <CriticalComponent Subtype="Motor" Index="0" />
         </Definition>
 		
 		<!--Moryana-500-->
@@ -32,11 +31,10 @@
                 <Component Subtype="MetalGrid" Count="15" />
 				<Component Subtype="Motor" Count="300" />
 				<Component Subtype="LargeTube" Count="15" />
-				<Component Subtype="Cryocooler" Count="10" />
 				<Component Subtype="Construction" Count="50" />
                 <Component Subtype="SteelPlate" Count="250" />
             </Components>
-            <CriticalComponent Subtype="Cryocooler" Index="0" />
+            <CriticalComponent Subtype="Motor" Index="0" />
         </Definition>		
 	</CubeBlocks>
 </Definitions>

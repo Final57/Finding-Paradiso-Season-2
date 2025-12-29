@@ -1,0 +1,28 @@
+<?xml version="1.0" ?>
+<Definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+	<CubeBlocks>
+        <Definition xsi:type="MyObjectBuilder_ConveyorSorterDefinition">
+            <Id>
+                <TypeId>ConveyorSorter</TypeId>
+				<SubtypeId>OmniArcDrillSG</SubtypeId>
+			</Id>
+            <Components>
+                <Component Subtype="SteelPlate" Count="15"/>
+                <Component Subtype="InteriorPlate" Count="10"/>
+                <Component Subtype="GoldWire" Count="5"/>
+                <Component Subtype="Construction" Count="20"/>
+                <Component Subtype="QuantumComputer" Count="5"/>
+                <Component Subtype="AdvancedComputer" Count="25"/>
+                <Component Subtype="Superconductor" Count="25"/>
+                <Component Subtype="PowerCell" Count="15"/>
+                <Component Subtype="Computer" Count="10"/>
+                <Component Subtype="Motor" Count="12"/>
+                <Component Subtype="SmallTube" Count="20"/>
+                <Component Subtype="CopperWire" Count="15"/>
+                <Component Subtype="Construction" Count="15"/>
+                <Component Subtype="SteelPlate" Count="15"/>
+            </Components>
+            <CriticalComponent Subtype="QuantumComputer" Index="0" />
+		</Definition>
+	</CubeBlocks>
+</Definitions>

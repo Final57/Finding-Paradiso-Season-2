@@ -2,6 +2,7 @@
 <CoreManifest>
   <ShipCoreFilenames>Data\Cores\Light\Light_Fighter_Ship_Core.xml</ShipCoreFilenames>
   <ShipCoreFilenames>Data\Cores\Light\Light_Bomber_Ship_Core.xml</ShipCoreFilenames>
+  <ShipCoreFilenames>Data\Cores\Light\Light_Transport_Ship_Core.xml</ShipCoreFilenames>
   <ShipCoreFilenames>Data\Cores\General\General_Core.xml</ShipCoreFilenames>
   <ShipCoreFilenames>Data\Cores\General\Scrap_Core.xml</ShipCoreFilenames>
   <ShipCoreFilenames>Data\Cores\Static\Drill_Static_Core.xml</ShipCoreFilenames>
