@@ -17,6 +17,12 @@
                 <string>Beacon/Light_Bomber_Ship_Core</string>
                 <string>Beacon/Light_Transport_Ship_Core</string>
                 <string>Beacon/Light_Cargo_Ship_Core</string>
+                <string>Beacon/Heavy_Cargo_Ship_Core</string>
+                <string>Beacon/Corvette_Ship_Core</string>
+                <string>Beacon/Destroyer_Ship_Core</string>
+                <string>Beacon/Cruiser_Ship_Core</string>
+                <string>Beacon/Battleship_Ship_Core</string>
+                <string>Beacon/Carrier_Ship_Core</string>
             </ItemIds>
     </Category>
     <Category xsi:type="MyObjectBuilder_GuiBlockCategoryDefinition">
@@ -55,7 +61,12 @@
         <DisplayName>   Heavy Ship Cores</DisplayName>
         <Name>Section2_Position3_HeavyCores</Name>
             <ItemIds>
-                <string></string>
+                <string>Beacon/Corvette_Ship_Core</string>
+                <string>Beacon/Destroyer_Ship_Core</string>
+                <string>Beacon/Heavy_Cargo_Ship_Core</string>
+                <string>Beacon/Cruiser_Ship_Core</string>
+                <string>Beacon/Battleship_Ship_Core</string>
+                <string>Beacon/Carrier_Ship_Core</string>
             </ItemIds>
     </Category>
     <Category xsi:type="MyObjectBuilder_GuiBlockCategoryDefinition">
@@ -77,12 +88,7 @@
         <DisplayName>   Heavy Vehicle Cores</DisplayName>
         <Name>Section2_Position3_HeavyVehicleCores</Name>
             <ItemIds>
-                <string>Beacon/Corvette_Ship_Core</string>
-                <string>Beacon/Destroyer_Ship_Core</string>
-                <string>Beacon/Heavy_Cargo_Ship_Core</string>
-                <string>Beacon/Cruiser_Ship_Core</string>
-                <string>Beacon/Battleship_Ship_Core</string>
-                <string>Beacon/Carrier_Ship_Core</string>
+                <string></string>
             </ItemIds>
     </Category>
     <Category xsi:type="MyObjectBuilder_GuiBlockCategoryDefinition">

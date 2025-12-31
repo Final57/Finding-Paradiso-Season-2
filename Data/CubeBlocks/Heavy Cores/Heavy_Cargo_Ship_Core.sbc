@@ -6,7 +6,7 @@
                 <TypeId>Beacon</TypeId>
                 <SubtypeId>Heavy_Cargo_Ship_Core</SubtypeId>
             </Id>
-            <DisplayName>Heavy Cargo Ship Core</DisplayName>
+            <DisplayName>Cargo Ship Core</DisplayName>
             <Icon>Textures\LargeGridCore.dds</Icon>
             <Description>A heavy cargo ship core for large-sized ships.</Description>
             <CubeSize>Large</CubeSize>
