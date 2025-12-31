@@ -4,10 +4,10 @@
     <Category xsi:type="MyObjectBuilder_GuiBlockCategoryDefinition">
         <Id>
             <TypeId>GuiBlockCategoryDefinition</TypeId>
-            <SubtypeId>ShipCores</SubtypeId>
+            <SubtypeId>GridCores</SubtypeId>
         </Id>
-        <DisplayName>Ship Cores</DisplayName>
-        <Name>Section2_Position2_ShipCores</Name>
+        <DisplayName>Grid Cores</DisplayName>
+        <Name>Section2_Position2_GridCores</Name>
             <ItemIds>
                 <string>Beacon/LG_General_Core</string>
                 <string>Beacon/LG_Scrap_Core</string>
@@ -16,6 +16,7 @@
                 <string>Beacon/Light_Fighter_Ship_Core</string>
                 <string>Beacon/Light_Bomber_Ship_Core</string>
                 <string>Beacon/Light_Transport_Ship_Core</string>
+                <string>Beacon/Light_Cargo_Ship_Core</string>
             </ItemIds>
     </Category>
     <Category xsi:type="MyObjectBuilder_GuiBlockCategoryDefinition">
@@ -37,20 +38,21 @@
             <TypeId>GuiBlockCategoryDefinition</TypeId>
             <SubtypeId>LightCores</SubtypeId>
         </Id>
-        <DisplayName>   Light Cores</DisplayName>
+        <DisplayName>   Light Ship Cores</DisplayName>
         <Name>Section2_Position3_LightCores</Name>
             <ItemIds>
                 <string>Beacon/Light_Fighter_Ship_Core</string>
                 <string>Beacon/Light_Bomber_Ship_Core</string>
                 <string>Beacon/Light_Transport_Ship_Core</string>
+                <string>Beacon/Light_Cargo_Ship_Core</string>
             </ItemIds>
     </Category>
     <Category xsi:type="MyObjectBuilder_GuiBlockCategoryDefinition">
         <Id>
             <TypeId>GuiBlockCategoryDefinition</TypeId>
-            <SubtypeId>HeavyCores</SubtypeId>
+            <SubtypeId>HeavyShipCores</SubtypeId>
         </Id>
-        <DisplayName>   Heavy Cores</DisplayName>
+        <DisplayName>   Heavy Ship Cores</DisplayName>
         <Name>Section2_Position3_HeavyCores</Name>
             <ItemIds>
                 <string></string>
@@ -70,7 +72,7 @@
     <Category xsi:type="MyObjectBuilder_GuiBlockCategoryDefinition">
         <Id>
             <TypeId>GuiBlockCategoryDefinition</TypeId>
-            <SubtypeId/>
+            <SubtypeId>HeavyVehicleCores</SubtypeId>
         </Id>
         <DisplayName>   Heavy Vehicle Cores</DisplayName>
         <Name>Section2_Position3_HeavyVehicleCores</Name>
@@ -81,18 +83,19 @@
     <Category xsi:type="MyObjectBuilder_GuiBlockCategoryDefinition">
         <Id>
             <TypeId>GuiBlockCategoryDefinition</TypeId>
-            <SubtypeId/>
+            <SubtypeId>UtilityShipCores</SubtypeId>
         </Id>
-        <DisplayName>   Utility Cores</DisplayName>
-        <Name>Section2_Position3_UtilityCores</Name>
+        <DisplayName>   Utility Ship Cores</DisplayName>
+        <Name>Section2_Position3_UtilityShipCores</Name>
             <ItemIds>
-                <string></string>
+                <string>Beacon/Light_Utility_Ship_Core</string>
+                <string>Beacon/Heavy_Utility_Ship_Core</string>
             </ItemIds>
     </Category>
     <Category xsi:type="MyObjectBuilder_GuiBlockCategoryDefinition">
         <Id>
             <TypeId>GuiBlockCategoryDefinition</TypeId>
-            <SubtypeId/>
+            <SubtypeId>StaticCores</SubtypeId>
         </Id>
         <DisplayName>   Static Cores</DisplayName>
         <Name>Section2_Position3_StaticCores</Name>
@@ -103,7 +106,7 @@
         <Category xsi:type="MyObjectBuilder_GuiBlockCategoryDefinition">
         <Id>
             <TypeId>GuiBlockCategoryDefinition</TypeId>
-            <SubtypeId/>
+            <SubtypeId>UpgradeModules</SubtypeId>
         </Id>
         <DisplayName>   Upgrade Modules</DisplayName>
         <Name>Section2_Position3_UpgradeModules</Name>
@@ -126,6 +129,7 @@
                 <string>Beacon/LG_Scrap_Core</string>
                 <string>UpgradeModule/LG_Ship_Core_Module_Bastion</string>
                 <string>UpgradeModule/LG_Ship_Core_Module_Mobility</string>
+                <string>Beacon/Heavy_Utility_Ship_Core</string>
             </ItemIds>
     </Category>
     <Category xsi:type="MyObjectBuilder_GuiBlockCategoryDefinition">
@@ -143,6 +147,8 @@
                 <string>Beacon/Light_Transport_Ship_Core</string>
                 <string>UpgradeModule/SG_Ship_Core_Module_Bastion</string>
                 <string>UpgradeModule/SG_Ship_Core_Module_Mobility</string>
+                <string>Beacon/Light_Utility_Ship_Core</string>
+                <string>Beacon/Light_Cargo_Ship_Core</string>
             </ItemIds>
     </Category>
   </CategoryClasses>

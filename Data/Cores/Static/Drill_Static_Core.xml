@@ -14,7 +14,7 @@
   <MinPlayers>-1</MinPlayers>
   <Modifiers>
     <AssemblerSpeed>0.0</AssemblerSpeed>
-    <DrillHarvestMultiplier>0</DrillHarvestMultiplier>
+    <DrillHarvestMultiplier>1.5</DrillHarvestMultiplier>
     <GyroEfficiency>0</GyroEfficiency>
     <GyroForce>0</GyroForce>
     <PowerProducersOutput>0</PowerProducersOutput>
