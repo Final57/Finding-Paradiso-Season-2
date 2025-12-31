@@ -4,17 +4,17 @@
         <Definition xsi:type="MyObjectBuilder_BeaconDefinition">
             <Id>
                 <TypeId>Beacon</TypeId>
-                <SubtypeId>Light_Utility_Ship_Core</SubtypeId>
+                <SubtypeId>Corvette_Ship_Core</SubtypeId>
             </Id>
-            <DisplayName>Utility Ship Core</DisplayName>
-            <Icon>Textures\SmallGridCore.dds</Icon>
-            <Description>A Core for small utility ships.</Description>
-            <CubeSize>Small</CubeSize>
+            <DisplayName>Corvette Core</DisplayName>
+            <Icon>Textures\LargeGridCore.dds</Icon>
+            <Description>A corvette core for medium-sized ships.</Description>
+            <CubeSize>Large</CubeSize>
             <GuiVisible>false</GuiVisible>
             <BlockTopology>TriangleMesh</BlockTopology>
 			<Size x="1" y="1" z="1"/>
 			<ModelOffset x="0" y="0" z="0"/>
-			<Model>Models\GridCore_SG.mwm</Model>
+			<Model>Models\GridCore_Center.mwm</Model>
             <Components>
                 <Component Subtype="SteelPlate" Count="1" />
                 <Component Subtype="Construction" Count="1" />
@@ -37,7 +37,7 @@
 			</BuildProgressModels>
 			<MirroringY>Z</MirroringY>
 			<MirroringZ>Y</MirroringZ>
-            <BlockPairName>Utility_Ship_Core</BlockPairName>
+            <BlockPairName>Corvette_Core</BlockPairName>
             <EdgeType>Light</EdgeType>
             <BuildTimeSeconds>15</BuildTimeSeconds>
             <DamageEffectName>Damage_Electrical_Damaged</DamageEffectName>

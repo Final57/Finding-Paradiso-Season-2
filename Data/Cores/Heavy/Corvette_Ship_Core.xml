@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ShipCore xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <SubtypeId>Corvette_Ship_Core</SubtypeId>
+  <UniqueName>Corvette Class</UniqueName>
+  <ForceBroadCast>true</ForceBroadCast>
+  <ForceBroadCastRange>2000</ForceBroadCastRange>
+  <LargeGridStatic>false</LargeGridStatic>
+  <LargeGridMobile>true</LargeGridMobile>
+  <SmallGrid>false</SmallGrid>
+  <MaxBlocks>250</MaxBlocks>
+  <MaxMass>-1</MaxMass>
+  <MaxPCU>2000</MaxPCU>
+  <MaxPerPlayer>10</MaxPerPlayer>
+  <MinPlayers>-1</MinPlayers>
+  <Modifiers>
+    <AssemblerSpeed>0</AssemblerSpeed>
+    <DrillHarvestMultiplier>0</DrillHarvestMultiplier>
+    <GyroEfficiency>1.4</GyroEfficiency>
+    <GyroForce>1.4</GyroForce>
+    <PowerProducersOutput>1</PowerProducersOutput>
+    <RefineEfficiency>0</RefineEfficiency>
+    <RefineSpeed>0</RefineSpeed>
+    <ThrusterEfficiency>1</ThrusterEfficiency>
+    <ThrusterForce>1.5</ThrusterForce>
+    <MaxSpeed>1.2</MaxSpeed>
+    <MaxBoost>1.5</MaxBoost>
+    <BoostDuration>10</BoostDuration>
+    <BoostCoolDown>30</BoostCoolDown>
+  </Modifiers>
+  <PassiveDefenseModifiers>
+    <Bullet>1.2</Bullet>
+    <Energy>1.2</Energy>
+    <Kinetic>1.2</Kinetic>
+    <Rocket>1.4</Rocket>
+    <Explosion>1.4</Explosion>
+    <Environment>1</Environment>
+  </PassiveDefenseModifiers>
+  <SpeedBoostEnabled>true</SpeedBoostEnabled>
+  <EnableActiveDefenseModifiers>true</EnableActiveDefenseModifiers>
+  <ActiveDefenseModifiers>
+    <Bullet>0.2</Bullet>
+    <Energy>0.2</Energy>
+    <Kinetic>0.2</Kinetic>
+    <Duration>5</Duration>
+    <Cooldown>10</Cooldown>
+    <Rocket>1.4</Rocket>
+    <Explosion>0.2</Explosion>
+    <Environment>1</Environment>
+  </ActiveDefenseModifiers>
+  <EnableReloadModifier>false</EnableReloadModifier>
+  <ReloadModifier>1</ReloadModifier>
+  <BlockLimits>
+    <Name>Limited Fixed Weapons</Name>
+    <BlockGroups>Artillery - Fixed</BlockGroups>
+    <BlockGroups>Guns - Fixed</BlockGroups>
+    <BlockGroups>Missile Launchers - Fixed</BlockGroups>
+    <BlockGroups>Energy - Fixed</BlockGroups>
+    <MaxCount>1</MaxCount>
+    <TurnedOffByNoFlyZone>true</TurnedOffByNoFlyZone>
+    <PunishmentType>Delete</PunishmentType>
+    <AllowedDirection>Forward</AllowedDirection>
+  </BlockLimits>
+  <BlockLimits>
+    <Name>Point Defense</Name>
+    <BlockGroups>Point Defense</BlockGroups>
+    <MaxCount>6</MaxCount>
+    <TurnedOffByNoFlyZone>true</TurnedOffByNoFlyZone>
+    <PunishmentType>Delete</PunishmentType>
+  </BlockLimits>
+  <BlockLimits>
+    <Name>Countermeasures</Name>
+    <BlockGroups>Countermeasures</BlockGroups>
+    <MaxCount>4</MaxCount>
+    <TurnedOffByNoFlyZone>true</TurnedOffByNoFlyZone>
+    <PunishmentType>Delete</PunishmentType>
+  </BlockLimits>
+  <BlockLimits>
+    <Name>Main Thrust</Name>
+    <BlockGroups>Large Epstein Drives</BlockGroups>
+    <BlockGroups>Small Epstein Drives</BlockGroups>
+    <BlockGroups>Stribog Thrusters</BlockGroups>
+    <MaxCount>1</MaxCount>
+    <TurnedOffByNoFlyZone>true</TurnedOffByNoFlyZone>
+    <PunishmentType>Delete</PunishmentType>
+    <AllowedDirections>Backward</AllowedDirections>
+  </BlockLimits>
+    <BlockLimits>
+    <Name>No Additional Weapons</Name>
+    <BlockGroups>Artillery - Turret</BlockGroups>
+    <BlockGroups>Guns - Turret</BlockGroups>
+    <BlockGroups>Missile Launchers - Turret</BlockGroups>
+    <BlockGroups>Energy - Turret</BlockGroups>
+    <BlockGroups>Railguns - Turret</BlockGroups>
+    <BlockGroups>Railguns - Fixed</BlockGroups>
+    <MaxCount>0</MaxCount>
+    <TurnedOffByNoFlyZone>true</TurnedOffByNoFlyZone>
+    <PunishmentType>Delete</PunishmentType>
+    <AllowedDirection>Forward</AllowedDirection>
+  </BlockLimits>
+  <BlockLimits>
+    <Name>No Utility</Name>
+    <BlockGroups>Warhead</BlockGroups>
+    <BlockGroups>Survival Kit</BlockGroups>
+    <BlockGroups>Jump Drive</BlockGroups>
+    <BlockGroups>Utility</BlockGroups>
+    <BlockGroups>Advanced Utility</BlockGroups>
+    <BlockGroups>Radar</BlockGroups>
+    <BlockGroups>Hangars</BlockGroups>
+    <MaxCount>0</MaxCount>
+    <TurnedOffByNoFlyZone>true</TurnedOffByNoFlyZone>
+    <PunishmentType>Delete</PunishmentType>
+  </BlockLimits>
+  <BlockLimits>
+    <Name>Reactors</Name>
+    <BlockGroups>Reactors</BlockGroups>
+    <MaxCount>1</MaxCount>
+    <TurnedOffByNoFlyZone>true</TurnedOffByNoFlyZone>
+    <PunishmentType>Delete</PunishmentType>
+  </BlockLimits>
+</ShipCore>
