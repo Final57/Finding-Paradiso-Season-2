@@ -38,6 +38,7 @@
                 <string>Beacon/Light_Armored_Vehicle_Core</string>
                 <string>Beacon/Carrier_Vehicle_Core</string>
                 <string>Beacon/Light_Utility_Vehicle_Core</string>
+                <string>Beacon/Light_Cargo_Vehicle_Core</string>
             </ItemIds>
     </Category>
     <Category xsi:type="MyObjectBuilder_GuiBlockCategoryDefinition">
@@ -94,6 +95,7 @@
             <ItemIds>
                 <string>Beacon/Light_Transport_Vehicle_Core</string>
                 <string>Beacon/Light_Armored_Vehicle_Core</string>
+                <string>Beacon/Light_Cargo_Vehicle_Core</string>
             </ItemIds>
     </Category>
     <Category xsi:type="MyObjectBuilder_GuiBlockCategoryDefinition">
@@ -197,6 +199,7 @@
                 <string>Beacon/Light_Transport_Vehicle_Core</string>
                 <string>Beacon/Light_Armored_Vehicle_Core</string>
                 <string>Beacon/Light_Utility_Vehicle_Core</string>
+                <string>Beacon/Light_Cargo_Vehicle_Core</string>
             </ItemIds>
     </Category>
   </CategoryClasses>
