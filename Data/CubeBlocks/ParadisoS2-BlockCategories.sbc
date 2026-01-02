@@ -23,6 +23,17 @@
                 <string>Beacon/Cruiser_Ship_Core</string>
                 <string>Beacon/Battleship_Ship_Core</string>
                 <string>Beacon/Carrier_Ship_Core</string>
+                <string>Beacon/Light_Utility_Ship_Core</string>
+                <string>Beacon/Heavy_Utility_Ship_Core</string>
+                <string>Beacon/Drill_Static_Core</string>
+                <string>Beacon/Refinery_Static_Core</string>
+                <string>Beacon/Silo_Static_Core</string>
+                <string>Beacon/Farm_Static_Core</string>
+                <string>Beacon/Processor_Static_Core</string>
+                <string>Beacon/Factory_Static_Core</string>
+                <string>Beacon/Heavy_Emplacement_Static_Core</string>
+                <string>Beacon/Light_Emplacement_Static_Core</string>
+                <string>Beacon/Light_Transport_Vehicle_Core</string>
             </ItemIds>
     </Category>
     <Category xsi:type="MyObjectBuilder_GuiBlockCategoryDefinition">
@@ -77,7 +88,7 @@
         <DisplayName>   Light Vehicle Cores</DisplayName>
         <Name>Section2_Position3_LightVehicleCores</Name>
             <ItemIds>
-                <string></string>
+                <string>Beacon/Light_Transport_Vehicle_Core</string>
             </ItemIds>
     </Category>
     <Category xsi:type="MyObjectBuilder_GuiBlockCategoryDefinition">
@@ -112,6 +123,13 @@
         <Name>Section2_Position3_StaticCores</Name>
             <ItemIds>
                 <string>Beacon/Drill_Static_Core</string>
+                <string>Beacon/Refinery_Static_Core</string>
+                <string>Beacon/Silo_Static_Core</string>
+                <string>Beacon/Farm_Static_Core</string>
+                <string>Beacon/Processor_Static_Core</string>
+                <string>Beacon/Factory_Static_Core</string>
+                <string>Beacon/Heavy_Emplacement_Static_Core</string>
+                <string>Beacon/Light_Emplacement_Static_Core</string>            
             </ItemIds>
     </Category>
         <Category xsi:type="MyObjectBuilder_GuiBlockCategoryDefinition">
@@ -141,6 +159,13 @@
                 <string>UpgradeModule/LG_Ship_Core_Module_Bastion</string>
                 <string>UpgradeModule/LG_Ship_Core_Module_Mobility</string>
                 <string>Beacon/Heavy_Utility_Ship_Core</string>
+                <string>Beacon/Refinery_Static_Core</string>
+                <string>Beacon/Silo_Static_Core</string>
+                <string>Beacon/Farm_Static_Core</string>
+                <string>Beacon/Processor_Static_Core</string>
+                <string>Beacon/Factory_Static_Core</string>
+                <string>Beacon/Heavy_Emplacement_Static_Core</string>
+                <string>Beacon/Light_Emplacement_Static_Core</string>
             </ItemIds>
     </Category>
     <Category xsi:type="MyObjectBuilder_GuiBlockCategoryDefinition">
@@ -160,6 +185,7 @@
                 <string>UpgradeModule/SG_Ship_Core_Module_Mobility</string>
                 <string>Beacon/Light_Utility_Ship_Core</string>
                 <string>Beacon/Light_Cargo_Ship_Core</string>
+                <string>Beacon/Light_Transport_Vehicle_Core</string>
             </ItemIds>
     </Category>
   </CategoryClasses>

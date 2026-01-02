@@ -1,16 +1,16 @@
 <?xml version="1.0" encoding="utf-16"?>
 <ShipCore xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
-  <SubtypeId>Drill_Static_Core</SubtypeId>
-  <UniqueName>Static Drill Rig Structure</UniqueName>
+  <SubtypeId>Light_Emplacement_Static_Core</SubtypeId>
+  <UniqueName>Light Emplacement Structure</UniqueName>
   <ForceBroadCast>true</ForceBroadCast>
   <ForceBroadCastRange>500</ForceBroadCastRange>
   <LargeGridStatic>true</LargeGridStatic>
   <LargeGridMobile>false</LargeGridMobile>
   <SmallGrid>false</SmallGrid>
-  <MaxBlocks>50</MaxBlocks>
+  <MaxBlocks>200</MaxBlocks>
   <MaxMass>-1</MaxMass>
-  <MaxPCU>500</MaxPCU>
-  <MaxPerPlayer>10</MaxPerPlayer>
+  <MaxPCU>1000</MaxPCU>
+  <MaxPerPlayer>4</MaxPerPlayer>
   <MinPlayers>-1</MinPlayers>
   <Modifiers>
     <AssemblerSpeed>0.0</AssemblerSpeed>
@@ -28,30 +28,63 @@
     <BoostCoolDown>0</BoostCoolDown>
   </Modifiers>
   <PassiveDefenseModifiers>
-    <Bullet>1</Bullet>
-    <Energy>1</Energy>
-    <Kinetic>1</Kinetic>
-    <Rocket>1</Rocket>
-    <Explosion>1</Explosion>
+    <Bullet>2</Bullet>
+    <Energy>2</Energy>
+    <Kinetic>2</Kinetic>
+    <Rocket>2</Rocket>
+    <Explosion>2</Explosion>
     <Environment>1</Environment>
   </PassiveDefenseModifiers>
   <SpeedBoostEnabled>false</SpeedBoostEnabled>
-  <EnableActiveDefenseModifiers>false</EnableActiveDefenseModifiers>
+  <EnableActiveDefenseModifiers>true</EnableActiveDefenseModifiers>
   <ActiveDefenseModifiers>
-    <Bullet>0.1</Bullet>
-    <Energy>0.1</Energy>
-    <Kinetic>0.1</Kinetic>
-    <Duration>5</Duration>
-    <Cooldown>10</Cooldown>
-    <Rocket>1.2</Rocket>
-    <Explosion>0.1</Explosion>
+    <Bullet>0.5</Bullet>
+    <Energy>0.5</Energy>
+    <Kinetic>0.5</Kinetic>
+    <Duration>30</Duration>
+    <Cooldown>60</Cooldown>
+    <Rocket>2</Rocket>
+    <Explosion>2</Explosion>
     <Environment>1</Environment>
   </ActiveDefenseModifiers>
   <EnableReloadModifier>false</EnableReloadModifier>
   <ReloadModifier>1</ReloadModifier>
   <BlockLimits>
-    <Name>Static Drills</Name>
-    <BlockGroups>Static Drills</BlockGroups>
+    <Name>Weapons</Name>
+    <BlockGroups>Missile Launchers - Turret</BlockGroups>
+    <BlockGroups>Energy - Turret</BlockGroups>
+    <BlockGroups>Railguns - Turret</BlockGroups>
+    <BlockGroups>Artillery - Turret</BlockGroups>
+    <BlockGroups>Guns - Turret</BlockGroups>
+    <MaxCount>6</MaxCount>
+    <TurnedOffByNoFlyZone>true</TurnedOffByNoFlyZone>
+    <PunishmentType>Delete</PunishmentType>
+  </BlockLimits>
+  <BlockLimits>
+    <Name>Railguns</Name>
+    <BlockGroups>Railguns - Fixed</BlockGroups>
+    <BlockGroups>Railguns - Turret</BlockGroups>
+    <MaxCount>2</MaxCount>
+    <TurnedOffByNoFlyZone>true</TurnedOffByNoFlyZone>
+    <PunishmentType>Delete</PunishmentType>
+  </BlockLimits>
+  <BlockLimits>
+    <Name>Point Defense</Name>
+    <BlockGroups>Point Defense</BlockGroups>
+    <MaxCount>6</MaxCount>
+    <TurnedOffByNoFlyZone>true</TurnedOffByNoFlyZone>
+    <PunishmentType>Delete</PunishmentType>
+  </BlockLimits>
+  <BlockLimits>
+    <Name>Reactors</Name>
+    <BlockGroups>Reactors</BlockGroups>
+    <MaxCount>1</MaxCount>
+    <TurnedOffByNoFlyZone>true</TurnedOffByNoFlyZone>
+    <PunishmentType>Delete</PunishmentType>
+  </BlockLimits>
+  <BlockLimits>
+    <Name>Radar</Name>
+    <BlockGroups>Radar</BlockGroups>
     <MaxCount>1</MaxCount>
     <TurnedOffByNoFlyZone>true</TurnedOffByNoFlyZone>
     <PunishmentType>Delete</PunishmentType>
@@ -64,21 +97,13 @@
     <PunishmentType>Delete</PunishmentType>
   </BlockLimits>
   <BlockLimits>
-    <Name>No Weapons</Name>
-    <BlockGroups>Weaponry</BlockGroups>
-    <MaxCount>0</MaxCount>
-    <TurnedOffByNoFlyZone>true</TurnedOffByNoFlyZone>
-    <PunishmentType>Delete</PunishmentType>
-  </BlockLimits>
-  <BlockLimits>
     <Name>No Utility</Name>
     <BlockGroups>Utility</BlockGroups>
+    <BlockGroups>Static Drills</BlockGroups>
     <BlockGroups>Jump Drive</BlockGroups>
     <BlockGroups>Advanced Utility</BlockGroups>
-    <BlockGroups>Reactors</BlockGroups>
     <BlockGroups>Medical</BlockGroups>
     <BlockGroups>Survival Kit</BlockGroups>
-    <BlockGroups>Radar</BlockGroups>
     <BlockGroups>Hangars</BlockGroups>
     <MaxCount>0</MaxCount>
     <TurnedOffByNoFlyZone>true</TurnedOffByNoFlyZone>

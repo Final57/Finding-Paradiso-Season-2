@@ -1,25 +1,25 @@
 <?xml version="1.0" encoding="utf-16"?>
 <ShipCore xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
-  <SubtypeId>Drill_Static_Core</SubtypeId>
-  <UniqueName>Static Drill Rig Structure</UniqueName>
-  <ForceBroadCast>true</ForceBroadCast>
+  <SubtypeId>Refinery_Static_Core</SubtypeId>
+  <UniqueName>Refinery Structure</UniqueName>
+  <ForceBroadCast>false</ForceBroadCast>
   <ForceBroadCastRange>500</ForceBroadCastRange>
   <LargeGridStatic>true</LargeGridStatic>
   <LargeGridMobile>false</LargeGridMobile>
   <SmallGrid>false</SmallGrid>
-  <MaxBlocks>50</MaxBlocks>
+  <MaxBlocks>1000</MaxBlocks>
   <MaxMass>-1</MaxMass>
-  <MaxPCU>500</MaxPCU>
+  <MaxPCU>2000</MaxPCU>
   <MaxPerPlayer>10</MaxPerPlayer>
   <MinPlayers>-1</MinPlayers>
   <Modifiers>
     <AssemblerSpeed>0.0</AssemblerSpeed>
-    <DrillHarvestMultiplier>1.5</DrillHarvestMultiplier>
+    <DrillHarvestMultiplier>0</DrillHarvestMultiplier>
     <GyroEfficiency>0</GyroEfficiency>
     <GyroForce>0</GyroForce>
-    <PowerProducersOutput>0</PowerProducersOutput>
-    <RefineEfficiency>0</RefineEfficiency>
-    <RefineSpeed>0</RefineSpeed>
+    <PowerProducersOutput>1</PowerProducersOutput>
+    <RefineEfficiency>2</RefineEfficiency>
+    <RefineSpeed>2</RefineSpeed>
     <ThrusterEfficiency>0</ThrusterEfficiency>
     <ThrusterForce>0</ThrusterForce>
     <MaxSpeed>0</MaxSpeed>
@@ -50,16 +50,26 @@
   <EnableReloadModifier>false</EnableReloadModifier>
   <ReloadModifier>1</ReloadModifier>
   <BlockLimits>
-    <Name>Static Drills</Name>
-    <BlockGroups>Static Drills</BlockGroups>
-    <MaxCount>1</MaxCount>
-    <TurnedOffByNoFlyZone>true</TurnedOffByNoFlyZone>
+    <Name>Refinery</Name>
+    <BlockGroups>Basic Refining</BlockGroups>
+    <BlockGroups>Standard Refining</BlockGroups>
+    <BlockGroups>Oil Processing</BlockGroups>
+    <MaxCount>5</MaxCount>
+    <TurnedOffByNoFlyZone>false</TurnedOffByNoFlyZone>
+    <PunishmentType>Delete</PunishmentType>
+  </BlockLimits>
+  <BlockLimits>
+    <Name>No Processing</Name>
+    <BlockGroups>Processing</BlockGroups>
+    <BlockGroups>Nuclear Processing</BlockGroups>
+    <MaxCount>0</MaxCount>
+    <TurnedOffByNoFlyZone>false</TurnedOffByNoFlyZone>
     <PunishmentType>Delete</PunishmentType>
   </BlockLimits>
   <BlockLimits>
     <Name>Connectors</Name>
     <BlockGroups>Connectors</BlockGroups>
-    <MaxCount>1</MaxCount>
+    <MaxCount>4</MaxCount>
     <TurnedOffByNoFlyZone>false</TurnedOffByNoFlyZone>
     <PunishmentType>Delete</PunishmentType>
   </BlockLimits>
@@ -75,7 +85,6 @@
     <BlockGroups>Utility</BlockGroups>
     <BlockGroups>Jump Drive</BlockGroups>
     <BlockGroups>Advanced Utility</BlockGroups>
-    <BlockGroups>Reactors</BlockGroups>
     <BlockGroups>Medical</BlockGroups>
     <BlockGroups>Survival Kit</BlockGroups>
     <BlockGroups>Radar</BlockGroups>
@@ -85,8 +94,14 @@
     <PunishmentType>Delete</PunishmentType>
   </BlockLimits>
   <BlockLimits>
-    <Name>No Refining or Assembling</Name>
-    <BlockGroups>Refining</BlockGroups>
+    <Name>Reactors</Name>
+    <BlockGroups>Reactors</BlockGroups>
+    <MaxCount>1</MaxCount>
+    <TurnedOffByNoFlyZone>false</TurnedOffByNoFlyZone>
+    <PunishmentType>Delete</PunishmentType>
+  </BlockLimits>
+  <BlockLimits>
+    <Name>No Assembling or Farming</Name>
     <BlockGroups>Assembling</BlockGroups>
     <BlockGroups>Farming</BlockGroups>
     <MaxCount>0</MaxCount>

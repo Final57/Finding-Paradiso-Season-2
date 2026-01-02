@@ -65,6 +65,24 @@
     <BlockGroups>Advanced Utility</BlockGroups>
     <BlockGroups>Radar</BlockGroups>
     <BlockGroups>Hangars</BlockGroups>
+    <BlockGroups>Medical</BlockGroups>
+    <BlockGroups>Static Drills</BlockGroups>
+    <MaxCount>0</MaxCount>
+    <TurnedOffByNoFlyZone>true</TurnedOffByNoFlyZone>
+    <PunishmentType>Delete</PunishmentType>
+  </BlockLimits>
+  <BlockLimits>
+    <Name>Connectors</Name>
+    <BlockGroups>Connectors</BlockGroups>
+    <MaxCount>1</MaxCount>
+    <TurnedOffByNoFlyZone>false</TurnedOffByNoFlyZone>
+    <PunishmentType>Delete</PunishmentType>
+  </BlockLimits>
+  <BlockLimits>
+    <Name>No Refining or Assembling</Name>
+    <BlockGroups>Refining</BlockGroups>
+    <BlockGroups>Assembling</BlockGroups>
+    <BlockGroups>Farming</BlockGroups>
     <MaxCount>0</MaxCount>
     <TurnedOffByNoFlyZone>true</TurnedOffByNoFlyZone>
     <PunishmentType>Delete</PunishmentType>

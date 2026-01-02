@@ -1,23 +1,23 @@
 <?xml version="1.0" encoding="utf-16"?>
 <ShipCore xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
-  <SubtypeId>Drill_Static_Core</SubtypeId>
-  <UniqueName>Static Drill Rig Structure</UniqueName>
-  <ForceBroadCast>true</ForceBroadCast>
+  <SubtypeId>Farm_Static_Core</SubtypeId>
+  <UniqueName>Farm Structure</UniqueName>
+  <ForceBroadCast>false</ForceBroadCast>
   <ForceBroadCastRange>500</ForceBroadCastRange>
   <LargeGridStatic>true</LargeGridStatic>
   <LargeGridMobile>false</LargeGridMobile>
   <SmallGrid>false</SmallGrid>
-  <MaxBlocks>50</MaxBlocks>
+  <MaxBlocks>1000</MaxBlocks>
   <MaxMass>-1</MaxMass>
-  <MaxPCU>500</MaxPCU>
+  <MaxPCU>2000</MaxPCU>
   <MaxPerPlayer>10</MaxPerPlayer>
   <MinPlayers>-1</MinPlayers>
   <Modifiers>
     <AssemblerSpeed>0.0</AssemblerSpeed>
-    <DrillHarvestMultiplier>1.5</DrillHarvestMultiplier>
+    <DrillHarvestMultiplier>0</DrillHarvestMultiplier>
     <GyroEfficiency>0</GyroEfficiency>
     <GyroForce>0</GyroForce>
-    <PowerProducersOutput>0</PowerProducersOutput>
+    <PowerProducersOutput>1</PowerProducersOutput>
     <RefineEfficiency>0</RefineEfficiency>
     <RefineSpeed>0</RefineSpeed>
     <ThrusterEfficiency>0</ThrusterEfficiency>
@@ -50,16 +50,42 @@
   <EnableReloadModifier>false</EnableReloadModifier>
   <ReloadModifier>1</ReloadModifier>
   <BlockLimits>
-    <Name>Static Drills</Name>
-    <BlockGroups>Static Drills</BlockGroups>
+    <Name>Factory</Name>
+    <BlockGroups>Basic Assembling</BlockGroups>
+    <BlockGroups>Automated Assembling</BlockGroups>
+    <BlockGroups>Standard Assembling</BlockGroups>
+    <BlockGroups>Munitions Factory</BlockGroups>
+    <BlockGroups>Advanced Assembling</BlockGroups>
+    <MaxCount>8</MaxCount>
+    <TurnedOffByNoFlyZone>false</TurnedOffByNoFlyZone>
+    <PunishmentType>Delete</PunishmentType>
+  </BlockLimits>
+  <BlockLimits>
+    <Name>Limited Advanced Assembling</Name>
+    <BlockGroups>Advanced Assembling</BlockGroups>
     <MaxCount>1</MaxCount>
-    <TurnedOffByNoFlyZone>true</TurnedOffByNoFlyZone>
+    <TurnedOffByNoFlyZone>false</TurnedOffByNoFlyZone>
+    <PunishmentType>Delete</PunishmentType>
+  </BlockLimits>
+  <BlockLimits>
+    <Name>No Nano Assembling</Name>
+    <BlockGroups>Nano Assembling</BlockGroups>
+    <MaxCount>0</MaxCount>
+    <TurnedOffByNoFlyZone>false</TurnedOffByNoFlyZone>
+    <PunishmentType>Delete</PunishmentType>
+  </BlockLimits>
+  <BlockLimits>
+    <Name>No Processing</Name>
+    <BlockGroups>Processing</BlockGroups>
+    <BlockGroups>Nuclear Processing</BlockGroups>
+    <MaxCount>0</MaxCount>
+    <TurnedOffByNoFlyZone>false</TurnedOffByNoFlyZone>
     <PunishmentType>Delete</PunishmentType>
   </BlockLimits>
   <BlockLimits>
     <Name>Connectors</Name>
     <BlockGroups>Connectors</BlockGroups>
-    <MaxCount>1</MaxCount>
+    <MaxCount>4</MaxCount>
     <TurnedOffByNoFlyZone>false</TurnedOffByNoFlyZone>
     <PunishmentType>Delete</PunishmentType>
   </BlockLimits>
@@ -85,10 +111,16 @@
     <PunishmentType>Delete</PunishmentType>
   </BlockLimits>
   <BlockLimits>
-    <Name>No Refining or Assembling</Name>
+    <Name>No Refining or Farming</Name>
     <BlockGroups>Refining</BlockGroups>
-    <BlockGroups>Assembling</BlockGroups>
     <BlockGroups>Farming</BlockGroups>
+    <MaxCount>0</MaxCount>
+    <TurnedOffByNoFlyZone>true</TurnedOffByNoFlyZone>
+    <PunishmentType>Delete</PunishmentType>
+  </BlockLimits>
+  <BlockLimits>
+    <Name>No Reactors</Name>
+    <BlockGroups>Reactors</BlockGroups>
     <MaxCount>0</MaxCount>
     <TurnedOffByNoFlyZone>true</TurnedOffByNoFlyZone>
     <PunishmentType>Delete</PunishmentType>
