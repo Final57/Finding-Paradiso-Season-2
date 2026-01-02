@@ -31,6 +31,8 @@ OmniArcBeamDrillSG.xml
 OmniArcBeamWelder.xml
 OmniArcRing.xml
 OmniArcRingLarge.xml
+AQD_AirlockConnector_Flat.xml
+AQD_LG_AirlockConnector_Large.xml
 HXL_1x.xml
 HXL_1xFrame.xml
 HXL_1xMount.xml

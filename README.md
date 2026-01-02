@@ -22,14 +22,12 @@ A Space Engineers Mod and ModAdjusted Files
 - - [x] Write Modadjuster compat for Federal Logistics (Replaces <https://steamcommunity.com/workshop/filedetails/?id=2923120747>)
 - - [x] Write Modadjuster compat for ResourceNodes (Replaces <https://steamcommunity.com/sharedfiles/filedetails/?id=2923551981>)
 - - [x] Write modadjuster compat for Aryx drive systems (Replaces <https://steamcommunity.com/sharedfiles/filedetails/?id=3003196825>)
-- - [ ] Write Modadjuster compat for ?
-- - [ ] Write Modadjuster compat for ?
-- - [ ] Write Modadjuster compat for ?
 - [x] Write modadjuster compat for highpower offset spotlight
 - [x] Write Modadjuster compat for highpower spotlight
 - [x] Write Modadjuster compat for AQD Concrete
 - [x] Write Modadjuster compat for heavy XL blocks
-- [ ] Write Modadjuster compat for OmniArc Tools
+- [ ] Write Modadjuster compat for AQD Airlocks
+- [x] Write Modadjuster compat for OmniArc Tools
 - [x] Write Modadjuster compat for Consolidation Propulsion
 - [ ] Write Modasjuster compat for Railway Builder
 - [ ] Write Modadjuster compat for Mothership blocks
@@ -42,11 +40,12 @@ A Space Engineers Mod and ModAdjusted Files
 ### Shipcore Configuration
 
 - [ ] Write Shipcore config based on "arcane cores" <https://steamcommunity.com/sharedfiles/filedetails/?id=3552605473> - NOTE: Bug Alien for ship/base/rover classes
-- - [ ] Write Block Groups
-- - [ ] Use Models from Arcane Cores and create Blocks
-- - [ ] Create Upgrade Modules
-- - [ ] Create Ship Cores
-- - [ ] Use Alien's Spreadsheet to create ship classes
+- - [x] Write Block Groups
+- - [x] Use Models from Arcane Cores and create Blocks
+- - [x] Create Upgrade Modules
+- - [x] Create Ship Cores
+- - [x] Use Alien's Spreadsheet to create ship classes
+- - [ ] NEEDS REVIEW
 
 ### Mod Dependencies
 

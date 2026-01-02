@@ -6,7 +6,7 @@
                 <TypeId>Beacon</TypeId>
                 <SubtypeId>Light_Cargo_Vehicle_Core</SubtypeId>
             </Id>
-            <DisplayName>Cargo Vehicle Core</DisplayName>
+            <DisplayName>Light Cargo Vehicle Core</DisplayName>
             <Icon>Textures\SmallGridCore.dds</Icon>
             <Description>Light Cargo Vehicle Core</Description>
             <CubeSize>Small</CubeSize>

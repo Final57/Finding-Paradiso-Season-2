@@ -1,0 +1,38 @@
+<?xml version="1.0" ?>
+<Definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <CubeBlocks>
+
+    <Definition xsi:type="MyObjectBuilder_ShipConnectorDefinition">
+      <Id>
+        <TypeId>ShipConnector</TypeId>
+        <SubtypeId>AQD_LG_AirlockConnector_Flat</SubtypeId>
+      </Id>
+      <Components>
+        <Component Subtype="SteelPlate" Count="50" />
+        <Component Subtype="Construction" Count="20" />
+        <Component Subtype="SmallTube" Count="4" />
+        <Component Subtype="Motor" Count="4" />
+        <Component Subtype="Computer" Count="5" />
+        <Component Subtype="SteelPlate" Count="10" />
+      </Components>
+      <CriticalComponent Subtype="Computer" Index="0" />
+    </Definition>
+
+    <Definition xsi:type="MyObjectBuilder_ShipConnectorDefinition">
+      <Id>
+        <TypeId>ShipConnector</TypeId>
+        <SubtypeId>AQD_SG_AirlockConnector_Flat</SubtypeId>
+      </Id>
+      <Components>
+        <Component Subtype="SteelPlate" Count="50" />
+        <Component Subtype="Construction" Count="20" />
+        <Component Subtype="SmallTube" Count="4" />
+        <Component Subtype="Motor" Count="4" />
+        <Component Subtype="Computer" Count="5" />
+        <Component Subtype="SteelPlate" Count="10" />
+      </Components>
+      <CriticalComponent Subtype="Computer" Index="0" />
+    </Definition>
+
+  </CubeBlocks>
+</Definitions>
