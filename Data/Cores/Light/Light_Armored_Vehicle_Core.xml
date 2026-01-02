@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-16"?>
 <ShipCore xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
-  <SubtypeId>Light_Transport_Vehicle_Core</SubtypeId>
-  <UniqueName>Light Transport Vehicle Class</UniqueName>
+  <SubtypeId>Light_Armored_Vehicle_Core</SubtypeId>
+  <UniqueName>Light Armored Vehicle Class</UniqueName>
   <ForceBroadCast>false</ForceBroadCast>
   <ForceBroadCastRange>2000</ForceBroadCastRange>
   <LargeGridStatic>false</LargeGridStatic>
@@ -20,7 +20,7 @@
     <PowerProducersOutput>1</PowerProducersOutput>
     <RefineEfficiency>0</RefineEfficiency>
     <RefineSpeed>0</RefineSpeed>
-    <ThrusterEfficiency>1.5</ThrusterEfficiency>
+    <ThrusterEfficiency>0.8</ThrusterEfficiency>
     <ThrusterForce>1.2</ThrusterForce>
     <MaxSpeed>1.2</MaxSpeed>
     <MaxBoost>1.5</MaxBoost>
@@ -28,32 +28,40 @@
     <BoostCoolDown>10</BoostCoolDown>
   </Modifiers>
   <PassiveDefenseModifiers>
-    <Bullet>1.2</Bullet>
-    <Energy>1.2</Energy>
-    <Kinetic>1.2</Kinetic>
-    <Rocket>1.2</Rocket>
-    <Explosion>1.2</Explosion>
+    <Bullet>1.3</Bullet>
+    <Energy>1.3</Energy>
+    <Kinetic>1.3</Kinetic>
+    <Rocket>1.3</Rocket>
+    <Explosion>1.3</Explosion>
     <Environment>1</Environment>
   </PassiveDefenseModifiers>
   <SpeedBoostEnabled>true</SpeedBoostEnabled>
   <EnableActiveDefenseModifiers>true</EnableActiveDefenseModifiers>
   <ActiveDefenseModifiers>
-    <Bullet>0.1</Bullet>
-    <Energy>0.1</Energy>
-    <Kinetic>0.1</Kinetic>
-    <Duration>5</Duration>
-    <Cooldown>10</Cooldown>
-    <Rocket>1.2</Rocket>
-    <Explosion>0.1</Explosion>
+    <Bullet>0.3</Bullet>
+    <Energy>0.3</Energy>
+    <Kinetic>0.3</Kinetic>
+    <Duration>30</Duration>
+    <Cooldown>60</Cooldown>
+    <Rocket>1.5</Rocket>
+    <Explosion>0.3</Explosion>
     <Environment>1</Environment>
   </ActiveDefenseModifiers>
   <EnableReloadModifier>false</EnableReloadModifier>
   <ReloadModifier>1</ReloadModifier>
   <BlockLimits>
-    <Name>Point Defense</Name>
-    <BlockGroups>Point Defense</BlockGroups>
+    <Name>Weaponry</Name>
+    <BlockGroups>Artillery - Turret</BlockGroups>
+    <BlockGroups>Artillery - Fixed</BlockGroups>
+    <BlockGroups>Railguns - Fixed</BlockGroups>
+    <BlockGroups>Railguns - Turret</BlockGroups>
+    <BlockGroups>Guns - Fixed</BlockGroups>
     <BlockGroups>Guns - Turret</BlockGroups>
-    <MaxCount>4</MaxCount>
+    <BlockGroups>Missile Launchers - Fixed</BlockGroups>
+    <BlockGroups>Missile Launchers - Turret</BlockGroups>
+    <BlockGroups>Energy - Fixed</BlockGroups>
+    <BlockGroups>Energy - Turret</BlockGroups>
+    <MaxCount>1</MaxCount>
     <TurnedOffByNoFlyZone>true</TurnedOffByNoFlyZone>
     <PunishmentType>Delete</PunishmentType>
   </BlockLimits>
@@ -70,25 +78,9 @@
   </BlockLimits>
   <BlockLimits>
     <Name>No Other Weaponry</Name>
-    <BlockGroups>Artillery - Turret</BlockGroups>
-    <BlockGroups>Artillery - Fixed</BlockGroups>
-    <BlockGroups>Railguns - Fixed</BlockGroups>
-    <BlockGroups>Railguns - Turret</BlockGroups>
-    <BlockGroups>Guns - Fixed</BlockGroups>
-    <BlockGroups>Missile Launchers - Fixed</BlockGroups>
-    <BlockGroups>Missile Launchers - Turret</BlockGroups>
-    <BlockGroups>Energy - Fixed</BlockGroups>
-    <BlockGroups>Energy - Turret</BlockGroups>
+    <BlockGroups>Point Defense</BlockGroups>
     <BlockGroups>Fixed Missiles</BlockGroups>
     <MaxCount>0</MaxCount>
-    <TurnedOffByNoFlyZone>true</TurnedOffByNoFlyZone>
-    <PunishmentType>Delete</PunishmentType>
-  </BlockLimits>
-  <BlockLimits>
-    <Name>Survival Kit or Radar</Name>
-    <BlockGroups>Survival Kit</BlockGroups>
-    <BlockGroups>Radar</BlockGroups>
-    <MaxCount>1</MaxCount>
     <TurnedOffByNoFlyZone>true</TurnedOffByNoFlyZone>
     <PunishmentType>Delete</PunishmentType>
   </BlockLimits>
@@ -99,6 +91,8 @@
     <BlockGroups>Utility</BlockGroups>
     <BlockGroups>Advanced Utility</BlockGroups>
     <BlockGroups>Hangars</BlockGroups>
+    <BlockGroups>Survival Kit</BlockGroups>
+    <BlockGroups>Radar</BlockGroups>
     <MaxCount>0</MaxCount>
     <TurnedOffByNoFlyZone>true</TurnedOffByNoFlyZone>
     <PunishmentType>Delete</PunishmentType>

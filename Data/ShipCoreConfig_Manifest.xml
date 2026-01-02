@@ -15,4 +15,8 @@
   <ShipCoreFilenames>Data\Cores\Static\Drill_Static_Core.xml</ShipCoreFilenames>
   <ShipCoreFilenames>Data\Cores\Utility\Light_Utility_Ship_Core.xml</ShipCoreFilenames>
   <ShipCoreFilenames>Data\Cores\Utility\Heavy_Utility_Ship_Core.xml</ShipCoreFilenames>
+  <ShipCoreFilenames>Data\Cores\Heavy\Carrier_Vehicle_Core.xml</ShipCoreFilenames>
+  <ShipCoreFilenames>Data\Cores\Heavy\Heavy_Armored_Vehicle_Core.xml</ShipCoreFilenames>
+  <ShipCoreFilenames>Data\Cores\Light\Light_Armored_Vehicle_Core.xml</ShipCoreFilenames>
+  <ShipCoreFilenames>Data\Cores\Utility\Light_Utility_Vehicle_Core.xml</ShipCoreFilenames>
 </CoreManifest>

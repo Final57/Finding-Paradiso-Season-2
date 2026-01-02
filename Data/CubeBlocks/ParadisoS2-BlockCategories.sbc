@@ -34,6 +34,10 @@
                 <string>Beacon/Heavy_Emplacement_Static_Core</string>
                 <string>Beacon/Light_Emplacement_Static_Core</string>
                 <string>Beacon/Light_Transport_Vehicle_Core</string>
+                <string>Beacon/Heavy_Armored_Vehicle_Core</string>
+                <string>Beacon/Light_Armored_Vehicle_Core</string>
+                <string>Beacon/Carrier_Vehicle_Core</string>
+                <string>Beacon/Light_Utility_Vehicle_Core</string>
             </ItemIds>
     </Category>
     <Category xsi:type="MyObjectBuilder_GuiBlockCategoryDefinition">
@@ -89,6 +93,7 @@
         <Name>Section2_Position3_LightVehicleCores</Name>
             <ItemIds>
                 <string>Beacon/Light_Transport_Vehicle_Core</string>
+                <string>Beacon/Light_Armored_Vehicle_Core</string>
             </ItemIds>
     </Category>
     <Category xsi:type="MyObjectBuilder_GuiBlockCategoryDefinition">
@@ -99,7 +104,8 @@
         <DisplayName>   Heavy Vehicle Cores</DisplayName>
         <Name>Section2_Position3_HeavyVehicleCores</Name>
             <ItemIds>
-                <string></string>
+                <string>Beacon/Heavy_Armored_Vehicle_Core</string>
+                <string>Beacon/Carrier_Vehicle_Core</string>
             </ItemIds>
     </Category>
     <Category xsi:type="MyObjectBuilder_GuiBlockCategoryDefinition">
@@ -112,6 +118,7 @@
             <ItemIds>
                 <string>Beacon/Light_Utility_Ship_Core</string>
                 <string>Beacon/Heavy_Utility_Ship_Core</string>
+                <string>Beacon/Light_Utility_Vehicle_Core</string>
             </ItemIds>
     </Category>
     <Category xsi:type="MyObjectBuilder_GuiBlockCategoryDefinition">
@@ -166,6 +173,8 @@
                 <string>Beacon/Factory_Static_Core</string>
                 <string>Beacon/Heavy_Emplacement_Static_Core</string>
                 <string>Beacon/Light_Emplacement_Static_Core</string>
+                <string>Beacon/Heavy_Armored_Vehicle_Core</string>
+                <string>Beacon/Carrier_Vehicle_Core</string>
             </ItemIds>
     </Category>
     <Category xsi:type="MyObjectBuilder_GuiBlockCategoryDefinition">
@@ -186,6 +195,8 @@
                 <string>Beacon/Light_Utility_Ship_Core</string>
                 <string>Beacon/Light_Cargo_Ship_Core</string>
                 <string>Beacon/Light_Transport_Vehicle_Core</string>
+                <string>Beacon/Light_Armored_Vehicle_Core</string>
+                <string>Beacon/Light_Utility_Vehicle_Core</string>
             </ItemIds>
     </Category>
   </CategoryClasses>

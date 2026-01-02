@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-16"?>
 <ShipCore xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
-  <SubtypeId>Light_Transport_Vehicle_Core</SubtypeId>
-  <UniqueName>Light Transport Vehicle Class</UniqueName>
+  <SubtypeId>Light_Utility_Vehicle_Core</SubtypeId>
+  <UniqueName>Light Utility Vehicle Class</UniqueName>
   <ForceBroadCast>false</ForceBroadCast>
   <ForceBroadCastRange>2000</ForceBroadCastRange>
   <LargeGridStatic>false</LargeGridStatic>
@@ -50,12 +50,20 @@
   <EnableReloadModifier>false</EnableReloadModifier>
   <ReloadModifier>1</ReloadModifier>
   <BlockLimits>
-    <Name>Point Defense</Name>
-    <BlockGroups>Point Defense</BlockGroups>
-    <BlockGroups>Guns - Turret</BlockGroups>
-    <MaxCount>4</MaxCount>
+    <Name>Utility</Name>
+    <BlockGroups>Utility</BlockGroups>
+    <BlockGroups>Advanced Utility</BlockGroups>
+    <MaxCount>2</MaxCount>
     <TurnedOffByNoFlyZone>true</TurnedOffByNoFlyZone>
     <PunishmentType>Delete</PunishmentType>
+  </BlockLimits>
+  <BlockLimits>
+    <Name>Weaponry</Name>
+    <BlockGroups>Weaponry</BlockGroups>
+    <MaxCount>0</MaxCount>
+    <TurnedOffByNoFlyZone>true</TurnedOffByNoFlyZone>
+    <PunishmentType>Delete</PunishmentType>
+    <AllowedDirections>Forward</AllowedDirections>
   </BlockLimits>
   <BlockLimits>
     <Name>Countermeasures</Name>
@@ -69,35 +77,11 @@
     <AllowedDirections>Right</AllowedDirections>
   </BlockLimits>
   <BlockLimits>
-    <Name>No Other Weaponry</Name>
-    <BlockGroups>Artillery - Turret</BlockGroups>
-    <BlockGroups>Artillery - Fixed</BlockGroups>
-    <BlockGroups>Railguns - Fixed</BlockGroups>
-    <BlockGroups>Railguns - Turret</BlockGroups>
-    <BlockGroups>Guns - Fixed</BlockGroups>
-    <BlockGroups>Missile Launchers - Fixed</BlockGroups>
-    <BlockGroups>Missile Launchers - Turret</BlockGroups>
-    <BlockGroups>Energy - Fixed</BlockGroups>
-    <BlockGroups>Energy - Turret</BlockGroups>
-    <BlockGroups>Fixed Missiles</BlockGroups>
-    <MaxCount>0</MaxCount>
-    <TurnedOffByNoFlyZone>true</TurnedOffByNoFlyZone>
-    <PunishmentType>Delete</PunishmentType>
-  </BlockLimits>
-  <BlockLimits>
-    <Name>Survival Kit or Radar</Name>
-    <BlockGroups>Survival Kit</BlockGroups>
-    <BlockGroups>Radar</BlockGroups>
-    <MaxCount>1</MaxCount>
-    <TurnedOffByNoFlyZone>true</TurnedOffByNoFlyZone>
-    <PunishmentType>Delete</PunishmentType>
-  </BlockLimits>
-  <BlockLimits>
     <Name>No Utility</Name>
     <BlockGroups>Warhead</BlockGroups>
+    <BlockGroups>Survival Kit</BlockGroups>
     <BlockGroups>Jump Drive</BlockGroups>
-    <BlockGroups>Utility</BlockGroups>
-    <BlockGroups>Advanced Utility</BlockGroups>
+    <BlockGroups>Radar</BlockGroups>
     <BlockGroups>Hangars</BlockGroups>
     <MaxCount>0</MaxCount>
     <TurnedOffByNoFlyZone>true</TurnedOffByNoFlyZone>
@@ -108,7 +92,7 @@
     <BlockGroups>Large Epstein Drives</BlockGroups>
     <BlockGroups>Small Epstein Drives</BlockGroups>
     <BlockGroups>Stribog Thrusters</BlockGroups>
-    <MaxCount>0</MaxCount>
+    <MaxCount>1</MaxCount>
     <TurnedOffByNoFlyZone>true</TurnedOffByNoFlyZone>
     <PunishmentType>Delete</PunishmentType>
     <AllowedDirections>Backward</AllowedDirections>

@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ShipCore xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <SubtypeId>Carrier_Vehicle_Core</SubtypeId>
+  <UniqueName>Carrier Vehicle Class</UniqueName>
+  <ForceBroadCast>true</ForceBroadCast>
+  <ForceBroadCastRange>40000</ForceBroadCastRange>
+  <LargeGridStatic>false</LargeGridStatic>
+  <LargeGridMobile>false</LargeGridMobile>
+  <SmallGrid>true</SmallGrid>
+  <MaxBlocks>6000</MaxBlocks>
+  <MaxMass>-1</MaxMass>
+  <MaxPCU>8000</MaxPCU>
+  <MaxPerPlayer>1</MaxPerPlayer>
+  <MinPlayers>-1</MinPlayers>
+  <Modifiers>
+    <AssemblerSpeed>0</AssemblerSpeed>
+    <DrillHarvestMultiplier>0</DrillHarvestMultiplier>
+    <GyroEfficiency>1</GyroEfficiency>
+    <GyroForce>1</GyroForce>
+    <PowerProducersOutput>1.5</PowerProducersOutput>
+    <RefineEfficiency>0</RefineEfficiency>
+    <RefineSpeed>0</RefineSpeed>
+    <ThrusterEfficiency>0.3</ThrusterEfficiency>
+    <ThrusterForce>1</ThrusterForce>
+    <MaxSpeed>0.6</MaxSpeed>
+    <MaxBoost>1.1</MaxBoost>
+    <BoostDuration>60</BoostDuration>
+    <BoostCoolDown>120</BoostCoolDown>
+  </Modifiers>
+  <PassiveDefenseModifiers>
+    <Bullet>1.8</Bullet>
+    <Energy>1.8</Energy>
+    <Kinetic>1.8</Kinetic>
+    <Rocket>1.8</Rocket>
+    <Explosion>2</Explosion>
+    <Environment>2</Environment>
+  </PassiveDefenseModifiers>
+  <SpeedBoostEnabled>true</SpeedBoostEnabled>
+  <EnableActiveDefenseModifiers>true</EnableActiveDefenseModifiers>
+  <ActiveDefenseModifiers>
+    <Bullet>1</Bullet>
+    <Energy>1</Energy>
+    <Kinetic>1</Kinetic>
+    <Duration>120</Duration>
+    <Cooldown>240</Cooldown>
+    <Rocket>2</Rocket>
+    <Explosion>2</Explosion>
+    <Environment>1</Environment>
+  </ActiveDefenseModifiers>
+  <EnableReloadModifier>false</EnableReloadModifier>
+  <ReloadModifier>1</ReloadModifier>
+ <BlockLimits>
+    <Name>Limited Fixed Weapons</Name>
+    <BlockGroups>Artillery - Fixed</BlockGroups>
+    <BlockGroups>Railguns - Fixed</BlockGroups>
+    <BlockGroups>Guns - Fixed</BlockGroups>
+    <BlockGroups>Missile Launchers - Fixed</BlockGroups>
+    <BlockGroups>Energy - Fixed</BlockGroups>
+    <MaxCount>4</MaxCount>
+    <TurnedOffByNoFlyZone>true</TurnedOffByNoFlyZone>
+    <PunishmentType>Delete</PunishmentType>
+    <AllowedDirection>Forward</AllowedDirection>
+  </BlockLimits>
+    <BlockLimits>
+    <Name>Limited Turret Weapons</Name>
+    <BlockGroups>Artillery - Turret</BlockGroups>
+    <BlockGroups>Railguns - Turret</BlockGroups>
+    <BlockGroups>Guns - Turret</BlockGroups>
+    <BlockGroups>Missile Launchers - Turret</BlockGroups>
+    <BlockGroups>Energy - Turret</BlockGroups>
+    <MaxCount>6</MaxCount>
+    <TurnedOffByNoFlyZone>true</TurnedOffByNoFlyZone>
+    <PunishmentType>Delete</PunishmentType>
+  </BlockLimits>
+  <BlockLimits>
+    <Name>Limited Railguns Weapons</Name>
+    <BlockGroups>Railguns - Turret</BlockGroups>
+    <BlockGroups>Railguns - Fixed</BlockGroups>
+    <MaxCount>4</MaxCount>
+    <TurnedOffByNoFlyZone>true</TurnedOffByNoFlyZone>
+    <PunishmentType>Delete</PunishmentType>
+  </BlockLimits>
+  <BlockLimits>
+    <Name>Point Defense</Name>
+    <BlockGroups>Point Defense</BlockGroups>
+    <MaxCount>12</MaxCount>
+    <TurnedOffByNoFlyZone>true</TurnedOffByNoFlyZone>
+    <PunishmentType>Delete</PunishmentType>
+  </BlockLimits>
+  <BlockLimits>
+    <Name>Countermeasures</Name>
+    <BlockGroups>Countermeasures</BlockGroups>
+    <MaxCount>8</MaxCount>
+    <TurnedOffByNoFlyZone>true</TurnedOffByNoFlyZone>
+    <PunishmentType>Delete</PunishmentType>
+  </BlockLimits>
+  <BlockLimits>
+    <Name>Limited Utility</Name>
+    <BlockGroups>Survival Kit</BlockGroups>
+    <BlockGroups>Medical</BlockGroups>
+    <BlockGroups>Jump Drive</BlockGroups>
+    <BlockGroups>Utility</BlockGroups>
+    <BlockGroups>Radar</BlockGroups>
+    <MaxCount>12</MaxCount>
+    <TurnedOffByNoFlyZone>true</TurnedOffByNoFlyZone>
+    <PunishmentType>Delete</PunishmentType>
+  </BlockLimits>
+  <BlockLimits>
+    <Name>Advanced Utility</Name>
+    <BlockGroups>Advanced Utility</BlockGroups>
+    <MaxCount>2</MaxCount>
+    <TurnedOffByNoFlyZone>true</TurnedOffByNoFlyZone>
+    <PunishmentType>Delete</PunishmentType>
+  </BlockLimits>
+  <BlockLimits>
+    <Name>Hangars</Name>
+    <BlockGroups>Hangars</BlockGroups>
+    <MaxCount>6</MaxCount>
+    <TurnedOffByNoFlyZone>true</TurnedOffByNoFlyZone>
+    <PunishmentType>Delete</PunishmentType>
+  </BlockLimits>
+  <BlockLimits>
+    <Name>No Utility</Name>
+    <BlockGroups>Warhead</BlockGroups>
+    <MaxCount>0</MaxCount>
+    <TurnedOffByNoFlyZone>true</TurnedOffByNoFlyZone>
+    <PunishmentType>Delete</PunishmentType>
+  </BlockLimits>
+    <BlockLimits>
+    <Name>Reactors</Name>
+    <BlockGroups>Reactors</BlockGroups>
+    <MaxCount>6</MaxCount>
+    <TurnedOffByNoFlyZone>true</TurnedOffByNoFlyZone>
+    <PunishmentType>Delete</PunishmentType>
+  </BlockLimits>
+  <BlockLimits>
+    <Name>No Refining or Assembling</Name>
+    <BlockGroups>Refining</BlockGroups>
+    <BlockGroups>Assembling</BlockGroups>
+    <BlockGroups>Farming</BlockGroups>
+    <MaxCount>0</MaxCount>
+    <TurnedOffByNoFlyZone>true</TurnedOffByNoFlyZone>
+    <PunishmentType>Delete</PunishmentType>
+  </BlockLimits>
+</ShipCore>
