@@ -109,7 +109,7 @@ A Space Engineers Mod and ModAdjusted Files
           <RingColor X="255" Y="210" Z="190" />
           <RingLightMult>1</RingLightMult>
           <RingShadowMult>1</RingShadowMult>
-          <RingInnerScale>1</RingInnerScale>
+          <RingInnerScale>1.3</RingInnerScale>
           <RingOuterScale>2.5</RingOuterScale>
           <RingLayerSpacingScale>1</RingLayerSpacingScale>
           <RingRotationPeriodSeconds>7200</RingRotationPeriodSeconds>
@@ -245,6 +245,7 @@ ID          Name                            URL
 3594842497  High Pressure Bottles (Small in your inventory) https://steamcommunity.com/workshop/filedetails/?id=3594842497
 3293251056  A Sight to Behold               https://steamcommunity.com/sharedfiles/filedetails/?id=3293251056
 3598194640  Safe Speed                      https://steamcommunity.com/sharedfiles/filedetails/?id=3598194640
+3230011090  Deformation-B-Gon               https://steamcommunity.com/sharedfiles/filedetails/?id=3230011090
 ```
 
 ### Weapon & Armour Mods
