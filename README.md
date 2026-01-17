@@ -82,6 +82,7 @@ A Space Engineers Mod and ModAdjusted Files
     - /CSP.Komorebi.45000.-191052.-983046.2606687
 
 ```xml
+<RealGasGiantsSettingsConfig xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
   <OverrideFromConfig>true</OverrideFromConfig>
   <GasGiantBlocksSun>true</GasGiantBlocksSun>
   <GasGiantsHaveAtmoGlobal>true</GasGiantsHaveAtmoGlobal>
@@ -99,19 +100,38 @@ A Space Engineers Mod and ModAdjusted Files
       <AtmoInfo>
         <AirDensity>3</AirDensity>
         <OxygenDensity>0</OxygenDensity>
-        <WindSpeed>200</WindSpeed>
+        <WindSpeed>300</WindSpeed>
       </AtmoInfo>
+      <RingInfo>
+        <HasRing>false</HasRing>
+        <RingSkin>Default1</RingSkin>
+        <RingNormal X="0" Y="10" Z="1" />
+        <RingColor X="255" Y="210" Z="190" />
+        <RingLightMult>0.05</RingLightMult>
+        <RingShadowMult>0.15</RingShadowMult>
+        <RingInnerScale>1.5</RingInnerScale>
+        <RingOuterScale>2.5</RingOuterScale>
+        <RingLayerSpacingScale>1</RingLayerSpacingScale>
+        <RingRotationPeriodSeconds>7200</RingRotationPeriodSeconds>
+        <ConstrainNearbyAsteroidsToRing>true</ConstrainNearbyAsteroidsToRing>
+        <ShadowOnRingEnabled>true</ShadowOnRingEnabled>
+        <CollectRingResources>true</CollectRingResources>
+        <CollectResourceRingSubtypeId>Ice</CollectResourceRingSubtypeId>
+        <CollectResourceRingAmount>100</CollectResourceRingAmount>
+        <EnabledDraw>true</EnabledDraw>
+        <EnabledParticle>true</EnabledParticle>
+      </RingInfo>
       <RingsInfo>
         <RingConfigInfo>
           <HasRing>true</HasRing>
           <RingSkin>Default2</RingSkin>
           <RingNormal X="0" Y="10" Z="1" />
-          <RingColor X="255" Y="210" Z="190" />
-          <RingLightMult>1</RingLightMult>
-          <RingShadowMult>1</RingShadowMult>
-          <RingInnerScale>1.3</RingInnerScale>
+          <RingColor X="255" Y="230" Z="200" />
+          <RingLightMult>0.15</RingLightMult>
+          <RingShadowMult>0.05</RingShadowMult>
+          <RingInnerScale>1.5</RingInnerScale>
           <RingOuterScale>2.5</RingOuterScale>
-          <RingLayerSpacingScale>1</RingLayerSpacingScale>
+          <RingLayerSpacingScale>0.5</RingLayerSpacingScale>
           <RingRotationPeriodSeconds>7200</RingRotationPeriodSeconds>
           <ConstrainNearbyAsteroidsToRing>true</ConstrainNearbyAsteroidsToRing>
           <ShadowOnRingEnabled>true</ShadowOnRingEnabled>
