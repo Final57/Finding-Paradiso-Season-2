@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="utf-16"?>
 <ShipCore xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
-  <SubtypeId>Scrap_Core</SubtypeId>
-  <UniqueName>Unspecified Scrap</UniqueName>
+  <SubtypeId>SG_Scrap_Core</SubtypeId>
+  <UniqueName>Light Unspecified Scrap</UniqueName>
   <ForceBroadCast>true</ForceBroadCast>
   <ForceBroadCastRange>150</ForceBroadCastRange>
-  <LargeGridStatic>true</LargeGridStatic>
-  <LargeGridMobile>true</LargeGridMobile>
+  <LargeGridStatic>false</LargeGridStatic>
+  <LargeGridMobile>false</LargeGridMobile>
   <SmallGrid>true</SmallGrid>
   <MaxBlocks>-1</MaxBlocks>
   <MaxMass>-1</MaxMass>

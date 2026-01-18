@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ShipCore xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <SubtypeId>SG_General_Core</SubtypeId>
+  <UniqueName>Light Unspecified Registered Class</UniqueName>
+  <ForceBroadCast>false</ForceBroadCast>
+  <ForceBroadCastRange>2000</ForceBroadCastRange>
+  <LargeGridStatic>false</LargeGridStatic>
+  <LargeGridMobile>false</LargeGridMobile>
+  <SmallGrid>true</SmallGrid>
+  <MaxBlocks>1000</MaxBlocks>
+  <MaxMass>-1</MaxMass>
+  <MaxPCU>6000</MaxPCU>
+  <MaxPerPlayer>10</MaxPerPlayer>
+  <MinPlayers>-1</MinPlayers>
+  <Modifiers>
+    <AssemblerSpeed>0.2</AssemblerSpeed>
+    <DrillHarvestMultiplier>0.2</DrillHarvestMultiplier>
+    <GyroEfficiency>0.5</GyroEfficiency>
+    <GyroForce>0.5</GyroForce>
+    <PowerProducersOutput>0.8</PowerProducersOutput>
+    <RefineEfficiency>0.2</RefineEfficiency>
+    <RefineSpeed>0.2</RefineSpeed>
+    <ThrusterEfficiency>0.5</ThrusterEfficiency>
+    <ThrusterForce>0.5</ThrusterForce>
+    <MaxSpeed>0.2</MaxSpeed>
+    <MaxBoost>0.2</MaxBoost>
+    <BoostDuration>3</BoostDuration>
+    <BoostCoolDown>30</BoostCoolDown>
+  </Modifiers>
+  <PassiveDefenseModifiers>
+    <Bullet>1</Bullet>
+    <Energy>1</Energy>
+    <Kinetic>1</Kinetic>
+    <Rocket>1</Rocket>
+    <Explosion>1</Explosion>
+    <Environment>1</Environment>
+  </PassiveDefenseModifiers>
+  <SpeedBoostEnabled>true</SpeedBoostEnabled>
+  <EnableActiveDefenseModifiers>false</EnableActiveDefenseModifiers>
+  <ActiveDefenseModifiers>
+    <Bullet>0.1</Bullet>
+    <Energy>0.1</Energy>
+    <Kinetic>0.1</Kinetic>
+    <Duration>5</Duration>
+    <Cooldown>10</Cooldown>
+    <Rocket>1.2</Rocket>
+    <Explosion>0.1</Explosion>
+    <Environment>1</Environment>
+  </ActiveDefenseModifiers>
+  <EnableReloadModifier>false</EnableReloadModifier>
+  <ReloadModifier>1</ReloadModifier>
+  <BlockLimits>
+    <Name>No Weapons</Name>
+    <BlockGroups>Weaponry</BlockGroups>
+    <MaxCount>0</MaxCount>
+    <TurnedOffByNoFlyZone>true</TurnedOffByNoFlyZone>
+    <PunishmentType>ShutOff</PunishmentType>
+  </BlockLimits>
+  <BlockLimits>
+    <Name>No Utility</Name>
+    <BlockGroups>Warhead</BlockGroups>
+    <BlockGroups>Survival Kit</BlockGroups>
+    <BlockGroups>Jump Drive</BlockGroups>
+    <BlockGroups>Utility</BlockGroups>
+    <BlockGroups>Advanced Utility</BlockGroups>
+    <BlockGroups>Radar</BlockGroups>
+    <BlockGroups>Hangars</BlockGroups>
+    <BlockGroups>Medical</BlockGroups>
+    <BlockGroups>Static Drills</BlockGroups>
+    <MaxCount>0</MaxCount>
+    <TurnedOffByNoFlyZone>true</TurnedOffByNoFlyZone>
+    <PunishmentType>Delete</PunishmentType>
+  </BlockLimits>
+  <BlockLimits>
+    <Name>Connectors</Name>
+    <BlockGroups>Connectors</BlockGroups>
+    <MaxCount>1</MaxCount>
+    <TurnedOffByNoFlyZone>false</TurnedOffByNoFlyZone>
+    <PunishmentType>Delete</PunishmentType>
+  </BlockLimits>
+  <BlockLimits>
+    <Name>No Refining or Assembling</Name>
+    <BlockGroups>Refining</BlockGroups>
+    <BlockGroups>Assembling</BlockGroups>
+    <BlockGroups>Farming</BlockGroups>
+    <MaxCount>0</MaxCount>
+    <TurnedOffByNoFlyZone>true</TurnedOffByNoFlyZone>
+    <PunishmentType>Delete</PunishmentType>
+  </BlockLimits>
+</ShipCore>

@@ -35,9 +35,6 @@
 			<BuildProgressModels>
 				<Model BuildPercentUpperBound="1.00" File="Models\GridCore_SG_BS1.mwm"/>
 			</BuildProgressModels>
-            <ScreenAreas>
-                <ScreenArea Name="CockpitScreen_01" DisplayName="DisplayName_Screen_Large" TextureResolution="256" ScreenWidth="1" ScreenHeight="1" />
-            </ScreenAreas>
 			<MirroringY>Z</MirroringY>
 			<MirroringZ>Y</MirroringZ>
             <BlockPairName>General_Core</BlockPairName>

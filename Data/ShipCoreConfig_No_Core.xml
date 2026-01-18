@@ -22,8 +22,8 @@
     <RefineSpeed>0.001</RefineSpeed>
     <ThrusterEfficiency>1</ThrusterEfficiency>
     <ThrusterForce>1</ThrusterForce>
-    <MaxSpeed>0.3</MaxSpeed>
-    <MaxBoost>0.3</MaxBoost>
+    <MaxSpeed>0.1</MaxSpeed>
+    <MaxBoost>0</MaxBoost>
     <BoostDuration>0</BoostDuration>
     <BoostCoolDown>0</BoostCoolDown>
   </Modifiers>
@@ -51,4 +51,11 @@
   </ActiveDefenseModifiers>
   <EnableReloadModifier>false</EnableReloadModifier>
   <ReloadModifier>1</ReloadModifier>
+  <BlockLimits>
+    <Name>Utility</Name>
+    <BlockGroups>Survival Kit</BlockGroups>
+    <MaxCount>0</MaxCount>
+    <TurnedOffByNoFlyZone>true</TurnedOffByNoFlyZone>
+    <PunishmentType>ShutOff</PunishmentType>
+  </BlockLimits>
 </ShipCore>

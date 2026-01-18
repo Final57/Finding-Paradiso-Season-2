@@ -1,5 +1,9 @@
 <?xml version="1.0" encoding="utf-16"?>
 <CoreManifest>
+  <ShipCoreFilenames>Data\Cores\General\SG_General_Core.xml</ShipCoreFilenames>
+  <ShipCoreFilenames>Data\Cores\General\LG_General_Core.xml</ShipCoreFilenames>
+  <ShipCoreFilenames>Data\Cores\General\SG_Scrap_Core.xml</ShipCoreFilenames>
+  <ShipCoreFilenames>Data\Cores\General\LG_Scrap_Core.xml</ShipCoreFilenames>
   <ShipCoreFilenames>Data\Cores\Light\Light_Fighter_Ship_Core.xml</ShipCoreFilenames>
   <ShipCoreFilenames>Data\Cores\Light\Light_Bomber_Ship_Core.xml</ShipCoreFilenames>
   <ShipCoreFilenames>Data\Cores\Light\Light_Transport_Ship_Core.xml</ShipCoreFilenames>
@@ -10,8 +14,6 @@
   <ShipCoreFilenames>Data\Cores\Heavy\Cruiser_Ship_Core.xml</ShipCoreFilenames>
   <ShipCoreFilenames>Data\Cores\Heavy\Battleship_Ship_Core.xml</ShipCoreFilenames>
   <ShipCoreFilenames>Data\Cores\Heavy\Carrier_Ship_Core.xml</ShipCoreFilenames>
-  <ShipCoreFilenames>Data\Cores\General\General_Core.xml</ShipCoreFilenames>
-  <ShipCoreFilenames>Data\Cores\General\Scrap_Core.xml</ShipCoreFilenames>
   <ShipCoreFilenames>Data\Cores\Static\Drill_Static_Core.xml</ShipCoreFilenames>
   <ShipCoreFilenames>Data\Cores\Utility\Light_Utility_Ship_Core.xml</ShipCoreFilenames>
   <ShipCoreFilenames>Data\Cores\Utility\Heavy_Utility_Ship_Core.xml</ShipCoreFilenames>
