@@ -587,6 +587,80 @@
       <CountWeight>2</CountWeight>
     </BlockTypes>
   </BlockGroup>
+<!--Cargo-->
+  <BlockGroup>
+    <Name>Cargo</Name>
+    <BlockTypes>
+      <TypeId>CargoContainer</TypeId>
+      <SubtypeId>LargeBlockSmallContainer</SubtypeId>
+      <CountWeight>1</CountWeight>
+    </BlockTypes>
+    <BlockTypes>
+      <TypeId>CargoContainer</TypeId>
+      <SubtypeId>LargeShippingContainer</SubtypeId>
+      <CountWeight>2</CountWeight>
+    </BlockTypes>
+    <BlockTypes>
+      <TypeId>CargoContainer</TypeId>
+      <SubtypeId>LargeBlockLargeContainer</SubtypeId>
+      <CountWeight>3</CountWeight>
+    </BlockTypes>
+    <BlockTypes>
+      <TypeId>CargoContainer</TypeId>
+      <SubtypeId>LargeBlockLargeIndustrialContainer</SubtypeId>
+      <CountWeight>3</CountWeight>
+    </BlockTypes>
+    <BlockTypes>
+      <TypeId>CargoContainer</TypeId>
+      <SubtypeId>SmallBlockSmallContainer</SubtypeId>
+      <CountWeight>1</CountWeight>
+    </BlockTypes>
+    <BlockTypes>
+      <TypeId>CargoContainer</TypeId>
+      <SubtypeId>TransportBox</SubtypeId>
+      <CountWeight>2</CountWeight>
+    </BlockTypes>
+    <BlockTypes>
+      <TypeId>CargoContainer</TypeId>
+      <SubtypeId>SmallShippingContainer</SubtypeId>
+      <CountWeight>4</CountWeight>
+    </BlockTypes>
+    <BlockTypes>
+      <TypeId>CargoContainer</TypeId>
+      <SubtypeId>SmallBlockMediumContainer</SubtypeId>
+      <CountWeight>3</CountWeight>
+    </BlockTypes>
+    <BlockTypes>
+      <TypeId>CargoContainer</TypeId>
+      <SubtypeId>SmallBlockLargeContainer</SubtypeId>
+      <CountWeight>6</CountWeight>
+    </BlockTypes>
+    <BlockTypes>
+      <TypeId>CargoContainer</TypeId>
+      <SubtypeId>SmallBlockModularContainer</SubtypeId>
+      <CountWeight>3</CountWeight>
+    </BlockTypes>
+    <BlockTypes>
+      <TypeId>CargoContainer</TypeId>
+      <SubtypeId>Industrial Storage</SubtypeId>
+      <CountWeight>8</CountWeight>
+    </BlockTypes>
+    <BlockTypes>
+      <TypeId>CargoContainer</TypeId>
+      <SubtypeId>Industrial Storage SG</SubtypeId>
+      <CountWeight>10</CountWeight>
+    </BlockTypes>
+    <BlockTypes>
+      <TypeId>CargoContainer</TypeId>
+      <SubtypeId>Stone Storage SG</SubtypeId>
+      <CountWeight>10</CountWeight>
+    </BlockTypes>
+    <BlockTypes>
+      <TypeId>CargoContainer</TypeId>
+      <SubtypeId>Stone Storage</SubtypeId>
+      <CountWeight>8</CountWeight>
+    </BlockTypes>
+  </BlockGroup>
 <!--Power Generation-->
   <BlockGroup>
     <Name>Reactors</Name>
@@ -1029,7 +1103,7 @@
     <BlockTypes>
       <TypeId>ConveyorSorter</TypeId>
       <SubtypeId>ARYXGaussCannon</SubtypeId>
-      <CountWeight>1</CountWeight>
+      <CountWeight>12</CountWeight>
     </BlockTypes>
     <BlockTypes>
       <TypeId>ConveyorSorter</TypeId>
@@ -1057,22 +1131,22 @@
     <BlockTypes>
       <TypeId>LargeMissileTurret</TypeId>
       <SubtypeId>ARYXGaussTurret</SubtypeId>
-      <CountWeight>1</CountWeight>
+      <CountWeight>12</CountWeight>
     </BlockTypes>
     <BlockTypes>
       <TypeId>LargeMissileTurret</TypeId>
       <SubtypeId>ARYXRailgunTurret</SubtypeId>
-      <CountWeight>1</CountWeight>
+      <CountWeight>6</CountWeight>
     </BlockTypes>
     <BlockTypes>
       <TypeId>LargeMissileTurret</TypeId>
       <SubtypeId>ARYXPicketRailgun</SubtypeId>
-      <CountWeight>1</CountWeight>
+      <CountWeight>3</CountWeight>
     </BlockTypes>
     <BlockTypes>
       <TypeId>ConveyorSorter</TypeId>
       <SubtypeId>ARYXLightRailgun</SubtypeId>
-      <CountWeight>1</CountWeight>
+      <CountWeight>2</CountWeight>
     </BlockTypes>
   </BlockGroup>
   <BlockGroup>
@@ -2068,7 +2142,7 @@
     <BlockTypes>
       <TypeId>LargeMissileTurret</TypeId>
       <SubtypeId>ARYXGaussTurret</SubtypeId>
-      <CountWeight>1</CountWeight>
+      <CountWeight>12</CountWeight>
     </BlockTypes>
     <BlockTypes>
       <TypeId>LargeMissileTurret</TypeId>

@@ -7,7 +7,7 @@
                 <SubtypeId>Factory_Static_Core</SubtypeId>
             </Id>
             <DisplayName>Static Factory Core</DisplayName>
-            <Icon>Textures\LargeGridCore.dds</Icon>
+            <Icon>Textures\LargeGridCore-s-f.dds</Icon>
             <Description>A Core for static factories.</Description>
             <CubeSize>Large</CubeSize>
             <GuiVisible>false</GuiVisible>

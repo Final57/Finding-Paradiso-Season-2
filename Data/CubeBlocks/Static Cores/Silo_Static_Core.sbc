@@ -7,7 +7,7 @@
                 <SubtypeId>Silo_Static_Core</SubtypeId>
             </Id>
             <DisplayName>Static Silo Core</DisplayName>
-            <Icon>Textures\LargeGridCore.dds</Icon>
+            <Icon>Textures\LargeGridCore-s-s.dds</Icon>
             <Description>A Core for static silos.</Description>
             <CubeSize>Large</CubeSize>
             <GuiVisible>false</GuiVisible>

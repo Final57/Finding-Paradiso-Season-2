@@ -131,7 +131,7 @@ A Space Engineers Mod and ModAdjusted Files
           <RingShadowMult>0.05</RingShadowMult>
           <RingInnerScale>1.5</RingInnerScale>
           <RingOuterScale>2.5</RingOuterScale>
-          <RingLayerSpacingScale>0.5</RingLayerSpacingScale>
+          <RingLayerSpacingScale>0.05</RingLayerSpacingScale>
           <RingRotationPeriodSeconds>7200</RingRotationPeriodSeconds>
           <ConstrainNearbyAsteroidsToRing>true</ConstrainNearbyAsteroidsToRing>
           <ShadowOnRingEnabled>true</ShadowOnRingEnabled>

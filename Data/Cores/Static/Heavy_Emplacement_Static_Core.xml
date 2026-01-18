@@ -64,7 +64,7 @@
     <Name>Railguns</Name>
     <BlockGroups>Railguns - Fixed</BlockGroups>
     <BlockGroups>Railguns - Turret</BlockGroups>
-    <MaxCount>8</MaxCount>
+    <MaxCount>12</MaxCount>
     <TurnedOffByNoFlyZone>true</TurnedOffByNoFlyZone>
     <PunishmentType>Delete</PunishmentType>
   </BlockLimits>
@@ -96,6 +96,13 @@
     <BlockGroups>Hangars</BlockGroups>
     <BlockGroups>Utility</BlockGroups>
     <MaxCount>4</MaxCount>
+    <TurnedOffByNoFlyZone>true</TurnedOffByNoFlyZone>
+    <PunishmentType>Delete</PunishmentType>
+  </BlockLimits>
+  <BlockLimits>
+    <Name>Cargo Containers</Name>
+    <BlockGroups>Cargo</BlockGroups>
+    <MaxCount>1</MaxCount>
     <TurnedOffByNoFlyZone>true</TurnedOffByNoFlyZone>
     <PunishmentType>Delete</PunishmentType>
   </BlockLimits>

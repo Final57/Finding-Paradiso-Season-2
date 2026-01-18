@@ -13,32 +13,25 @@
                 <string>Beacon/LG_Scrap_Core</string>
                 <string>Beacon/SG_General_Core</string>
                 <string>Beacon/SG_Scrap_Core</string>
-                <string>Beacon/Light_Fighter_Ship_Core</string>
-                <string>Beacon/Light_Bomber_Ship_Core</string>
-                <string>Beacon/Light_Transport_Ship_Core</string>
-                <string>Beacon/Light_Cargo_Ship_Core</string>
-                <string>Beacon/Heavy_Cargo_Ship_Core</string>
-                <string>Beacon/Corvette_Ship_Core</string>
-                <string>Beacon/Destroyer_Ship_Core</string>
-                <string>Beacon/Cruiser_Ship_Core</string>
-                <string>Beacon/Battleship_Ship_Core</string>
-                <string>Beacon/Carrier_Ship_Core</string>
-                <string>Beacon/Light_Utility_Ship_Core</string>
-                <string>Beacon/Heavy_Utility_Ship_Core</string>
+                <string>Beacon/Light_Fighter_Core</string>
+                <string>Beacon/Light_Bomber_Core</string>
+                <string>Beacon/Light_Transport_Core</string>
+                <string>Beacon/Light_Armored_Core</string>
+                <string>Beacon/Corvette_Core</string>
+                <string>Beacon/Destroyer_Core</string>
+                <string>Beacon/Cruiser_Core</string>
+                <string>Beacon/Battleship_Core</string>
+                <string>Beacon/Carrier_Core</string>
+                <string>Beacon/Light_Utility_Core</string>
+                <string>Beacon/Heavy_Utility_Core</string>
                 <string>Beacon/Drill_Static_Core</string>
                 <string>Beacon/Refinery_Static_Core</string>
                 <string>Beacon/Silo_Static_Core</string>
-                <string>Beacon/Farm_Static_Core</string>
+                <string>Beacon/Agri_Static_Core</string>
                 <string>Beacon/Processor_Static_Core</string>
                 <string>Beacon/Factory_Static_Core</string>
                 <string>Beacon/Heavy_Emplacement_Static_Core</string>
                 <string>Beacon/Light_Emplacement_Static_Core</string>
-                <string>Beacon/Light_Transport_Vehicle_Core</string>
-                <string>Beacon/Heavy_Armored_Vehicle_Core</string>
-                <string>Beacon/Light_Armored_Vehicle_Core</string>
-                <string>Beacon/Carrier_Vehicle_Core</string>
-                <string>Beacon/Light_Utility_Vehicle_Core</string>
-                <string>Beacon/Light_Cargo_Vehicle_Core</string>
             </ItemIds>
     </Category>
     <Category xsi:type="MyObjectBuilder_GuiBlockCategoryDefinition">
@@ -60,67 +53,41 @@
             <TypeId>GuiBlockCategoryDefinition</TypeId>
             <SubtypeId>LightCores</SubtypeId>
         </Id>
-        <DisplayName>   Light Ship Cores</DisplayName>
+        <DisplayName>   Light Cores</DisplayName>
         <Name>Section2_Position3_LightCores</Name>
             <ItemIds>
-                <string>Beacon/Light_Fighter_Ship_Core</string>
-                <string>Beacon/Light_Bomber_Ship_Core</string>
-                <string>Beacon/Light_Transport_Ship_Core</string>
-                <string>Beacon/Light_Cargo_Ship_Core</string>
+                <string>Beacon/Light_Fighter_Core</string>
+                <string>Beacon/Light_Bomber_Core</string>
+                <string>Beacon/Light_Transport_Core</string>
+                <string>Beacon/Light_Armored_Core</string>
             </ItemIds>
     </Category>
     <Category xsi:type="MyObjectBuilder_GuiBlockCategoryDefinition">
         <Id>
             <TypeId>GuiBlockCategoryDefinition</TypeId>
-            <SubtypeId>HeavyShipCores</SubtypeId>
+            <SubtypeId>HeavyCores</SubtypeId>
         </Id>
-        <DisplayName>   Heavy Ship Cores</DisplayName>
+        <DisplayName>   Heavy Cores</DisplayName>
         <Name>Section2_Position3_HeavyCores</Name>
             <ItemIds>
-                <string>Beacon/Corvette_Ship_Core</string>
-                <string>Beacon/Destroyer_Ship_Core</string>
-                <string>Beacon/Heavy_Cargo_Ship_Core</string>
-                <string>Beacon/Cruiser_Ship_Core</string>
-                <string>Beacon/Battleship_Ship_Core</string>
-                <string>Beacon/Carrier_Ship_Core</string>
+                <string>Beacon/Corvette_Core</string>
+                <string>Beacon/Destroyer_Core</string>
+                <string>Beacon/Heavy_Transport_Core</string>
+                <string>Beacon/Cruiser_Core</string>
+                <string>Beacon/Battleship_Core</string>
+                <string>Beacon/Carrier_Core</string>
             </ItemIds>
     </Category>
     <Category xsi:type="MyObjectBuilder_GuiBlockCategoryDefinition">
         <Id>
             <TypeId>GuiBlockCategoryDefinition</TypeId>
-            <SubtypeId>LightVehicleCores</SubtypeId>
+            <SubtypeId>UtilityCores</SubtypeId>
         </Id>
-        <DisplayName>   Light Vehicle Cores</DisplayName>
-        <Name>Section2_Position3_LightVehicleCores</Name>
+        <DisplayName>   Utility Cores</DisplayName>
+        <Name>Section2_Position3_UtilityCores</Name>
             <ItemIds>
-                <string>Beacon/Light_Transport_Vehicle_Core</string>
-                <string>Beacon/Light_Armored_Vehicle_Core</string>
-                <string>Beacon/Light_Cargo_Vehicle_Core</string>
-            </ItemIds>
-    </Category>
-    <Category xsi:type="MyObjectBuilder_GuiBlockCategoryDefinition">
-        <Id>
-            <TypeId>GuiBlockCategoryDefinition</TypeId>
-            <SubtypeId>HeavyVehicleCores</SubtypeId>
-        </Id>
-        <DisplayName>   Heavy Vehicle Cores</DisplayName>
-        <Name>Section2_Position3_HeavyVehicleCores</Name>
-            <ItemIds>
-                <string>Beacon/Heavy_Armored_Vehicle_Core</string>
-                <string>Beacon/Carrier_Vehicle_Core</string>
-            </ItemIds>
-    </Category>
-    <Category xsi:type="MyObjectBuilder_GuiBlockCategoryDefinition">
-        <Id>
-            <TypeId>GuiBlockCategoryDefinition</TypeId>
-            <SubtypeId>UtilityShipCores</SubtypeId>
-        </Id>
-        <DisplayName>   Utility Ship Cores</DisplayName>
-        <Name>Section2_Position3_UtilityShipCores</Name>
-            <ItemIds>
-                <string>Beacon/Light_Utility_Ship_Core</string>
-                <string>Beacon/Heavy_Utility_Ship_Core</string>
-                <string>Beacon/Light_Utility_Vehicle_Core</string>
+                <string>Beacon/Light_Utility_Core</string>
+                <string>Beacon/Heavy_Utility_Core</string>
             </ItemIds>
     </Category>
     <Category xsi:type="MyObjectBuilder_GuiBlockCategoryDefinition">
@@ -134,7 +101,7 @@
                 <string>Beacon/Drill_Static_Core</string>
                 <string>Beacon/Refinery_Static_Core</string>
                 <string>Beacon/Silo_Static_Core</string>
-                <string>Beacon/Farm_Static_Core</string>
+                <string>Beacon/Agri_Static_Core</string>
                 <string>Beacon/Processor_Static_Core</string>
                 <string>Beacon/Factory_Static_Core</string>
                 <string>Beacon/Heavy_Emplacement_Static_Core</string>
@@ -167,16 +134,20 @@
                 <string>Beacon/LG_Scrap_Core</string>
                 <string>UpgradeModule/LG_Ship_Core_Module_Bastion</string>
                 <string>UpgradeModule/LG_Ship_Core_Module_Mobility</string>
-                <string>Beacon/Heavy_Utility_Ship_Core</string>
+                <string>Beacon/Heavy_Utility_Core</string>
                 <string>Beacon/Refinery_Static_Core</string>
                 <string>Beacon/Silo_Static_Core</string>
-                <string>Beacon/Farm_Static_Core</string>
+                <string>Beacon/Agri_Static_Core</string>
                 <string>Beacon/Processor_Static_Core</string>
                 <string>Beacon/Factory_Static_Core</string>
                 <string>Beacon/Heavy_Emplacement_Static_Core</string>
                 <string>Beacon/Light_Emplacement_Static_Core</string>
-                <string>Beacon/Heavy_Armored_Vehicle_Core</string>
-                <string>Beacon/Carrier_Vehicle_Core</string>
+                <string>Beacon/Corvette_Core</string>
+                <string>Beacon/Destroyer_Core</string>
+                <string>Beacon/Heavy_Transport_Core</string>
+                <string>Beacon/Cruiser_Core</string>
+                <string>Beacon/Battleship_Core</string>
+                <string>Beacon/Carrier_Core</string>
             </ItemIds>
     </Category>
     <Category xsi:type="MyObjectBuilder_GuiBlockCategoryDefinition">
@@ -189,17 +160,15 @@
             <ItemIds>
                 <string>Beacon/SG_General_Core</string>
                 <string>Beacon/SG_Scrap_Core</string>
-                <string>Beacon/Light_Fighter_Ship_Core</string>
-                <string>Beacon/Light_Bomber_Ship_Core</string>
-                <string>Beacon/Light_Transport_Ship_Core</string>
+                <string>Beacon/Light_Fighter_Core</string>
+                <string>Beacon/Light_Bomber_Core</string>
+                <string>Beacon/Light_Transport_Core</string>
                 <string>UpgradeModule/SG_Ship_Core_Module_Bastion</string>
                 <string>UpgradeModule/SG_Ship_Core_Module_Mobility</string>
-                <string>Beacon/Light_Utility_Ship_Core</string>
-                <string>Beacon/Light_Cargo_Ship_Core</string>
-                <string>Beacon/Light_Transport_Vehicle_Core</string>
-                <string>Beacon/Light_Armored_Vehicle_Core</string>
-                <string>Beacon/Light_Utility_Vehicle_Core</string>
-                <string>Beacon/Light_Cargo_Vehicle_Core</string>
+                <string>Beacon/Light_Utility_Core</string>
+                <string>Beacon/Light_Cargo_Core</string>
+                <string>Beacon/Light_Transport_Core</string>
+                <string>Beacon/Light_Armored_Core</string>
             </ItemIds>
     </Category>
   </CategoryClasses>

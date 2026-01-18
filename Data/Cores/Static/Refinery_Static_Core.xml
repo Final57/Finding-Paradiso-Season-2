@@ -101,6 +101,13 @@
     <PunishmentType>Delete</PunishmentType>
   </BlockLimits>
   <BlockLimits>
+    <Name>Cargo Containers</Name>
+    <BlockGroups>Cargo</BlockGroups>
+    <MaxCount>2</MaxCount>
+    <TurnedOffByNoFlyZone>true</TurnedOffByNoFlyZone>
+    <PunishmentType>Delete</PunishmentType>
+  </BlockLimits>
+  <BlockLimits>
     <Name>No Assembling or Farming</Name>
     <BlockGroups>Assembling</BlockGroups>
     <BlockGroups>Farming</BlockGroups>

@@ -4,21 +4,24 @@
   <ShipCoreFilenames>Data\Cores\General\LG_General_Core.xml</ShipCoreFilenames>
   <ShipCoreFilenames>Data\Cores\General\SG_Scrap_Core.xml</ShipCoreFilenames>
   <ShipCoreFilenames>Data\Cores\General\LG_Scrap_Core.xml</ShipCoreFilenames>
-  <ShipCoreFilenames>Data\Cores\Light\Light_Fighter_Ship_Core.xml</ShipCoreFilenames>
-  <ShipCoreFilenames>Data\Cores\Light\Light_Bomber_Ship_Core.xml</ShipCoreFilenames>
-  <ShipCoreFilenames>Data\Cores\Light\Light_Transport_Ship_Core.xml</ShipCoreFilenames>
-  <ShipCoreFilenames>Data\Cores\Light\Light_Cargo_Ship_Core.xml</ShipCoreFilenames>
-  <ShipCoreFilenames>Data\Cores\Heavy\Corvette_Ship_Core.xml</ShipCoreFilenames>
-  <ShipCoreFilenames>Data\Cores\Heavy\Destroyer_Ship_Core.xml</ShipCoreFilenames>
-  <ShipCoreFilenames>Data\Cores\Heavy\Heavy_Cargo_Ship_Core.xml</ShipCoreFilenames>
-  <ShipCoreFilenames>Data\Cores\Heavy\Cruiser_Ship_Core.xml</ShipCoreFilenames>
-  <ShipCoreFilenames>Data\Cores\Heavy\Battleship_Ship_Core.xml</ShipCoreFilenames>
-  <ShipCoreFilenames>Data\Cores\Heavy\Carrier_Ship_Core.xml</ShipCoreFilenames>
+  <ShipCoreFilenames>Data\Cores\Light\Light_Armored_Core.xml</ShipCoreFilenames>
+  <ShipCoreFilenames>Data\Cores\Light\Light_Fighter_Core.xml</ShipCoreFilenames>
+  <ShipCoreFilenames>Data\Cores\Light\Light_Bomber_Core.xml</ShipCoreFilenames>
+  <ShipCoreFilenames>Data\Cores\Light\Light_Transport_Core.xml</ShipCoreFilenames>
+  <ShipCoreFilenames>Data\Cores\Heavy\Corvette_Core.xml</ShipCoreFilenames>
+  <ShipCoreFilenames>Data\Cores\Heavy\Destroyer_Core.xml</ShipCoreFilenames>
+  <ShipCoreFilenames>Data\Cores\Heavy\Heavy_Transport_Core.xml</ShipCoreFilenames>
+  <ShipCoreFilenames>Data\Cores\Heavy\Cruiser_Core.xml</ShipCoreFilenames>
+  <ShipCoreFilenames>Data\Cores\Heavy\Battleship_Core.xml</ShipCoreFilenames>
+  <ShipCoreFilenames>Data\Cores\Heavy\Carrier_Core.xml</ShipCoreFilenames>
   <ShipCoreFilenames>Data\Cores\Static\Drill_Static_Core.xml</ShipCoreFilenames>
-  <ShipCoreFilenames>Data\Cores\Utility\Light_Utility_Ship_Core.xml</ShipCoreFilenames>
-  <ShipCoreFilenames>Data\Cores\Utility\Heavy_Utility_Ship_Core.xml</ShipCoreFilenames>
-  <ShipCoreFilenames>Data\Cores\Heavy\Carrier_Vehicle_Core.xml</ShipCoreFilenames>
-  <ShipCoreFilenames>Data\Cores\Heavy\Heavy_Armored_Vehicle_Core.xml</ShipCoreFilenames>
-  <ShipCoreFilenames>Data\Cores\Light\Light_Armored_Vehicle_Core.xml</ShipCoreFilenames>
-  <ShipCoreFilenames>Data\Cores\Utility\Light_Utility_Vehicle_Core.xml</ShipCoreFilenames>
+  <ShipCoreFilenames>Data\Cores\Static\Light_Emplacement_Static_Core.xml</ShipCoreFilenames>
+  <ShipCoreFilenames>Data\Cores\Static\Heavy_Emplacement_Static_Core.xml</ShipCoreFilenames>
+  <ShipCoreFilenames>Data\Cores\Static\Factory_Static_Core.xml</ShipCoreFilenames>
+  <ShipCoreFilenames>Data\Cores\Static\Refinery_Static_Core.xml</ShipCoreFilenames>
+  <ShipCoreFilenames>Data\Cores\Static\Agri_Static_Core.xml</ShipCoreFilenames>
+  <ShipCoreFilenames>Data\Cores\Static\Processor_Static_Core.xml</ShipCoreFilenames>
+  <ShipCoreFilenames>Data\Cores\Static\Silo_Static_Core.xml</ShipCoreFilenames>
+  <ShipCoreFilenames>Data\Cores\Utility\Light_Utility_Core.xml</ShipCoreFilenames>
+  <ShipCoreFilenames>Data\Cores\Utility\Heavy_Utility_Core.xml</ShipCoreFilenames>
 </CoreManifest>

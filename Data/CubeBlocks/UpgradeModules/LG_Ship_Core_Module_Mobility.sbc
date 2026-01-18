@@ -8,7 +8,7 @@
 			</Id>
 			<DisplayName>Mobility Module</DisplayName>
 			<Description>Increases Top Speed, Boost, and Gyro Effectiveness at the cost of power and damage resistance.</Description>
-			<Icon>Textures\LargeGridUpgrade.dds</Icon>
+			<Icon>Textures\LargeGridUpgrade-m.dds</Icon>
 			<CubeSize>Large</CubeSize>
 			<BlockTopology>TriangleMesh</BlockTopology>
 			<Size x="1" y="1" z="1"/>

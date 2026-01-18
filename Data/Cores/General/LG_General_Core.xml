@@ -67,6 +67,7 @@
     <BlockGroups>Hangars</BlockGroups>
     <BlockGroups>Medical</BlockGroups>
     <BlockGroups>Static Drills</BlockGroups>
+    <BlockGroups>Cargo</BlockGroups>
     <MaxCount>0</MaxCount>
     <TurnedOffByNoFlyZone>true</TurnedOffByNoFlyZone>
     <PunishmentType>Delete</PunishmentType>
@@ -74,7 +75,7 @@
   <BlockLimits>
     <Name>Connectors</Name>
     <BlockGroups>Connectors</BlockGroups>
-    <MaxCount>1</MaxCount>
+    <MaxCount>4</MaxCount>
     <TurnedOffByNoFlyZone>false</TurnedOffByNoFlyZone>
     <PunishmentType>Delete</PunishmentType>
   </BlockLimits>

@@ -7,7 +7,7 @@
                 <SubtypeId>Light_Emplacement_Static_Core</SubtypeId>
             </Id>
             <DisplayName>Static Light Emplacement Core</DisplayName>
-            <Icon>Textures\LargeGridCore.dds</Icon>
+            <Icon>Textures\LargeGridCore-s-el.dds</Icon>
             <Description>A Core for static light emplacements.</Description>
             <CubeSize>Large</CubeSize>
             <GuiVisible>false</GuiVisible>

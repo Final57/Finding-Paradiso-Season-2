@@ -7,7 +7,7 @@
                 <SubtypeId>Refinery_Static_Core</SubtypeId>
             </Id>
             <DisplayName>Static Refinery Core</DisplayName>
-            <Icon>Textures\LargeGridCore.dds</Icon>
+            <Icon>Textures\LargeGridCore-s-r.dds</Icon>
             <Description>A Core for static refineries.</Description>
             <CubeSize>Large</CubeSize>
             <GuiVisible>false</GuiVisible>

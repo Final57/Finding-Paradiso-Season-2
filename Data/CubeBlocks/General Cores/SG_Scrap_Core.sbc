@@ -7,7 +7,7 @@
                 <SubtypeId>SG_Scrap_Core</SubtypeId>
             </Id>
             <DisplayName>Scrap Core</DisplayName>
-            <Icon>Textures\SmallGridCore.dds</Icon>
+            <Icon>Textures\SmallGridCore-s.dds</Icon>
             <Description>A core used to tag scrap wrecks for your faction, it will disable all production and power output on the grid.</Description>
             <CubeSize>Small</CubeSize>
             <GuiVisible>false</GuiVisible>

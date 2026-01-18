@@ -8,7 +8,7 @@
 			</Id>
 			<DisplayName>Bastion Module</DisplayName>
 			<Description>Increases Damage Resistance at the cost of Top Speed, Boost, and Gyro Effectiveness.</Description>
-			<Icon>Textures\LargeGridUpgrade.dds</Icon>
+			<Icon>Textures\SmallGridUpgrade-b.dds</Icon>
 			<CubeSize>Small</CubeSize>
 			<BlockTopology>TriangleMesh</BlockTopology>
 			<Size x="1" y="1" z="1"/>

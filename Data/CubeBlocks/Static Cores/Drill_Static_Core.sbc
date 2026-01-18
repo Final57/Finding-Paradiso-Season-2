@@ -7,7 +7,7 @@
                 <SubtypeId>Drill_Static_Core</SubtypeId>
             </Id>
             <DisplayName>Static Drill Rig Core</DisplayName>
-            <Icon>Textures\LargeGridCore.dds</Icon>
+            <Icon>Textures\LargeGridCore-s-d.dds</Icon>
             <Description>A Core for static drill rigs.</Description>
             <CubeSize>Large</CubeSize>
             <GuiVisible>false</GuiVisible>

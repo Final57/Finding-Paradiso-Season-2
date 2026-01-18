@@ -7,10 +7,10 @@
                 <SubtypeId>LG_General_Core</SubtypeId>
             </Id>
             <DisplayName>General Core</DisplayName>
-            <Icon>Textures\LargeGridCore.dds</Icon>
+            <Icon>Textures\LargeGridCore-g.dds</Icon>
             <Description>A Generic Vehicle or Static Base Core - Significant reduction in capabilities for low cost.</Description>
             <CubeSize>Large</CubeSize>
-            <GuiVisible>false</GuiVisible>
+            <GuiVisible>true</GuiVisible>
             <BlockTopology>TriangleMesh</BlockTopology>
 			<Size x="1" y="1" z="1"/>
 			<ModelOffset x="0" y="0" z="0"/>

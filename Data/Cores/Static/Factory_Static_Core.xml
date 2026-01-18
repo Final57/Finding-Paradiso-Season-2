@@ -97,6 +97,13 @@
     <PunishmentType>Delete</PunishmentType>
   </BlockLimits>
   <BlockLimits>
+    <Name>Cargo Containers</Name>
+    <BlockGroups>Cargo</BlockGroups>
+    <MaxCount>2</MaxCount>
+    <TurnedOffByNoFlyZone>true</TurnedOffByNoFlyZone>
+    <PunishmentType>Delete</PunishmentType>
+  </BlockLimits>
+  <BlockLimits>
     <Name>No Weapons</Name>
     <BlockGroups>Weaponry</BlockGroups>
     <MaxCount>0</MaxCount>

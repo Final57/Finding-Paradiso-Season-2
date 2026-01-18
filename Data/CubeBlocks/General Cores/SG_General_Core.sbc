@@ -7,7 +7,7 @@
                 <SubtypeId>SG_General_Core</SubtypeId>
             </Id>
             <DisplayName>General Core</DisplayName>
-            <Icon>Textures\SmallGridCore.dds</Icon>
+            <Icon>Textures\SmallGridCore-g.dds</Icon>
             <Description>A Generic Vehicle or Static Base Core - Significant reduction in capabilities for low cost.</Description>
             <CubeSize>Small</CubeSize>
             <GuiVisible>false</GuiVisible>
