@@ -155,6 +155,11 @@ namespace enenra.OreRemapping
                 if (voxelMaterial.Id.SubtypeName == "Gold_01") { voxelMaterial.SpawnsInAsteroids = false; }
                 if (voxelMaterial.Id.SubtypeName == "Platinum_01") { voxelMaterial.SpawnsInAsteroids = false; }
                 if (voxelMaterial.Id.SubtypeName == "Uraninite_01") { voxelMaterial.SpawnsInAsteroids = false; }
+                if (voxelMaterial.Id.SubtypeName == "Coal") { voxelMaterial.SpawnsInAsteroids = false; }
+                if (voxelMaterial.Id.SubtypeName == "OilSand") { voxelMaterial.SpawnsInAsteroids = false; }
+                if (voxelMaterial.Id.SubtypeName == "Sulfur") { voxelMaterial.SpawnsInAsteroids = false; }
+                if (voxelMaterial.Id.SubtypeName == "Lithium") { voxelMaterial.SpawnsInAsteroids = false; }
+                if (voxelMaterial.Id.SubtypeName == "Titanium") { voxelMaterial.SpawnsInAsteroids = false; }
 
             }
 

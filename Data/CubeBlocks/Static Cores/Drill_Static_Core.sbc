@@ -8,7 +8,18 @@
             </Id>
             <DisplayName>Static Drill Rig Core</DisplayName>
             <Icon>Textures\LargeGridCore-s-d.dds</Icon>
-            <Description>A Core for static drill rigs.</Description>
+            <Description>Best for: mining resources
+
+Allows:
+1 static drill
+
+Not allowed:
+Weapons
+Utility 
+Cargo containers
+Refinery blocks
+Assembly blocks
+            </Description>
             <CubeSize>Large</CubeSize>
             <GuiVisible>false</GuiVisible>
             <BlockTopology>TriangleMesh</BlockTopology>

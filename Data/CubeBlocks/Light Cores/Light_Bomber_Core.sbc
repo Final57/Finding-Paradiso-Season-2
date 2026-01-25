@@ -8,7 +8,19 @@
             </Id>
             <DisplayName>Light Bomber Core</DisplayName>
             <Icon>Textures\SmallGridCore-b.dds</Icon>
-            <Description>Light Bomber Core</Description>
+            <Description>Best for: offensive and defensive combat 
+
+Allows:
+8 weapon blocks
+2 countermeasure blocks
+2 cargo containers
+1 main thrust block
+1 reactor
+
+Not allowed:
+Turret weapon blocks
+Utility blocks
+            </Description>
             <CubeSize>Small</CubeSize>
             <GuiVisible>false</GuiVisible>
             <BlockTopology>TriangleMesh</BlockTopology>

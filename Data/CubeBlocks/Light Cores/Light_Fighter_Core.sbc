@@ -8,7 +8,17 @@
             </Id>
             <DisplayName>Light Fighter Core</DisplayName>
             <Icon>Textures\SmallGridCore-f.dds</Icon>
-            <Description>Light Fighter Core</Description>
+            <Description>Best for: speed, maneuverability, light combat
+
+Allows:
+6 weapon blocks
+2 countermeasure blocks
+1 cargo container
+
+Not allowed:
+Turret or missile weapons
+Utility blocks
+            </Description>
             <CubeSize>Small</CubeSize>
             <GuiVisible>false</GuiVisible>
             <BlockTopology>TriangleMesh</BlockTopology>

@@ -8,7 +8,19 @@
             </Id>
             <DisplayName>Light Transport Core</DisplayName>
             <Icon>Textures\SmallGridCore-tl.dds</Icon>
-            <Description>Light Transport Core</Description>
+            <Description>Best for: cargo or troop transport, light defensive combat
+
+Allows:
+4 point defence blocks
+2 countermeasure blocks
+Some cargo containers
+Survival kit or radar
+Limited thrusters
+1 reactor
+
+Not allowed:
+Utility blocks
+            </Description>
             <CubeSize>Small</CubeSize>
             <GuiVisible>false</GuiVisible>
             <BlockTopology>TriangleMesh</BlockTopology>

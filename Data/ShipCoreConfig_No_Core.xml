@@ -55,7 +55,7 @@
     <Name>Utility</Name>
     <BlockGroups>Survival Kit</BlockGroups>
     <MaxCount>0</MaxCount>
-    <TurnedOffByNoFlyZone>true</TurnedOffByNoFlyZone>
+    <PunishByNoFlyZone>true</PunishByNoFlyZone>
     <PunishmentType>ShutOff</PunishmentType>
   </BlockLimits>
 </ShipCore>

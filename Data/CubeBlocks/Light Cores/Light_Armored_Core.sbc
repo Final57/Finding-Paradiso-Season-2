@@ -8,7 +8,18 @@
             </Id>
             <DisplayName>Light Armored Core</DisplayName>
             <Icon>Textures\SmallGridCore-a.dds</Icon>
-            <Description>Light Armored Core</Description>
+            <Description>Best for: basic vehicles, fleet support 
+
+Allows:
+1 weapon block
+2 countermeasure blocks
+2 cargo containers
+1 reactor
+
+Not allowed:
+Utility blocks
+Main thrusters (epstein drives)
+            </Description>
             <CubeSize>Small</CubeSize>
             <GuiVisible>false</GuiVisible>
             <BlockTopology>TriangleMesh</BlockTopology>
