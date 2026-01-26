@@ -9,7 +9,7 @@
   <SmallGrid>false</SmallGrid>
   <MaxBlocks>500</MaxBlocks>
   <MaxMass>-1</MaxMass>
-  <MaxPCU>1000</MaxPCU>
+  <MaxPCU>-1</MaxPCU>
   <MaxPerPlayer>10</MaxPerPlayer>
   <MinPlayers>-1</MinPlayers>
   <Modifiers>

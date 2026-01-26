@@ -7,9 +7,9 @@
   <LargeGridStatic>true</LargeGridStatic>
   <LargeGridMobile>false</LargeGridMobile>
   <SmallGrid>false</SmallGrid>
-  <MaxBlocks>500</MaxBlocks>
+  <MaxBlocks>1000</MaxBlocks>
   <MaxMass>-1</MaxMass>
-  <MaxPCU>2000</MaxPCU>
+  <MaxPCU>-1</MaxPCU>
   <MaxPerPlayer>4</MaxPerPlayer>
   <MinPlayers>-1</MinPlayers>
   <Modifiers>

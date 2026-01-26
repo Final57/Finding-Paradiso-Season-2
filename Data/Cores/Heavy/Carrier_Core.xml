@@ -9,7 +9,7 @@
   <SmallGrid>false</SmallGrid>
   <MaxBlocks>6000</MaxBlocks>
   <MaxMass>-1</MaxMass>
-  <MaxPCU>8000</MaxPCU>
+  <MaxPCU>-1</MaxPCU>
   <MaxPerPlayer>1</MaxPerPlayer>
   <MinPlayers>-1</MinPlayers>
   <Modifiers>
@@ -22,8 +22,8 @@
     <RefineSpeed>0</RefineSpeed>
     <ThrusterEfficiency>.3</ThrusterEfficiency>
     <ThrusterForce>1</ThrusterForce>
-    <MaxSpeed>0.6</MaxSpeed>
-    <MaxBoost>1.1</MaxBoost>
+    <MaxSpeed>0.4</MaxSpeed>
+    <MaxBoost>0.5</MaxBoost>
     <BoostDuration>60</BoostDuration>
     <BoostCoolDown>120</BoostCoolDown>
   </Modifiers>

@@ -22,8 +22,8 @@
     <RefineSpeed>2</RefineSpeed>
     <ThrusterEfficiency>3</ThrusterEfficiency>
     <ThrusterForce>2</ThrusterForce>
-    <MaxSpeed>.5</MaxSpeed>
-    <MaxBoost>1</MaxBoost>
+    <MaxSpeed>0.4</MaxSpeed>
+    <MaxBoost>0.8</MaxBoost>
     <BoostDuration>120</BoostDuration>
     <BoostCoolDown>360</BoostCoolDown>
   </Modifiers>

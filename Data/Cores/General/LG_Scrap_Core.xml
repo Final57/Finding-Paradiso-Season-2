@@ -22,7 +22,7 @@
     <RefineSpeed>0</RefineSpeed>
     <ThrusterEfficiency>0</ThrusterEfficiency>
     <ThrusterForce>0</ThrusterForce>
-    <MaxSpeed>0</MaxSpeed>
+    <MaxSpeed>0.1</MaxSpeed>
     <MaxBoost>0</MaxBoost>
     <BoostDuration>0</BoostDuration>
     <BoostCoolDown>0</BoostCoolDown>

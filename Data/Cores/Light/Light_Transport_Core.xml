@@ -9,7 +9,7 @@
   <SmallGrid>true</SmallGrid>
   <MaxBlocks>1000</MaxBlocks>
   <MaxMass>-1</MaxMass>
-  <MaxPCU>6000</MaxPCU>
+  <MaxPCU>10000</MaxPCU>
   <MaxPerPlayer>10</MaxPerPlayer>
   <MinPlayers>-1</MinPlayers>
   <Modifiers>
@@ -22,10 +22,10 @@
     <RefineSpeed>0</RefineSpeed>
     <ThrusterEfficiency>1.5</ThrusterEfficiency>
     <ThrusterForce>1.2</ThrusterForce>
-    <MaxSpeed>1</MaxSpeed>
-    <MaxBoost>1.2</MaxBoost>
-    <BoostDuration>5</BoostDuration>
-    <BoostCoolDown>10</BoostCoolDown>
+    <MaxSpeed>0.7</MaxSpeed>
+    <MaxBoost>0.9</MaxBoost>
+    <BoostDuration>15</BoostDuration>
+    <BoostCoolDown>15</BoostCoolDown>
   </Modifiers>
   <PassiveDefenseModifiers>
     <Bullet>0.8</Bullet>
