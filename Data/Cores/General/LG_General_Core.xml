@@ -12,6 +12,7 @@
   <MaxPCU>6000</MaxPCU>
   <MaxPerPlayer>10</MaxPerPlayer>
   <MinPlayers>-1</MinPlayers>
+  <MaxBackupCores>1</MaxBackupCores>
   <Modifiers>
     <AssemblerSpeed>0.2</AssemblerSpeed>
     <DrillHarvestMultiplier>0.2</DrillHarvestMultiplier>
@@ -53,7 +54,7 @@
     <Name>No Weapons</Name>
     <BlockGroups>Weaponry</BlockGroups>
     <MaxCount>0</MaxCount>
-    <TurnedOffByNoFlyZone>true</TurnedOffByNoFlyZone>
+    <PunishByNoFlyZone>true</PunishByNoFlyZone>
     <PunishmentType>ShutOff</PunishmentType>
   </BlockLimits>
   <BlockLimits>
@@ -69,14 +70,14 @@
     <BlockGroups>Static Drills</BlockGroups>
     <BlockGroups>Cargo</BlockGroups>
     <MaxCount>0</MaxCount>
-    <TurnedOffByNoFlyZone>true</TurnedOffByNoFlyZone>
+    <PunishByNoFlyZone>true</PunishByNoFlyZone>
     <PunishmentType>Delete</PunishmentType>
   </BlockLimits>
   <BlockLimits>
     <Name>Connectors</Name>
     <BlockGroups>Connectors</BlockGroups>
     <MaxCount>4</MaxCount>
-    <TurnedOffByNoFlyZone>false</TurnedOffByNoFlyZone>
+    <PunishByNoFlyZone>false</PunishByNoFlyZone>
     <PunishmentType>Delete</PunishmentType>
   </BlockLimits>
   <BlockLimits>
@@ -85,7 +86,7 @@
     <BlockGroups>Assembling</BlockGroups>
     <BlockGroups>Farming</BlockGroups>
     <MaxCount>0</MaxCount>
-    <TurnedOffByNoFlyZone>true</TurnedOffByNoFlyZone>
+    <PunishByNoFlyZone>true</PunishByNoFlyZone>
     <PunishmentType>Delete</PunishmentType>
   </BlockLimits>
 </ShipCore>

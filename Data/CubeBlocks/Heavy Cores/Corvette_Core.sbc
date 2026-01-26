@@ -16,11 +16,13 @@
 			<ModelOffset x="0" y="0" z="0"/>
 			<Model>Models\GridCore_Center.mwm</Model>
             <Components>
-                <Component Subtype="SteelPlate" Count="1" />
-                <Component Subtype="Construction" Count="1" />
-                <Component Subtype="SmallTube" Count="1" />
+                <Component Subtype="SteelPlate" Count="100" />
+                <Component Subtype="Construction" Count="45" />
+                <Component Subtype="SmallTube" Count="60" />
+                <Component Subtype="Computer" Count="5" />
+                <Component Subtype="LargeTube" Count="10" />
             </Components>
-			<CriticalComponent Subtype="Construction" Index="0" />
+			<CriticalComponent Subtype="Computer" Index="0" />
 			<MountPoints>
 				<MountPoint Side="Front" StartX="0.21" StartY="0.00" EndX="0.79" EndY="1.00"/>
 				<MountPoint Side="Back" StartX="0.21" StartY="0.00" EndX="0.79" EndY="1.00"/>

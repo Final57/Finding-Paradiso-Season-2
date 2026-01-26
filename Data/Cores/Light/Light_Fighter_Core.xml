@@ -15,13 +15,13 @@
   <Modifiers>
     <AssemblerSpeed>0</AssemblerSpeed>
     <DrillHarvestMultiplier>0</DrillHarvestMultiplier>
-    <GyroEfficiency>1.2</GyroEfficiency>
-    <GyroForce>1.2</GyroForce>
+    <GyroEfficiency>1.5</GyroEfficiency>
+    <GyroForce>2</GyroForce>
     <PowerProducersOutput>1</PowerProducersOutput>
     <RefineEfficiency>0</RefineEfficiency>
     <RefineSpeed>0</RefineSpeed>
     <ThrusterEfficiency>1.5</ThrusterEfficiency>
-    <ThrusterForce>1.2</ThrusterForce>
+    <ThrusterForce>1.5</ThrusterForce>
     <MaxSpeed>1.4</MaxSpeed>
     <MaxBoost>1.5</MaxBoost>
     <BoostDuration>5</BoostDuration>

@@ -92,7 +92,7 @@ namespace enenra.OreRemapping
                         if (oreMap.Value == 145 && oreMap.Type.Contains("Gold_01") == true) { oreMap.Type = "Stone_01"; oreMap.Start = 8; oreMap.Depth = 6; }
                         if (oreMap.Value == 155 && oreMap.Type.Contains("Gold_01") == true) { oreMap.Type = "Stone_01"; oreMap.Start = 10; oreMap.Depth = 7; }
                         if (oreMap.Value == 165 && oreMap.Type.Contains("Gold_01") == true) { oreMap.Type = "Stone_01"; oreMap.Start = 12; oreMap.Depth = 5; }
-                        if (oreMap.Value == 175 && oreMap.Type.Contains("Platinum_01") == true) { oreMap.Type = "Stone_01"; oreMap.Start = 24; oreMap.Depth = 4; }
+                        if (oreMap.Value == 175 && oreMap.Type.Contains("Platinum_01") == true) { oreMap.Type = "Bauxite"; oreMap.Start = 24; oreMap.Depth = 4; }
                         if (oreMap.Value == 185 && oreMap.Type.Contains("Platinum_01") == true) { oreMap.Type = "Stone_01"; oreMap.Start = 34; oreMap.Depth = 6; }
                         if (oreMap.Value == 195 && oreMap.Type.Contains("Platinum_01") == true) { oreMap.Type = "Stone_01"; oreMap.Start = 45; oreMap.Depth = 7; }
                         if (oreMap.Value == 205 && oreMap.Type.Contains("Platinum_01") == true) { oreMap.Type = "Stone_01"; oreMap.Start = 61; oreMap.Depth = 10; }
@@ -108,32 +108,32 @@ namespace enenra.OreRemapping
 
                         if (oreMap.Value == 10 && oreMap.Type.Contains("Iron_01") == true) { oreMap.Type = "Stone_01"; oreMap.Start = 10; oreMap.Depth = 3; }
                         if (oreMap.Value == 20 && oreMap.Type.Contains("Iron_01") == true) { oreMap.Type = "Stone_01"; oreMap.Start = 16; oreMap.Depth = 5; }
-                        if (oreMap.Value == 30 && oreMap.Type.Contains("Iron_01") == true) { oreMap.Type = "Stone_01"; oreMap.Start = 24; oreMap.Depth = 7; }
-                        if (oreMap.Value == 40 && oreMap.Type.Contains("Iron_01") == true) { oreMap.Type = "Stone_01"; oreMap.Start = 34; oreMap.Depth = 9; }
+                        if (oreMap.Value == 30 && oreMap.Type.Contains("Iron_01") == true) { oreMap.Type = "Akimotoite_01"; oreMap.Start = 24; oreMap.Depth = 7; }
+                        if (oreMap.Value == 40 && oreMap.Type.Contains("Iron_01") == true) { oreMap.Type = "Quartz_01"; oreMap.Start = 34; oreMap.Depth = 9; }
                         if (oreMap.Value == 50 && oreMap.Type.Contains("Iron_01") == true) { oreMap.Type = "Stone_01"; oreMap.Start = 43; oreMap.Depth = 14; }
 
-                        if (oreMap.Value == 60 && oreMap.Type.Contains("Nickel_01") == true) { oreMap.Type = "Stone_01"; oreMap.Start = 10; oreMap.Depth = 3; }
+                        if (oreMap.Value == 60 && oreMap.Type.Contains("Nickel_01") == true) { oreMap.Type = "Pyrite_01"; oreMap.Start = 10; oreMap.Depth = 3; }
                         if (oreMap.Value == 70 && oreMap.Type.Contains("Nickel_01") == true) { oreMap.Type = "Stone_01"; oreMap.Start = 16; oreMap.Depth = 5; }
-                        if (oreMap.Value == 80 && oreMap.Type.Contains("Nickel_01") == true) { oreMap.Type = "Stone_01"; oreMap.Start = 24; oreMap.Depth = 7; }
+                        if (oreMap.Value == 80 && oreMap.Type.Contains("Nickel_01") == true) { oreMap.Type = "Akimotoite_01"; oreMap.Start = 24; oreMap.Depth = 7; }
                         if (oreMap.Value == 90 && oreMap.Type.Contains("Nickel_01") == true) { oreMap.Type = "Stone_01"; oreMap.Start = 34; oreMap.Depth = 9; }
                         if (oreMap.Value == 100 && oreMap.Type.Contains("Nickel_01") == true) { oreMap.Type = "Stone_01"; oreMap.Start = 43; oreMap.Depth = 14; }
 
                         if (oreMap.Value == 110 && oreMap.Type.Contains("Silicon_01") == true) { oreMap.Type = "Stone_01"; oreMap.Start = 10; oreMap.Depth = 3; }
-                        if (oreMap.Value == 120 && oreMap.Type.Contains("Silicon_01") == true) { oreMap.Type = "Stone_01"; oreMap.Start = 16; oreMap.Depth = 5; }
+                        if (oreMap.Value == 120 && oreMap.Type.Contains("Silicon_01") == true) { oreMap.Type = "Galena_01"; oreMap.Start = 16; oreMap.Depth = 5; }
                         if (oreMap.Value == 130 && oreMap.Type.Contains("Silicon_01") == true) { oreMap.Type = "Stone_01"; oreMap.Start = 24; oreMap.Depth = 7; }
-                        if (oreMap.Value == 140 && oreMap.Type.Contains("Silicon_01") == true) { oreMap.Type = "Stone_01"; oreMap.Start = 34; oreMap.Depth = 9; }
+                        if (oreMap.Value == 140 && oreMap.Type.Contains("Silicon_01") == true) { oreMap.Type = "Bauxite"; oreMap.Start = 34; oreMap.Depth = 9; }
                         if (oreMap.Value == 150 && oreMap.Type.Contains("Silicon_01") == true) { oreMap.Type = "Stone_01"; oreMap.Start = 43; oreMap.Depth = 14; }
 
                         if (oreMap.Value == 160 && oreMap.Type.Contains("Magnesium_01") == true) { oreMap.Type = "Stone_01"; oreMap.Start = 10; oreMap.Depth = 3; }
-                        if (oreMap.Value == 170 && oreMap.Type.Contains("Magnesium_01") == true) { oreMap.Type = "Stone_01"; oreMap.Start = 18; oreMap.Depth = 6; }
-                        if (oreMap.Value == 180 && oreMap.Type.Contains("Magnesium_01") == true) { oreMap.Type = "Stone_01"; oreMap.Start = 28; oreMap.Depth = 8; }
+                        if (oreMap.Value == 170 && oreMap.Type.Contains("Magnesium_01") == true) { oreMap.Type = "Pyrite_01"; oreMap.Start = 18; oreMap.Depth = 6; }
+                        if (oreMap.Value == 180 && oreMap.Type.Contains("Magnesium_01") == true) { oreMap.Type = "Quartz_01"; oreMap.Start = 28; oreMap.Depth = 8; }
                         if (oreMap.Value == 190 && oreMap.Type.Contains("Magnesium_01") == true) { oreMap.Type = "Stone_01"; oreMap.Start = 36; oreMap.Depth = 12; }
 
                         if (oreMap.Value == 200 && oreMap.Type.Contains("Cobalt_01") == true) { oreMap.Type = "Stone_01"; oreMap.Start = 27; oreMap.Depth = 8; }
 
-                        if (oreMap.Value == 220 && oreMap.Type.Contains("Ice") == true) { oreMap.Type = "Stone_01"; oreMap.Start = 12; oreMap.Depth = 17; }
+                        if (oreMap.Value == 220 && oreMap.Type.Contains("Ice") == true) { oreMap.Type = "Chlorargyrite_01"; oreMap.Start = 12; oreMap.Depth = 17; }
 
-                        if (oreMap.Value == 240 && oreMap.Type.Contains("Platinum_01") == true) { oreMap.Type = "Stone_01"; oreMap.Start = 37; oreMap.Depth = 7; }
+                        if (oreMap.Value == 240 && oreMap.Type.Contains("Platinum_01") == true) { oreMap.Type = "Lithium"; oreMap.Start = 37; oreMap.Depth = 7; }
 
                     }
 
@@ -160,6 +160,10 @@ namespace enenra.OreRemapping
                 if (voxelMaterial.Id.SubtypeName == "Sulfur") { voxelMaterial.SpawnsInAsteroids = false; }
                 if (voxelMaterial.Id.SubtypeName == "Lithium") { voxelMaterial.SpawnsInAsteroids = false; }
                 if (voxelMaterial.Id.SubtypeName == "Titanium") { voxelMaterial.SpawnsInAsteroids = false; }
+                if (voxelMaterial.Id.SubtypeName == "Petzite_01") { voxelMaterial.SpawnsInAsteroids = false; }
+                if (voxelMaterial.Id.SubtypeName == "Cooperite_01") { voxelMaterial.SpawnsInAsteroids = false; }
+                if (voxelMaterial.Id.SubtypeName == "Niggliite_01") { voxelMaterial.SpawnsInAsteroids = false; }
+                if (voxelMaterial.Id.SubtypeName == "Carnotite_01") { voxelMaterial.SpawnsInAsteroids = false; }
 
             }
 

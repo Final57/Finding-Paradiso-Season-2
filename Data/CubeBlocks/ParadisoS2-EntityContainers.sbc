@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+    <EntityContainers>
+        <Container>
+            <Id>
+                <TypeId>Beacon</TypeId>
+                <SubtypeId>Light_Transport_Core</SubtypeId>
+            </Id>
+            <DefaultComponents>
+                <Component BuilderType="MyObjectBuilder_ConveyorEndpointComponent" SubtypeId="Light_Transport_Core" ForceCreate="true"/>
+            </DefaultComponents>
+        </Container>
+                <Container>
+            <Id>
+                <TypeId>Beacon</TypeId>
+                <SubtypeId>Light_Utility_Core</SubtypeId>
+            </Id>
+            <DefaultComponents>
+                <Component BuilderType="MyObjectBuilder_ConveyorEndpointComponent" SubtypeId="Light_Utility_Core" ForceCreate="true"/>
+            </DefaultComponents>
+        </Container>
+                <Container>
+            <Id>
+                <TypeId>Beacon</TypeId>
+                <SubtypeId>Light_Fighter_Core</SubtypeId>
+            </Id>
+            <DefaultComponents>
+                <Component BuilderType="MyObjectBuilder_ConveyorEndpointComponent" SubtypeId="Light_Fighter_Core" ForceCreate="true"/>
+            </DefaultComponents>
+        </Container>
+                <Container>
+            <Id>
+                <TypeId>Beacon</TypeId>
+                <SubtypeId>Light_Bomber_Core</SubtypeId>
+            </Id>
+            <DefaultComponents>
+                <Component BuilderType="MyObjectBuilder_ConveyorEndpointComponent" SubtypeId="Light_Bomber_Core" ForceCreate="true"/>
+            </DefaultComponents>
+        </Container>
+                <Container>
+            <Id>
+                <TypeId>Beacon</TypeId>
+                <SubtypeId>Light_Armored_Core</SubtypeId>
+            </Id>
+            <DefaultComponents>
+                <Component BuilderType="MyObjectBuilder_ConveyorEndpointComponent" SubtypeId="Light_Armored_Core" ForceCreate="true"/>
+            </DefaultComponents>
+        </Container>
+                <Container>
+            <Id>
+                <TypeId>Beacon</TypeId>
+                <SubtypeId>SG_Scrap_Core</SubtypeId>
+            </Id>
+            <DefaultComponents>
+                <Component BuilderType="MyObjectBuilder_ConveyorEndpointComponent" SubtypeId="SG_Scrap_Core" ForceCreate="true"/>
+            </DefaultComponents>
+        </Container>
+                <Container>
+            <Id>
+                <TypeId>Beacon</TypeId>
+                <SubtypeId>SG_General_Core</SubtypeId>
+            </Id>
+            <DefaultComponents>
+                <Component BuilderType="MyObjectBuilder_ConveyorEndpointComponent" SubtypeId="SG_General_Core" ForceCreate="true"/>
+            </DefaultComponents>
+        </Container>
+    </EntityContainers>
+</Definitions>

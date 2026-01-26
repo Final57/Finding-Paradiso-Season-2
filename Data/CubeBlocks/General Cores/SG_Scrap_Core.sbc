@@ -17,8 +17,9 @@
 			<Model>Models\GridCore_SG.mwm</Model>
             <Components>
                 <Component Subtype="InteriorPlate" Count="1" />
+                <Component Subtype="Computer" Count="1" />
             </Components>
-         			<CriticalComponent Subtype="InteriorPlate" Index="0" />
+         	<CriticalComponent Subtype="Computer" Index="0" />
 			<MountPoints>
 				<MountPoint Side="Front" StartX="0.91" StartY="0.00" EndX="1.00" EndY="1.00"/>
 				<MountPoint Side="Front" StartX="0.00" StartY="0.00" EndX="0.09" EndY="1.00"/>
@@ -30,6 +31,10 @@
 				<MountPoint Side="Top" StartX="0.00" StartY="0.00" EndX="1.00" EndY="1.00"/>
 				<MountPoint Side="Bottom" StartX="0.00" StartY="0.00" EndX="1.00" EndY="1.00"/>
 			</MountPoints>
+            <ScreenAreas>
+				<ScreenArea Name="CockpitScreen_01" DisplayName="Screen" TextureResolution="512" ScreenWidth="5" ScreenHeight="3" Script="Core status"/>
+                <ScreenArea Name="CockpitScreen_02" DisplayName="Keyboard" TextureResolution="512" ScreenWidth="5" ScreenHeight="3" />
+            </ScreenAreas>
 			<BuildProgressModels>
 				<Model BuildPercentUpperBound="1.00" File="Models\GridCore_SG_BS1.mwm"/>
 			</BuildProgressModels>
@@ -55,4 +60,13 @@
             <IsAirTight>false</IsAirTight>
         </Definition>
 	</CubeBlocks>
+    <EntityComponents>
+        <EntityComponent xsi:type="MyObjectBuilder_ConveyorEndpointComponentDefinition">
+            <Id>
+                <TypeId>ConveyorEndpointComponent</TypeId>
+                <SubtypeId>SG_Scrap_Core</SubtypeId>
+            </Id>
+            <AllowSelfPulling>true</AllowSelfPulling>
+        </EntityComponent>
+    </EntityComponents>
 </Definitions>

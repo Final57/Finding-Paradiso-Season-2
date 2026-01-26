@@ -28,11 +28,11 @@
     <BoostCoolDown>10</BoostCoolDown>
   </Modifiers>
   <PassiveDefenseModifiers>
-    <Bullet>1.3</Bullet>
-    <Energy>1.3</Energy>
-    <Kinetic>1.3</Kinetic>
-    <Rocket>1.3</Rocket>
-    <Explosion>1.3</Explosion>
+    <Bullet>2</Bullet>
+    <Energy>2</Energy>
+    <Kinetic>2</Kinetic>
+    <Rocket>2</Rocket>
+    <Explosion>2</Explosion>
     <Environment>1</Environment>
   </PassiveDefenseModifiers>
   <SpeedBoostEnabled>true</SpeedBoostEnabled>
