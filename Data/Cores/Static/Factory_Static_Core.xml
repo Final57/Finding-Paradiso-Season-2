@@ -4,8 +4,7 @@
   <UniqueName>Factory Structure</UniqueName>
   <ForceBroadCast>false</ForceBroadCast>
   <ForceBroadCastRange>500</ForceBroadCastRange>
-  <LargeGridStatic>true</LargeGridStatic>
-  <LargeGridMobile>false</LargeGridMobile>
+  <MobilityType>Static</MobilityType>
   <SmallGrid>false</SmallGrid>
   <MaxBlocks>1000</MaxBlocks>
   <MaxMass>-1</MaxMass>

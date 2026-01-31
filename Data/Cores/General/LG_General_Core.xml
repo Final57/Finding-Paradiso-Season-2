@@ -4,8 +4,7 @@
   <UniqueName>Unspecified Registered Class</UniqueName>
   <ForceBroadCast>false</ForceBroadCast>
   <ForceBroadCastRange>2000</ForceBroadCastRange>
-  <LargeGridStatic>true</LargeGridStatic>
-  <LargeGridMobile>true</LargeGridMobile>
+  <MobilityType>Both</MobilityType>
   <SmallGrid>false</SmallGrid>
   <MaxBlocks>1000</MaxBlocks>
   <MaxMass>-1</MaxMass>

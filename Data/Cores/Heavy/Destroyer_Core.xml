@@ -4,8 +4,7 @@
   <UniqueName>Destroyer Class</UniqueName>
   <ForceBroadCast>true</ForceBroadCast>
   <ForceBroadCastRange>10000</ForceBroadCastRange>
-  <LargeGridStatic>false</LargeGridStatic>
-  <LargeGridMobile>true</LargeGridMobile>
+  <MobilityType>Mobile</MobilityType>
   <SmallGrid>false</SmallGrid>
   <MaxBlocks>2000</MaxBlocks>
   <MaxMass>-1</MaxMass>

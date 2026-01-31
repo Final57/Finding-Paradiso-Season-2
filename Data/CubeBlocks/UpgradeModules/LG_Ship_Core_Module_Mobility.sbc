@@ -29,8 +29,8 @@
 				<Model BuildPercentUpperBound="1.00" File="Models\GridCore_UpgradeModule_BS3.mwm"/>
 			</BuildProgressModels>
             <ScreenAreas>
-                <ScreenArea Name="CockpitScreen_02" DisplayName="Screen1" TextureResolution="512" ScreenWidth="5" ScreenHeight="3" />
-				<ScreenArea Name="CockpitScreen_01" DisplayName="Keyboard1" TextureResolution="512" ScreenWidth="5" ScreenHeight="3" />
+                <ScreenArea Name="CockpitScreen_02" DisplayName="Screen" TextureResolution="512" ScreenWidth="5" ScreenHeight="3" />
+				<ScreenArea Name="CockpitScreen_01" DisplayName="Keyboard" TextureResolution="512" ScreenWidth="5" ScreenHeight="3" />
             </ScreenAreas>
 			<BlockPairName>Ship_Core_Module_Mobility</BlockPairName>
 			<MirroringY>Z</MirroringY>

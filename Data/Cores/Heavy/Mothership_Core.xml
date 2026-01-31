@@ -4,8 +4,7 @@
   <UniqueName>Mothership Class</UniqueName>
   <ForceBroadCast>false</ForceBroadCast>
   <ForceBroadCastRange>40000</ForceBroadCastRange>
-  <LargeGridStatic>true</LargeGridStatic>
-  <LargeGridMobile>true</LargeGridMobile>
+  <MobilityType>Both</MobilityType>
   <SmallGrid>false</SmallGrid>
   <MaxBlocks>-1</MaxBlocks>
   <MaxMass>-1</MaxMass>

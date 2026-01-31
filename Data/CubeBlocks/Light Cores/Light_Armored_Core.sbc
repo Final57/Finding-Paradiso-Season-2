@@ -46,7 +46,7 @@ Main thrusters (epstein drives)
 				<MountPoint Side="Bottom" StartX="0.00" StartY="0.00" EndX="1.00" EndY="1.00"/>
 			</MountPoints>
             <ScreenAreas>
-				<ScreenArea Name="CockpitScreen_01" DisplayName="Screen" TextureResolution="512" ScreenWidth="5" ScreenHeight="3" Script="Core status"/>
+				<ScreenArea Name="CockpitScreen_01" DisplayName="Screen" TextureResolution="512" ScreenWidth="5" ScreenHeight="3" Script="CoreTypeLCDScript"/>
                 <ScreenArea Name="CockpitScreen_02" DisplayName="Keyboard" TextureResolution="512" ScreenWidth="5" ScreenHeight="3" />
             </ScreenAreas>
 			<BuildProgressModels>

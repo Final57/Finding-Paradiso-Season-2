@@ -4,8 +4,7 @@
   <UniqueName>Light Unspecified Scrap</UniqueName>
   <ForceBroadCast>true</ForceBroadCast>
   <ForceBroadCastRange>150</ForceBroadCastRange>
-  <LargeGridStatic>false</LargeGridStatic>
-  <LargeGridMobile>false</LargeGridMobile>
+  <MobilityType>Mobile</MobilityType>
   <SmallGrid>true</SmallGrid>
   <MaxBlocks>-1</MaxBlocks>
   <MaxMass>-1</MaxMass>

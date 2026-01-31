@@ -4,8 +4,7 @@
   <UniqueName>Static Drill Rig Structure</UniqueName>
   <ForceBroadCast>true</ForceBroadCast>
   <ForceBroadCastRange>500</ForceBroadCastRange>
-  <LargeGridStatic>true</LargeGridStatic>
-  <LargeGridMobile>false</LargeGridMobile>
+  <MobilityType>Static</MobilityType>
   <SmallGrid>false</SmallGrid>
   <MaxBlocks>50</MaxBlocks>
   <MaxMass>-1</MaxMass>
