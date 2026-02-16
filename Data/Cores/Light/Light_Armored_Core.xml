@@ -6,7 +6,7 @@
   <ForceBroadCastRange>2000</ForceBroadCastRange>
   <MobilityType>Mobile</MobilityType>
   <SmallGrid>true</SmallGrid>
-  <MaxBlocks>1000</MaxBlocks>
+  <MaxBlocks>2500</MaxBlocks>
   <MaxMass>-1</MaxMass>
   <MaxPCU>10000</MaxPCU>
   <MaxPerPlayer>10</MaxPerPlayer>
@@ -21,11 +21,18 @@
     <RefineSpeed>0</RefineSpeed>
     <ThrusterEfficiency>0.8</ThrusterEfficiency>
     <ThrusterForce>1.2</ThrusterForce>
+  </Modifiers>
+  <SpeedBoostEnabled>true</SpeedBoostEnabled>
+  <SpeedLimitType>Friction</SpeedLimitType>
+  <SpeedModifiers>
     <MaxSpeed>0.7</MaxSpeed>
     <MaxBoost>0.9</MaxBoost>
     <BoostDuration>15</BoostDuration>
     <BoostCoolDown>15</BoostCoolDown>
-  </Modifiers>
+    <MinimumFrictionSpeedModifier>0.75</MinimumFrictionSpeedModifier>
+    <MaximumFrictionSpeedModifier>0.8</MaximumFrictionSpeedModifier>
+    <MaximumFrictionDeceleration>0.9</MaximumFrictionDeceleration>
+  </SpeedModifiers>
   <PassiveDefenseModifiers>
     <Bullet>2</Bullet>
     <Energy>2</Energy>
@@ -34,7 +41,6 @@
     <Explosion>2</Explosion>
     <Environment>1</Environment>
   </PassiveDefenseModifiers>
-  <SpeedBoostEnabled>true</SpeedBoostEnabled>
   <EnableActiveDefenseModifiers>true</EnableActiveDefenseModifiers>
   <ActiveDefenseModifiers>
     <Bullet>0.3</Bullet>
@@ -76,6 +82,30 @@
     <AllowedDirections>Right</AllowedDirections>
   </BlockLimits>
   <BlockLimits>
+    <Name>Cargo Containers</Name>
+    <BlockGroups>Cargo</BlockGroups>
+    <MaxCount>2</MaxCount>
+    <TurnedOffByNoFlyZone>true</TurnedOffByNoFlyZone>
+    <PunishmentType>Delete</PunishmentType>
+  </BlockLimits>
+  <BlockLimits>
+    <Name>Reactors</Name>
+    <BlockGroups>Reactors</BlockGroups>
+    <MaxCount>1</MaxCount>
+    <TurnedOffByNoFlyZone>true</TurnedOffByNoFlyZone>
+    <PunishmentType>Delete</PunishmentType>
+  </BlockLimits>
+  <BlockLimits>
+    <Name>No Main Thrust</Name>
+    <BlockGroups>Large Epstein Drives</BlockGroups>
+    <BlockGroups>Small Epstein Drives</BlockGroups>
+    <BlockGroups>Stribog Thrusters</BlockGroups>
+    <MaxCount>0</MaxCount>
+    <TurnedOffByNoFlyZone>true</TurnedOffByNoFlyZone>
+    <PunishmentType>Delete</PunishmentType>
+    <AllowedDirections>Backward</AllowedDirections>
+  </BlockLimits>
+  <BlockLimits>
     <Name>No Other Weaponry</Name>
     <BlockGroups>Point Defense</BlockGroups>
     <BlockGroups>Fixed Missiles</BlockGroups>
@@ -93,30 +123,6 @@
     <BlockGroups>Survival Kit</BlockGroups>
     <BlockGroups>Radar</BlockGroups>
     <MaxCount>0</MaxCount>
-    <TurnedOffByNoFlyZone>true</TurnedOffByNoFlyZone>
-    <PunishmentType>Delete</PunishmentType>
-  </BlockLimits>
-  <BlockLimits>
-    <Name>Cargo Containers</Name>
-    <BlockGroups>Cargo</BlockGroups>
-    <MaxCount>2</MaxCount>
-    <TurnedOffByNoFlyZone>true</TurnedOffByNoFlyZone>
-    <PunishmentType>Delete</PunishmentType>
-  </BlockLimits>
-  <BlockLimits>
-    <Name>Main Thrust</Name>
-    <BlockGroups>Large Epstein Drives</BlockGroups>
-    <BlockGroups>Small Epstein Drives</BlockGroups>
-    <BlockGroups>Stribog Thrusters</BlockGroups>
-    <MaxCount>0</MaxCount>
-    <TurnedOffByNoFlyZone>true</TurnedOffByNoFlyZone>
-    <PunishmentType>Delete</PunishmentType>
-    <AllowedDirections>Backward</AllowedDirections>
-  </BlockLimits>
-  <BlockLimits>
-    <Name>Reactors</Name>
-    <BlockGroups>Reactors</BlockGroups>
-    <MaxCount>1</MaxCount>
     <TurnedOffByNoFlyZone>true</TurnedOffByNoFlyZone>
     <PunishmentType>Delete</PunishmentType>
   </BlockLimits>

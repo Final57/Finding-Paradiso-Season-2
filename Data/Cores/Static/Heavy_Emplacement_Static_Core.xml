@@ -21,11 +21,18 @@
     <RefineSpeed>0</RefineSpeed>
     <ThrusterEfficiency>0</ThrusterEfficiency>
     <ThrusterForce>0</ThrusterForce>
+  </Modifiers>
+  <SpeedBoostEnabled>false</SpeedBoostEnabled>
+  <SpeedLimitType>Normal</SpeedLimitType>
+  <SpeedModifiers>
     <MaxSpeed>0</MaxSpeed>
     <MaxBoost>0</MaxBoost>
     <BoostDuration>0</BoostDuration>
     <BoostCoolDown>0</BoostCoolDown>
-  </Modifiers>
+    <MinimumFrictionSpeedModifier>0</MinimumFrictionSpeedModifier>
+    <MaximumFrictionSpeedModifier>0</MaximumFrictionSpeedModifier>
+    <MaximumFrictionDeceleration>0</MaximumFrictionDeceleration>
+  </SpeedModifiers>
   <PassiveDefenseModifiers>
     <Bullet>2.5</Bullet>
     <Energy>2.5</Energy>
@@ -34,7 +41,6 @@
     <Explosion>2.5</Explosion>
     <Environment>1</Environment>
   </PassiveDefenseModifiers>
-  <SpeedBoostEnabled>false</SpeedBoostEnabled>
   <EnableActiveDefenseModifiers>true</EnableActiveDefenseModifiers>
   <ActiveDefenseModifiers>
     <Bullet>0.5</Bullet>
@@ -107,7 +113,6 @@
   </BlockLimits>
   <BlockLimits>
     <Name>No Utility</Name>
-    <BlockGroups>Static Drills</BlockGroups>
     <BlockGroups>Jump Drive</BlockGroups>
     <BlockGroups>Advanced Utility</BlockGroups>
     <BlockGroups>Medical</BlockGroups>
@@ -116,10 +121,13 @@
     <PunishmentType>Delete</PunishmentType>
   </BlockLimits>
   <BlockLimits>
-    <Name>No Refining or Assembling</Name>
+    <Name>No Refining, Processing, Assembling, Drilling, or Farming</Name>
     <BlockGroups>Refining</BlockGroups>
+    <BlockGroups>Nuclear Processing</BlockGroups>
+    <BlockGroups>Processing</BlockGroups>
     <BlockGroups>Assembling</BlockGroups>
     <BlockGroups>Farming</BlockGroups>
+    <BlockGroups>Static Drills</BlockGroups>
     <MaxCount>0</MaxCount>
     <TurnedOffByNoFlyZone>true</TurnedOffByNoFlyZone>
     <PunishmentType>Delete</PunishmentType>

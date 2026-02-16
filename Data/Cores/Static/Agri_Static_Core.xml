@@ -21,11 +21,18 @@
     <RefineSpeed>0</RefineSpeed>
     <ThrusterEfficiency>0</ThrusterEfficiency>
     <ThrusterForce>0</ThrusterForce>
+  </Modifiers>
+  <SpeedBoostEnabled>false</SpeedBoostEnabled>
+  <SpeedLimitType>Normal</SpeedLimitType>
+  <SpeedModifiers>
     <MaxSpeed>0</MaxSpeed>
     <MaxBoost>0</MaxBoost>
     <BoostDuration>0</BoostDuration>
     <BoostCoolDown>0</BoostCoolDown>
-  </Modifiers>
+    <MinimumFrictionSpeedModifier>0</MinimumFrictionSpeedModifier>
+    <MaximumFrictionSpeedModifier>0</MaximumFrictionSpeedModifier>
+    <MaximumFrictionDeceleration>0</MaximumFrictionDeceleration>
+  </SpeedModifiers>
   <PassiveDefenseModifiers>
     <Bullet>1</Bullet>
     <Energy>1</Energy>
@@ -34,7 +41,6 @@
     <Explosion>1</Explosion>
     <Environment>1</Environment>
   </PassiveDefenseModifiers>
-  <SpeedBoostEnabled>false</SpeedBoostEnabled>
   <EnableActiveDefenseModifiers>false</EnableActiveDefenseModifiers>
   <ActiveDefenseModifiers>
     <Bullet>0.1</Bullet>
@@ -49,35 +55,9 @@
   <EnableReloadModifier>false</EnableReloadModifier>
   <ReloadModifier>1</ReloadModifier>
   <BlockLimits>
-    <Name>Factory</Name>
-    <BlockGroups>Basic Assembling</BlockGroups>
-    <BlockGroups>Automated Assembling</BlockGroups>
-    <BlockGroups>Standard Assembling</BlockGroups>
-    <BlockGroups>Munitions Factory</BlockGroups>
-    <BlockGroups>Advanced Assembling</BlockGroups>
-    <MaxCount>8</MaxCount>
-    <TurnedOffByNoFlyZone>false</TurnedOffByNoFlyZone>
-    <PunishmentType>Delete</PunishmentType>
-  </BlockLimits>
-  <BlockLimits>
-    <Name>Limited Advanced Assembling</Name>
-    <BlockGroups>Advanced Assembling</BlockGroups>
-    <MaxCount>1</MaxCount>
-    <TurnedOffByNoFlyZone>false</TurnedOffByNoFlyZone>
-    <PunishmentType>Delete</PunishmentType>
-  </BlockLimits>
-  <BlockLimits>
-    <Name>No Nano Assembling</Name>
-    <BlockGroups>Nano Assembling</BlockGroups>
-    <MaxCount>0</MaxCount>
-    <TurnedOffByNoFlyZone>false</TurnedOffByNoFlyZone>
-    <PunishmentType>Delete</PunishmentType>
-  </BlockLimits>
-  <BlockLimits>
-    <Name>No Processing</Name>
-    <BlockGroups>Processing</BlockGroups>
-    <BlockGroups>Nuclear Processing</BlockGroups>
-    <MaxCount>0</MaxCount>
+    <Name>Farming</Name>
+    <BlockGroups>Farming</BlockGroups>
+    <MaxCount>16</MaxCount>
     <TurnedOffByNoFlyZone>false</TurnedOffByNoFlyZone>
     <PunishmentType>Delete</PunishmentType>
   </BlockLimits>
@@ -93,6 +73,14 @@
     <BlockGroups>Cargo</BlockGroups>
     <MaxCount>2</MaxCount>
     <TurnedOffByNoFlyZone>true</TurnedOffByNoFlyZone>
+    <PunishmentType>Delete</PunishmentType>
+  </BlockLimits>
+  <BlockLimits>
+    <Name>No Processing</Name>
+    <BlockGroups>Processing</BlockGroups>
+    <BlockGroups>Nuclear Processing</BlockGroups>
+    <MaxCount>0</MaxCount>
+    <TurnedOffByNoFlyZone>false</TurnedOffByNoFlyZone>
     <PunishmentType>Delete</PunishmentType>
   </BlockLimits>
   <BlockLimits>
@@ -117,9 +105,12 @@
     <PunishmentType>Delete</PunishmentType>
   </BlockLimits>
   <BlockLimits>
-    <Name>No Refining or Farming</Name>
+    <Name>No Refining, Processing, Assembling, or Drilling</Name>
     <BlockGroups>Refining</BlockGroups>
-    <BlockGroups>Farming</BlockGroups>
+    <BlockGroups>Processing</BlockGroups>
+    <BlockGroups>Nuclear Processing</BlockGroups>
+    <BlockGroups>Assembling</BlockGroups>
+    <BlockGroups>Static Drills</BlockGroups>
     <MaxCount>0</MaxCount>
     <TurnedOffByNoFlyZone>true</TurnedOffByNoFlyZone>
     <PunishmentType>Delete</PunishmentType>

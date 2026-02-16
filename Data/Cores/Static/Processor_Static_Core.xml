@@ -21,11 +21,18 @@
     <RefineSpeed>2</RefineSpeed>
     <ThrusterEfficiency>0</ThrusterEfficiency>
     <ThrusterForce>0</ThrusterForce>
+  </Modifiers>
+  <SpeedBoostEnabled>false</SpeedBoostEnabled>
+  <SpeedLimitType>Normal</SpeedLimitType>
+  <SpeedModifiers>
     <MaxSpeed>0</MaxSpeed>
     <MaxBoost>0</MaxBoost>
     <BoostDuration>0</BoostDuration>
     <BoostCoolDown>0</BoostCoolDown>
-  </Modifiers>
+    <MinimumFrictionSpeedModifier>0</MinimumFrictionSpeedModifier>
+    <MaximumFrictionSpeedModifier>0</MaximumFrictionSpeedModifier>
+    <MaximumFrictionDeceleration>0</MaximumFrictionDeceleration>
+  </SpeedModifiers>
   <PassiveDefenseModifiers>
     <Bullet>1</Bullet>
     <Energy>1</Energy>
@@ -34,7 +41,6 @@
     <Explosion>1</Explosion>
     <Environment>1</Environment>
   </PassiveDefenseModifiers>
-  <SpeedBoostEnabled>false</SpeedBoostEnabled>
   <EnableActiveDefenseModifiers>false</EnableActiveDefenseModifiers>
   <ActiveDefenseModifiers>
     <Bullet>0.1</Bullet>
@@ -101,9 +107,10 @@
     <PunishmentType>Delete</PunishmentType>
   </BlockLimits>
   <BlockLimits>
-    <Name>No Assembling or Farming</Name>
+    <Name>No Assembling, Farming, or Drilling</Name>
     <BlockGroups>Assembling</BlockGroups>
     <BlockGroups>Farming</BlockGroups>
+    <BlockGroups>Static Drills</BlockGroups>
     <MaxCount>0</MaxCount>
     <TurnedOffByNoFlyZone>true</TurnedOffByNoFlyZone>
     <PunishmentType>Delete</PunishmentType>

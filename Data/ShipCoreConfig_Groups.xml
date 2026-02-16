@@ -36,7 +36,7 @@
       <SubtypeId>OrePurifier</SubtypeId>
       <CountWeight>1</CountWeight>
     </BlockTypes>
-  <!--Oil Processing-->
+  <!--Oil Refining-->
     <BlockTypes>
       <TypeId>Refinery</TypeId>
       <SubtypeId>Bitumen Extractor</SubtypeId>
@@ -204,7 +204,7 @@
     </BlockTypes>
   </BlockGroup>
   <BlockGroup>
-    <Name>Oil Processing</Name>
+    <Name>Oil Refining</Name>
     <BlockTypes>
       <TypeId>Refinery</TypeId>
       <SubtypeId>Bitumen Extractor</SubtypeId>

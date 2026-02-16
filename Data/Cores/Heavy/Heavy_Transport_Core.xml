@@ -6,7 +6,7 @@
   <ForceBroadCastRange>2000</ForceBroadCastRange>
   <MobilityType>Mobile</MobilityType>
   <SmallGrid>false</SmallGrid>
-  <MaxBlocks>1000</MaxBlocks>
+  <MaxBlocks>2500</MaxBlocks>
   <MaxMass>-1</MaxMass>
   <MaxPCU>-1</MaxPCU>
   <MaxPerPlayer>10</MaxPerPlayer>
@@ -21,11 +21,18 @@
     <RefineSpeed>0</RefineSpeed>
     <ThrusterEfficiency>2</ThrusterEfficiency>
     <ThrusterForce>1.2</ThrusterForce>
+  </Modifiers>
+  <SpeedBoostEnabled>true</SpeedBoostEnabled>
+  <SpeedLimitType>Friction</SpeedLimitType>
+  <SpeedModifiers>
     <MaxSpeed>0.5</MaxSpeed>
     <MaxBoost>0.7</MaxBoost>
     <BoostDuration>30</BoostDuration>
     <BoostCoolDown>120</BoostCoolDown>
-  </Modifiers>
+    <MinimumFrictionSpeedModifier>0.7</MinimumFrictionSpeedModifier>
+    <MaximumFrictionSpeedModifier>0.9</MaximumFrictionSpeedModifier>
+    <MaximumFrictionDeceleration>0.8</MaximumFrictionDeceleration>
+  </SpeedModifiers>
   <PassiveDefenseModifiers>
     <Bullet>0.8</Bullet>
     <Energy>0.8</Energy>
@@ -34,7 +41,6 @@
     <Explosion>0.7</Explosion>
     <Environment>1</Environment>
   </PassiveDefenseModifiers>
-  <SpeedBoostEnabled>true</SpeedBoostEnabled>
   <EnableActiveDefenseModifiers>true</EnableActiveDefenseModifiers>
   <ActiveDefenseModifiers>
     <Bullet>0.1</Bullet>
@@ -67,7 +73,7 @@
     <AllowedDirections>Right</AllowedDirections>
   </BlockLimits>
   <BlockLimits>
-    <Name>No Other Weaponry</Name>
+    <Name>No Fixed or Turretted Weaponry</Name>
     <BlockGroups>Artillery - Turret</BlockGroups>
     <BlockGroups>Artillery - Fixed</BlockGroups>
     <BlockGroups>Railguns - Fixed</BlockGroups>
@@ -128,10 +134,13 @@
     <PunishmentType>Delete</PunishmentType>
   </BlockLimits>
   <BlockLimits>
-    <Name>No Refining or Assembling</Name>
+    <Name>No Refining, Processing, Assembling, Drilling, or Farming</Name>
     <BlockGroups>Refining</BlockGroups>
+    <BlockGroups>Nuclear Processing</BlockGroups>
+    <BlockGroups>Processing</BlockGroups>
     <BlockGroups>Assembling</BlockGroups>
     <BlockGroups>Farming</BlockGroups>
+    <BlockGroups>Static Drills</BlockGroups>
     <MaxCount>0</MaxCount>
     <TurnedOffByNoFlyZone>true</TurnedOffByNoFlyZone>
     <PunishmentType>Delete</PunishmentType>
