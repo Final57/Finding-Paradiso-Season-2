@@ -8,7 +8,24 @@
             </Id>
             <DisplayName>Corvette Core</DisplayName>
             <Icon>Textures\LargeGridCore-ct.dds</Icon>
-            <Description>A corvette core for medium-sized ships and vehicles.</Description>
+            <Description>A corvette core for medium-sized ships and vehicles.
+            Best for: Light defensive combat, light salvaging
+
+Allows:
+1 fixed weapon block - artillery, guns, missile launchers, energy
+6 point defence blocks
+4 countermeasure blocks
+1 main thrust block
+1 cargo container
+1 reactor
+
+Now allowed:
+Turret blocks - artillery, guns, missile launchers, energy, railguns
+Energy weapons
+Utility blocks
+Refinery blocks
+Assembly blocks
+            </Description>
             <CubeSize>Large</CubeSize>
             <GuiVisible>false</GuiVisible>
             <BlockTopology>TriangleMesh</BlockTopology>

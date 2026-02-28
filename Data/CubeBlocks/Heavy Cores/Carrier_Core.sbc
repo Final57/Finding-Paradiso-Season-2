@@ -8,7 +8,26 @@
             </Id>
             <DisplayName>Carrier Core</DisplayName>
             <Icon>Textures\LargeGridCore-cv.dds</Icon>
-            <Description>A carrier core for large-sized ships and vehicles.</Description>
+            <Description>A carrier core for large-sized ships and vehicles.
+            Best for: defensive combat, ship and troop transport
+
+Allows:
+4 turret weapons
+4 railguns
+12 point defense blocks
+8 counter measure blocks
+6 main thrust blocks
+16 utility blocks
+2 advanced utility blocks
+6 hangar blocks
+6 reactor blocks
+
+Now allowed:
+Fixed weapon blocks
+Warheads
+Refinery blocks
+Assembly blocks
+            </Description>
             <CubeSize>Large</CubeSize>
             <GuiVisible>false</GuiVisible>
             <BlockTopology>TriangleMesh</BlockTopology>

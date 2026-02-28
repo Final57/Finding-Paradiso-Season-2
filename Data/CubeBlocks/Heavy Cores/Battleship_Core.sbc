@@ -8,7 +8,23 @@
             </Id>
             <DisplayName>Battleship Core</DisplayName>
             <Icon>Textures\LargeGridCore-BB.dds</Icon>
-            <Description>A battleship core for large-sized ships and vehicles.</Description>
+            <Description>A battleship core for large-sized ships and vehicles.
+            Best for: defensive combat
+
+Allows:
+4 fixed weapons
+12 turret weapons
+6 cargo containers
+4 railguns
+6 countermeasures
+4 main thrusters
+4 utility blocks
+4 reactors
+
+Now allowed:
+Refinery blocks
+Assembly blocks
+            </Description>
             <CubeSize>Large</CubeSize>
             <GuiVisible>false</GuiVisible>
             <BlockTopology>TriangleMesh</BlockTopology>
