@@ -1,0 +1,22 @@
+<?xml version="1.0"?>
+<Definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+    <ContainerTypes>
+
+        <ContainerType CountMin="0" CountMax="1">
+            <Id>
+                <TypeId>ContainerTypeDefinition</TypeId>
+                <SubtypeId>PAR_ContainerTypes_Ammo_Gunship</SubtypeId>
+            </Id>
+            <Items>
+                <Item AmountMin="100" AmountMax="500">
+                    <Frequency>1.0</Frequency>
+                    <Id>
+                        <TypeId>AmmoMagazine</TypeId>
+                        <SubtypeId>EnergyAmmoMagazine</SubtypeId>
+                    </Id>
+                </Item>
+            </Items>
+        </ContainerType>
+
+    </ContainerTypes>
+</Definitions>

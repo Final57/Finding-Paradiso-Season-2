@@ -1,0 +1,30 @@
+<?xml version="1.0"?>
+<Definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+    <EntityComponents>
+
+        <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+            <Id>
+                <TypeId>Inventory</TypeId>
+                <SubtypeId>PAR_ODIN_LootProfile_Fighter</SubtypeId>
+            </Id>
+            <Description>
+                [MES Loot]
+
+                [ContainerBlockTypes:MyObjectBuilder_CargoContainer/SmallBlockSmallContainer] 
+                [ContainerBlockTypes:MyObjectBuilder_CargoContainer/SmallBlockMediumContainer]
+                [ContainerBlockTypes:MyObjectBuilder_CargoContainer/SmallBlockModularContainer]
+                [ContainerBlockTypes:MyObjectBuilder_CargoContainer/SmallBlockLargeContainer]
+                [ContainerBlockTypes:MyObjectBuilder_CargoContainer/LargeBlockSmallContainer]
+                [ContainerBlockTypes:MyObjectBuilder_CargoContainer/LargeBlockMediumContainer]
+                [ContainerBlockTypes:MyObjectBuilder_CargoContainer/LargeBlockLargeContainer]
+                [ContainerBlockTypes:MyObjectBuilder_CargoContainer/LargeBlockLargeIndustrialContainer]
+
+                [ContainerTypes:]
+
+                [MinBlocks:1]
+                [MaxBlocks:3]
+            </Description>
+        </EntityComponent>
+
+    </EntityComponents>
+</Definitions>

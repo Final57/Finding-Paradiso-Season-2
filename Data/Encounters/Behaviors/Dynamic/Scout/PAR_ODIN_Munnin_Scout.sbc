@@ -1,0 +1,269 @@
+<?xml version="1.0"?>
+<Definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+    <SpawnGroups>
+
+        <SpawnGroup>
+            <Id>
+                <TypeId>SpawnGroupDefinition</TypeId>
+                <SubtypeId>PAR_ODIN_Munnin_Scout_Spawngroup</SubtypeId>
+            </Id>
+            <Description>
+                [Modular Encounters SpawnGroup]
+
+                [UseRivalAi:true]
+                [RivalAiReplaceRemoteControl:true]
+
+                [SpawnConditionsProfiles:PAR_ODIN_Munnin_Scout_SpawnConditions]
+
+                [ManipulationProfiles:PAR_ODIN_Manipulation]
+                [ManipulationProfiles:PAR_ODIN_Manipulation_Fighter]
+
+                [ManipulationProfiles:MSB_Manipulation_WearAndTear_Light_Chance]
+
+                [UseRandomNameGenerator:true]
+                [RenameGrid:true]
+                [ReplaceAntennaHudTextInsteadOfName:true]
+                [ReplaceAntennaNameWithRandomizedName:Antenna]
+                [RandomGridNamePattern:ODIN Munnin Scout RandomLetterRandomNumber-RandomLetterRandomNumber]
+            </Description>
+            <Icon>Textures\GUI\Icons\Fake.dds</Icon>
+            <IsPirate>true</IsPirate>
+            <Frequency>5.0</Frequency>
+            <Prefabs>
+                <Prefab SubtypeId="PAR_ODIN_Munnin_Scout">
+                    <Position>
+                        <X>0.0</X>
+                        <Y>0.0</Y>
+                        <Z>0.0</Z>
+                    </Position>
+                    <Speed>50</Speed>
+                    <Behaviour>PAR_ODIN_Munnin_Scout_Behavior</Behaviour>
+                </Prefab>
+            </Prefabs>
+        </SpawnGroup>
+
+    </SpawnGroups>
+    <EntityComponents>
+
+        <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+            <Id>
+                <TypeId>Inventory</TypeId>
+                <SubtypeId>PAR_ODIN_Munnin_Scout_SpawnConditions</SubtypeId>
+            </Id>
+            <Description>
+                [MES Spawn Conditions]
+
+                [SpaceCargoShip:true]
+                [GravityCargoShip:true]
+                [LunarCargoShip:true]
+                [AtmosphericCargoShip:true]
+
+                [RivalAiAnySpawn:true]
+                [FactionOwner:ODIN]
+                [ReplenishSystems:false]
+
+                [IgnoreCombatPhase:true]
+                [SkipAirDensityCheck:true]
+                [SkipVoxelSpawnChecks:true]
+                [SkipGridSpawnChecks:true]
+
+                [SpaceCargoShipChance:70]
+                [LunarCargoShipChance:70]
+                [AtmosphericCargoShipChance:70]
+                [GravityCargoShipChance:70]
+
+                [UseKnownPlayerLocations:true]
+                [KnownPlayerLocationMustMatchFaction:true]
+                [KnownPlayerLocationMustBeInside:false]
+            </Description>
+            <Icon>Textures\GUI\Icons\Fake.dds</Icon>
+            <SizeX>1</SizeX>
+            <SizeY>1</SizeY>
+            <SizeZ>1</SizeZ>
+            <CanStack>true</CanStack>
+            <PhysicalContent>false</PhysicalContent>
+        </EntityComponent>
+        <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+            <Id>
+                <TypeId>Inventory</TypeId>
+                <SubtypeId>PAR_ODIN_Munnin_Scout_Behavior</SubtypeId>
+            </Id>
+            <Description>
+                [RivalAI Behavior]
+
+                [BehaviorName:CargoShip]
+                [TargetData:MSB_TargetProfile_LowRange]
+                [OverrideTargetData:MSB_TargetProfile_LongRange]
+                [AutopilotData:MSB_Scout_Autopilot]
+                [SecondaryAutopilotData:MSB_Gunship_Autopilot]
+
+                [DialogueBanks:PAR_ODIN_Munnin_Scout_DialogueBank.xml]
+
+                [UsePlayerDistanceTimer:true]
+                [PlayerDistanceTrigger:50000] 
+                [PlayerDistanceTimerTrigger:30000]
+
+                [Triggers:PAR_ODIN_Munnin_Scout_Trigger_SpawnSpaceRelay]
+                [Triggers:PAR_ODIN_Munnin_Scout_Trigger_SpawnGravityRelay]
+
+                [TriggerGroups:MSB_System_Dialogue_TriggerGroup_Dynamic]
+
+                [TriggerGroups:MSB_DynamicCommon_TriggerGroup]
+                [TriggerGroups:MSB_System_Communication_TriggerGroup]
+                [//TriggerGroups:MSB_System_Crash_TriggerGroup]
+
+                [TriggerGroups:MSB_Gunship_TriggerGroup]
+                [TriggerGroups:MSB_Scout_TriggerGroup]
+                [TriggerGroups:MSB_System_Despawn_TriggerGroup_Simple]
+            </Description>
+        </EntityComponent>
+
+        <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+            <Id>
+                <TypeId>Inventory</TypeId>
+                <SubtypeId>PAR_ODIN_Munnin_Scout_Trigger_SpawnSpaceRelay</SubtypeId>
+            </Id>
+            <Description>
+                [RivalAI Trigger]
+
+                [Type:Manual]
+                [Tags:MSB_TriggerEvent_Scout_SpawnRelay_Space]
+                
+                [UseTrigger:true]
+                [StartsReady:true]
+                [MaxActions:1]
+                [Actions:PAR_ODIN_Munnin_Scout_Action_SpawnSpaceRelay]
+            </Description>
+        </EntityComponent>
+        <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+            <Id>
+                <TypeId>Inventory</TypeId>
+                <SubtypeId>PAR_ODIN_Munnin_Scout_Action_SpawnSpaceRelay</SubtypeId>
+            </Id>
+            <Description>
+                [RivalAI Action]
+
+                [SpawnEncounter:true]
+                [Spawner:PAR_ODIN_Munnin_Scout_Spawn_SpawnSpaceRelay]
+            </Description>
+        </EntityComponent>
+        <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+            <Id>
+                <TypeId>Inventory</TypeId>
+                <SubtypeId>PAR_ODIN_Munnin_Scout_Spawn_SpawnSpaceRelay</SubtypeId>
+            </Id>
+            <Description>
+                [RivalAI Spawn]
+
+                [UseSpawn:true]
+                [StartsReady:true]
+
+                [SpawningType:CustomSpawn]
+                [UseRelativeSpawnPosition:false]
+                [IgnoreSafetyChecks:false]
+
+                [MaxSpawns:1]
+                [SpawnGroups:PAR_ODIN_CommunicationsSatellite_Relay_SpawnGroup]
+
+                [MinDistance:5000]
+                [MaxDistance:7500]
+            </Description>
+        </EntityComponent>
+
+        <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+            <Id>
+                <TypeId>Inventory</TypeId>
+                <SubtypeId>PAR_ODIN_Munnin_Scout_Trigger_SpawnGravityRelay</SubtypeId>
+            </Id>
+            <Description>
+                [RivalAI Trigger]
+
+                [Type:Manual]
+                [Tags:MSB_TriggerEvent_Scout_SpawnRelay_Gravity]
+
+                [UseTrigger:true]
+                [StartsReady:true]
+
+                [MaxActions:1]
+                [Actions:PAR_ODIN_Munnin_Scout_Action_SpawnGravityRelay]
+            </Description>
+        </EntityComponent>
+        <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+            <Id>
+                <TypeId>Inventory</TypeId>
+                <SubtypeId>PAR_ODIN_Munnin_Scout_Action_SpawnGravityRelay</SubtypeId>
+            </Id>
+            <Description>
+                [RivalAI Action]
+
+                [SpawnEncounter:true]
+                [Spawner:PAR_ODIN_Munnin_Scout_Spawn_SpawnGravityRelay]
+            </Description>
+        </EntityComponent>
+        <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+            <Id>
+                <TypeId>Inventory</TypeId>
+                <SubtypeId>PAR_ODIN_Munnin_Scout_Spawn_SpawnGravityRelay</SubtypeId>
+            </Id>
+            <Description>
+                [RivalAI Spawn]
+
+                [UseSpawn:true]
+                [StartsReady:true]
+
+                [SpawningType:PlanetaryInstallation]
+                [UseRelativeSpawnPosition:false]
+                [IgnoreSafetyChecks:false]
+
+                [MaxSpawns:1]
+                [SpawnGroups:PAR_ODIN_CommunicationsRelay_SpawnGroup]
+
+                [MinDistance:5000]
+                [MaxDistance:10000]
+
+                [MinAltitude:0]
+                [MaxAltitude:1]
+            </Description>
+        </EntityComponent>
+
+        <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+            <Id>
+                <TypeId>Inventory</TypeId>
+                <SubtypeId>PAR_ODIN_Munnin_Scout_Trigger_PlaceCrew</SubtypeId>
+            </Id>
+            <Description>
+                [RivalAI Trigger]
+
+                [Type:PlayerNear]
+
+                [UseTrigger:true]
+                [StartsReady:true]
+
+                [TargetDistance:1000]
+
+                [MinCooldownMs:5000]
+                [MaxCooldownMs:5001]
+
+                [MaxActions:1]
+                [Actions:PAR_ODIN_Munnin_Scout_Action_PlaceCrew]
+            </Description>
+        </EntityComponent>
+        <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+            <Id>
+                <TypeId>Inventory</TypeId>
+                <SubtypeId>PAR_ODIN_Munnin_Scout_Action_PlaceCrew</SubtypeId>
+            </Id>
+            <Description>
+                [RivalAI Action]
+
+                [AddBotsToGrid:true]
+                [BotCount:2]
+
+                [OnlySpawnBotsInPressurizedRooms:true]
+
+                [BotSpawnProfileNames:PAR_ODIN_BotProfile_Crew]
+            </Description>
+        </EntityComponent>
+
+    </EntityComponents>
+</Definitions>

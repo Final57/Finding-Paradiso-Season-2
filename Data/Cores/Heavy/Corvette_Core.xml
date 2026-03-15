@@ -55,19 +55,21 @@
   <EnableReloadModifier>false</EnableReloadModifier>
   <ReloadModifier>1</ReloadModifier>
   <BlockLimits>
-    <Name>Limited Fixed Weapons</Name>
+    <Name>Limited Fixed Weapon or Jump Drive</Name>
     <BlockGroups>Artillery - Fixed</BlockGroups>
     <BlockGroups>Guns - Fixed</BlockGroups>
     <BlockGroups>Missile Launchers - Fixed</BlockGroups>
     <BlockGroups>Energy - Fixed</BlockGroups>
+    <BlockGroups>Jump Drive</BlockGroups>
     <MaxCount>1</MaxCount>
     <TurnedOffByNoFlyZone>true</TurnedOffByNoFlyZone>
     <PunishmentType>Delete</PunishmentType>
     <AllowedDirection>Forward</AllowedDirection>
   </BlockLimits>
   <BlockLimits>
-    <Name>Point Defense</Name>
+    <Name>Point Defense or Radar</Name>
     <BlockGroups>Point Defense</BlockGroups>
+    <BlockGroups>Radar</BlockGroups>
     <MaxCount>6</MaxCount>
     <TurnedOffByNoFlyZone>true</TurnedOffByNoFlyZone>
     <PunishmentType>Delete</PunishmentType>
@@ -113,10 +115,8 @@
     <Name>No Utility</Name>
     <BlockGroups>Warhead</BlockGroups>
     <BlockGroups>Survival Kit</BlockGroups>
-    <BlockGroups>Jump Drive</BlockGroups>
     <BlockGroups>Utility</BlockGroups>
     <BlockGroups>Advanced Utility</BlockGroups>
-    <BlockGroups>Radar</BlockGroups>
     <BlockGroups>Hangars</BlockGroups>
     <MaxCount>0</MaxCount>
     <TurnedOffByNoFlyZone>true</TurnedOffByNoFlyZone>
