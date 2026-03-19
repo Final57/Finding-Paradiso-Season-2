@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<UpgradeModule xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <SubtypeId>SG_Ship_Core_Module_Bastion</SubtypeId>
+  <UniqueName>Light Bastion Upgrade Module</UniqueName>
+    <Modifiers>
+        <Stat>ThrusterForce</Stat>
+        <Value>0.7</Value>
+		<ModifierType>Multiplicative</ModifierType>
+    </Modifiers>
+    <Modifiers>
+        <Stat>ThrusterEfficiency</Stat>
+        <Value>0.8</Value>
+		<ModifierType>Multiplicative</ModifierType>
+    </Modifiers>
+    <Modifiers>
+        <Stat>MaxSpeed</Stat>
+        <Value>0.8</Value>
+		<ModifierType>Multiplicative</ModifierType>
+    </Modifiers>
+    <Modifiers>
+        <Stat>MaxBoost</Stat>
+        <Value>1</Value>
+		<ModifierType>Multiplicative</ModifierType>
+    </Modifiers>
+    <Modifiers>
+        <Stat>BoostDuration</Stat>
+        <Value>1</Value>
+		<ModifierType>Multiplicative</ModifierType>
+    </Modifiers>
+    <Modifiers>
+        <Stat>BoostDuration</Stat>
+        <Value>1</Value>
+		<ModifierType>Multiplicative</ModifierType>
+    </Modifiers>
+    <Modifiers>
+        <Stat>PassiveExplosionDamage</Stat>
+        <Value>.8</Value>
+        <ModifierType>Multiplicative</ModifierType>
+    </Modifiers>
+    <Modifiers>
+        <Stat>PassiveBulletDamage</Stat>
+        <Value>.8</Value>
+        <ModifierType>Multiplicative</ModifierType>
+    </Modifiers>
+    <Modifiers>
+        <Stat>PassiveRocketDamage</Stat>
+        <Value>.8</Value>
+        <ModifierType>Multiplicative</ModifierType>
+    </Modifiers>
+    <Modifiers>
+        <Stat>PassiveEnergyDamage</Stat>
+        <Value>.8</Value>
+        <ModifierType>Multiplicative</ModifierType>
+    </Modifiers>
+</UpgradeModule>

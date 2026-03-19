@@ -12,6 +12,14 @@
   <MaxPerPlayer>10</MaxPerPlayer>
   <MinPlayers>-1</MinPlayers>
   <MaxBackupCores>1</MaxBackupCores>
+  <AllowedUpgradeModules>
+    <SubtypeId>LG_Ship_Core_Module_Bastion</SubtypeId>
+    <MaxCount>4</MaxCount>
+  </AllowedUpgradeModules>
+  <AllowedUpgradeModules>
+    <SubtypeId>LG_Ship_Core_Module_Mobility</SubtypeId>
+    <MaxCount>4</MaxCount>
+  </AllowedUpgradeModules>
   <Modifiers>
     <AssemblerSpeed>0.2</AssemblerSpeed>
     <DrillHarvestMultiplier>0.2</DrillHarvestMultiplier>

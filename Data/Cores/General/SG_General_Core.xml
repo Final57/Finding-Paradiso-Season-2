@@ -11,6 +11,14 @@
   <MaxPCU>6000</MaxPCU>
   <MaxPerPlayer>10</MaxPerPlayer>
   <MinPlayers>-1</MinPlayers>
+  <AllowedUpgradeModules>
+    <SubtypeId>SG_Ship_Core_Module_Bastion</SubtypeId>
+    <MaxCount>2</MaxCount>
+  </AllowedUpgradeModules>
+  <AllowedUpgradeModules>
+    <SubtypeId>SG_Ship_Core_Module_Mobility</SubtypeId>
+    <MaxCount>2</MaxCount>
+  </AllowedUpgradeModules>
   <Modifiers>
     <AssemblerSpeed>0.2</AssemblerSpeed>
     <DrillHarvestMultiplier>0.2</DrillHarvestMultiplier>

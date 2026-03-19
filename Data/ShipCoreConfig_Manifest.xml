@@ -24,4 +24,8 @@
   <ShipCoreFilenames>Data\Cores\Static\Silo_Static_Core.xml</ShipCoreFilenames>
   <ShipCoreFilenames>Data\Cores\Utility\Light_Utility_Core.xml</ShipCoreFilenames>
   <ShipCoreFilenames>Data\Cores\Utility\Heavy_Utility_Core.xml</ShipCoreFilenames>
+  <UpgradeModuleFilenames>Data\UpgradeModules\SG_Ship_Core_Module_Bastion.xml</UpgradeModuleFilenames>
+  <UpgradeModuleFilenames>Data\UpgradeModules\SG_Ship_Core_Module_Mobility.xml</UpgradeModuleFilenames>
+  <UpgradeModuleFilenames>Data\UpgradeModules\LG_Ship_Core_Module_Bastion.xml</UpgradeModuleFilenames>
+  <UpgradeModuleFilenames>Data\UpgradeModules\LG_Ship_Core_Module_Mobility.xml</UpgradeModuleFilenames>
 </CoreManifest>

@@ -6,7 +6,7 @@
 				<TypeId>UpgradeModule</TypeId>
 				<SubtypeId>SG_Ship_Core_Module_Bastion</SubtypeId>
 			</Id>
-			<DisplayName>Bastion Module</DisplayName>
+			<DisplayName>Light Bastion Upgrade Module</DisplayName>
 			<Description>Increases Damage Resistance at the cost of Top Speed, Boost, and Gyro Effectiveness.</Description>
 			<Icon>Textures\SmallGridUpgrade-b.dds</Icon>
 			<CubeSize>Small</CubeSize>
@@ -18,6 +18,18 @@
 				<Component Subtype="SteelPlate" Count="10"/>
 			</Components>
 			<CriticalComponent Subtype="SteelPlate" Index="0"/>
+			<BuildProgressModels>
+				<Model BuildPercentUpperBound="0.50" File="Models\SG_GridCore_Upgrade_BS1.mwm"/>
+				<Model BuildPercentUpperBound="1.00" File="Models\SG_GridCore_Upgrade_BS2.mwm"/>
+			</BuildProgressModels>
+            <!-- Required dummy vanilla upgrade channel so MyUpgradeModule can resolve connections without crashing. Actual gameplay modifiers live in the upgrade module XML config. -->
+			<Upgrades>
+				<Upgrade>
+					<UpgradeType>ShipCoreLink</UpgradeType>
+					<Modifier>1</Modifier>
+					<ModifierType>Additive</ModifierType>
+				</Upgrade>
+			</Upgrades>
 			<MountPoints>
 				<MountPoint Side="Front" StartX="0.00" StartY="0.00" EndX="0.09" EndY="1.00"/>
 				<MountPoint Side="Front" StartX="0.83" StartY="0.00" EndX="1.00" EndY="1.00"/>
@@ -29,74 +41,16 @@
 				<MountPoint Side="Top" StartX="0.00" StartY="0.00" EndX="1.00" EndY="1.00"/>
 				<MountPoint Side="Bottom" StartX="0.00" StartY="0.00" EndX="1.00" EndY="1.00"/>
 			</MountPoints>
-			<BuildProgressModels>
-				<Model BuildPercentUpperBound="0.50" File="Models\SG_GridCore_Upgrade_BS1.mwm"/>
-				<Model BuildPercentUpperBound="1.00" File="Models\SG_GridCore_Upgrade_BS2.mwm"/>
-			</BuildProgressModels>
-            <ScreenAreas>
-
-            </ScreenAreas>
+            <ScreenAreas></ScreenAreas>
 			<BlockPairName>Ship_Core_Module_Bastion</BlockPairName>
 			<MirroringY>Z</MirroringY>
-			<MirroringZ>Y</MirroringZ>
+			<MirroringZ>X</MirroringZ>
             <EdgeType>Light</EdgeType>
-            <Upgrades>
-                <MyUpgradeModuleInfo>
-                    <UpgradeType>ThrusterForce</UpgradeType>
-                    <Modifier>0.7</Modifier>
-					<ModifierType>Multiplicative</ModifierType>
-                </MyUpgradeModuleInfo>
-                <MyUpgradeModuleInfo>
-                    <UpgradeType>ThrusterEfficiency</UpgradeType>
-                    <Modifier>0.8</Modifier>
-					<ModifierType>Multiplicative</ModifierType>
-                </MyUpgradeModuleInfo>
-                <MyUpgradeModuleInfo>
-                    <UpgradeType>MaxSpeed</UpgradeType>
-                    <Modifier>0.8</Modifier>
-					<ModifierType>Multiplicative</ModifierType>
-                </MyUpgradeModuleInfo>
-                <MyUpgradeModuleInfo>
-                    <UpgradeType>MaxBoost</UpgradeType>
-                    <Modifier>1</Modifier>
-					<ModifierType>Multiplicative</ModifierType>
-                </MyUpgradeModuleInfo>
-                <MyUpgradeModuleInfo>
-                    <UpgradeType>BoostDuration</UpgradeType>
-                    <Modifier>1</Modifier>
-					<ModifierType>Multiplicative</ModifierType>
-                </MyUpgradeModuleInfo>
-                <MyUpgradeModuleInfo>
-                    <UpgradeType>BoostDuration</UpgradeType>
-                    <Modifier>1</Modifier>
-					<ModifierType>Multiplicative</ModifierType>
-                </MyUpgradeModuleInfo>
-                <MyUpgradeModuleInfo>
-                    <UpgradeType>PassiveExplosionDamage</UpgradeType>
-                    <Modifier>.8</Modifier>
-                    <ModifierType>Multiplicative</ModifierType>
-                </MyUpgradeModuleInfo>
-                <MyUpgradeModuleInfo>
-                    <UpgradeType>PassiveBulletDamage</UpgradeType>
-                    <Modifier>.8</Modifier>
-                    <ModifierType>Multiplicative</ModifierType>
-                </MyUpgradeModuleInfo>
-                <MyUpgradeModuleInfo>
-                    <UpgradeType>PassiveRocketDamage</UpgradeType>
-                    <Modifier>.8</Modifier>
-                    <ModifierType>Multiplicative</ModifierType>
-                </MyUpgradeModuleInfo>
-                <MyUpgradeModuleInfo>
-                    <UpgradeType>PassiveEnergyDamage</UpgradeType>
-                    <Modifier>.8</Modifier>
-                    <ModifierType>Multiplicative</ModifierType>
-                </MyUpgradeModuleInfo>
-            </Upgrades>
             <PrimarySound>BlockModuleProductivity</PrimarySound>
             <DamageEffectName>Damage_Electrical_Damaged</DamageEffectName>
             <DamagedSound>ParticleElectrical</DamagedSound>
             <EmissiveColorPreset>Default</EmissiveColorPreset>
-            <DestroyEffect>BlockDestroyedExplosion_Large</DestroyEffect>
+            <DestroyEffect>BlockDestroyedExplosion_Small</DestroyEffect>
             <DestroySound>WepSmallWarheadExpl</DestroySound>
             <PCU>1</PCU>
             <IsAirTight>false</IsAirTight>

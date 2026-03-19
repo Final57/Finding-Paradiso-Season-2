@@ -6,7 +6,7 @@
 				<TypeId>UpgradeModule</TypeId>
 				<SubtypeId>SG_Ship_Core_Module_Mobility</SubtypeId>
 			</Id>
-			<DisplayName>Mobility Module</DisplayName>
+			<DisplayName>Light Mobility Upgrade Module</DisplayName>
 			<Description>Increases Top Speed, Boost, and Gyro Effectiveness at the cost of power and damage resistance.</Description>
 			<Icon>Textures\SmallGridUpgrade-m.dds</Icon>
 			<CubeSize>Small</CubeSize>
@@ -18,75 +18,14 @@
 				<Component Subtype="SteelPlate" Count="10"/>
 			</Components>
 			<CriticalComponent Subtype="SteelPlate" Index="0"/>
-            <Upgrades>
-                <MyUpgradeModuleInfo>
-                    <UpgradeType>ThrusterForce</UpgradeType>
-                    <Modifier>1.3</Modifier>
-					<ModifierType>Multiplicative</ModifierType>
-                </MyUpgradeModuleInfo>
-                <MyUpgradeModuleInfo>
-                    <UpgradeType>ThrusterEfficiency</UpgradeType>
-                    <Modifier>0.5</Modifier>
-					<ModifierType>Multiplicative</ModifierType>
-                </MyUpgradeModuleInfo>
-                <MyUpgradeModuleInfo>
-                    <UpgradeType>MaxSpeed</UpgradeType>
-                    <Modifier>0.1</Modifier>
+            <!-- Required dummy vanilla upgrade channel so MyUpgradeModule can resolve connections without crashing. Actual gameplay modifiers live in the upgrade module XML config. -->
+			<Upgrades>
+				<Upgrade>
+					<UpgradeType>ShipCoreLink</UpgradeType>
+					<Modifier>1</Modifier>
 					<ModifierType>Additive</ModifierType>
-                </MyUpgradeModuleInfo>
-                <MyUpgradeModuleInfo>
-                    <UpgradeType>MaxBoost</UpgradeType>
-                    <Modifier>0.3</Modifier>
-					<ModifierType>Additive</ModifierType>
-                </MyUpgradeModuleInfo>
-                <MyUpgradeModuleInfo>
-                    <UpgradeType>BoostDuration</UpgradeType>
-                    <Modifier>5</Modifier>
-					<ModifierType>Additive</ModifierType>
-                </MyUpgradeModuleInfo>
-                <MyUpgradeModuleInfo>
-                    <UpgradeType>BoostCoolDown</UpgradeType>
-                    <Modifier>5</Modifier>
-					<ModifierType>Additive</ModifierType>
-                </MyUpgradeModuleInfo>
-                <MyUpgradeModuleInfo>
-                    <UpgradeType>GyroEfficiency</UpgradeType>
-                    <Modifier>1.2</Modifier>
-                    <ModifierType>Multiplicative</ModifierType>
-                </MyUpgradeModuleInfo>
-                <MyUpgradeModuleInfo>
-                    <UpgradeType>GyroForce</UpgradeType>
-                    <Modifier>1.2</Modifier>
-                    <ModifierType>Multiplicative</ModifierType>
-                </MyUpgradeModuleInfo>
-                <MyUpgradeModuleInfo>
-                    <UpgradeType>PassiveExplosionDamage</UpgradeType>
-                    <Modifier>1.1</Modifier>
-                    <ModifierType>Multiplicative</ModifierType>
-                </MyUpgradeModuleInfo>
-                <MyUpgradeModuleInfo>
-                    <UpgradeType>PassiveBulletDamage</UpgradeType>
-                    <Modifier>1.05</Modifier>
-                    <ModifierType>Multiplicative</ModifierType>
-                </MyUpgradeModuleInfo>
-                <MyUpgradeModuleInfo>
-                    <UpgradeType>PassiveRocketDamage</UpgradeType>
-                    <Modifier>1.05</Modifier>
-                    <ModifierType>Multiplicative</ModifierType>
-                </MyUpgradeModuleInfo>
-                <MyUpgradeModuleInfo>
-                    <UpgradeType>PassiveEnergyDamage</UpgradeType>
-                    <Modifier>1.1</Modifier>
-                    <ModifierType>Multiplicative</ModifierType>
-                </MyUpgradeModuleInfo>
-            </Upgrades>
-			<BuildProgressModels>
-				<Model BuildPercentUpperBound="0.50" File="Models\SG_GridCore_Upgrade_BS1.mwm"/>
-				<Model BuildPercentUpperBound="1.00" File="Models\SG_GridCore_Upgrade_BS2.mwm"/>
-			</BuildProgressModels>
-			<BlockPairName>Ship_Core_Module_Mobility</BlockPairName>
-			<MirroringX>Z</MirroringX>
-			<MirroringZ>X</MirroringZ>
+				</Upgrade>
+			</Upgrades>
 			<MountPoints>
 				<MountPoint Side="Front" StartX="0.00" StartY="0.00" EndX="0.09" EndY="1.00"/>
 				<MountPoint Side="Front" StartX="0.83" StartY="0.00" EndX="1.00" EndY="1.00"/>
@@ -98,6 +37,22 @@
 				<MountPoint Side="Top" StartX="0.00" StartY="0.00" EndX="1.00" EndY="1.00"/>
 				<MountPoint Side="Bottom" StartX="0.00" StartY="0.00" EndX="1.00" EndY="1.00"/>
 			</MountPoints>
+			<BuildProgressModels>
+				<Model BuildPercentUpperBound="0.50" File="Models\SG_GridCore_Upgrade_BS1.mwm"/>
+				<Model BuildPercentUpperBound="1.00" File="Models\SG_GridCore_Upgrade_BS2.mwm"/>
+			</BuildProgressModels>
+			<BlockPairName>Ship_Core_Module_Mobility</BlockPairName>
+			<MirroringY>Z</MirroringY>
+			<MirroringZ>Y</MirroringZ>
+            <EdgeType>Light</EdgeType>
+            <PrimarySound>BlockModuleProductivity</PrimarySound>
+            <DamageEffectName>Damage_Electrical_Damaged</DamageEffectName>
+            <DamagedSound>ParticleElectrical</DamagedSound>
+            <EmissiveColorPreset>Default</EmissiveColorPreset>
+            <DestroyEffect>BlockDestroyedExplosion_Small</DestroyEffect>
+            <DestroySound>WepSmallWarheadExpl</DestroySound>
+            <PCU>1</PCU>
+            <IsAirTight>false</IsAirTight>
 		</Definition>
 	</CubeBlocks>
 </Definitions>
