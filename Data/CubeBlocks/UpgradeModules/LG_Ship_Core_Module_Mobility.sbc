@@ -15,9 +15,14 @@
 			<ModelOffset x="0" y="0" z="0"/>
 			<Model>Models\GridCore_UpgradeModule.mwm</Model>
 			<Components>
-				<Component Subtype="SteelPlate" Count="10"/>
+				<Component Subtype="SteelPlate" Count="75"/>
+				<Component Subtype="Construction" Count="50"/>
+				<Component Subtype="Computer" Count="25"/>
+				<Component Subtype="CopperWire" Count="15"/>
+				<Component Subtype="SmallTube" Count="25"/>
+				<Component Subtype="AdvancedComputer" Count="10"/>
 			</Components>
-			<CriticalComponent Subtype="SteelPlate" Index="0"/>
+			<CriticalComponent Subtype="Computer" Index="0"/>
 			<MountPoints>
 				<MountPoint Side="Back" StartX="0.20" StartY="0.00" EndX="0.80" EndY="1.00"/>
 				<MountPoint Side="Top" StartX="0.20" StartY="0.00" EndX="0.80" EndY="0.53"/>

@@ -10,14 +10,19 @@
 			<Description>Increases Damage Resistance at the cost of Top Speed, Boost, and Gyro Effectiveness.</Description>
 			<Icon>Textures\SmallGridUpgrade-b.dds</Icon>
 			<CubeSize>Small</CubeSize>
+			<GuiVisible>false</GuiVisible>
 			<BlockTopology>TriangleMesh</BlockTopology>
 			<Size x="1" y="1" z="1"/>
 			<ModelOffset x="0" y="0" z="0"/>
 			<Model>Models\SG_GridCore_Upgrade.mwm</Model>
 			<Components>
 				<Component Subtype="SteelPlate" Count="10"/>
+				<Component Subtype="Construction" Count="5"/>
+				<Component Subtype="Computer" Count="2"/>
+				<Component Subtype="CopperWire" Count="5"/>
+				<Component Subtype="SmallTube" Count="5"/>
 			</Components>
-			<CriticalComponent Subtype="SteelPlate" Index="0"/>
+			<CriticalComponent Subtype="Computer" Index="0"/>
 			<BuildProgressModels>
 				<Model BuildPercentUpperBound="0.50" File="Models\SG_GridCore_Upgrade_BS1.mwm"/>
 				<Model BuildPercentUpperBound="1.00" File="Models\SG_GridCore_Upgrade_BS2.mwm"/>

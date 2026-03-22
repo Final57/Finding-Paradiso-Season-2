@@ -10,15 +10,24 @@
 			<Description>Increases Top Speed, Boost, and Gyro Effectiveness at the cost of power and damage resistance.</Description>
 			<Icon>Textures\SmallGridUpgrade-m.dds</Icon>
 			<CubeSize>Small</CubeSize>
+			<GuiVisible>false</GuiVisible>
 			<BlockTopology>TriangleMesh</BlockTopology>
 			<Size x="1" y="1" z="1"/>
 			<ModelOffset x="0" y="0" z="0"/>
 			<Model>Models\SG_GridCore_Upgrade.mwm</Model>
 			<Components>
 				<Component Subtype="SteelPlate" Count="10"/>
+				<Component Subtype="Construction" Count="5"/>
+				<Component Subtype="Computer" Count="2"/>
+				<Component Subtype="CopperWire" Count="5"/>
+				<Component Subtype="SmallTube" Count="5"/>
 			</Components>
-			<CriticalComponent Subtype="SteelPlate" Index="0"/>
-            <!-- Required dummy vanilla upgrade channel so MyUpgradeModule can resolve connections without crashing. Actual gameplay modifiers live in the upgrade module XML config. -->
+			<CriticalComponent Subtype="Computer" Index="0"/>
+   			<BuildProgressModels>
+				<Model BuildPercentUpperBound="0.50" File="Models\SG_GridCore_Upgrade_BS1.mwm"/>
+				<Model BuildPercentUpperBound="1.00" File="Models\SG_GridCore_Upgrade_BS2.mwm"/>
+			</BuildProgressModels>
+			<!-- Required dummy vanilla upgrade channel so MyUpgradeModule can resolve connections without crashing. Actual gameplay modifiers live in the upgrade module XML config. -->
 			<Upgrades>
 				<Upgrade>
 					<UpgradeType>ShipCoreLink</UpgradeType>
@@ -37,10 +46,7 @@
 				<MountPoint Side="Top" StartX="0.00" StartY="0.00" EndX="1.00" EndY="1.00"/>
 				<MountPoint Side="Bottom" StartX="0.00" StartY="0.00" EndX="1.00" EndY="1.00"/>
 			</MountPoints>
-			<BuildProgressModels>
-				<Model BuildPercentUpperBound="0.50" File="Models\SG_GridCore_Upgrade_BS1.mwm"/>
-				<Model BuildPercentUpperBound="1.00" File="Models\SG_GridCore_Upgrade_BS2.mwm"/>
-			</BuildProgressModels>
+			<ScreenAreas></ScreenAreas>
 			<BlockPairName>Ship_Core_Module_Mobility</BlockPairName>
 			<MirroringY>Z</MirroringY>
 			<MirroringZ>Y</MirroringZ>

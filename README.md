@@ -26,7 +26,7 @@ A Space Engineers Mod and ModAdjusted Files
 - [x] Write Modadjuster compat for highpower spotlight
 - [x] Write Modadjuster compat for AQD Concrete
 - [x] Write Modadjuster compat for heavy XL blocks
-- [ ] Write Modadjuster compat for AQD Airlocks
+- [x] Write Modadjuster compat for AQD Airlocks
 - [x] Write Modadjuster compat for OmniArc Tools
 - [x] Write Modadjuster compat for Consolidation Propulsion
 - [ ] Write Modasjuster compat for Railway Builder
@@ -39,7 +39,7 @@ A Space Engineers Mod and ModAdjusted Files
 
 ### Shipcore Configuration
 
-- [ ] Write Shipcore config based on "arcane cores" <https://steamcommunity.com/sharedfiles/filedetails/?id=3552605473> - NOTE: Bug Alien for ship/base/rover classes
+- [x] Write Shipcore config based on "arcane cores" <https://steamcommunity.com/sharedfiles/filedetails/?id=3552605473> - NOTE: Bug Alien for ship/base/rover classes
 - - [x] Write Block Groups
 - - [x] Use Models from Arcane Cores and create Blocks
 - - [x] Create Upgrade Modules

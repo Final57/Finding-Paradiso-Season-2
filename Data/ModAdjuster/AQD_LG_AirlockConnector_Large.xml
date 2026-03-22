@@ -10,7 +10,8 @@
       <Components>
         <Component Subtype="SteelPlate" Count="250" />
         <Component Subtype="Construction" Count="220" />
-        <Component Subtype="SmallTube" Count="40" />
+        <Component Subtype="CopperWire" Count="40" />
+        <Component Subtype="Electromagnet" Count="60" />
         <Component Subtype="MetalGrid" Count="100" />
         <Component Subtype="Motor" Count="40" />
         <Component Subtype="Computer" Count="50" />
