@@ -9,7 +9,7 @@
   <MaxBlocks>1000</MaxBlocks>
   <MaxMass>-1</MaxMass>
   <MaxPCU>-1</MaxPCU>
-  <MaxPerPlayer>10</MaxPerPlayer>
+  <MaxPerPlayer>100</MaxPerPlayer>
   <MinPlayers>-1</MinPlayers>
   <AllowedUpgradeModules>
     <SubtypeId>LG_Ship_Core_Module_Bastion</SubtypeId>

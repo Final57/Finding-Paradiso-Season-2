@@ -9,7 +9,7 @@
   <MaxBlocks>7000</MaxBlocks>
   <MaxMass>-1</MaxMass>
   <MaxPCU>-1</MaxPCU>
-  <MaxPerPlayer>1</MaxPerPlayer>
+  <MaxPerPlayer>10</MaxPerPlayer>
   <MinPlayers>-1</MinPlayers>
   <AllowedUpgradeModules>
     <SubtypeId>LG_Ship_Core_Module_Bastion</SubtypeId>
@@ -82,7 +82,7 @@
     <BlockGroups>Guns - Turret</BlockGroups>
     <BlockGroups>Missile Launchers - Turret</BlockGroups>
     <BlockGroups>Energy - Turret</BlockGroups>
-    <MaxCount>12</MaxCount>
+    <MaxCount>10</MaxCount>
     <TurnedOffByNoFlyZone>true</TurnedOffByNoFlyZone>
     <PunishmentType>Delete</PunishmentType>
   </BlockLimits>
@@ -90,14 +90,6 @@
     <Name>Cargo Containers</Name>
     <BlockGroups>Cargo</BlockGroups>
     <MaxCount>6</MaxCount>
-    <TurnedOffByNoFlyZone>true</TurnedOffByNoFlyZone>
-    <PunishmentType>Delete</PunishmentType>
-  </BlockLimits>
-  <BlockLimits>
-    <Name>Limited Railguns Weapons</Name>
-    <BlockGroups>Railguns - Turret</BlockGroups>
-    <BlockGroups>Railguns - Fixed</BlockGroups>
-    <MaxCount>4</MaxCount>
     <TurnedOffByNoFlyZone>true</TurnedOffByNoFlyZone>
     <PunishmentType>Delete</PunishmentType>
   </BlockLimits>

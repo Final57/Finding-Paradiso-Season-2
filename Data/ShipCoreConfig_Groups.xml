@@ -995,6 +995,11 @@
       <SubtypeId>LargeInteriorTurret</SubtypeId>
       <CountWeight>1</CountWeight>
     </BlockTypes>
+    <BlockTypes>
+      <TypeId>ConveyorSorter</TypeId>
+		  <SubtypeId>ARYXInterceptorPDGun</SubtypeId>
+      <CountWeight>1</CountWeight>
+    </BlockTypes>
   </BlockGroup>
   <BlockGroup>
     <Name>Radar</Name>
@@ -1093,12 +1098,12 @@
     <BlockTypes>
       <TypeId>ConveyorSorter</TypeId>
       <SubtypeId>SmallRailgun</SubtypeId>
-      <CountWeight>1</CountWeight>
+      <CountWeight>2</CountWeight>
     </BlockTypes>
     <BlockTypes>
       <TypeId>ConveyorSorter</TypeId>
       <SubtypeId>LargeRailgun</SubtypeId>
-      <CountWeight>1</CountWeight>
+      <CountWeight>4</CountWeight>
     </BlockTypes>
     <BlockTypes>
       <TypeId>ConveyorSorter</TypeId>
@@ -1108,22 +1113,22 @@
     <BlockTypes>
       <TypeId>ConveyorSorter</TypeId>
       <SubtypeId>ARYXRailgun</SubtypeId>
-      <CountWeight>1</CountWeight>
+      <CountWeight>2</CountWeight>
     </BlockTypes>
     <BlockTypes>
       <TypeId>ConveyorSorter</TypeId>
       <SubtypeId>ARYXLightCoilgun</SubtypeId>
-      <CountWeight>1</CountWeight>
+      <CountWeight>8</CountWeight>
     </BlockTypes>
     <BlockTypes>
       <TypeId>ConveyorSorter</TypeId>
       <SubtypeId>ARYXHeavyCoilgun</SubtypeId>
-      <CountWeight>1</CountWeight>
+      <CountWeight>10</CountWeight>
     </BlockTypes>
     <BlockTypes>
       <TypeId>ConveyorSorter</TypeId>
       <SubtypeId>ARYXKingswordSupercannon</SubtypeId>
-      <CountWeight>1</CountWeight>
+      <CountWeight>12</CountWeight>
     </BlockTypes>
   </BlockGroup>
   <BlockGroup>
