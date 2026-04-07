@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ShipCore xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <SubtypeId>Hangar_Static_Core</SubtypeId>
+  <UniqueName>Hangar Structure</UniqueName>
+  <ForceBroadCast>false</ForceBroadCast>
+  <ForceBroadCastRange>500</ForceBroadCastRange>
+  <MobilityType>Static</MobilityType>
+  <SmallGrid>false</SmallGrid>
+  <MaxBlocks>1000</MaxBlocks>
+  <MaxMass>-1</MaxMass>
+  <MaxPCU>-1</MaxPCU>
+  <MaxPerPlayer>10</MaxPerPlayer>
+  <MinPlayers>-1</MinPlayers>
+  <Modifiers>
+    <AssemblerSpeed>0.0</AssemblerSpeed>
+    <DrillHarvestMultiplier>0</DrillHarvestMultiplier>
+    <GyroEfficiency>0</GyroEfficiency>
+    <GyroForce>0</GyroForce>
+    <PowerProducersOutput>1</PowerProducersOutput>
+    <RefineEfficiency>0</RefineEfficiency>
+    <RefineSpeed>0</RefineSpeed>
+    <ThrusterEfficiency>0</ThrusterEfficiency>
+    <ThrusterForce>0</ThrusterForce>
+  </Modifiers>
+  <SpeedBoostEnabled>false</SpeedBoostEnabled>
+  <SpeedLimitType>Normal</SpeedLimitType>
+  <SpeedModifiers>
+    <MaxSpeed>0</MaxSpeed>
+    <MaxBoost>0</MaxBoost>
+    <BoostDuration>0</BoostDuration>
+    <BoostCoolDown>0</BoostCoolDown>
+    <MinimumFrictionSpeedModifier>0</MinimumFrictionSpeedModifier>
+    <MaximumFrictionSpeedModifier>0</MaximumFrictionSpeedModifier>
+    <MaximumFrictionDeceleration>0</MaximumFrictionDeceleration>
+  </SpeedModifiers>
+  <PassiveDefenseModifiers>
+    <Bullet>2</Bullet>
+    <Energy>2</Energy>
+    <Kinetic>2</Kinetic>
+    <Rocket>2</Rocket>
+    <Explosion>2</Explosion>
+    <Environment>3</Environment>
+  </PassiveDefenseModifiers>
+  <EnableActiveDefenseModifiers>false</EnableActiveDefenseModifiers>
+  <ActiveDefenseModifiers>
+    <Bullet>0.1</Bullet>
+    <Energy>0.1</Energy>
+    <Kinetic>0.1</Kinetic>
+    <Duration>5</Duration>
+    <Cooldown>10</Cooldown>
+    <Rocket>1.2</Rocket>
+    <Explosion>0.1</Explosion>
+    <Environment>1</Environment>
+  </ActiveDefenseModifiers>
+  <EnableReloadModifier>false</EnableReloadModifier>
+  <ReloadModifier>1</ReloadModifier>
+  <BlockLimits>
+    <Name>Connectors</Name>
+    <BlockGroups>Connectors</BlockGroups>
+    <MaxCount>8</MaxCount>
+    <TurnedOffByNoFlyZone>false</TurnedOffByNoFlyZone>
+    <PunishmentType>Delete</PunishmentType>
+  </BlockLimits>
+  <BlockLimits>
+    <Name>Cargo Containers</Name>
+    <BlockGroups>Cargo</BlockGroups>
+    <MaxCount>1</MaxCount>
+    <TurnedOffByNoFlyZone>true</TurnedOffByNoFlyZone>
+    <PunishmentType>Delete</PunishmentType>
+  </BlockLimits>
+  <BlockLimits>
+    <Name>No Weapons</Name>
+    <BlockGroups>Weaponry</BlockGroups>
+    <MaxCount>0</MaxCount>
+    <TurnedOffByNoFlyZone>true</TurnedOffByNoFlyZone>
+    <PunishmentType>Delete</PunishmentType>
+  </BlockLimits>
+  <BlockLimits>
+    <Name>No Rotors, Hinges, or Pistons</Name>
+    <BlockGroups>Rotors and Pistons</BlockGroups>
+    <MaxCount>0</MaxCount>
+    <TurnedOffByNoFlyZone>true</TurnedOffByNoFlyZone>
+    <PunishmentType>Delete</PunishmentType>
+  </BlockLimits>
+  <BlockLimits>
+    <Name>No Utility</Name>
+    <BlockGroups>Utility</BlockGroups>
+    <BlockGroups>Jump Drive</BlockGroups>
+    <BlockGroups>Advanced Utility</BlockGroups>
+    <BlockGroups>Reactors</BlockGroups>
+    <BlockGroups>Medical</BlockGroups>
+    <BlockGroups>Survival Kit</BlockGroups>
+    <BlockGroups>Radar</BlockGroups>
+    <BlockGroups>Hangars</BlockGroups>
+    <MaxCount>0</MaxCount>
+    <TurnedOffByNoFlyZone>true</TurnedOffByNoFlyZone>
+    <PunishmentType>Delete</PunishmentType>
+  </BlockLimits>
+  <BlockLimits>
+    <Name>No Refining, Processing, Assembling, Drilling, or Farming</Name>
+    <BlockGroups>Refining</BlockGroups>
+    <BlockGroups>Nuclear Processing</BlockGroups>
+    <BlockGroups>Processing</BlockGroups>
+    <BlockGroups>Assembling</BlockGroups>
+    <BlockGroups>Farming</BlockGroups>
+    <BlockGroups>Static Drills</BlockGroups>
+    <MaxCount>0</MaxCount>
+    <TurnedOffByNoFlyZone>true</TurnedOffByNoFlyZone>
+    <PunishmentType>Delete</PunishmentType>
+  </BlockLimits>
+</ShipCore>

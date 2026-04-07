@@ -22,6 +22,7 @@
   <ShipCoreFilenames>Data\Cores\Static\Agri_Static_Core.xml</ShipCoreFilenames>
   <ShipCoreFilenames>Data\Cores\Static\Processor_Static_Core.xml</ShipCoreFilenames>
   <ShipCoreFilenames>Data\Cores\Static\Silo_Static_Core.xml</ShipCoreFilenames>
+  <ShipCoreFilenames>Data\Cores\Static\Hangar_Static_Core.xml</ShipCoreFilenames>
   <ShipCoreFilenames>Data\Cores\Utility\Light_Utility_Core.xml</ShipCoreFilenames>
   <ShipCoreFilenames>Data\Cores\Utility\Heavy_Utility_Core.xml</ShipCoreFilenames>
   <UpgradeModuleFilenames>Data\UpgradeModules\SG_Ship_Core_Module_Bastion.xml</UpgradeModuleFilenames>
