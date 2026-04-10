@@ -938,12 +938,12 @@
     <Name>Stribog Thrusters</Name>
     <BlockTypes>
       <TypeId>Thrust</TypeId>
-      <SubtypeID>STR800_Clean</SubtypeID>
+      <SubtypeId>STR800_Clean</SubtypeId>
       <CountWeight>6</CountWeight>
     </BlockTypes>
     <BlockTypes>
       <TypeId>Thrust</TypeId>
-      <SubtypeID>STR700_Clean</SubtypeID>
+      <SubtypeId>STR700_Clean</SubtypeId>
       <CountWeight>1</CountWeight>
     </BlockTypes>
   </BlockGroup>
