@@ -73,7 +73,7 @@
     <PunishmentType>Delete</PunishmentType>
     <AllowedDirection>Forward</AllowedDirection>
   </BlockLimits>
-    <BlockLimits>
+  <BlockLimits>
     <Name>Limited Turret Weapons</Name>
     <BlockGroups>Artillery - Turret</BlockGroups>
     <BlockGroups>Guns - Turret</BlockGroups>
@@ -135,7 +135,7 @@
     <TurnedOffByNoFlyZone>true</TurnedOffByNoFlyZone>
     <PunishmentType>Delete</PunishmentType>
   </BlockLimits>
-    <BlockLimits>
+  <BlockLimits>
     <Name>Reactors</Name>
     <BlockGroups>Reactors</BlockGroups>
     <MaxCount>1</MaxCount>

@@ -29,11 +29,11 @@
 			</BuildProgressModels>
             <!-- Required dummy vanilla upgrade channel so MyUpgradeModule can resolve connections without crashing. Actual gameplay modifiers live in the upgrade module XML config. -->
 			<Upgrades>
-				<Upgrade>
+				<MyUpgradeModuleInfo>
 					<UpgradeType>ShipCoreLink</UpgradeType>
 					<Modifier>1</Modifier>
 					<ModifierType>Additive</ModifierType>
-				</Upgrade>
+				</MyUpgradeModuleInfo>
 			</Upgrades>
 			<MountPoints>
 				<MountPoint Side="Front" StartX="0.00" StartY="0.00" EndX="0.09" EndY="1.00"/>
