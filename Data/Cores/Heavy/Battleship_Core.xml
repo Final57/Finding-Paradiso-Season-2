@@ -5,7 +5,6 @@
   <ForceBroadCast>true</ForceBroadCast>
   <ForceBroadCastRange>40000</ForceBroadCastRange>
   <MobilityType>Mobile</MobilityType>
-  <SmallGrid>false</SmallGrid>
   <MaxBlocks>7000</MaxBlocks>
   <MaxMass>-1</MaxMass>
   <MaxPCU>-1</MaxPCU>
