@@ -66,6 +66,7 @@
     <Name>Limited Fixed Weapons</Name>
     <BlockGroups>Artillery - Fixed</BlockGroups>
     <BlockGroups>Railguns - Fixed</BlockGroups>
+    <BlockGroups>Energy - Fixed</BlockGroups>
     <BlockGroups>Guns - Fixed</BlockGroups>
     <BlockGroups>Missile Launchers - Fixed</BlockGroups>
     <MaxCount>1</MaxCount>
