@@ -39,7 +39,7 @@
   <!--Oil Refining-->
     <BlockTypes>
       <TypeId>Refinery</TypeId>
-      <SubtypeId>Bitumen Extractor</SubtypeId>
+      <SubtypeId>BitumenExtractor</SubtypeId>
       <CountWeight>1</CountWeight>
     </BlockTypes>
     <BlockTypes>
@@ -53,12 +53,12 @@
       <CountWeight>1</CountWeight>
     </BlockTypes>
     <BlockTypes>
-      <TypeId>Refinery</TypeId>
+      <TypeId>OxygenGenerator</TypeId>
       <SubtypeId>GasolineRefinery</SubtypeId>
       <CountWeight>1</CountWeight>
     </BlockTypes>
     <BlockTypes>
-      <TypeId>Refinery</TypeId>
+      <TypeId>OxygenGenerator</TypeId>
       <SubtypeId>RocketFuelRefinery</SubtypeId>
       <CountWeight>1</CountWeight>
     </BlockTypes>
@@ -207,7 +207,7 @@
     <Name>Oil Refining</Name>
     <BlockTypes>
       <TypeId>Refinery</TypeId>
-      <SubtypeId>Bitumen Extractor</SubtypeId>
+      <SubtypeId>BitumenExtractor</SubtypeId>
       <CountWeight>1</CountWeight>
     </BlockTypes>
     <BlockTypes>
@@ -221,12 +221,12 @@
       <CountWeight>1</CountWeight>
     </BlockTypes>
     <BlockTypes>
-      <TypeId>Refinery</TypeId>
+      <TypeId>OxygenGenerator</TypeId>
       <SubtypeId>GasolineRefinery</SubtypeId>
       <CountWeight>1</CountWeight>
     </BlockTypes>
     <BlockTypes>
-      <TypeId>Refinery</TypeId>
+      <TypeId>OxygenGenerator</TypeId>
       <SubtypeId>RocketFuelRefinery</SubtypeId>
       <CountWeight>1</CountWeight>
     </BlockTypes>

@@ -166,7 +166,6 @@
                 <string>UpgradeModule/SG_Ship_Core_Module_Bastion</string>
                 <string>UpgradeModule/SG_Ship_Core_Module_Mobility</string>
                 <string>Beacon/Light_Utility_Core</string>
-                <string>Beacon/Light_Cargo_Core</string>
                 <string>Beacon/Light_Transport_Core</string>
                 <string>Beacon/Light_Armored_Core</string>
             </ItemIds>

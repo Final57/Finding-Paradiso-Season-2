@@ -27,10 +27,10 @@
             <DisplayName>Core Upgrade Modules</DisplayName>
             <Description>Support Modules to increase specific aspects of a Core's particular boosts.</Description>
             <Blocks>
-                <Block Type="MyObjectBuilder_Beacon" Subtype="LG_Ship_Core_Module_Bastion" />
-                <Block Type="MyObjectBuilder_Beacon" Subtype="SG_Ship_Core_Module_Bastion" />
-                <Block Type="MyObjectBuilder_Beacon" Subtype="LG_Ship_Core_Module_Mobility" />
-                <Block Type="MyObjectBuilder_Beacon" Subtype="SG_Ship_Core_Module_Mobility" />               
+                <Block Type="MyObjectBuilder_UpgradeModule" Subtype="LG_Ship_Core_Module_Bastion" />
+                <Block Type="MyObjectBuilder_UpgradeModule" Subtype="SG_Ship_Core_Module_Bastion" />
+                <Block Type="MyObjectBuilder_UpgradeModule" Subtype="LG_Ship_Core_Module_Mobility" />
+                <Block Type="MyObjectBuilder_UpgradeModule" Subtype="SG_Ship_Core_Module_Mobility" />
             </Blocks>
         </BlockVariantGroup>
         <BlockVariantGroup>
