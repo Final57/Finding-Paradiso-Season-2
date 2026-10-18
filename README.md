@@ -77,50 +77,34 @@ A Space Engineers Mod and ModAdjusted Files
     - /CSP.RealGasGiant.900000.0.0.0
     - Use Following PlanetInfo in GasGiants config.xml
   - Call world spawn for Satreus
-    - /CSP.Satreus.60000.1783652.800728.-268909
-  - Call world spawn for Komorebi
-    - /CSP.Komorebi.45000.-191052.-983046.2606687
+    - /CSP.Satreus.120000.2420106.1085003.-348383
+  - Call world spawn for Agni
+    - /CSP.Agni.30000.-191052.-983046.2606687
+  - Call world spawn for Kor
+    - /CSP.Kor.19000.169332.249775.-3019110
+  - Call world spawn for Tellus 
+    - /CSP.Tellus.60000.-5103434.1423384.460784
 
 ```xml
+<?xml version="1.0" encoding="utf-16"?>
 <RealGasGiantsSettingsConfig xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
   <OverrideFromConfig>true</OverrideFromConfig>
+  <AllowChatCommands>true</AllowChatCommands>
   <GasGiantBlocksSun>true</GasGiantBlocksSun>
-  <GasGiantsHaveAtmoGlobal>true</GasGiantsHaveAtmoGlobal>
+  <GasGiantAirDensity>30</GasGiantAirDensity>
+  <GasGiantWindSpeed>200</GasGiantWindSpeed>
   <SetGlobalNoAsteroids>true</SetGlobalNoAsteroids>
   <CanSpawnOnGasGiants>false</CanSpawnOnGasGiants>
   <EnableGasGiantWindTurbines>false</EnableGasGiantWindTurbines>
   <UseLensFlareOccluder>true</UseLensFlareOccluder>
   <RingParticleLevel>2</RingParticleLevel>
   <GasGiantInfoList>
-    <GasGiantConfigInfo PlanetName="RealGasGiant-480942381d19000">
+    <GasGiantConfigInfo PlanetName="RealGasGiant-1759881655d19000">
       <PlanetCustomName>Cauldron</PlanetCustomName>
       <Radius>900</Radius>
       <PlanetColor X="255" Y="210" Z="190" />
       <PlanetSkin>Cauldron</PlanetSkin>
-      <AtmoInfo>
-        <AirDensity>3</AirDensity>
-        <OxygenDensity>0</OxygenDensity>
-        <WindSpeed>300</WindSpeed>
-      </AtmoInfo>
-      <RingInfo>
-        <HasRing>false</HasRing>
-        <RingSkin>Default1</RingSkin>
-        <RingNormal X="0" Y="10" Z="1" />
-        <RingColor X="255" Y="210" Z="190" />
-        <RingLightMult>0.05</RingLightMult>
-        <RingShadowMult>0.15</RingShadowMult>
-        <RingInnerScale>1.5</RingInnerScale>
-        <RingOuterScale>2.5</RingOuterScale>
-        <RingLayerSpacingScale>1</RingLayerSpacingScale>
-        <RingRotationPeriodSeconds>7200</RingRotationPeriodSeconds>
-        <ConstrainNearbyAsteroidsToRing>true</ConstrainNearbyAsteroidsToRing>
-        <ShadowOnRingEnabled>true</ShadowOnRingEnabled>
-        <CollectRingResources>true</CollectRingResources>
-        <CollectResourceRingSubtypeId>Ice</CollectResourceRingSubtypeId>
-        <CollectResourceRingAmount>100</CollectResourceRingAmount>
-        <EnabledDraw>true</EnabledDraw>
-        <EnabledParticle>true</EnabledParticle>
-      </RingInfo>
+      <OxygenDensity>0</OxygenDensity>
       <RingsInfo>
         <RingConfigInfo>
           <HasRing>true</HasRing>
@@ -129,15 +113,15 @@ A Space Engineers Mod and ModAdjusted Files
           <RingColor X="255" Y="230" Z="200" />
           <RingLightMult>0.15</RingLightMult>
           <RingShadowMult>0.05</RingShadowMult>
-          <RingInnerScale>1.5</RingInnerScale>
-          <RingOuterScale>2.5</RingOuterScale>
+          <RingInnerScale>1.7</RingInnerScale>
+          <RingOuterScale>1.9</RingOuterScale>
           <RingLayerSpacingScale>0.05</RingLayerSpacingScale>
           <RingRotationPeriodSeconds>7200</RingRotationPeriodSeconds>
           <ConstrainNearbyAsteroidsToRing>true</ConstrainNearbyAsteroidsToRing>
           <ShadowOnRingEnabled>true</ShadowOnRingEnabled>
           <CollectRingResources>true</CollectRingResources>
           <CollectResourceRingSubtypeId>Ice</CollectResourceRingSubtypeId>
-          <CollectResourceRingAmount>1</CollectResourceRingAmount>
+          <CollectResourceRingAmount>100</CollectResourceRingAmount>
           <EnabledDraw>true</EnabledDraw>
           <EnabledParticle>true</EnabledParticle>
         </RingConfigInfo>
@@ -185,7 +169,6 @@ ID          Name                            URL
 3232085677  Real Gas Giants                 https://steamcommunity.com/sharedfiles/filedetails/?id=3232085677
 3152436752  Real Stars                      https://steamcommunity.com/workshop/filedetails/?id=3152436752
 3576683005  Cauldron System                 https://steamcommunity.com/sharedfiles/filedetails/?id=3576683005
-3309805284  Komorebi                        https://steamcommunity.com/sharedfiles/filedetails/?id=3309805284
 2266665708  Satreus                         https://steamcommunity.com/sharedfiles/filedetails/?id=2266665708
 ```
 
@@ -208,6 +191,7 @@ ID          Name                            URL
 ID          Name                            URL
 2596208372  AiEnabled v1.9                  https://steamcommunity.com/workshop/filedetails/?id=2596208372
 3105413080  SandWorm                        https://steamcommunity.com/workshop/filedetails/?id=3105413080
+2802625870  MES Wreckage                    https://steamcommunity.com/sharedfiles/filedetails/?id=2802625870
 ```
 
 ### Block Mods

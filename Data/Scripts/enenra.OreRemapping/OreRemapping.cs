@@ -55,32 +55,32 @@ namespace enenra.OreRemapping
                     {
                         var oreMap = planet.OreMappings[i];
 
-                        if (oreMap.Value == 10 && oreMap.Type.Contains("Iron_02") == true) { oreMap.Type = "Hapekite_01"; oreMap.Start = 7; oreMap.Depth = 5; }
+                        if (oreMap.Value == 10 && oreMap.Type.Contains("Iron_02") == true) { oreMap.Type = "Stone_01"; oreMap.Start = 7; oreMap.Depth = 5; }
                         if (oreMap.Value == 20 && oreMap.Type.Contains("Iron_02") == true) { oreMap.Type = "Stone_01"; oreMap.Start = 9; oreMap.Depth = 7; }
                         if (oreMap.Value == 30 && oreMap.Type.Contains("Iron_02") == true) { oreMap.Type = "Stone_01"; oreMap.Start = 12; oreMap.Depth = 9; }
                         if (oreMap.Value == 40 && oreMap.Type.Contains("Iron_02") == true) { oreMap.Type = "Stone_01"; oreMap.Start = 18; oreMap.Depth = 12; }
                         if (oreMap.Value == 50 && oreMap.Type.Contains("Iron_02") == true) { oreMap.Type = "Stone_01"; oreMap.Start = 24; oreMap.Depth = 6; }
                         if (oreMap.Value == 60 && oreMap.Type.Contains("Nickel_01") == true) { oreMap.Type = "Stone_01"; oreMap.Start = 11; oreMap.Depth = 8; }
-                        if (oreMap.Value == 70 && oreMap.Type.Contains("Nickel_01") == true) { oreMap.Type = "Cooperite_01"; oreMap.Start = 18; oreMap.Depth = 6; }
+                        if (oreMap.Value == 70 && oreMap.Type.Contains("Nickel_01") == true) { oreMap.Type = "Heazlewoodite_01"; oreMap.Start = 18; oreMap.Depth = 6; }
                         if (oreMap.Value == 80 && oreMap.Type.Contains("Silicon_01") == true) { oreMap.Type = "Stone_01"; oreMap.Start = 12; oreMap.Depth = 7; }
                         if (oreMap.Value == 90 && oreMap.Type.Contains("Silicon_01") == true) { oreMap.Type = "Stone_01"; oreMap.Start = 17; oreMap.Depth = 5; }
-                        if (oreMap.Value == 100 && oreMap.Type.Contains("Cobalt_01") == true) { oreMap.Type = "Cattierite_01"; oreMap.Start = 16; oreMap.Depth = 6; }
+                        if (oreMap.Value == 100 && oreMap.Type.Contains("Cobalt_01") == true) { oreMap.Type = "Stone_01"; oreMap.Start = 16; oreMap.Depth = 6; }
                         if (oreMap.Value == 110 && oreMap.Type.Contains("Cobalt_01") == true) { oreMap.Type = "Stone_01"; oreMap.Start = 23; oreMap.Depth = 8; }
                         if (oreMap.Value == 120 && oreMap.Type.Contains("Cobalt_01") == true) { oreMap.Type = "Stone_01"; oreMap.Start = 28; oreMap.Depth = 10; }
                         if (oreMap.Value == 130 && oreMap.Type.Contains("Cobalt_01") == true) { oreMap.Type = "Stone_01"; oreMap.Start = 36; oreMap.Depth = 5; }
                         if (oreMap.Value == 140 && oreMap.Type.Contains("Magnesium_01") == true) { oreMap.Type = "Coal"; oreMap.Start = 16; oreMap.Depth = 7; }
                         if (oreMap.Value == 150 && oreMap.Type.Contains("Magnesium_01") == true) { oreMap.Type = "Stone_01"; oreMap.Start = 24; oreMap.Depth = 9; }
                         if (oreMap.Value == 160 && oreMap.Type.Contains("Magnesium_01") == true) { oreMap.Type = "Stone_01"; oreMap.Start = 27; oreMap.Depth = 5; }
-                        if (oreMap.Value == 170 && oreMap.Type.Contains("Silver_01") == true) { oreMap.Type = "Galena_01"; oreMap.Start = 19; oreMap.Depth = 6; }
+                        if (oreMap.Value == 170 && oreMap.Type.Contains("Silver_01") == true) { oreMap.Type = "Wadsleyite_01"; oreMap.Start = 19; oreMap.Depth = 6; }
                         if (oreMap.Value == 180 && oreMap.Type.Contains("Silver_01") == true) { oreMap.Type = "Stone_01"; oreMap.Start = 26; oreMap.Depth = 10; }
                         if (oreMap.Value == 190 && oreMap.Type.Contains("Silver_01") == true) { oreMap.Type = "Stone_01"; oreMap.Start = 29; oreMap.Depth = 7; }
                         if (oreMap.Value == 200 && oreMap.Type.Contains("Gold_01") == true) { oreMap.Type = "Copper"; oreMap.Start = 34; oreMap.Depth = 7; }
 
-                        if (oreMap.Value == 15 && oreMap.Type.Contains("Iron_02") == true) { oreMap.Type = "Hapekite_01"; oreMap.Start = 5; oreMap.Depth = 4; }
+                        if (oreMap.Value == 15 && oreMap.Type.Contains("Iron_02") == true) { oreMap.Type = "Stone_01"; oreMap.Start = 5; oreMap.Depth = 4; }
                         if (oreMap.Value == 25 && oreMap.Type.Contains("Nickel_01") == true) { oreMap.Type = "Stone_01"; oreMap.Start = 9; oreMap.Depth = 5; }
-                        if (oreMap.Value == 35 && oreMap.Type.Contains("Silicon_01") == true) { oreMap.Type = "Cattierite_01"; oreMap.Start = 12; oreMap.Depth = 6; }
-                        if (oreMap.Value == 45 && oreMap.Type.Contains("Cobalt_01") == true) { oreMap.Type = "Cooperite_01"; oreMap.Start = 18; oreMap.Depth = 7; }
-                        if (oreMap.Value == 55 && oreMap.Type.Contains("Magnesium_01") == true) { oreMap.Type = "Dolomite_01"; oreMap.Start = 8; oreMap.Depth = 4; }
+                        if (oreMap.Value == 35 && oreMap.Type.Contains("Silicon_01") == true) { oreMap.Type = "Stone_01"; oreMap.Start = 12; oreMap.Depth = 6; }
+                        if (oreMap.Value == 45 && oreMap.Type.Contains("Cobalt_01") == true) { oreMap.Type = "Heazlewoodite_01"; oreMap.Start = 18; oreMap.Depth = 7; }
+                        if (oreMap.Value == 55 && oreMap.Type.Contains("Magnesium_01") == true) { oreMap.Type = "Wadsleyite_01"; oreMap.Start = 8; oreMap.Depth = 4; }
                         if (oreMap.Value == 65 && oreMap.Type.Contains("Silver_01") == true) { oreMap.Type = "Sulfur"; oreMap.Start = 4; oreMap.Depth = 4; }
                         if (oreMap.Value == 75 && oreMap.Type.Contains("Silver_01") == true) { oreMap.Type = "Stone_01"; oreMap.Start = 8; oreMap.Depth = 5; }
                         if (oreMap.Value == 85 && oreMap.Type.Contains("Silver_01") == true) { oreMap.Type = "Stone_01"; oreMap.Start = 16; oreMap.Depth = 7; }
@@ -100,8 +100,130 @@ namespace enenra.OreRemapping
 
                 }
 
-                if (planet.Id.SubtypeName == "Komorebi") // TODO: update with new ore types
+                if (planet.Id.SubtypeName == "Agni")
                 {
+                    for (int i = 0; i < oreList.Count; i++)
+                    {
+                        var oreMap = planet.OreMappings[i];
+
+                        if (oreMap.Value == 10 && oreMap.Type.Contains("Iron_01") == true) { oreMap.Type = "Taenite_01"; oreMap.Start = 10; oreMap.Depth = 15; }
+                        if (oreMap.Value == 20 && oreMap.Type.Contains("Iron_01") == true) { oreMap.Type = "Iron_02"; oreMap.Start = 20; oreMap.Depth = 20; }
+                        if (oreMap.Value == 30 && oreMap.Type.Contains("Iron_01") == true) { oreMap.Type = "Taenite_01"; oreMap.Start = 30; oreMap.Depth = 25; }
+                        if (oreMap.Value == 40 && oreMap.Type.Contains("Iron_01") == true) { oreMap.Type = "Iron_02"; oreMap.Start = 40; oreMap.Depth = 30; }
+                        if (oreMap.Value == 50 && oreMap.Type.Contains("Nickel_01") == true) { oreMap.Type = "Cattierite_01"; oreMap.Start = 10; oreMap.Depth = 15; }
+                        if (oreMap.Value == 60 && oreMap.Type.Contains("Nickel_01") == true) { oreMap.Type = "Dolomite_01"; oreMap.Start = 20; oreMap.Depth = 20; }
+                        if (oreMap.Value == 70 && oreMap.Type.Contains("Nickel_01") == true) { oreMap.Type = "Cattierite_01"; oreMap.Start = 30; oreMap.Depth = 25; }
+                        if (oreMap.Value == 80 && oreMap.Type.Contains("Nickel_01") == true) { oreMap.Type = "Dolomite_01"; oreMap.Start = 40; oreMap.Depth = 30; }
+                        if (oreMap.Value == 90 && oreMap.Type.Contains("Silicon_01") == true) { oreMap.Type = "Sulfur"; oreMap.Start = 10; oreMap.Depth = 15; }
+                        if (oreMap.Value == 100 && oreMap.Type.Contains("Silicon_01") == true) { oreMap.Type = "Stone_01"; oreMap.Start = 20; oreMap.Depth = 20; }
+                        if (oreMap.Value == 110 && oreMap.Type.Contains("Silicon_01") == true) { oreMap.Type = "Stone_01"; oreMap.Start = 30; oreMap.Depth = 25; }
+                        if (oreMap.Value == 120 && oreMap.Type.Contains("Silicon_01") == true) { oreMap.Type = "Sulfur"; oreMap.Start = 40; oreMap.Depth = 30; }
+                        if (oreMap.Value == 130 && oreMap.Type.Contains("Magnesium_01") == true) { oreMap.Type = "Galena_01"; oreMap.Start = 10; oreMap.Depth = 15; }
+                        if (oreMap.Value == 140 && oreMap.Type.Contains("Magnesium_01") == true) { oreMap.Type = "Stone_01"; oreMap.Start = 20; oreMap.Depth = 20; }
+                        if (oreMap.Value == 150 && oreMap.Type.Contains("Magnesium_01") == true) { oreMap.Type = "Magnesium_01"; oreMap.Start = 30; oreMap.Depth = 25; }
+                        if (oreMap.Value == 160 && oreMap.Type.Contains("Magnesium_01") == true) { oreMap.Type = "Stone_01"; oreMap.Start = 40; oreMap.Depth = 30; }
+                        if (oreMap.Value == 170 && oreMap.Type.Contains("Platinum_01") == true) { oreMap.Type = "Stone_01"; oreMap.Start = 10; oreMap.Depth = 15; }
+                        if (oreMap.Value == 180 && oreMap.Type.Contains("Platinum_01") == true) { oreMap.Type = "Stone_01"; oreMap.Start = 20; oreMap.Depth = 20; }
+                        if (oreMap.Value == 190 && oreMap.Type.Contains("Platinum_01") == true) { oreMap.Type = "Stone_01"; oreMap.Start = 30; oreMap.Depth = 25; }
+                        if (oreMap.Value == 200 && oreMap.Type.Contains("Platinum_01") == true) { oreMap.Type = "Electrum_01"; oreMap.Start = 40; oreMap.Depth = 30; }
+
+                        if (oreMap.Value == 220 && oreMap.Type.Contains("Gold_01") == true) { oreMap.Type = "Titanium"; oreMap.Start = 5; oreMap.Depth = 15; }
+                        if (oreMap.Value == 240 && oreMap.Type.Contains("Cobalt_01") == true) { oreMap.Type = "Stone_01"; oreMap.Start = 5; oreMap.Depth = 15; }
+
+                    }
+
+                }
+
+                if (planet.Id.SubtypeName == "Kor")
+                {
+                    for (int i = 0; i < oreList.Count; i++)
+                    {
+                        var oreMap = planet.OreMappings[i];
+
+                        if (oreMap.Value == 10 && oreMap.Type.Contains("Nickel_01") == true) { oreMap.Type = "Iron_01"; oreMap.Start = 10; oreMap.Depth = 15; }
+                        if (oreMap.Value == 20 && oreMap.Type.Contains("Nickel_01") == true) { oreMap.Type = "Stone_01"; oreMap.Start = 20; oreMap.Depth = 20; }
+                        if (oreMap.Value == 30 && oreMap.Type.Contains("Nickel_01") == true) { oreMap.Type = "Stone_01"; oreMap.Start = 30; oreMap.Depth = 25; }
+                        if (oreMap.Value == 40 && oreMap.Type.Contains("Nickel_01") == true) { oreMap.Type = "Olivine_01"; oreMap.Start = 40; oreMap.Depth = 30; }
+                        if (oreMap.Value == 50 && oreMap.Type.Contains("Silicon_01") == true) { oreMap.Type = "Stone_01"; oreMap.Start = 10; oreMap.Depth = 15; }
+                        if (oreMap.Value == 60 && oreMap.Type.Contains("Silicon_01") == true) { oreMap.Type = "Stone_01"; oreMap.Start = 20; oreMap.Depth = 20; }
+                        if (oreMap.Value == 70 && oreMap.Type.Contains("Silicon_01") == true) { oreMap.Type = "Stone_01"; oreMap.Start = 30; oreMap.Depth = 25; }
+                        if (oreMap.Value == 80 && oreMap.Type.Contains("Silicon_01") == true) { oreMap.Type = "Heazlewoodite_01"; oreMap.Start = 40; oreMap.Depth = 30; }
+                        if (oreMap.Value == 90 && oreMap.Type.Contains("Magnesium_01") == true) { oreMap.Type = "Stone_01"; oreMap.Start = 10; oreMap.Depth = 15; }
+                        if (oreMap.Value == 100 && oreMap.Type.Contains("Magnesium_01") == true) { oreMap.Type = "Stone_01"; oreMap.Start = 30; oreMap.Depth = 25; }
+                        if (oreMap.Value == 110 && oreMap.Type.Contains("Gold_01") == true) { oreMap.Type = "Stone_01"; oreMap.Start = 10; oreMap.Depth = 15; }
+                        if (oreMap.Value == 120 && oreMap.Type.Contains("Gold_01") == true) { oreMap.Type = "Stone_01"; oreMap.Start = 20; oreMap.Depth = 20; }
+                        if (oreMap.Value == 130 && oreMap.Type.Contains("Gold_01") == true) { oreMap.Type = "Chlorargyrite_01"; oreMap.Start = 30; oreMap.Depth = 25; }
+                        if (oreMap.Value == 140 && oreMap.Type.Contains("Gold_01") == true) { oreMap.Type = "Stone_01"; oreMap.Start = 40; oreMap.Depth = 30; }
+                        if (oreMap.Value == 150 && oreMap.Type.Contains("Silver_01") == true) { oreMap.Type = "Stone_01"; oreMap.Start = 10; oreMap.Depth = 15; }
+                        if (oreMap.Value == 160 && oreMap.Type.Contains("Silver_01") == true) { oreMap.Type = "Stone_01"; oreMap.Start = 20; oreMap.Depth = 20; }
+                        if (oreMap.Value == 170 && oreMap.Type.Contains("Silver_01") == true) { oreMap.Type = "Stone_01"; oreMap.Start = 30; oreMap.Depth = 25; }
+                        if (oreMap.Value == 180 && oreMap.Type.Contains("Silver_01") == true) { oreMap.Type = "Lithium"; oreMap.Start = 40; oreMap.Depth = 30; }
+
+                        if (oreMap.Value == 190 && oreMap.Type.Contains("Cobalt_01") == true) { oreMap.Type = "Carnotite_01"; oreMap.Start = 30; oreMap.Depth = 15; }
+                        if (oreMap.Value == 200 && oreMap.Type.Contains("Cobalt_01") == true) { oreMap.Type = "Carnotite_01"; oreMap.Start = 40; oreMap.Depth = 25; }
+
+                        if (oreMap.Value == 220 && oreMap.Type.Contains("Uraninite_01") == true) { oreMap.Type = "Autunite_01"; oreMap.Start = 10; oreMap.Depth = 30; }
+
+                    }
+
+                }     
+
+                if (planet.Id.SubtypeName == "Tellus")
+                {
+                    for (int i = 0; i < oreList.Count; i++)
+                    {
+                        var oreMap = planet.OreMappings[i];
+
+                        if (oreMap.Value == 10 && oreMap.Type.Contains("Iron_01") == true) { oreMap.Type = "Stone_01"; oreMap.Start = 10; oreMap.Depth = 15; }
+                        if (oreMap.Value == 20 && oreMap.Type.Contains("Iron_01") == true) { oreMap.Type = "Hapkeite_01"; oreMap.Start = 20; oreMap.Depth = 20; }
+                        if (oreMap.Value == 30 && oreMap.Type.Contains("Iron_01") == true) { oreMap.Type = "Stone_01"; oreMap.Start = 30; oreMap.Depth = 25; }
+                        if (oreMap.Value == 40 && oreMap.Type.Contains("Iron_01") == true) { oreMap.Type = "Stone_01"; oreMap.Start = 40; oreMap.Depth = 30; }
+                        if (oreMap.Value == 50 && oreMap.Type.Contains("Nickel_01") == true) { oreMap.Type = "Stone_01"; oreMap.Start = 10; oreMap.Depth = 15; }
+                        if (oreMap.Value == 60 && oreMap.Type.Contains("Nickel_01") == true) { oreMap.Type = "Cooperite_01"; oreMap.Start = 20; oreMap.Depth = 20; }
+                        if (oreMap.Value == 70 && oreMap.Type.Contains("Nickel_01") == true) { oreMap.Type = "Stone_01"; oreMap.Start = 30; oreMap.Depth = 25; }
+                        if (oreMap.Value == 80 && oreMap.Type.Contains("Nickel_01") == true) { oreMap.Type = "Stone_01"; oreMap.Start = 40; oreMap.Depth = 30; }
+                        if (oreMap.Value == 90 && oreMap.Type.Contains("Silicon_01") == true) { oreMap.Type = "Stone_01"; oreMap.Start = 10; oreMap.Depth = 15; }
+                        if (oreMap.Value == 100 && oreMap.Type.Contains("Silicon_01") == true) { oreMap.Type = "Quartz_01"; oreMap.Start = 20; oreMap.Depth = 20; }
+                        if (oreMap.Value == 110 && oreMap.Type.Contains("Silicon_01") == true) { oreMap.Type = "Stone_01"; oreMap.Start = 30; oreMap.Depth = 25; }
+                        if (oreMap.Value == 120 && oreMap.Type.Contains("Silicon_01") == true) { oreMap.Type = "Stone_01"; oreMap.Start = 40; oreMap.Depth = 30; }
+                        if (oreMap.Value == 130 && oreMap.Type.Contains("Magnesium_01") == true) { oreMap.Type = "Glaucodot_01"; oreMap.Start = 10; oreMap.Depth = 15; }
+                        if (oreMap.Value == 140 && oreMap.Type.Contains("Magnesium_01") == true) { oreMap.Type = "Stone_01"; oreMap.Start = 20; oreMap.Depth = 20; }
+                        if (oreMap.Value == 150 && oreMap.Type.Contains("Magnesium_01") == true) { oreMap.Type = "Stone_01"; oreMap.Start = 30; oreMap.Depth = 25; }
+                        if (oreMap.Value == 160 && oreMap.Type.Contains("Magnesium_01") == true) { oreMap.Type = "Stone_01"; oreMap.Start = 40; oreMap.Depth = 30; }
+                        if (oreMap.Value == 170 && oreMap.Type.Contains("Cobalt_01") == true) { oreMap.Type = "Stone_01"; oreMap.Start = 10; oreMap.Depth = 15; }
+                        if (oreMap.Value == 180 && oreMap.Type.Contains("Cobalt_01") == true) { oreMap.Type = "Stone_01"; oreMap.Start = 20; oreMap.Depth = 20; }
+                        if (oreMap.Value == 190 && oreMap.Type.Contains("Cobalt_01") == true) { oreMap.Type = "Cooperite_01"; oreMap.Start = 30; oreMap.Depth = 25; }
+                        if (oreMap.Value == 200 && oreMap.Type.Contains("Cobalt_01") == true) { oreMap.Type = "Stone_01"; oreMap.Start = 40; oreMap.Depth = 30; }
+                        if (oreMap.Value == 15 && oreMap.Type.Contains("Iron_01") == true) { oreMap.Type = "Stone_01"; oreMap.Start = 10; oreMap.Depth = 15; }
+                        if (oreMap.Value == 25 && oreMap.Type.Contains("Iron_01") == true) { oreMap.Type = "Pyrite_01"; oreMap.Start = 20; oreMap.Depth = 20; }
+                        if (oreMap.Value == 35 && oreMap.Type.Contains("Iron_01") == true) { oreMap.Type = "Stone_01"; oreMap.Start = 30; oreMap.Depth = 25; }
+                        if (oreMap.Value == 45 && oreMap.Type.Contains("Iron_01") == true) { oreMap.Type = "Stone_01"; oreMap.Start = 40; oreMap.Depth = 30; }
+                        if (oreMap.Value == 55 && oreMap.Type.Contains("Nickel_01") == true) { oreMap.Type = "Stone_01"; oreMap.Start = 10; oreMap.Depth = 15; }
+                        if (oreMap.Value == 65 && oreMap.Type.Contains("Nickel_01") == true) { oreMap.Type = "Stone_01"; oreMap.Start = 20; oreMap.Depth = 20; }
+                        if (oreMap.Value == 75 && oreMap.Type.Contains("Nickel_01") == true) { oreMap.Type = "Stone_01"; oreMap.Start = 30; oreMap.Depth = 25; }
+                        if (oreMap.Value == 85 && oreMap.Type.Contains("Nickel_01") == true) { oreMap.Type = "Stone_01"; oreMap.Start = 40; oreMap.Depth = 30; }
+                        if (oreMap.Value == 95 && oreMap.Type.Contains("Silicon_01") == true) { oreMap.Type = "Stone_01"; oreMap.Start = 10; oreMap.Depth = 15; }
+                        if (oreMap.Value == 105 && oreMap.Type.Contains("Silicon_01") == true) { oreMap.Type = "Stone_01"; oreMap.Start = 20; oreMap.Depth = 20; }
+                        if (oreMap.Value == 115 && oreMap.Type.Contains("Silicon_01") == true) { oreMap.Type = "Stone_01"; oreMap.Start = 30; oreMap.Depth = 25; }
+                        if (oreMap.Value == 125 && oreMap.Type.Contains("Silicon_01") == true) { oreMap.Type = "Stone_01"; oreMap.Start = 40; oreMap.Depth = 30; }
+                        if (oreMap.Value == 135 && oreMap.Type.Contains("Magnesium_01") == true) { oreMap.Type = "Porphyry_01"; oreMap.Start = 10; oreMap.Depth = 15; }
+                        if (oreMap.Value == 145 && oreMap.Type.Contains("Magnesium_01") == true) { oreMap.Type = "Stone_01"; oreMap.Start = 20; oreMap.Depth = 20; }
+                        if (oreMap.Value == 155 && oreMap.Type.Contains("Magnesium_01") == true) { oreMap.Type = "Stone_01"; oreMap.Start = 30; oreMap.Depth = 25; }
+                        if (oreMap.Value == 165 && oreMap.Type.Contains("Magnesium_01") == true) { oreMap.Type = "Stone_01"; oreMap.Start = 40; oreMap.Depth = 30; }
+                        if (oreMap.Value == 175 && oreMap.Type.Contains("Cobalt_01") == true) { oreMap.Type = "Stone_01"; oreMap.Start = 10; oreMap.Depth = 15; }
+                        if (oreMap.Value == 185 && oreMap.Type.Contains("Cobalt_01") == true) { oreMap.Type = "Stone_01"; oreMap.Start = 20; oreMap.Depth = 20; }
+                        if (oreMap.Value == 195 && oreMap.Type.Contains("Cobalt_01") == true) { oreMap.Type = "Stone_01"; oreMap.Start = 30; oreMap.Depth = 25; }
+                        if (oreMap.Value == 205 && oreMap.Type.Contains("Cobalt_01") == true) { oreMap.Type = "Sperrylite_01"; oreMap.Start = 40; oreMap.Depth = 30; }
+                        
+                        if (oreMap.Value == 230 && oreMap.Type.Contains("Gold_01") == true) { oreMap.Type = "Tantalum"; oreMap.Start = 10; oreMap.Depth = 20; }
+                        if (oreMap.Value == 240 && oreMap.Type.Contains("Gold_01") == true) { oreMap.Type = "Tantalum"; oreMap.Start = 20; oreMap.Depth = 30; }
+                        if (oreMap.Value == 250 && oreMap.Type.Contains("Gold_01") == true) { oreMap.Type = "Tantalum"; oreMap.Start = 30; oreMap.Depth = 40; }
+
+                    }
+
+                }
+     
+                if (planet.Id.SubtypeName == "Komorebi") // TODO: remove
                     for (int i = 0; i < oreList.Count; i++)
                     {
                         var oreMap = planet.OreMappings[i];
