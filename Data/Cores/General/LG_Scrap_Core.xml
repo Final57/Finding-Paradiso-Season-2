@@ -3,7 +3,7 @@
   <SubtypeId>LG_Scrap_Core</SubtypeId>
   <UniqueName>Unspecified Scrap</UniqueName>
   <ForceBroadCast>true</ForceBroadCast>
-  <ForceBroadCastRange>150</ForceBroadCastRange>
+  <ForceBroadCastRange>50</ForceBroadCastRange>
   <MobilityType>Both</MobilityType>
   <SmallGrid>false</SmallGrid>
   <MaxBlocks>-1</MaxBlocks>

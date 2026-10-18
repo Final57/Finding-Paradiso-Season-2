@@ -3,7 +3,7 @@
   <SubtypeId>SG_Scrap_Core</SubtypeId>
   <UniqueName>Light Unspecified Scrap</UniqueName>
   <ForceBroadCast>true</ForceBroadCast>
-  <ForceBroadCastRange>150</ForceBroadCastRange>
+  <ForceBroadCastRange>50</ForceBroadCastRange>
   <MobilityType>Mobile</MobilityType>
   <SmallGrid>true</SmallGrid>
   <MaxBlocks>-1</MaxBlocks>

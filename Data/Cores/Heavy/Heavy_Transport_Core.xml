@@ -3,7 +3,7 @@
   <SubtypeId>Heavy_Transport_Core</SubtypeId>
   <UniqueName>Heavy Transport Class</UniqueName>
   <ForceBroadCast>true</ForceBroadCast>
-  <ForceBroadCastRange>2000</ForceBroadCastRange>
+  <ForceBroadCastRange>500</ForceBroadCastRange>
   <MobilityType>Mobile</MobilityType>
   <SmallGrid>false</SmallGrid>
   <MaxBlocks>2500</MaxBlocks>

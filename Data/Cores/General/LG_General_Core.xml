@@ -3,7 +3,7 @@
   <SubtypeId>LG_General_Core</SubtypeId>
   <UniqueName>Unspecified Registered Class</UniqueName>
   <ForceBroadCast>false</ForceBroadCast>
-  <ForceBroadCastRange>2000</ForceBroadCastRange>
+  <ForceBroadCastRange>100</ForceBroadCastRange>
   <MobilityType>Both</MobilityType>
   <SmallGrid>false</SmallGrid>
   <MaxBlocks>1000</MaxBlocks>

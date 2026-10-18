@@ -3,7 +3,7 @@
   <SubtypeId>Corvette_Core</SubtypeId>
   <UniqueName>Corvette Class</UniqueName>
   <ForceBroadCast>true</ForceBroadCast>
-  <ForceBroadCastRange>2000</ForceBroadCastRange>
+  <ForceBroadCastRange>1000</ForceBroadCastRange>
   <MobilityType>Mobile</MobilityType>
   <SmallGrid>false</SmallGrid>
   <MaxBlocks>1000</MaxBlocks>

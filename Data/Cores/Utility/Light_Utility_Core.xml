@@ -3,7 +3,7 @@
   <SubtypeId>Light_Utility_Core</SubtypeId>
   <UniqueName>Light Utility Class</UniqueName>
   <ForceBroadCast>true</ForceBroadCast>
-  <ForceBroadCastRange>2000</ForceBroadCastRange>
+  <ForceBroadCastRange>100</ForceBroadCastRange>
   <MobilityType>Mobile</MobilityType>
   <MaxBlocks>2500</MaxBlocks>
   <MaxMass>-1</MaxMass>

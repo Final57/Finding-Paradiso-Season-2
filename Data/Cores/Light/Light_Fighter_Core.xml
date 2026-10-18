@@ -3,7 +3,7 @@
   <SubtypeId>Light_Fighter_Core</SubtypeId>
   <UniqueName>Light Fighter Class</UniqueName>
   <ForceBroadCast>false</ForceBroadCast>
-  <ForceBroadCastRange>2000</ForceBroadCastRange>
+  <ForceBroadCastRange>100</ForceBroadCastRange>
   <MobilityType>Mobile</MobilityType>
   <MaxBlocks>2000</MaxBlocks>
   <MaxMass>-1</MaxMass>

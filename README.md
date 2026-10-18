@@ -7,11 +7,11 @@ A Space Engineers Mod and ModAdjusted Files
 ### Modadjuster Compatibility
 
 - [ ] Write Modadjuster compat for Ship Core Framework
-- [ ] Write Modadjuster compat for Planets and real gas giants
-- - [x] Write OreReamapping for Satreus
-- - [ ] Write OreReamapping for Komorebi
-- - [ ] Write OreReamapping for ?
-- - [ ] Write OreReamapping for ?
+- [x] Write Modadjuster compat for Planets and real gas giants
+- - [x] Write OreRemapping for Satreus
+- - [x] Write OreRemapping for Kor
+- - [x] Write OreRemapping for Agni
+- - [x] Write OreRemapping for Tellus
 - [ ] Write Modadjuster compat to replace industrial overhaul compat mods
 - - [x] Write Modadjuster compat for Better Stone & Industrial Overhaul
 - - [x] Write Modadjuster compat for Paint Mod (Replaces <https://steamcommunity.com/workshop/filedetails/?id=2614870437>)
@@ -49,12 +49,11 @@ A Space Engineers Mod and ModAdjusted Files
 
 ### Mod Dependencies
 
-- [ ] Create mod dependencies for NPC mods - Harass Alien, Scarlet, and Lucian for ships
+- [x] Create mod dependencies for NPC mods - Harass Alien, Scarlet, and Lucian for ships
 
 ### Upgrades & Replacements
 
 - [ ] Replace Prospector 2 with Prospector 3 (if and when available)
-- [ ] Replace AWE with AWE 3 (if and when available)
 
 ### Server Side Configurations
 
@@ -82,7 +81,7 @@ A Space Engineers Mod and ModAdjusted Files
     - /CSP.Agni.30000.-191052.-983046.2606687
   - Call world spawn for Kor
     - /CSP.Kor.19000.169332.249775.-3019110
-  - Call world spawn for Tellus 
+  - Call world spawn for Tellus
     - /CSP.Tellus.60000.-5103434.1423384.460784
 
 ```xml

@@ -3,7 +3,7 @@
   <SubtypeId>Heavy_Utility_Core</SubtypeId>
   <UniqueName>Heavy Utility Class</UniqueName>
   <ForceBroadCast>true</ForceBroadCast>
-  <ForceBroadCastRange>5000</ForceBroadCastRange>
+  <ForceBroadCastRange>1000</ForceBroadCastRange>
   <MobilityType>Mobile</MobilityType>
   <SmallGrid>false</SmallGrid>
   <MaxBlocks>2000</MaxBlocks>

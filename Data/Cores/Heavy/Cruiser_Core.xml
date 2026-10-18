@@ -3,7 +3,7 @@
   <SubtypeId>Cruiser_Core</SubtypeId>
   <UniqueName>Cruiser Class</UniqueName>
   <ForceBroadCast>true</ForceBroadCast>
-  <ForceBroadCastRange>20000</ForceBroadCastRange>
+  <ForceBroadCastRange>2000</ForceBroadCastRange>
   <MobilityType>Mobile</MobilityType>
   <MaxBlocks>5000</MaxBlocks>
   <MaxMass>-1</MaxMass>

@@ -3,7 +3,7 @@
   <SubtypeId>Battleship_Core</SubtypeId>
   <UniqueName>Battleship Class</UniqueName>
   <ForceBroadCast>true</ForceBroadCast>
-  <ForceBroadCastRange>40000</ForceBroadCastRange>
+  <ForceBroadCastRange>4000</ForceBroadCastRange>
   <MobilityType>Mobile</MobilityType>
   <MaxBlocks>7000</MaxBlocks>
   <MaxMass>-1</MaxMass>

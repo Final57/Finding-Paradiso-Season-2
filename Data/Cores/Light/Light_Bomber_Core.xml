@@ -3,7 +3,7 @@
   <SubtypeId>Light_Bomber_Core</SubtypeId>
   <UniqueName>Light Bomber Class</UniqueName>
   <ForceBroadCast>false</ForceBroadCast>
-  <ForceBroadCastRange>2000</ForceBroadCastRange>
+  <ForceBroadCastRange>100</ForceBroadCastRange>
   <MobilityType>Mobile</MobilityType>
   <MaxBlocks>2500</MaxBlocks>
   <MaxMass>-1</MaxMass>

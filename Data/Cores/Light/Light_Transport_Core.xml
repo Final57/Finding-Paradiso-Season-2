@@ -3,7 +3,7 @@
   <SubtypeId>Light_Transport_Core</SubtypeId>
   <UniqueName>Light Transport Class</UniqueName>
   <ForceBroadCast>false</ForceBroadCast>
-  <ForceBroadCastRange>2000</ForceBroadCastRange>
+  <ForceBroadCastRange>100</ForceBroadCastRange>
   <MobilityType>Mobile</MobilityType>
   <MaxBlocks>2500</MaxBlocks>
   <MaxMass>-1</MaxMass>
